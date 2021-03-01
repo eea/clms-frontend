@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    registry = "eeacms/ims-frontend"
-    template = "templates/volto-ims"
+    registry = "eeacms/clms-frontend"
+    template = "templates/volto-clms"
     dockerImage = ''
     tagName = ''
   }

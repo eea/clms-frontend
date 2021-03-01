@@ -1,8 +1,8 @@
 {
-  "name": "volto-starter-kit",
-  "description": "Volto Starter Kit",
+  "name": "clms-frontend",
+  "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "8.4.0",
+  "version": "1.0.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
