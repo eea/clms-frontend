@@ -1,6 +1,6 @@
 {
      "volto-clms-theme": {
-         "url": "https://github.com/eea/volto-clms-theme.git",
+         "url": "git@github.com:eea/volto-clms-theme.git",
          "path": "src",
          "package": "@eea/volto-clms-theme",
          "branch": "master"
