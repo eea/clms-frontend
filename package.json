@@ -2,7 +2,7 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "addons": [
     "@eea/volto-clms-theme"
   ],
@@ -101,7 +101,7 @@
   },
   "dependencies": {
     "@plone/volto": "12.1.2",
-    "@eeacms/volto-clms-theme"
+    "@eeacms/volto-clms-theme": "1.0.0"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
