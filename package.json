@@ -4,7 +4,9 @@
   "license": "MIT",
   "version": "1.0.1",
   "addons": [
-    "@eea/volto-clms-theme"
+    "@eea/volto-clms-theme",
+    "@eeacms/volto-columns-block",
+    "@eeacms/volto-accordion-block"
   ],
   "scripts": {
     "start": "razzle start",
@@ -102,7 +104,9 @@
   },
   "dependencies": {
     "@plone/volto": "12.1.2",
-    "@eeacms/volto-clms-theme": "1.0.0"
+    "@eeacms/volto-clms-theme": "1.0.0",
+    "@eeacms/volto-columns-block": "^4.0.0",
+    "@eeacms/volto-accordion-block": "^3.0.0"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
