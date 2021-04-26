@@ -4,7 +4,10 @@
   "license": "MIT",
   "version": "1.0.1",
   "addons": [
-    "@eea/volto-clms-theme"
+    "@eeacms/volto-clms-theme",
+    "@eeacms/volto-columns-block",
+    "@eeacms/volto-accordion-block",
+    "@eeacms/volto-metadata-block"
   ],
   "scripts": {
     "start": "razzle start",
@@ -15,7 +18,8 @@
     "test": "razzle test --env=jsdom --passWithNoTests",
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
-    "develop": "missdev --config=jsconfig.json --output=addons"
+    "develop": "missdev --config=jsconfig.json --output=addons",
+    "plone" : "docker-compose -f docker-compose-just-plone.yml up"
   },
   "jest": {
     "modulePathIgnorePatterns": [
@@ -100,7 +104,11 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@plone/volto": "12.1.2"
+    "@plone/volto": "12.10.1",
+    "@eeacms/volto-columns-block": "^4.0.0",
+    "@eeacms/volto-accordion-block": "^3.0.0",
+    "@eeacms/volto-metadata-block": "^2.1.0"
+
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
