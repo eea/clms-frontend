@@ -3,6 +3,6 @@
          "url": "git@github.com:eea/volto-clms-theme.git",
          "path": "src",
          "package": "@eea/volto-clms-theme",
-         "branch": "master"
+         "branch": "develop"
      }
 }
