@@ -33,6 +33,9 @@ You can view your application at `http://localhost:3000`
 
 The page will reload if you make edits.
 
+### `yarn plone`
+Runs the plone docker-compose in development mode.
+
 ## It can be helpful
 
 ### mr_developer

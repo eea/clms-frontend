@@ -1,10 +1,6 @@
 {
     "compilerOptions": {
-        "paths": {
-            "@eea/volto-clms-theme": [
-                "addons/volto-clms-theme/src"
-            ]
-        },
+	"paths": {},
         "baseUrl": "src"
     }
 }

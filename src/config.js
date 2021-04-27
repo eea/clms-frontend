@@ -39,3 +39,14 @@ export const blocks = {
 
 export const addonRoutes = [...defaultAddonRoutes];
 export const addonReducers = { ...defaultAddonReducers };
+
+
+export default function applyConfig(config) {
+  config.settings = {
+    ...config.settings,
+    isMultilingual: false,
+    supportedLanguages: ['en', 'es'],
+    defaultLanguage: 'en',
+  };
+  return config;
+}
