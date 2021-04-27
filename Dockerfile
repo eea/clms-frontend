@@ -2,14 +2,9 @@ FROM node:12-stretch-slim
 
 RUN runDeps="openssl ca-certificates patch" \
     && apt-get update \
-    && apt-get install -y --no-install-recommends $runDeps git ssh-client \
+    && apt-get install -y --no-install-recommends $runDeps \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
-ARG CI_KEY
-COPY .ssh /home/node/.ssh
-RUN chown -R node /home/node
-RUN echo $CI_KEY > /home/node/.ssh/ci_clms_frontend
-RUN chmod 600 /home/node/.ssh/ci_clms_frontend
 
 COPY . /opt/frontend/
 RUN chown -R node /opt/frontend/
