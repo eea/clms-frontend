@@ -44,7 +44,7 @@ export const addonReducers = { ...defaultAddonReducers };
 export default function applyConfig(config) {
   config.settings = {
     ...config.settings,
-    isMultilingual: true,
+    isMultilingual: false,
     supportedLanguages: ['en', 'es'],
     defaultLanguage: 'en',
   };
