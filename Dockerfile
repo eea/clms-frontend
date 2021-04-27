@@ -2,11 +2,11 @@ FROM node:12-stretch-slim
 
 RUN runDeps="openssl ca-certificates patch" \
     && apt-get update \
-    && apt-get install -y --no-install-recommends $runDeps git \
+    && apt-get install -y --no-install-recommends $runDeps git ssh-client \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-COPY .ssh /home/node
+COPY .ssh /home/node/.ssh
 RUN chown -R node /home/node
 RUN chmod 600 /home/node/.ssh/ci_clms_frontend
 
