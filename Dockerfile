@@ -6,6 +6,10 @@ RUN runDeps="openssl ca-certificates patch" \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
+COPY .ssh /home/node
+RUN chown -R node /home/node
+RUN chmod 600 /home/node/.ssh/ci_clms_frontend
+
 COPY . /opt/frontend/
 RUN chown -R node /opt/frontend/
 
