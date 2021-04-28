@@ -2,7 +2,7 @@ FROM node:12-stretch-slim
 
 RUN runDeps="openssl ca-certificates patch" \
     && apt-get update \
-    && apt-get install -y --no-install-recommends $runDeps \
+    && apt-get install -y --no-install-recommends $runDeps git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
