@@ -19,7 +19,8 @@
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
     "develop": "missdev --config=jsconfig.json --output=addons",
-    "plone" : "docker-compose -f docker-compose-just-plone.yml up"
+    "plone": "docker-compose -f docker-compose-just-plone.yml up",
+    "upgrade-volto": "yarn upgrade @plone/volto --latest; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
   "jest": {
     "modulePathIgnorePatterns": [
@@ -104,11 +105,11 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@plone/volto": "12.10.1",
-    "@eeacms/volto-columns-block": "^4.0.0",
     "@eeacms/volto-accordion-block": "^3.0.0",
+    "@eeacms/volto-clms-theme": "1.0.2",
+    "@eeacms/volto-columns-block": "^4.0.0",
     "@eeacms/volto-metadata-block": "^2.1.0",
-    "@eeacms/volto-clms-theme": "1.0.0"
+    "@plone/volto": "12.12.0"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
