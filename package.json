@@ -107,9 +107,9 @@
   "dependencies": {
     "@eeacms/volto-accordion-block": "^3.0.0",
     "@eeacms/volto-clms-theme": "1.0.2",
-    "@eeacms/volto-columns-block": "^4.0.0",
+    "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-metadata-block": "^2.1.0",
-    "@plone/volto": "12.12.0"
+    "@plone/volto": "12.10.1"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
