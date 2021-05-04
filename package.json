@@ -7,7 +7,8 @@
     "@eeacms/volto-clms-theme",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-accordion-block",
-    "@eeacms/volto-metadata-block"
+    "@eeacms/volto-metadata-block",
+    "@collective/volto-dropdownmenu"
   ],
   "scripts": {
     "start": "razzle start",
