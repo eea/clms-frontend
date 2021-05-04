@@ -10,6 +10,9 @@
     "@eeacms/volto-metadata-block",
     "@collective/volto-dropdownmenu"
   ],
+  "customizationPaths": [
+    "src/addons/volto-clms-theme/src/customizations"
+  ],
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
