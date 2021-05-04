@@ -3,6 +3,9 @@
         "paths": {
             "@eeacms/volto-clms-theme": [
                 "addons/volto-clms-theme/src"
+            ],
+            "@collective/volto-dropdownmenu": [
+                "addons/volto-dropdownmenu/src"
             ]
         },
         "baseUrl": "src"

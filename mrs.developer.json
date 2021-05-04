@@ -1,8 +1,15 @@
 {
-     "volto-clms-theme": {
-         "url": "https://github.com/eea/volto-clms-theme.git",
-         "path": "src",
-         "package": "@eeacms/volto-clms-theme",
-         "branch": "master"
-     }
+    "volto-clms-theme": {
+        "url": "https://github.com/eea/volto-clms-theme.git",
+        "path": "src",
+        "package": "@eeacms/volto-clms-theme",
+        "branch": "master"
+    },
+    "volto-dropdownmenu": {
+        "package": "@collective/volto-dropdownmenu",
+        "path": "src",
+        "https": "https://github.com/collective/volto-dropdownmenu.git",
+        "url": "git@github.com:collective/volto-dropdownmenu.git",
+        "tag": "v2.2.5"
+    }
 }
