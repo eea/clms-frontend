@@ -7,7 +7,8 @@
     "@eeacms/volto-clms-theme",
     "@eeacms/volto-columns-block",
     "@eeacms/volto-accordion-block",
-    "@eeacms/volto-metadata-block"
+    "@eeacms/volto-metadata-block",
+    "@eeacms/volto-tabs-block"
   ],
   "scripts": {
     "start": "razzle start",
@@ -109,6 +110,7 @@
     "@eeacms/volto-clms-theme": "^1.0.4",
     "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-metadata-block": "^2.1.0",
+    "@eeacms/volto-tabs-block": "github:eea/volto-tabs-block#1.2.1",
     "@plone/volto": "12.10.1"
   },
   "devDependencies": {
