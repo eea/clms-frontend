@@ -3,6 +3,9 @@
         "paths": {
             "@eeacms/volto-clms-theme": [
                 "addons/volto-clms-theme/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
             ]
         },
         "baseUrl": "src"
