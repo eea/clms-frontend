@@ -36,6 +36,9 @@ The page will reload if you make edits.
 ### `yarn plone`
 Runs the plone docker-compose in development mode.
 
+### `yarn upgrade-volto`
+Runs command to upgrade volto to latest version.
+
 ## It can be helpful
 
 ### mr_developer
