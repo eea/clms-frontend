@@ -106,7 +106,7 @@
   },
   "dependencies": {
     "@plone/volto": "12.14.1",
-    "@eeacms/volto-clms-theme": "^1.0.5"
+    "@eeacms/volto-clms-theme": "^1.0.7"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
