@@ -118,7 +118,7 @@
     "@eeacms/volto-columns-block": "4.4.2",
     "@eeacms/volto-metadata-block": "^2.1.0",
     "@collective/volto-dropdownmenu": "github:collective/volto-dropdownmenu#2.2.5",
-    "@eeacms/volto-tabs-block":"github:eea/volto-tabs-block.git#1.2.1",
+    "@eeacms/volto-tabs-block": "1.2.1",
     "@fortawesome/free-regular-svg-icons": "5.15.3",
     "react-slick": "0.28.1"
   }
