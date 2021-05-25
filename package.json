@@ -4,7 +4,7 @@
   "license": "MIT",
   "version": "1.0.1",
   "addons": [
-    "@codesyntax/volto-clms-theme"
+    "@eea/volto-clms-theme"
   ],
   "scripts": {
     "start": "razzle start",
@@ -34,6 +34,9 @@
     },
     "transformIgnorePatterns": [
       "/node_modules/(?!@plone/volto).+\\.js$"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.jsx"
     ],
     "moduleNameMapper": {
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
