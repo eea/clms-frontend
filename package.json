@@ -105,8 +105,8 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@plone/volto": "13.0.2",
-    "@eeacms/volto-clms-theme": "^1.0.7"
+    "@plone/volto": "13.1.0",
+    "@eeacms/volto-clms-theme": "1.0.8"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
