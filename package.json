@@ -4,7 +4,7 @@
   "license": "MIT",
   "version": "1.0.1",
   "addons": [
-    "@eea/volto-clms-theme"
+    "@eeacms/volto-clms-theme"
   ],
   "scripts": {
     "start": "razzle start",
