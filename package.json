@@ -4,6 +4,7 @@
   "license": "MIT",
   "version": "1.0.1",
   "addons": [
+    "@eeacms/volto-arcgis-block",
     "@eeacms/volto-clms-theme"
   ],
   "scripts": {
@@ -122,6 +123,7 @@
     "@collective/volto-dropdownmenu": "github:collective/volto-dropdownmenu#2.2.5",
     "@eeacms/volto-tabs-block": "1.2.2",
     "@fortawesome/free-regular-svg-icons": "5.15.3",
-    "react-slick": "0.28.1"
+    "react-slick": "0.28.1",
+    "@eeacms/volto-arcgis-block": "git://github.com/eea/volto-arcgis-block.git#develop",
   }
 }
