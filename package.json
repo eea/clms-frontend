@@ -4,6 +4,7 @@
   "license": "MIT",
   "version": "1.0.7",
   "addons": [
+    "@eeacms/volto-arcgis-block",
     "@eeacms/volto-clms-theme"
   ],
   "scripts": {
@@ -115,6 +116,14 @@
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
-    "stylelint-prettier": "1.1.2"
+    "stylelint-prettier": "1.1.2",
+    "@eeacms/volto-accordion-block": "^3.0.0",
+    "@eeacms/volto-columns-block": "4.4.2",
+    "@eeacms/volto-metadata-block": "^2.1.0",
+    "@collective/volto-dropdownmenu": "github:collective/volto-dropdownmenu#2.2.5",
+    "@eeacms/volto-tabs-block": "1.2.2",
+    "@fortawesome/free-regular-svg-icons": "5.15.3",
+    "react-slick": "0.28.1",
+    "@eeacms/volto-arcgis-block": "git://github.com/eea/volto-arcgis-block.git#develop"
   }
 }

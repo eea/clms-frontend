@@ -4,5 +4,11 @@
          "path": "src",
          "package": "@eeacms/volto-clms-theme",
          "branch": "master"
-     }
+     },
+     "volto-arcgis-block": {
+        "url": "https://github.com/eea/volto-arcgis-block.git",
+        "path": "src",
+        "package": "@eeacms/volto-arcgis-block",
+        "branch": "develop"
+    }
 }
