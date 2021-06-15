@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    GIT_NAME = "cmls-frontend"
+    GIT_NAME = "clms-frontend"
     registry = "eeacms/clms-frontend"
     template = "templates/volto-clms"
     dockerImage = ''
