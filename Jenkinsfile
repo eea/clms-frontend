@@ -1,5 +1,6 @@
 pipeline {
   environment {
+    GIT_NAME = "clms-frontend"
     registry = "eeacms/clms-frontend"
     template = "templates/volto-clms"
     dockerImage = ''
@@ -9,6 +10,37 @@ pipeline {
   agent any
 
   stages {
+
+    stage('Integration tests') {
+      steps {
+            node(label: 'docker') {
+              script {
+                try {
+                  sh '''docker pull plone; docker run -d --name="$BUILD_TAG-plone" -e SITE="Plone" -e PROFILES="profile-plone.restapi:blocks" plone fg'''
+                  sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress" --link $BUILD_TAG-plone:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
+                } finally {
+                  try {
+                    sh '''rm -rf cypress-reports cypress-results'''
+                    sh '''mkdir -p cypress-reports cypress-results'''
+                    sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
+                    sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
+                    archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
+                  }
+                  finally {
+                    catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                        junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
+                    }
+                    sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
+                    sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
+                    sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
+                  }
+                }
+              }
+            }
+        }
+    }
+
+
     stage('Build & Push') {
       steps{
         node(label: 'docker-host') {
