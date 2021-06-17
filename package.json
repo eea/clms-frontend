@@ -112,7 +112,7 @@
     "@plone/volto": "13.1.0"
   },
   "devDependencies": {
-    "@collective/volto-dropdownmenu": "github:collective/volto-dropdownmenu#2.2.5",
+    "@collective/volto-dropdownmenu": "github:collective/volto-dropdownmenu#2.2.6",
     "@eeacms/volto-accordion-block": "^3.0.0",
     "@eeacms/volto-arcgis-block": "git://github.com/eea/volto-arcgis-block.git#develop",
     "@eeacms/volto-columns-block": "4.4.3",
