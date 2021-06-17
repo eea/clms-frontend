@@ -3,23 +3,18 @@
  * @module routes
  */
 
-import { App } from '@plone/volto/components';
-import { defaultRoutes } from '@plone/volto/routes';
+// import { App } from '@plone/volto/components';
+// import { defaultRoutes } from '@plone/volto/routes';
+import routes from '@plone/volto/routes';
+// import config from '@plone/volto/registry';
+// import { NotFound } from '@plone/volto/components';
 
 /**
  * Routes array.
  * @array
  * @returns {array} Routes.
  */
-const routes = [
-  {
-    path: '/',
-    component: App, // Change this if you want a different component
-    routes: [
-      // Add your routes here
-      ...defaultRoutes,
-    ],
-  },
-];
+const clmsRoutes = [...routes];
+/* import default routes from @plone/volto/routes */
 
-export default routes;
+export default clmsRoutes;

@@ -2,9 +2,11 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "addons": [
-    "@eeacms/volto-clms-theme"
+    "@eeacms/volto-arcgis-block",
+    "@eeacms/volto-clms-theme",
+    "@eeacms/volto-block-style"
   ],
   "scripts": {
     "start": "razzle start",
