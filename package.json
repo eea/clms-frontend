@@ -6,7 +6,8 @@
   "addons": [
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-clms-theme",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-widget-geolocation"
   ],
   "scripts": {
     "start": "razzle start",
@@ -117,6 +118,7 @@
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
-    "stylelint-prettier": "1.1.2"
+    "stylelint-prettier": "1.1.2",
+    "@eeacms/volto-widget-geolocation": "^3.0.0"
   }
 }
