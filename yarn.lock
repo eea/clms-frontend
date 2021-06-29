@@ -1335,10 +1335,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.11.tgz#01224fc24e110d44836b26e025a1c1ec3a1eacd7"
-  integrity sha512-NV4YeS6fNN9H3dDNKh/aAZkv2EuMh7H83BtQbW31G8nBqajXv32DrO5IeVZ98+W8q7P75SQ6ZfLf2BMoCi5IFA==
+"@eeacms/volto-clms-theme@1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.12.tgz#1c53a7f818bfb9d27695c41dca991a3a657fd490"
+  integrity sha512-VfqF6fBC/Sw/1J0ppVGP1ZTL6Fe++qEJK3ugluYfYTjqp6lWBsa88fGl5QOkP23x12s8jaja/vhbwhxplp9LrQ==
   dependencies:
     "@collective/volto-dropdownmenu" "github:collective/volto-dropdownmenu#2.2.6"
     "@eeacms/volto-accordion-block" "^3.0.0"
