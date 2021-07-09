@@ -1259,12 +1259,6 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@collective/volto-dropdownmenu@github:collective/volto-dropdownmenu#2.2.6":
-  version "2.2.6"
-  resolved "https://codeload.github.com/collective/volto-dropdownmenu/tar.gz/2c3b20a1bad9d2221d3f1db1285d33eab17ed7ea"
-  dependencies:
-    react-outside-click-handler "1.3.0"
-
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -1335,12 +1329,11 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.12.tgz#1c53a7f818bfb9d27695c41dca991a3a657fd490"
-  integrity sha512-VfqF6fBC/Sw/1J0ppVGP1ZTL6Fe++qEJK3ugluYfYTjqp6lWBsa88fGl5QOkP23x12s8jaja/vhbwhxplp9LrQ==
+"@eeacms/volto-clms-theme@1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.13.tgz#8b82a3df58be6c0eb99799d2a73daed3f421ccea"
+  integrity sha512-G2YgfTP2Z2qpSne7eFCsmvX30rX0QjNKAqxiSxxJZcs4qsLqEADtMVrR8RvJqwiJgIPq5ZuwrPQxXqgS9oVX9A==
   dependencies:
-    "@collective/volto-dropdownmenu" "github:collective/volto-dropdownmenu#2.2.6"
     "@eeacms/volto-accordion-block" "^3.0.0"
     "@eeacms/volto-arcgis-block" "git://github.com/eea/volto-arcgis-block.git#develop"
     "@eeacms/volto-columns-block" "4.4.3"
@@ -1353,6 +1346,7 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     react-slick "0.28.1"
     slick-carousel "1.8.1"
+    volto-dropdownmenu "2.2.7"
     volto-slate "2.6.2"
 
 "@eeacms/volto-columns-block@4.4.3":
@@ -1361,6 +1355,11 @@
   integrity sha512-yf0TXGI2SMhi1lvtO5+sduKs2M5/CWFBwkk/QfH8qAo7zCgXjC6X4yF7mjb4qnmPIAqh8QDo03bmaSYEt0o0gA==
   dependencies:
     react-color "~2.18.1"
+
+"@eeacms/volto-corsproxy@>=2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.2.tgz#eb1b50a7382e4da9601128ee972d3249a29ce939"
+  integrity sha512-5j2ETMD8XRUk8hs4qqpd6F9SSlmTw0eqwNKPlouF78cdql/vJ5Pc4cgdZDh1Qldum1CcFnqdLxGABzQkfE3SDQ==
 
 "@eeacms/volto-metadata-block@^2.1.0":
   version "2.1.0"
@@ -1387,6 +1386,14 @@
     "@eeacms/volto-block-style" "^2.5.1"
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
+
+"@eeacms/volto-widget-geolocation@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-3.0.1.tgz#a86ded31db0627b925489317d31326286b0056c7"
+  integrity sha512-Y0RRX5K7ZxFYJbm2bCoksQ6/KNDw9ZLC0z+kUP+4JaGp5wAId2SjsSyyql5Lz+V4KifR05zfpOVRkrp/dyW4uA==
+  dependencies:
+    "@eeacms/volto-corsproxy" ">=2.1.2"
+    i18n-iso-countries "6.2.1"
 
 "@eeacms/volto-widgets-view@^2.0.0":
   version "2.1.0"
@@ -5764,6 +5771,11 @@ detect-port-alt@1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
+diacritics@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/diacritics/-/diacritics-1.3.0.tgz#3efa87323ebb863e6696cebb0082d48ff3d6f7a1"
+  integrity sha1-PvqHMj67hj5mls67AILUj/PW96E=
+
 diff-sequences@^24.9.0:
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/diff-sequences/-/diff-sequences-24.9.0.tgz#5715d6244e2aa65f48bba0bc972db0b0b11e95b5"
@@ -8189,6 +8201,13 @@ husky@4.2.5:
     please-upgrade-node "^3.2.0"
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
+
+i18n-iso-countries@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/i18n-iso-countries/-/i18n-iso-countries-6.2.1.tgz#b37a337b790348f8fa5a2ade9e32ea0206dfc1b6"
+  integrity sha512-lcu9KFffcZzEKYfwzAKZ5TgwoKYoMRoHlb8s3xa0xOYnChjd76OP1gl1n158UNfax4+Oeg9RCTYWWuZpKjwbdQ==
+  dependencies:
+    diacritics "1.3.0"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@~0.4.13:
   version "0.4.24"
@@ -16627,6 +16646,13 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+volto-dropdownmenu@2.2.7:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/volto-dropdownmenu/-/volto-dropdownmenu-2.2.7.tgz#58efeef7350ab9b82233370bb6a4ea7038f36e47"
+  integrity sha512-O+kg9/r85+1UTf3Du1urMuzbo+A0rsDopCtHx32RK53+g7rmUkOxMXO985FZ+6x/Up9ORa6/A+UupxH+/DcWzg==
+  dependencies:
+    react-outside-click-handler "1.3.0"
 
 volto-slate@2.6.2:
   version "2.6.2"
