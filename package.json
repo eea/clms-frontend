@@ -107,7 +107,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-clms-theme": "1.0.16",
+    "@eeacms/volto-clms-theme": "1.0.17",
     "@plone/volto": "13.1.0"
   },
   "devDependencies": {
