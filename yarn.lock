@@ -1337,10 +1337,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.17.tgz#7a18a7d38f51501c2a23566477719409b6f554e0"
-  integrity sha512-cXmoBe1vhN9ZO2MRBgi+hqD8Mz1zXW0n4DwlKQkvGMq1Ittw3CtRZkD3bdIEQyA5Cj99R39Y9KkaslQcT8Zv/w==
+"@eeacms/volto-clms-theme@1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.18.tgz#159c51cf587b8fc19694eeedd44c4842daecceae"
+  integrity sha512-9atUCt2c/oQ5zuf+vl+XbKEAJ6PjUJ5UXc0Jq6ITi/sugZQfVrKzpskTjxhen2QKlKvMz51zVQY0wTRY/gbn8w==
   dependencies:
     "@eeacms/volto-accordion-block" "^3.0.0"
     "@eeacms/volto-arcgis-block" "0.1.1"
