@@ -108,7 +108,7 @@
   },
   "dependencies": {
     "@eeacms/volto-clms-theme": "1.0.19",
-    "@plone/volto": "13.1.0"
+    "@plone/volto": "13.13.0"
   },
   "devDependencies": {
     "@eeacms/volto-widget-geolocation": "^3.0.0",
