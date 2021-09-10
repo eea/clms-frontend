@@ -1294,10 +1294,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.2.1.tgz#45dc48ca2458f48e7aceb5b04f6edfbbc192f74c"
   integrity sha512-Fd4zolf2Lxq7TBiv4NNO8fv5MLuJkI5U+BpgS8YBQSLZ51vUchbfctbmpAEANWwhjtLSjrh73lC7LsRDuiGvMQ==
 
-"@eeacms/volto-arcgis-block@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.1.tgz#c1f9c47a27da2c1093401008d4fecfcb3c93d318"
-  integrity sha512-GVLoxuk0Qc3mFsbDWqULZeWFTJHv93e69E73x5SNo1nRUfgE+yiCir1nm1eNT91/4LsosN1I8632y72XYPMqlA==
+"@eeacms/volto-arcgis-block@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.2.tgz#5d1db7ec0afcb1c1277832468718ca19c37d1f8e"
+  integrity sha512-TrTQVz+IOD6H6R1QN6WE1veVYYMDldBsmXI0d5DqOi4Sto7DESD06rmplYg5t9v5Yr7/TePWSGCTo+4ydLbQKQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "1.2.35"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
@@ -1311,13 +1311,13 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.20":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.20.tgz#93c95d91f53726b6e3c812040bd2a7aeb2087f3e"
-  integrity sha512-06tberl5bgh4KZw3cvXkYlYXgMVxdT09Enkhpd0/MxgNxT+p5Oz9RR3byP1WszAoaHJWPqCQ1+ev5fj+ZI3/2w==
+"@eeacms/volto-clms-theme@1.0.21":
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.21.tgz#b852c7ed9bce812ea25cc00b8ce6dd776cfd5cc6"
+  integrity sha512-mY/PJZcvXqf0RZWjAt4+BRvSwF+YvNXWk+Dkr9fW8sG9firEoNhdGhkPgRIiCHGjeLwuGeCsKRvwytPKGpS9nw==
   dependencies:
     "@eeacms/volto-accordion-block" "^3.0.0"
-    "@eeacms/volto-arcgis-block" "0.1.1"
+    "@eeacms/volto-arcgis-block" "0.1.2"
     "@eeacms/volto-columns-block" "4.4.3"
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
