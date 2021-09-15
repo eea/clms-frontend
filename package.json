@@ -6,7 +6,8 @@
   "addons": [
     "@eeacms/volto-clms-theme",
     "@eeacms/volto-block-style",
-    "@eeacms/volto-widget-geolocation"
+    "@eeacms/volto-widget-geolocation",
+    "@eeacms/volto-sentry-rancher-config"
   ],
   "scripts": {
     "start": "razzle start",
@@ -108,7 +109,8 @@
   },
   "dependencies": {
     "@eeacms/volto-clms-theme": "1.0.22",
-    "@plone/volto": "13.13.0"
+    "@plone/volto": "13.13.0",
+    "@eeacms/volto-sentry-rancher-config": "^2.1.2"
   },
   "devDependencies": {
     "@eeacms/volto-widget-geolocation": "^3.0.0",
