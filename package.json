@@ -108,9 +108,9 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-clms-theme": "1.0.22",
-    "@plone/volto": "13.13.0",
-    "@eeacms/volto-sentry-rancher-config": "^2.1.2"
+    "@eeacms/volto-clms-theme": "1.0.23",
+    "@eeacms/volto-sentry-rancher-config": "^2.1.2",
+    "@plone/volto": "13.13.0"
   },
   "devDependencies": {
     "@eeacms/volto-widget-geolocation": "^3.0.0",

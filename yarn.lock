@@ -1311,10 +1311,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.22":
-  version "1.0.22"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.22.tgz#e3495d738740be17d6b85f21be697fe98cfbfdea"
-  integrity sha512-w9k9lrWzRv5D5qBaY3te7yDzSzPbuBU8LUllO0lXjWmcDJeRrvGI7UdkGhps2JxkIv+J10v94zm+D7vbKVMJNQ==
+"@eeacms/volto-clms-theme@1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.23.tgz#0c39c4db2a1d3a58278425bbdd75f74e213f9456"
+  integrity sha512-r6IETUuJMNEG9B/DQF5qvwo0hQtW9zR0Wmi2Sjdt1OswsFDipRVZo/tvqq5r4bsTDy1bsxrvd3Z9bi2/1PDjpw==
   dependencies:
     "@eeacms/volto-accordion-block" "^3.0.0"
     "@eeacms/volto-arcgis-block" "0.1.3"
@@ -1361,6 +1361,11 @@
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.1.tgz#ede52342f246a90035732191a879bb3c48e4ce11"
   integrity sha512-ZkXPZL4jWpAoRjOilJV3rv4VQj/7ONrO2GwUEholuVrXjfjT/qXrLpCe2wayxaJLrsDV8kRggvN6/3WWil/3gQ==
+
+"@eeacms/volto-sentry-rancher-config@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.2.tgz#3833b597568a824e916c09d1927e651a0fba2fda"
+  integrity sha512-eT+SlMCXFK4H1N8yqJOWq5cNDF73gvVUGS/cw3qbZmYhhkqCIDrU43aa1/6aGHzmeTStIIS7KtwEVlbDeHYAMQ==
 
 "@eeacms/volto-tabs-block@1.2.3":
   version "1.2.3"
