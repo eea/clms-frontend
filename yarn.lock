@@ -1294,10 +1294,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.2.1.tgz#45dc48ca2458f48e7aceb5b04f6edfbbc192f74c"
   integrity sha512-Fd4zolf2Lxq7TBiv4NNO8fv5MLuJkI5U+BpgS8YBQSLZ51vUchbfctbmpAEANWwhjtLSjrh73lC7LsRDuiGvMQ==
 
-"@eeacms/volto-arcgis-block@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.1.tgz#c1f9c47a27da2c1093401008d4fecfcb3c93d318"
-  integrity sha512-GVLoxuk0Qc3mFsbDWqULZeWFTJHv93e69E73x5SNo1nRUfgE+yiCir1nm1eNT91/4LsosN1I8632y72XYPMqlA==
+"@eeacms/volto-arcgis-block@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.3.tgz#f2603e151c4bedcda275a762ecf218b9508076d7"
+  integrity sha512-LfsVjPw89WA1inl/fa2EhbUPC9Pqn/IHUi8jX26UanzRnfESwwrWl62TVjJj1IutLFom1UeLb/1yMDrXiRPGEQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "1.2.35"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
@@ -1311,13 +1311,13 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.20":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.20.tgz#93c95d91f53726b6e3c812040bd2a7aeb2087f3e"
-  integrity sha512-06tberl5bgh4KZw3cvXkYlYXgMVxdT09Enkhpd0/MxgNxT+p5Oz9RR3byP1WszAoaHJWPqCQ1+ev5fj+ZI3/2w==
+"@eeacms/volto-clms-theme@1.0.22":
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.22.tgz#e3495d738740be17d6b85f21be697fe98cfbfdea"
+  integrity sha512-w9k9lrWzRv5D5qBaY3te7yDzSzPbuBU8LUllO0lXjWmcDJeRrvGI7UdkGhps2JxkIv+J10v94zm+D7vbKVMJNQ==
   dependencies:
     "@eeacms/volto-accordion-block" "^3.0.0"
-    "@eeacms/volto-arcgis-block" "0.1.1"
+    "@eeacms/volto-arcgis-block" "0.1.3"
     "@eeacms/volto-columns-block" "4.4.3"
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
@@ -1326,6 +1326,7 @@
     "@fortawesome/free-regular-svg-icons" "5.15.3"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
     "@fortawesome/react-fontawesome" "0.1.14"
+    react-native-mime-types "2.3.0"
     react-slick "0.28.1"
     react-svg "14.0.4"
     slick-carousel "1.8.1"
@@ -10705,6 +10706,11 @@ mime-db@1.44.0, "mime-db@>= 1.43.0 < 2":
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.44.0.tgz#fa11c5eb0aca1334b4233cb4d52f10c5a6272f92"
   integrity sha512-/NOTfLrsPBVeH7YtFPgsVWveuL+4SjjYxaQ1xtM1KMFj7HdxlBlxeyNLzhyJVx7r4rZGJAZ/6lkKCitSc/Nmpg==
 
+mime-db@~1.37.0:
+  version "1.37.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.37.0.tgz#0b6a0ce6fdbe9576e25f1f2d2fde8830dc0ad0d8"
+  integrity sha512-R3C4db6bgQhlIhPU48fUtdVmKnflq+hRdad7IyKhtFj06VPNVdk2RhiYL3UjQIlso8L+YxAtFkobT0VK+S/ybg==
+
 mime-types@2.1.27, mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
   version "2.1.27"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
@@ -13501,6 +13507,13 @@ react-moment-proptypes@^1.6.0:
   integrity sha512-ZbOn/P4u469WEGAw5hgkS/E+g1YZqdves2BjYsLluJobzUZCtManhjHiZKjniBVT7MSHM6D/iKtRVzlXVv3ikA==
   dependencies:
     moment ">=1.6.0"
+
+react-native-mime-types@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-mime-types/-/react-native-mime-types-2.3.0.tgz#1278602c3da94ffb47c6400ef861901c4ebac420"
+  integrity sha512-9l/kkT1QM0i0xAKkOADkP6jIMhqiS+R/eSKBS/lsUmuMYMqboClyrwTFFZwUcaVIN0SpeH4wOKhYTqCnFgRsEw==
+  dependencies:
+    mime-db "~1.37.0"
 
 react-outside-click-handler@1.3.0, react-outside-click-handler@^1.2.4:
   version "1.3.0"
