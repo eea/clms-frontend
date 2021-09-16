@@ -1304,24 +1304,25 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     esri-loader "3.1.0"
 
-"@eeacms/volto-block-style@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-2.5.1.tgz#c16077800e7943f644c460918296022e81475be6"
-  integrity sha512-2wfbbM5IMIaf0177Hv39up553RyUXCKsWC3ajwnVYDWjxnocNVoYdfhwXmolNDda/xSaC4VsUBvEVlQ6uEliTA==
+"@eeacms/volto-block-style@*":
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.4.5.tgz#8f4dda1b42aea18fde745d2c85fcbf8cfc7cfebc"
+  integrity sha512-dnvMfNt1HnTA3CAAare1ftme6ozPbaA+JBGugvxH8BoXRtjHsJnEp7g5B6rXW7dmH2hlVg8TJ/IzS1ltvVfQtQ==
   dependencies:
+    "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.23.tgz#0c39c4db2a1d3a58278425bbdd75f74e213f9456"
-  integrity sha512-r6IETUuJMNEG9B/DQF5qvwo0hQtW9zR0Wmi2Sjdt1OswsFDipRVZo/tvqq5r4bsTDy1bsxrvd3Z9bi2/1PDjpw==
+"@eeacms/volto-clms-theme@1.0.24":
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.24.tgz#99f26d5efe0475cee9680f476c532157fc109d23"
+  integrity sha512-WhxrBORLfLfLJn1B3wUoi42XHHW88fpS6NT6O/tKSgrbAMcT0uV2NvM5TXX8tle/JvzeI/0cnk6pDdsIJhKyjQ==
   dependencies:
     "@eeacms/volto-accordion-block" "^3.0.0"
     "@eeacms/volto-arcgis-block" "0.1.3"
     "@eeacms/volto-columns-block" "4.4.3"
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
-    "@eeacms/volto-tabs-block" "1.2.3"
+    "@eeacms/volto-tabs-block" "1.2.7"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
     "@fortawesome/free-regular-svg-icons" "5.15.3"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
@@ -1357,6 +1358,11 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-2.2.3.tgz#38f3bff8d71486d97fa99f0ca5912ad4141a2033"
   integrity sha512-u4xLyASXvSrsG2b0QTRitOjuIfNoXjMRuaAo0oNyJLETuLj73qyLR3TsSDG//2VmBIklB/ca/7Xl7ncHaaJF1A==
 
+"@eeacms/volto-resize-helper@*":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.4.tgz#5a8a963eb52e95fda4e1af5ac1fe5d8b3f02f71a"
+  integrity sha512-y+Neu8YQV8trITJvlt52qQCgPkXnZK9sbPSGUQsWXETIZfEEfAbMnsnbMYmB47IZsGP0VD4Hd8qCp8h0+ExxAA==
+
 "@eeacms/volto-resize-helper@0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.1.tgz#ede52342f246a90035732191a879bb3c48e4ce11"
@@ -1367,12 +1373,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.2.tgz#3833b597568a824e916c09d1927e651a0fba2fda"
   integrity sha512-eT+SlMCXFK4H1N8yqJOWq5cNDF73gvVUGS/cw3qbZmYhhkqCIDrU43aa1/6aGHzmeTStIIS7KtwEVlbDeHYAMQ==
 
-"@eeacms/volto-tabs-block@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.2.3.tgz#1da28640056f69e74fe2650dd17f70df96e61e0c"
-  integrity sha512-4IrqjxU+EgP9hp2hGut5w/gOiSOW/oi58TfmrEGUanqEnZkcWWcVrtpU+qotNJ0YGRTg0xsPzdAO/7a8boSEPg==
+"@eeacms/volto-tabs-block@1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.2.7.tgz#47c2ebf6c10b72e9bc03fe77ac15248f1492fbef"
+  integrity sha512-ZR7ygxUE0t1BEgTffns4RhQqkMXqZ/7BDI5kbYeE1e2zBeK5l38P/u/8yaHe7uM5MqMKg2rgqH0v7GADH8BsCA==
   dependencies:
-    "@eeacms/volto-block-style" "^2.5.1"
+    "@eeacms/volto-block-style" "*"
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
