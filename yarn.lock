@@ -1312,10 +1312,10 @@
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.24":
-  version "1.0.24"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.24.tgz#99f26d5efe0475cee9680f476c532157fc109d23"
-  integrity sha512-WhxrBORLfLfLJn1B3wUoi42XHHW88fpS6NT6O/tKSgrbAMcT0uV2NvM5TXX8tle/JvzeI/0cnk6pDdsIJhKyjQ==
+"@eeacms/volto-clms-theme@1.0.25":
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.25.tgz#93685c221c1e9abca5a652507a0f3f8e087afdd8"
+  integrity sha512-KqQ1YT4m7Y1NP5NG7qDx3EayQwunMCOW1gPCftXbJ+IhRZSek5Q29VmByGdHv9w5TwDN9fUPB3b+OJHU/hED1w==
   dependencies:
     "@eeacms/volto-accordion-block" "^3.0.0"
     "@eeacms/volto-arcgis-block" "0.1.3"
