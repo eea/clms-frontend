@@ -108,7 +108,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-clms-theme": "1.0.25",
+    "@eeacms/volto-clms-theme": "1.0.26",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@plone/volto": "13.13.0"
   },
