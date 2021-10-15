@@ -3,7 +3,7 @@
          "url": "https://github.com/eea/volto-clms-theme.git",
          "path": "src",
          "package": "@eeacms/volto-clms-theme",
-         "branch": "master"
+         "branch": "develop"
      },
      "volto-arcgis-block": {
         "url": "https://github.com/eea/volto-arcgis-block.git",
