@@ -4,12 +4,12 @@
   "license": "MIT",
   "version": "1.0.16",
   "addons": [
+    "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-clms-theme",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-searchlib:installGlobalSearch",
-    "@eeacms/volto-eea-kitkat"
+    "@eeacms/volto-searchlib:installGlobalSearch"
   ],
   "scripts": {
     "start": "razzle start",
@@ -110,7 +110,6 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-clms-theme": "1.0.32",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@eeacms/volto-eea-kitkat": "4.0.1",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.0",
