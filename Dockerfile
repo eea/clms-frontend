@@ -1,6 +1,6 @@
 FROM node:14-stretch-slim
 
-RUN runDeps="openssl ca-certificates patch python" \
+RUN runDeps="openssl ca-certificates patch python python3 build-essential" \
     && apt-get update \
     && apt-get install -y --no-install-recommends $runDeps git \
     && apt-get clean \
