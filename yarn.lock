@@ -1011,10 +1011,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.4.tgz#e761699c6bdab8a73caf3703976de840ce42cafa"
   integrity sha512-+wYnhticLCAxe1VjfjjcV3wTBIz5+CAlCOYBh/BIKTknsSDSpXcEvX/ZtL5jajOtDceT/fttPYJ72Gcw70nD4Q==
 
-"@eeacms/volto-arcgis-block@0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.8.tgz#1aec7ba2e3815d2516bb5d92ccf014ca923d7f19"
-  integrity sha512-bTBZRelitHtwV87wwXDCe5sFHc5jECrLyfhkYMnnFP2t3jz7HU/7t7652whpQc9x2sqtvIiKH73QqUPUZIvKhA==
+"@eeacms/volto-arcgis-block@0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.9.tgz#6e06418dada01a48676a24705c2da39f6a324c2e"
+  integrity sha512-Hb/YivR3miEL+qHTmead8ac+zabfudmNYWFA9TeUl1J8dcrby4leu99ccah770ydHn3wI9UiUh5QJrNV27q4Ww==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "1.2.35"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
@@ -1029,13 +1029,13 @@
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
 
-"@eeacms/volto-clms-theme@1.0.31":
-  version "1.0.31"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.31.tgz#7806ca06d7bc6ac4a26b22cbce65b6f1491c8fa0"
-  integrity sha512-/1tTGWNtT3nc7PyoEvzhrPOvzAbRwYqtDNTHWGolSF4k5H1iEgGx3uQsGO13MzShdxxdv1VPSrZGA0PHoNX79g==
+"@eeacms/volto-clms-theme@1.0.32":
+  version "1.0.32"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.32.tgz#58ae59349e7e3ef267d351027984e17dd84de3bd"
+  integrity sha512-SjOGpbDL0XHQEN/GKb5TPitGlthwxUF2Q58H8huKOjIy7xfbe/eQbKEAg6ilpvHXVKVt9F0hVUpXEYTmCyBmuw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.4"
-    "@eeacms/volto-arcgis-block" "0.1.8"
+    "@eeacms/volto-arcgis-block" "0.1.9"
     "@eeacms/volto-columns-block" "4.4.3"
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
