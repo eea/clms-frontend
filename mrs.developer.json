@@ -10,5 +10,22 @@
         "path": "src",
         "package": "@eeacms/volto-arcgis-block",
         "branch": "develop"
-    }
+    },
+    "volto-searchlib": {
+        "url": "git@github.com:eea/volto-searchlib.git",
+        "https": "https://github.com/eea/volto-searchlib.git",
+        "package": "@eeacms/volto-searchlib",
+        "path": "src",
+        "branch": "develop"
+      },
+      "searchlib": {
+        "https": "https://github.com/eea/searchlib.git",
+        "url": "git@github.com:eea/searchlib.git",
+        "branch": "clms-configuration",
+        "packages": {
+          "@eeacms/search": "packages/searchlib/src",
+          "@eeacms/search-less": "packages/searchlib-less",
+          "@eeacms/globalsearch": "packages/searchlib-globalsearch/src"
+        }
+      }
 }
