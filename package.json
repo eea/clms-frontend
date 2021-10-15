@@ -110,7 +110,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-clms-theme": "1.0.31",
+    "@eeacms/volto-clms-theme": "1.0.32",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@eeacms/volto-eea-kitkat": "4.0.1",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.0",
