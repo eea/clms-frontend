@@ -111,7 +111,7 @@
   },
   "dependencies": {
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
-    "@eeacms/volto-eea-kitkat": "4.0.1",
+    "@eeacms/volto-eea-kitkat": "4.1.0",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.0",
     "@plone/volto": "13.15.0",
     "express-list-routes": "1.1.3",
