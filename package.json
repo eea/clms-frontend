@@ -8,13 +8,13 @@
     "src/addons/*"
   ],
   "addons": [
+    "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-clms-theme",
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-searchlib:installGlobalSearch",
-    "@eeacms/volto-eea-kitkat"
+    "@eeacms/volto-searchlib:installGlobalSearch"
   ],
   "scripts": {
     "start": "razzle start",
@@ -125,12 +125,27 @@
     "@eeacms/volto-clms-theme": "1.0.31",
     "@eeacms/volto-arcgis-block": "0.1.11",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
-    "@eeacms/volto-eea-kitkat": "4.0.2",
+    "@eeacms/volto-eea-kitkat": "4.1.1",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.0",
     "@plone/volto": "13.15.0",
     "express-list-routes": "1.1.3",
     "levenary": "1.1.1",
-    "regenerator-runtime": "0.13.9"
+    "regenerator-runtime": "0.13.9",
+
+    "volto-dropdownmenu": "2.2.7",
+    "@fortawesome/fontawesome-svg-core": "1.2.35",
+    "@fortawesome/free-solid-svg-icons": "5.15.3",
+    "@fortawesome/free-regular-svg-icons": "5.15.3",
+    "@fortawesome/react-fontawesome": "0.1.14",
+    "@eeacms/volto-tabs-block": "1.2.7",
+    "react-slick": "0.28.1",
+    "slick-carousel": "1.8.1",
+    "@eeacms/volto-accordion-block": "3.4.4",
+    "@eeacms/volto-columns-block": "4.4.3",
+    "@eeacms/volto-metadata-block": "^2.1.0",
+    "react-svg": "14.0.4",
+    "react-native-mime-types": "2.3.0",
+    "@eeacms/volto-resize-helper": "0.2.1"
   },
   "devDependencies": {
     "@eeacms/volto-widget-geolocation": "^3.0.0",

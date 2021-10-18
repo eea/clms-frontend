@@ -5,7 +5,7 @@ COPY . /opt/frontend/
 WORKDIR /opt/frontend/
 
 # Update apt packages
-RUN runDeps="openssl ca-certificates patch git" \
+RUN runDeps="openssl ca-certificates patch python python3 build-essential" \
  && apt-get update \
  && apt-get install -y --no-install-recommends $runDeps \
  && apt-get clean \
