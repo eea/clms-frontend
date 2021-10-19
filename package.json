@@ -111,7 +111,7 @@
   },
   "dependencies": {
     "@eeacms/volto-accordion-block": "3.4.4",
-    "@eeacms/volto-arcgis-block": "0.1.11",
+    "@eeacms/volto-arcgis-block": "0.1.12",
     "@eeacms/volto-columns-block": "4.4.3",
     "@eeacms/volto-eea-kitkat": "4.1.1",
     "@eeacms/volto-metadata-block": "^2.1.0",
