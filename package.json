@@ -110,7 +110,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@eeacms/volto-accordion-block": "3.4.4",
+    "@eeacms/volto-accordion-block": "3.4.7",
     "@eeacms/volto-arcgis-block": "0.1.14",
     "@eeacms/volto-columns-block": "4.4.3",
     "@eeacms/volto-eea-kitkat": "4.1.1",

@@ -1122,15 +1122,15 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/volto-accordion-block@3.4.4":
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.4.tgz#e761699c6bdab8a73caf3703976de840ce42cafa"
-  integrity sha512-+wYnhticLCAxe1VjfjjcV3wTBIz5+CAlCOYBh/BIKTknsSDSpXcEvX/ZtL5jajOtDceT/fttPYJ72Gcw70nD4Q==
-
 "@eeacms/volto-accordion-block@3.4.6":
   version "3.4.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.6.tgz#84b9d891c33cf5607e0b1d3e82965122b497bbe3"
   integrity sha512-87gEjIHSWi/mFU3i8TL+CtQK4+BBanLxNKMmyDzw11YAmIHKjknk2EOC9DrU26PHRJL1l3qOwl0FFtYnixlEng==
+
+"@eeacms/volto-accordion-block@3.4.7":
+  version "3.4.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.7.tgz#0190dd8685fa742a52257b6c46886aa80fd5199b"
+  integrity sha512-VxPXeJwumz/TrUom7BZyz3fXDauQI4iKiViACT9npJKF6NU+K3AWl/+6zaIDmi4weHDAPNKSy2tbihqrLRCSvw==
 
 "@eeacms/volto-arcgis-block@0.1.14":
   version "0.1.14"
