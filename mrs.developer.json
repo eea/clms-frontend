@@ -1,31 +1,31 @@
 {
-     "volto-clms-theme": {
-         "url": "https://github.com/eea/volto-clms-theme.git",
-         "path": "src",
-         "package": "@eeacms/volto-clms-theme",
-         "branch": "develop"
-     },
-     "volto-arcgis-block": {
-        "url": "https://github.com/eea/volto-arcgis-block.git",
-        "path": "src",
-        "package": "@eeacms/volto-arcgis-block",
-        "branch": "develop"
-    },
-    "volto-searchlib": {
-        "url": "git@github.com:eea/volto-searchlib.git",
-        "https": "https://github.com/eea/volto-searchlib.git",
-        "package": "@eeacms/volto-searchlib",
-        "path": "src",
-        "branch": "develop"
-      },
-      "searchlib": {
-        "https": "https://github.com/eea/searchlib.git",
-        "url": "git@github.com:eea/searchlib.git",
-        "branch": "clms-configuration",
-        "packages": {
-          "@eeacms/search": "packages/searchlib/src",
-          "@eeacms/search-less": "packages/searchlib-less",
-          "@eeacms/globalsearch": "packages/searchlib-globalsearch/src"
-        }
-      }
+  "volto-clms-theme": {
+    "url": "https://github.com/eea/volto-clms-theme.git",
+    "path": "src",
+    "package": "@eeacms/volto-clms-theme",
+    "branch": "master"
+  },
+  "volto-arcgis-block": {
+    "url": "https://github.com/eea/volto-arcgis-block.git",
+    "path": "src",
+    "package": "@eeacms/volto-arcgis-block",
+    "branch": "develop"
+  },
+  "volto-searchlib": {
+    "url": "git@github.com:eea/volto-searchlib.git",
+    "https": "https://github.com/eea/volto-searchlib.git",
+    "package": "@eeacms/volto-searchlib",
+    "path": "src",
+    "branch": "develop"
+  },
+  "searchlib": {
+    "https": "https://github.com/eea/searchlib.git",
+    "url": "git@github.com:eea/searchlib.git",
+    "branch": "clms-configuration",
+    "packages": {
+      "@eeacms/search": "packages/searchlib/src",
+      "@eeacms/search-less": "packages/searchlib-less",
+      "@eeacms/globalsearch": "packages/searchlib-globalsearch/src"
+    }
+  }
 }
