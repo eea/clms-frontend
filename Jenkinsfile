@@ -22,18 +22,18 @@ pipeline {
                 } finally {
                   try {
                     sh '''rm -rf cypress-reports cypress-results'''
-                    sh '''mkdir -p cypress-reports cypress-results'''
-                    sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
-                    sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
-                    archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
+                    // sh '''mkdir -p cypress-reports cypress-results'''
+                    // sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
+                    // sh '''docker cp $BUILD_TAG-cypress:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
+                    // archiveArtifacts artifacts: 'cypress-reports/videos/*.mp4', fingerprint: true
                   }
                   finally {
-                    catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
-                        junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
-                    }
+                    // catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS') {
+                    //     junit testResults: 'cypress-results/**/*.xml', allowEmptyResults: true
+                    // }
                     sh script: "docker stop $BUILD_TAG-plone", returnStatus: true
                     sh script: "docker rm -v $BUILD_TAG-plone", returnStatus: true
-                    sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
+                    // sh script: "docker rm -v $BUILD_TAG-cypress", returnStatus: true
                   }
                 }
               }
