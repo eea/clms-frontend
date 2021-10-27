@@ -1122,27 +1122,17 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/volto-accordion-block@3.4.4":
-  version "3.4.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.4.tgz#e761699c6bdab8a73caf3703976de840ce42cafa"
-  integrity sha512-+wYnhticLCAxe1VjfjjcV3wTBIz5+CAlCOYBh/BIKTknsSDSpXcEvX/ZtL5jajOtDceT/fttPYJ72Gcw70nD4Q==
-
 "@eeacms/volto-accordion-block@3.4.6":
   version "3.4.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.6.tgz#84b9d891c33cf5607e0b1d3e82965122b497bbe3"
   integrity sha512-87gEjIHSWi/mFU3i8TL+CtQK4+BBanLxNKMmyDzw11YAmIHKjknk2EOC9DrU26PHRJL1l3qOwl0FFtYnixlEng==
 
-"@eeacms/volto-arcgis-block@0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.11.tgz#dc590cadcee7e2301035e91bcc16a575f904efa3"
-  integrity sha512-2gQUdfhoRDyfDZaVqWxxkUAlmyMr79/dSaX6KO/lqce0L1qlynN/pQcsh4HV7p2gUOu3D9AI8jVR55lqaSu+6A==
-  dependencies:
-    "@fortawesome/fontawesome-svg-core" "1.2.35"
-    "@fortawesome/free-solid-svg-icons" "5.15.3"
-    "@fortawesome/react-fontawesome" "0.1.14"
-    esri-loader "3.1.0"
+"@eeacms/volto-accordion-block@3.4.7":
+  version "3.4.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.7.tgz#0190dd8685fa742a52257b6c46886aa80fd5199b"
+  integrity sha512-VxPXeJwumz/TrUom7BZyz3fXDauQI4iKiViACT9npJKF6NU+K3AWl/+6zaIDmi4weHDAPNKSy2tbihqrLRCSvw==
 
-"@eeacms/volto-arcgis-block@0.1.15":
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.15":
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.15.tgz#8f21d368c47e9256572e1459fd4e6475ec56a520"
   integrity sha512-EP0RuEkLwAq599AhP/HCs7mHg6Ln2fTmFL/K3zbmoLh69j8zwpsM7/onWXXgdV2KqawRo6K+iiZcJwJ3mzwCwA==
@@ -1188,13 +1178,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-clms-theme@1.0.35":
-  version "1.0.35"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.35.tgz#0e494ffbe84d4c03edb9bafe9ed191c901ff2deb"
-  integrity sha512-CGWaWHaEZbl3i6XmjV6yDkGMKhm0aP2EvjX2trT1Z6iI/p/amNW1yftPbkQogCFknLWgPuATOdFNzTHFELq//g==
+"@eeacms/volto-clms-theme@1.0.36":
+  version "1.0.36"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.36.tgz#4e6387a3fda55f15d585fbb65ec2f044b30996df"
+  integrity sha512-JUbsWu41bAaookurDBHLloULI1EjJp5DUgDZQEDrZ7CaJyKbF0M2GGPqwP6bo571YdOeoLr/qMLMSaWBS1KBdA==
   dependencies:
-    "@eeacms/volto-accordion-block" "3.4.4"
-    "@eeacms/volto-arcgis-block" "0.1.11"
+    "@eeacms/volto-accordion-block" "3.4.7"
+    "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-columns-block" "4.4.3"
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
