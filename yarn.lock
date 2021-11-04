@@ -1178,10 +1178,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-clms-theme@1.0.36":
-  version "1.0.36"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.36.tgz#4e6387a3fda55f15d585fbb65ec2f044b30996df"
-  integrity sha512-JUbsWu41bAaookurDBHLloULI1EjJp5DUgDZQEDrZ7CaJyKbF0M2GGPqwP6bo571YdOeoLr/qMLMSaWBS1KBdA==
+"@eeacms/volto-clms-theme@1.0.37":
+  version "1.0.37"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.37.tgz#29807dfe671e574b8d33d8e84136bf93912c33f5"
+  integrity sha512-jmzW1B3QCI6NbKe9YwF32/F9j4t5eCnDFQEQdhzo4FQf5KJN1o3H95erUsadq4FuOqHsBZiJWn9gkwkVcufe7g==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-arcgis-block" "*"
