@@ -1,12 +1,14 @@
 {
   "volto-clms-theme": {
-    "url": "https://github.com/eea/volto-clms-theme.git",
+    "url": "git@github.com:eea/volto-clms-theme.git",
+    "https": "https://github.com/eea/volto-clms-theme.git",
     "path": "src",
     "package": "@eeacms/volto-clms-theme",
     "branch": "master"
   },
   "volto-arcgis-block": {
-    "url": "https://github.com/eea/volto-arcgis-block.git",
+    "url": "git@github.com:eea/volto-arcgis-block.git",
+    "https": "https://github.com/eea/volto-arcgis-block.git",
     "path": "src",
     "package": "@eeacms/volto-arcgis-block",
     "branch": "develop"
