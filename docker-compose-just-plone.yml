@@ -20,7 +20,7 @@ services:
     depends_on:
       - memcached
     volumes:
-      - data:/data
+      - ./plone-data:/data
 
   memcached:
     image: memcached
