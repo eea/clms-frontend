@@ -11,6 +11,13 @@
     "package": "@eeacms/volto-arcgis-block",
     "branch": "develop"
   },
+  "volto-clms-utils": {
+    "url": "git@github.com:eea/volto-clms-utils.git",
+    "https": "https://github.com/eea/volto-clms-utils.git",
+    "path": "src",
+    "package": "@eeacms/volto-clms-utils",
+    "branch": "develop"
+  },
   "volto-searchlib": {
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
