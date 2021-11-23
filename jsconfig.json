@@ -7,6 +7,9 @@
             "@eeacms/volto-arcgis-block": [
                 "addons/volto-arcgis-block/src"
             ],
+            "@eeacms/volto-clms-utils": [
+                "addons/volto-clms-utils/src"
+            ],
             "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
             ],
