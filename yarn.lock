@@ -18525,7 +18525,7 @@ volto-slate@*, volto-slate@4.2.1:
     slate-react "^0.62.0"
     weak-key "^1.0.2"
 
-"volto-subblocks@github:collective/volto-subblocks#v1.0.1":
+volto-subblocks@collective/volto-subblocks#v1.0.1:
   version "1.0.1"
   resolved "https://codeload.github.com/collective/volto-subblocks/tar.gz/d565956e04521e46a186cbf8967d2c8883672e21"
   dependencies:
