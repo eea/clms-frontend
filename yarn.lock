@@ -1375,10 +1375,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-clms-theme@1.0.41":
-  version "1.0.41"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.41.tgz#8a07001c251bbc670097f8a42af2b0ca96cbf634"
-  integrity sha512-FTjGNGs7cBqp/noEukQVgbGTScjD92HgRBFVCa0EB/Tq2T6fMrhDio08ZmMw4qfoPfkXHEFpz59YdjOwwbXUhw==
+"@eeacms/volto-clms-theme@1.0.42":
+  version "1.0.42"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.42.tgz#1ae811b0d93f9ad129e73326f390f75cdb5b8528"
+  integrity sha512-uVwMsLwmlJqTeiHHwHwfbOxS6rgxHzfat+ukxe8WUoYJaeTTBRH4SkDwuEFDuTSyLnBpfKwAhqVbHlbRl7fpBQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-arcgis-block" "*"
@@ -1387,6 +1387,7 @@
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
     "@eeacms/volto-tabs-block" "1.2.7"
+    "@eeacms/volto-taxonomy" "^1.0.0"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
     "@fortawesome/free-regular-svg-icons" "5.15.3"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
@@ -1570,6 +1571,11 @@
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.2.tgz#4cda9b921c92cd94595fd279c944ec1f9bcafc26"
   integrity sha512-KOrIh411JtHGFtbA7neM51h6IvY5U0s1T9WFjArqP+QBY7HOZ3mu4Eqoh2iJuE/N8IKZc0vYkYKASKDLfLz03Q==
+
+"@eeacms/volto-taxonomy@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-1.0.0.tgz#431477475ef56b0cc00ca7d257d0149fdb600dd2"
+  integrity sha512-LPs3D7ChvTLKYm7AR+pWYioYk40OC/TF5aVEmUZj29v6u4pIqL8aB80/+ffA6bFQS7ybwXc5QbrW2b3Ll2k+/Q==
 
 "@eeacms/volto-widget-geolocation@4.0.0":
   version "4.0.0"
