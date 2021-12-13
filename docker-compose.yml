@@ -6,12 +6,12 @@ services:
     ports:
       - '${FRONTEND:-8000}:3000'
     depends_on:
-      - ploneapi
+      - backend
     environment:
       API_PATH: 'http://localhost:${BACKEND:-8080}/Plone'
-      INTERNAL_API_PATH: 'http://ploneapi:${BACKEND:-8080}/Plone'
+      INTERNAL_API_PATH: 'http://backend:${BACKEND:-8080}/Plone'
 
-  ploneapi:
+  backend:
     image: eeacms/clms-backend:latest
     ports:
       - '${BACKEND:-8080}:8080'

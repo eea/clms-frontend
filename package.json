@@ -2,9 +2,19 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.11.0",
+  "private": true,
+  "workspaces": [
+    "src/addons/*"
+  ],
   "addons": [
-    "@eeacms/volto-clms-theme"
+    "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-clms-theme",
+    "@eeacms/volto-arcgis-block",
+    "@eeacms/volto-block-style",
+    "@eeacms/volto-widget-geolocation",
+    "@eeacms/volto-sentry-rancher-config",
+    "@eeacms/volto-searchlib:installGlobalSearch"
   ],
   "scripts": {
     "start": "razzle start",
@@ -12,10 +22,17 @@
     "omelette": "ln -sf node_modules/@plone/volto/ omelette",
     "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
     "build": "razzle build",
-    "test": "razzle test --env=jsdom --passWithNoTests --coverage --collectCoverage",
     "start:prod": "NODE_ENV=production node build/server.js",
+    "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=develop",
+    "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
+    "update": "./scripts/update.sh",
+    "test": "./node_modules/jest/bin/jest.js --env=jsdom --passWithNoTests src/addons --verbose",
     "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
-    "develop": "missdev --config=jsconfig.json --output=addons",
+    "cypress:run": "./node_modules/cypress/bin/cypress run",
+    "cypress:open": "./node_modules/cypress/bin/cypress open",
+    "release": "release-it",
+    "release-major-beta": "release-it major --preRelease=beta",
+    "release-beta": "release-it --preRelease=beta",
     "plone": "docker-compose -f docker-compose-just-plone.yml up",
     "upgrade-volto": "yarn upgrade @plone/volto --latest; cp node_modules/@plone/volto/yarn.lock yarn.lock; yarn install"
   },
@@ -48,10 +65,10 @@
     },
     "coverageThreshold": {
       "global": {
-        "branches": 5,
-        "functions": 5,
-        "lines": 5,
-        "statements": 5
+        "branches": 10,
+        "functions": 10,
+        "lines": 10,
+        "statements": 10
       }
     },
     "setupFiles": [
@@ -107,24 +124,29 @@
   "engines": {
     "node": "^10 || ^12 || ^14"
   },
+  "resolutions": {
+    "volto-slate": "5.1.3"
+  },
   "dependencies": {
-    "@plone/volto": "12.14.1",
-    "@eeacms/volto-clms-theme": "^1.0.7"
+    "@eeacms/volto-arcgis-block": "0.1.22",
+    "@eeacms/volto-clms-theme": "1.0.44",
+    "@eeacms/volto-eea-kitkat": "4.1.7",
+    "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.0",
+    "@eeacms/volto-sentry-rancher-config": "^2.1.2",
+    "@plone/volto": "13.15.0",
+    "express-list-routes": "1.1.3",
+    "levenary": "1.1.1",
+    "regenerator-runtime": "0.13.9"
   },
   "devDependencies": {
+    "@eeacms/volto-widget-geolocation": "^3.0.0",
     "eslint-plugin-prettier": "3.1.3",
     "mrs-developer": "1.6.0",
     "prettier": "2.0.5",
+    "react-svg": "14.0.4",
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
-    "stylelint-prettier": "1.1.2",
-    "@eeacms/volto-accordion-block": "^3.0.0",
-    "@eeacms/volto-columns-block": "4.4.2",
-    "@eeacms/volto-metadata-block": "^2.1.0",
-    "@collective/volto-dropdownmenu": "github:collective/volto-dropdownmenu#2.2.5",
-    "@eeacms/volto-tabs-block":"github:eea/volto-tabs-block.git#1.2.1",
-    "@fortawesome/free-regular-svg-icons": "5.15.3",
-    "react-slick": "0.28.1"
+    "stylelint-prettier": "1.1.2"
   }
 }

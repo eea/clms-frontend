@@ -22,28 +22,6 @@ function apply_path {
 # Should we monkey patch?
 test -n "$API_PATH" && apply_path
 
-if [ -z "$TIMEOUT" ]; then
-  TIMEOUT="120000"
-fi
-
-if [ -z "$RAZZLE_API_PATH" ]; then
-  RAZZLE_API_PATH="http://plone:8080/energy"
-fi
-
-if [ -z "$CYPRESS_API_PATH" ]; then
-  CYPRESS_API_PATH="$RAZZLE_API_PATH"
-fi
-
-if [[ "$1" == "cypress"* ]]; then
-  echo "Starting cypress testing"
-  
-  RAZZLE_API_PATH=$RAZZLE_API_PATH yarn start &
-  
-  cd /opt/frontend
-  exec bash -c "wait-on -t $TIMEOUT http://localhost:3000 && NODE_ENV=production CYPRESS_API_PATH=$CYPRESS_API_PATH ./node_modules/cypress/bin/cypress run"
-  exit 0
-fi
-
 ./create-sentry-release.sh
 
 echo "Starting Volto"
