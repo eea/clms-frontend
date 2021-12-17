@@ -126,7 +126,7 @@
     "react-slick": "0.28.1"
   },
   "dependencies": {
-    "@eeacms/volto-arcgis-block": "0.1.22",
+    "@eeacms/volto-arcgis-block": "0.1.23",
     "@eeacms/volto-clms-theme": "1.0.48",
     "@eeacms/volto-eea-kitkat": "4.1.7",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.22",
