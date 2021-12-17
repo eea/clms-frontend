@@ -1328,10 +1328,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.8.tgz#c408a828d04b85cbccee337b8558a46f70a62865"
   integrity sha512-pQ8J3TvDd5jydJIJQlem7CCmcNnDwFtqVHS0AwDaj4175MCVYyuA6VH2NSx80TIrVUYRdgiFBHnh4PKKDTWZoQ==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.22":
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.22.tgz#889e9150769f92fb6a1d8d530a125aec3577737f"
-  integrity sha512-SUOGxzLS3Q4wtlBVrqRG4lDVJyEI45LEt5a27ZEIpkfc1RYYLnjqdD0jINnfoBpEoSSWB7z/Ci/O5LgJ1SyrYg==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.23.tgz#7b00b772198a4bcd28830acdae9f22c2043366d3"
+  integrity sha512-d1WVwFcDBAdEbXjTc327n4YAuHMkC/tY+k6p+Hdm/jLBilw5herpfoD2eJPUvC1oV92gDjMpRz424GkC8PdiaA==
   dependencies:
     "@eeacms/volto-clms-utils" "0.1.1"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1375,10 +1375,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-clms-theme@1.0.48":
-  version "1.0.48"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.48.tgz#47f983a036d6ed64de35abb21366274a60ca4b4e"
-  integrity sha512-E+h8E6zD8ms/VIBhCa/8Em3ugMqS6X/r42MG1MT6PN7+aYHbf5x7C7j3ItQTclIH+f4Nr0mHZR2zd//sf6KPGg==
+"@eeacms/volto-clms-theme@1.0.50":
+  version "1.0.50"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.50.tgz#6e0a26832e0884ad3c7028bc1a18f980031ce225"
+  integrity sha512-rVg6NEvYh/RgxFxtJvYldvuHxuR0JfFvas3Go21fiBuKGuyBbt92/kO+LUqNMRdaLTKlo41FpQj35+N2vHmWtg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-arcgis-block" "*"
