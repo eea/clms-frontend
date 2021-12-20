@@ -1375,14 +1375,14 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-clms-theme@1.0.50":
-  version "1.0.50"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.50.tgz#6e0a26832e0884ad3c7028bc1a18f980031ce225"
-  integrity sha512-rVg6NEvYh/RgxFxtJvYldvuHxuR0JfFvas3Go21fiBuKGuyBbt92/kO+LUqNMRdaLTKlo41FpQj35+N2vHmWtg==
+"@eeacms/volto-clms-theme@1.0.51":
+  version "1.0.51"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.51.tgz#7ce9aefc7cedcc92b6f2a2c56d7a1d96e7ae1235"
+  integrity sha512-a9XTLjyaGOd5gBfOPHvSsTFk6GJVp86guwtAxyfFTdIPBbWYEqjr/doGJ7jyCfFwpWITttCttgGSsadU+/uO9Q==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-arcgis-block" "*"
-    "@eeacms/volto-clms-utils" "0.1.1"
+    "@eeacms/volto-clms-utils" "0.1.2"
     "@eeacms/volto-columns-block" "4.4.3"
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
@@ -1403,6 +1403,14 @@
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.1.tgz#6d27e3fa995f1cb26b1b7409fca478b5b52cc9d9"
   integrity sha512-uiJKGRc/KoncYBgp9P0OzU1KcOhndlBF+sXU94m7wna9cXFZWSWeun42/P9StsVmlx4RBW5Jp59jlngK4ZS2mQ==
+  dependencies:
+    "@cypress/code-coverage" "^3.9.5"
+    babel-plugin-transform-class-properties "^6.24.1"
+
+"@eeacms/volto-clms-utils@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.2.tgz#badeb28f519461b28bd90af3fd5262672b5a904b"
+  integrity sha512-2DWMMF6R1IjPsc1k28QKpMTjFZ0N7C4XIlEaA6twQDBwqo7uABQV5mqrCwaKoqFbGnCx59v2Rkpc5LAG+sGPcA==
   dependencies:
     "@cypress/code-coverage" "^3.9.5"
     babel-plugin-transform-class-properties "^6.24.1"
