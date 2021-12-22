@@ -122,7 +122,7 @@
     "node": "^10 || ^12 || ^14"
   },
   "resolutions": {
-    "volto-slate": "5.2.0",
+    "volto-slate": "5.2.1",
     "react-slick": "0.28.1"
   },
   "dependencies": {
