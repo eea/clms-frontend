@@ -1377,10 +1377,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.2.tgz#ee05222aefada34c71a6c44d4efc9baf4f4570c1"
   integrity sha512-10XSDyDXXKWZd6+QaZLZ1KLnLCAVpu25IJScPkFaw/DqtUS1ZbmJrvZ6Dc+c4ya632ybyhu75lFlALSgD2X0zQ==
 
-"@eeacms/volto-clms-theme@1.0.51":
-  version "1.0.51"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.51.tgz#7ce9aefc7cedcc92b6f2a2c56d7a1d96e7ae1235"
-  integrity sha512-a9XTLjyaGOd5gBfOPHvSsTFk6GJVp86guwtAxyfFTdIPBbWYEqjr/doGJ7jyCfFwpWITttCttgGSsadU+/uO9Q==
+"@eeacms/volto-clms-theme@1.0.52":
+  version "1.0.52"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.52.tgz#b4b3c589e9b5fb0e1bcaebc5a3bea7e565bed28b"
+  integrity sha512-5x0vxfM5mBLCYgyV3e4kAAblKM3FTnmxates7vBsDvL4EvKuKmOEANQ1wBRMzXBORsRwGGrmrLUYufUYjCcsZA==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-arcgis-block" "*"
@@ -18463,10 +18463,10 @@ volto-form-block@2.1.0:
     react-google-recaptcha-v3 "^1.8.0"
     volto-subblocks collective/volto-subblocks#v1.0.1
 
-volto-slate@*, volto-slate@4.2.1, volto-slate@5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.2.0.tgz#b857f81395a327aa472b4a837f991ee4acf8e1fe"
-  integrity sha512-8EnaamsIEdRAwgXamGJsA1DwdED1c2V834nYxbjnu7RgHqc/Y7H0ghde/AirH0fdQOwBu6nN3e1n7pIPk/rIhA==
+volto-slate@*, volto-slate@4.2.1, volto-slate@5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.2.1.tgz#d277819326705b439acb66ef4977d3b57227a0d5"
+  integrity sha512-m4qovjz3OKBBps0qiJ1lasKz6T7IbDldJ/3XzHvOqA4blcssZixzl9eg4jdNUg1MMeIre3v38j11StFGKZL3Zw==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
