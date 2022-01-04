@@ -20,13 +20,6 @@
     "package": "@eeacms/volto-clms-utils",
     "branch": "develop"
   },
-  "volto-searchlib": {
-    "url": "git@github.com:eea/volto-searchlib.git",
-    "https": "https://github.com/eea/volto-searchlib.git",
-    "package": "@eeacms/volto-searchlib",
-    "path": "src",
-    "branch": "develop"
-  },
   "searchlib": {
     "https": "https://github.com/eea/searchlib.git",
     "url": "git@github.com:eea/searchlib.git",
