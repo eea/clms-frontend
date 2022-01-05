@@ -18,6 +18,9 @@
             ],
             "@eeacms/globalsearch": [
                 "addons/searchlib/packages/searchlib-globalsearch/src"
+            ],
+            "@eeacms/volto-matomo": [
+                "addons/volto-matomo/src"
             ]
         },
         "baseUrl": "src"
