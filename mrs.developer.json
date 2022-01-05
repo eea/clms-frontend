@@ -20,6 +20,13 @@
     "package": "@eeacms/volto-clms-utils",
     "branch": "develop"
   },
+  "volto-matomo": {
+    "url": "git@github.com:eea/volto-matomo.git",
+    "https": "https://github.com/eea/volto-matomo.git",
+    "path": "src",
+    "package": "@eeacms/volto-matomo",
+    "branch": "push-instruction"
+  },
   "searchlib": {
     "https": "https://github.com/eea/searchlib.git",
     "url": "git@github.com:eea/searchlib.git",
