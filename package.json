@@ -130,7 +130,7 @@
     "@eeacms/volto-eea-kitkat": "5.1.5",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.22",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
-    "@plone/volto": "14.2.0",
+    "@plone/volto": "14.5.0",
     "express-list-routes": "1.1.3",
     "levenary": "1.1.1",
     "regenerator-runtime": "0.13.9"
