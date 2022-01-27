@@ -9,15 +9,6 @@
             ],
             "@eeacms/volto-clms-utils": [
                 "addons/volto-clms-utils/src"
-            ],
-            "@eeacms/search": [
-                "addons/searchlib/packages/searchlib/src"
-            ],
-            "@eeacms/search-less": [
-                "addons/searchlib/packages/searchlib-less"
-            ],
-            "@eeacms/globalsearch": [
-                "addons/searchlib/packages/searchlib-globalsearch/src"
             ]
         },
         "baseUrl": "src"

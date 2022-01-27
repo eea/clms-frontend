@@ -13,8 +13,7 @@
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
-    "@eeacms/volto-sentry-rancher-config",
-    "@eeacms/volto-searchlib:installGlobalSearch"
+    "@eeacms/volto-sentry-rancher-config"
   ],
   "scripts": {
     "start": "razzle start",
@@ -128,7 +127,6 @@
     "@eeacms/volto-arcgis-block": "0.1.27",
     "@eeacms/volto-clms-theme": "1.0.61",
     "@eeacms/volto-eea-kitkat": "5.1.5",
-    "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.22",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@plone/volto": "14.5.0",
     "express-list-routes": "1.1.3",
