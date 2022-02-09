@@ -1371,14 +1371,14 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
-"@eeacms/volto-clms-theme@1.0.65":
-  version "1.0.65"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.65.tgz#c24bc493f495610aa2ff45ff9befd073063533cc"
-  integrity sha512-Eq4VgaOVPjSpqwy/BYYMcFzHQ+joHJ56NszoWjb+T7Yk7FSL6gOHTLziOfavoKSLUwaWsoEwx+d7yz2miODmPA==
+"@eeacms/volto-clms-theme@1.0.66":
+  version "1.0.66"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.66.tgz#3b9419e7d517d7cbc348c9fda1dbcbb82d7c21e3"
+  integrity sha512-nnkEVAWLOhf0VXTf/+P9ZXSoTXgJvOSf77HRod1drT6z+i3eUBeCzE6tVBISSDozGtnkADzr6uY9rtk/BzFHtw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-arcgis-block" "*"
-    "@eeacms/volto-clms-utils" "0.1.5"
+    "@eeacms/volto-clms-utils" "0.1.6"
     "@eeacms/volto-columns-block" "4.4.3"
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-resize-helper" "0.2.1"
@@ -1388,6 +1388,7 @@
     "@fortawesome/free-regular-svg-icons" "5.15.3"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
     "@fortawesome/react-fontawesome" "0.1.14"
+    husky "7.0.4"
     react-csv "2.2.2"
     react-native-mime-types "2.3.0"
     react-slick "0.28.1"
@@ -1404,10 +1405,10 @@
     "@cypress/code-coverage" "^3.9.5"
     babel-plugin-transform-class-properties "^6.24.1"
 
-"@eeacms/volto-clms-utils@0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.5.tgz#2f722bfb7fb396dfc8703e22aac9c8244ce0c611"
-  integrity sha512-k72TaupHd2rXZLBu3NpeAFIVcBgGqzsHOeDR4KU19OwObEMyoMT48LFo563j+IIur1JP/Ve//W4jSHFiO0tJlQ==
+"@eeacms/volto-clms-utils@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.6.tgz#20f2bdb836cecd884edac9da727e16dd1d470518"
+  integrity sha512-Mw6eMC4MTE3ha2p3rgic5MWWICB2rLHg1+OYWNqXJBB5VnwnDFL9S1lnMAGLjR4vjBvUoMDs9JHmQT3pdsMXrw==
   dependencies:
     "@cypress/code-coverage" "^3.9.5"
     "@eeacms/volto-matomo" "^2.0.7"
@@ -8855,6 +8856,11 @@ husky@4.2.5:
     please-upgrade-node "^3.2.0"
     slash "^3.0.0"
     which-pm-runs "^1.0.0"
+
+husky@7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
+  integrity sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==
 
 i18n-iso-countries@6.2.1:
   version "6.2.1"
