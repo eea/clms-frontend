@@ -2,7 +2,7 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "1.31.0",
+  "version": "1.32.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -55,6 +55,7 @@
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
       "@eeacms/volto-clms-theme/(.*)$": "<rootDir>/src/addons/volto-clms-theme/src/$1",
+      "@eeacms/volto-clms-utils/(.*)$": "<rootDir>/node_modules/@eeacms/volto-clms-utils/src/$1",
       "load-volto-addons": "<rootDir>/node_modules/@plone/volto/jest-addons-loader.js",
       "@package/(.*)$": "<rootDir>/src/$1",
       "~/(.*)$": "<rootDir>/src/$1"
@@ -124,8 +125,8 @@
     "react-slick": "0.28.1"
   },
   "dependencies": {
-    "@eeacms/volto-arcgis-block": "0.1.29",
-    "@eeacms/volto-clms-theme": "1.0.65",
+    "@eeacms/volto-arcgis-block": "0.1.30",
+    "@eeacms/volto-clms-theme": "1.0.67",
     "@eeacms/volto-eea-kitkat": "5.1.6",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@plone/volto": "14.7.0",
