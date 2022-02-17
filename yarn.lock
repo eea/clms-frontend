@@ -1371,10 +1371,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
-"@eeacms/volto-clms-theme@1.0.68":
-  version "1.0.68"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.68.tgz#650706b99d412e6833ad193658e625ede9029ab5"
-  integrity sha512-MOFCrqmK4b7y4SU6ftYAh3zMldjkESH9+RzFwIoVketNbGpoj84YxyQKmvCpuRttk1B+Qqsjir9IYzS0va3Nmw==
+"@eeacms/volto-clms-theme@1.0.69":
+  version "1.0.69"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.69.tgz#d1bd9f3a4728e10797b19644d83ade9c69f5a5e2"
+  integrity sha512-U73ITeUSpQff2jvVpfQWyrB2ebootvEpKRL29PKrtVFWeXlBU9syS11WfiQJozccZve9vP5a2Q31EKVgrp5wlw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.7"
     "@eeacms/volto-arcgis-block" "*"
@@ -1390,6 +1390,7 @@
     "@fortawesome/react-fontawesome" "0.1.14"
     husky "7.0.4"
     react-csv "2.2.2"
+    react-input-range "^1.3.0"
     react-native-mime-types "2.3.0"
     react-slick "0.28.1"
     react-svg "14.0.4"
@@ -3614,6 +3615,11 @@ attr-accept@^2.0.0:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/attr-accept/-/attr-accept-2.2.2.tgz#646613809660110749e92f2c10833b70968d929b"
   integrity sha512-7prDjvt9HmqiZ0cl5CRjtS84sEyhsHP2coDkaZKRKVfCDo9s7iw7ChVmar78Gu9pC4SoR/28wFu/G5JJhTnqEg==
+
+autobind-decorator@^1.3.4:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/autobind-decorator/-/autobind-decorator-1.4.3.tgz#4c96ffa77b10622ede24f110f5dbbf56691417d1"
+  integrity sha1-TJb/p3sQYi7eJPEQ9du/VmkUF9E=
 
 autobind-decorator@^2.1.0:
   version "2.4.0"
@@ -14475,6 +14481,14 @@ react-input-autosize@^3.0.0:
   resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-3.0.0.tgz#6b5898c790d4478d69420b55441fcc31d5c50a85"
   integrity sha512-nL9uS7jEs/zu8sqwFE5MAPx6pPkNAriACQ2rGLlqmKr2sPGtN7TXTyDdQt4lbNXVx7Uzadb40x8qotIuru6Rhg==
   dependencies:
+    prop-types "^15.5.8"
+
+react-input-range@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-input-range/-/react-input-range-1.3.0.tgz#f96d001631ab817417f1e26d8f9f9684b4827f59"
+  integrity sha1-+W0AFjGrgXQX8eJtj5+WhLSCf1k=
+  dependencies:
+    autobind-decorator "^1.3.4"
     prop-types "^15.5.8"
 
 react-intersection-observer@^8.32.0:
