@@ -1316,11 +1316,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.13.tgz#7a61bbad1733be607ba65ee078212ad914c088d8"
   integrity sha512-kn9mxMKEqk83/oXKDXFYdV/ZipClFyNN1VSxgF0qUI0PdeYon8R+bRjVyltLhcoPXd5oZSGmlezfVK9+L+JqGg==
 
-"@eeacms/volto-accordion-block@3.4.7":
-  version "3.4.7"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.7.tgz#0190dd8685fa742a52257b6c46886aa80fd5199b"
-  integrity sha512-VxPXeJwumz/TrUom7BZyz3fXDauQI4iKiViACT9npJKF6NU+K3AWl/+6zaIDmi4weHDAPNKSy2tbihqrLRCSvw==
-
 "@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.34":
   version "0.1.34"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.34.tgz#e36b853e14fbff70e3747ff802a56ae6c547bc27"
@@ -1371,12 +1366,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
-"@eeacms/volto-clms-theme@1.0.75":
-  version "1.0.75"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.75.tgz#60038053b7b5965751b35bc8c4e123391ebb7046"
-  integrity sha512-YPfGOBnx5YflDkGUWzYmWukytZeEC3XZUeIHKXp0U705nf6yxK85hULk5WZzRb0en7X0trkS8z0HNoDYc/a+fQ==
+"@eeacms/volto-clms-theme@1.0.76":
+  version "1.0.76"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.76.tgz#193074bf1016574520a00e92832433a35f837d18"
+  integrity sha512-OJu2K9WaNUwW9PqtgZ1pgG/W8hfvL4OswmNVHbsUMiKy4V8jCmIZaszyXiL4WKzcOji4w5tYCMMdi0i5xVnjow==
   dependencies:
-    "@eeacms/volto-accordion-block" "3.4.7"
+    "@eeacms/volto-accordion-block" "3.4.13"
     "@eeacms/volto-arcgis-block" "*"
     "@eeacms/volto-clms-utils" "0.1.6"
     "@eeacms/volto-columns-block" "4.4.3"
