@@ -126,7 +126,7 @@
   },
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.34",
-    "@eeacms/volto-clms-theme": "1.0.79",
+    "@eeacms/volto-clms-theme": "1.0.80",
     "@eeacms/volto-eea-kitkat": "5.2.4",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@plone/volto": "14.7.0",
