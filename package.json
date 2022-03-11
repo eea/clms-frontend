@@ -127,7 +127,7 @@
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.36",
     "@eeacms/volto-clms-theme": "1.0.82",
-    "@eeacms/volto-eea-kitkat": "5.2.4",
+    "@eeacms/volto-eea-kitkat": "5.2.5",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@plone/volto": "14.7.0",
     "express-list-routes": "1.1.3",
