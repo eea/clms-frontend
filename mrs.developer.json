@@ -19,5 +19,13 @@
     "path": "src",
     "package": "@eeacms/volto-clms-utils",
     "branch": "develop"
+  },
+  "volto-react-table-widget":{
+    "url": "git@github.com:codesyntax/volto-react-table-widget.git",
+    "https": "https://github.com/codesyntax/volto-react-table-widget.git",
+    "path": "src",
+    "package": "@codesyntax/volto-react-table-widget",
+    "branch": "develop"
   }
+
 }

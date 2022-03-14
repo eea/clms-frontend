@@ -9,6 +9,9 @@
             ],
             "@eeacms/volto-clms-utils": [
                 "addons/volto-clms-utils/src"
+            ],
+            "@codesyntax/volto-react-table-widget": [
+                "addons/volto-react-table-widget/src"
             ]
         },
         "baseUrl": "src"
