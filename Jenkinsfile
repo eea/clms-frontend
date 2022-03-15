@@ -7,7 +7,7 @@ pipeline {
     template = "templates/volto-clms"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = "clms.land.copernicus.eu"
+    SONARQUBE_TAG = "clms.land.copernicus.eu,clmsdemo.devel6cph.eea.europa.eu"
   }
 
   agent any
