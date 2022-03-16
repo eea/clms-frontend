@@ -14,7 +14,6 @@
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-sentry-rancher-config",
-    "@codesyntax/volto-react-table-widget",
     "volto-slate:minimalDefault,simpleLink,tableButton"
   ],
   "scripts": {
