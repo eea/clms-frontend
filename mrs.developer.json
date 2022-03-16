@@ -21,10 +21,10 @@
     "branch": "develop"
   },
   "volto-react-table-widget":{
-    "url": "git@github.com:codesyntax/volto-react-table-widget.git",
-    "https": "https://github.com/codesyntax/volto-react-table-widget.git",
+    "url": "git@github.com:eea/volto-react-table-widget.git",
+    "https": "https://github.com/eea/volto-react-table-widget.git",
     "path": "src",
-    "package": "@codesyntax/volto-react-table-widget",
+    "package": "@eeacms/volto-react-table-widget",
     "branch": "develop"
   }
 
