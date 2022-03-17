@@ -1386,6 +1386,34 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
+"@eeacms/volto-clms-theme@1.0.83":
+  version "1.0.83"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.83.tgz#2e2721184c2079295509eadc2214a12c0e03f3f5"
+  integrity sha512-myRM8/hAkjWc0xwxqAVLCKaIjzAqc+weyw8iv6pVrAdFFmrkME64WjltY6IUYEuQ+szN56s0MnoIH8ox1jn4+A==
+  dependencies:
+    "@eeacms/volto-accordion-block" "3.4.13"
+    "@eeacms/volto-arcgis-block" "*"
+    "@eeacms/volto-clms-utils" "0.1.6"
+    "@eeacms/volto-columns-block" "4.4.3"
+    "@eeacms/volto-metadata-block" "^2.1.0"
+    "@eeacms/volto-react-table-widget" "0.1.1"
+    "@eeacms/volto-resize-helper" "0.2.1"
+    "@eeacms/volto-tabs-block" "1.2.7"
+    "@eeacms/volto-taxonomy" "^1.0.0"
+    "@fortawesome/fontawesome-svg-core" "1.2.35"
+    "@fortawesome/free-regular-svg-icons" "5.15.3"
+    "@fortawesome/free-solid-svg-icons" "5.15.3"
+    "@fortawesome/react-fontawesome" "0.1.14"
+    husky "7.0.4"
+    react-csv "2.2.2"
+    react-input-range "^1.3.0"
+    react-native-mime-types "2.3.0"
+    react-slick "0.28.1"
+    react-svg "14.0.4"
+    slick-carousel "1.8.1"
+    volto-dropdownmenu "2.2.7"
+    volto-form-block "2.2.2"
+
 "@eeacms/volto-clms-utils@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.1.tgz#6d27e3fa995f1cb26b1b7409fca478b5b52cc9d9"
@@ -1494,6 +1522,16 @@
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-3.0.3.tgz#1d12a769c3f0d9a1448f857e60be4dd6771a647b"
   integrity sha512-AZiWLwS4kXRN696BzJfSncfvbnHsnF11m7iCF+W38ROGIUau3fmiLV9KnXxgDJZg/AV/wI3AcdSXr2fnH3uOAA==
+
+"@eeacms/volto-react-table-widget@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-react-table-widget/-/volto-react-table-widget-0.1.1.tgz#697627461687a224c39a57882e770978d69b0a9c"
+  integrity sha512-y0bYTjGccUemd0jMP7D1IyoR9qbH3An9MWZ7vQuLaOeIFzUkVG317b9aocXg0ziArbzlKbv84cejMxvB0DUfbQ==
+  dependencies:
+    "@plone/scripts" "*"
+    react-csv "*"
+    react-papaparse "*"
+    react-table "*"
 
 "@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.8":
   version "0.2.8"
@@ -2209,7 +2247,7 @@
   dependencies:
     "@octokit/openapi-types" "^11.2.0"
 
-"@plone/scripts@*":
+"@plone/scripts@*", "@plone/scripts@^1.0.3":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-1.4.1.tgz#1e9e7c88a7ae24a99dcccc2e017e11ee21d52abf"
   integrity sha512-ksG4Vc989hPQmrFGWH4M/PKFEXsCd8ypybHLpjPHLQoovwb1m565xO2j8yZpDlvOYT91Xh47mhgpDKERpgGtKg==
