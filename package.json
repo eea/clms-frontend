@@ -13,7 +13,8 @@
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
-    "@eeacms/volto-sentry-rancher-config"
+    "@eeacms/volto-sentry-rancher-config",
+    "volto-slate:minimalDefault,simpleLink,tableButton"
   ],
   "scripts": {
     "start": "razzle start",
