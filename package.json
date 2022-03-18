@@ -130,7 +130,7 @@
     "@eeacms/volto-clms-theme": "1.0.84",
     "@eeacms/volto-eea-kitkat": "5.2.6",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
-    "@plone/volto": "14.7.0",
+    "@plone/volto": "15.0.0",
     "express-list-routes": "1.1.3",
     "levenary": "1.1.1",
     "regenerator-runtime": "0.13.9"
