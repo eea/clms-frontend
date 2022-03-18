@@ -1371,10 +1371,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
-"@eeacms/volto-clms-theme@1.0.83":
-  version "1.0.83"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.83.tgz#2e2721184c2079295509eadc2214a12c0e03f3f5"
-  integrity sha512-myRM8/hAkjWc0xwxqAVLCKaIjzAqc+weyw8iv6pVrAdFFmrkME64WjltY6IUYEuQ+szN56s0MnoIH8ox1jn4+A==
+"@eeacms/volto-clms-theme@1.0.84":
+  version "1.0.84"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.84.tgz#b80298be8130269cda0b2d5aeeeaf7b95aa5dd92"
+  integrity sha512-KvCQX3mNk/ZkBw4tbaItlKsI6W1YQdlUeFj9JMhXZ7Wz0sTcJWgNH7OBC3A9kL/P9ZhbSLwKt2LK7vuL/umeMQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.13"
     "@eeacms/volto-arcgis-block" "*"
@@ -1390,6 +1390,7 @@
     "@fortawesome/free-solid-svg-icons" "5.15.3"
     "@fortawesome/react-fontawesome" "0.1.14"
     husky "7.0.4"
+    lightgallery "^2.4.0"
     react-csv "2.2.2"
     react-input-range "^1.3.0"
     react-native-mime-types "2.3.0"
@@ -10889,6 +10890,11 @@ lie@3.1.1:
   integrity sha1-mkNrLMd0bKWd56QfpGmz77dr2H4=
   dependencies:
     immediate "~3.0.5"
+
+lightgallery@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/lightgallery/-/lightgallery-2.4.0.tgz#b22b355bdbd48d3129e15c9d7d17e8e65bb2a17c"
+  integrity sha512-9i/E/w3yaqs56y3k6SWIUS3JTLpeDCZIVnIuNppzAmj5KjLGy5wrFisoDUD0HdxVUdX0wHG5mjvB4h0TXtyf/w==
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
