@@ -1321,12 +1321,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.4.14.tgz#0775048a94b0fd46485e044bfdbd5e027cf2e7f9"
   integrity sha512-nBVtqo9qiog5HcPOKiEPMR8EEognsNLCmgW5cr5Qh+rquuMdV6W01bA++QXED0nTO0651xPaxfq4OTxNVqCZWA==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.37":
-  version "0.1.37"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.37.tgz#6ad8b285e50f5da482383b7f782b864800ea351f"
-  integrity sha512-8Vmkqh1q7ZAVbF8nYj99HlpOCp64xxUYsEfV42y0LPjVZ/KAES0c1HkpMWRUUHOTr/Qoy0wRMC42oqAaZZJIug==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.38":
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.38.tgz#0d5275caaec1cd403c67579cd22d689662819d81"
+  integrity sha512-eW77E+mD/mUg5UXj0W8rRAxAhkf9FDlzExK/10m3N944MbxABjdormJR/TUDxSYkykO/FyhzVn0ueFzxf0yJNA==
   dependencies:
-    "@eeacms/volto-clms-utils" "0.1.1"
+    "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
     "@fortawesome/free-solid-svg-icons" "5.15.3"
     "@fortawesome/react-fontawesome" "0.1.14"
@@ -1371,10 +1371,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
-"@eeacms/volto-clms-theme@1.0.83":
-  version "1.0.83"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.83.tgz#2e2721184c2079295509eadc2214a12c0e03f3f5"
-  integrity sha512-myRM8/hAkjWc0xwxqAVLCKaIjzAqc+weyw8iv6pVrAdFFmrkME64WjltY6IUYEuQ+szN56s0MnoIH8ox1jn4+A==
+"@eeacms/volto-clms-theme@1.0.84":
+  version "1.0.84"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.84.tgz#b80298be8130269cda0b2d5aeeeaf7b95aa5dd92"
+  integrity sha512-KvCQX3mNk/ZkBw4tbaItlKsI6W1YQdlUeFj9JMhXZ7Wz0sTcJWgNH7OBC3A9kL/P9ZhbSLwKt2LK7vuL/umeMQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.13"
     "@eeacms/volto-arcgis-block" "*"
@@ -1390,6 +1390,7 @@
     "@fortawesome/free-solid-svg-icons" "5.15.3"
     "@fortawesome/react-fontawesome" "0.1.14"
     husky "7.0.4"
+    lightgallery "^2.4.0"
     react-csv "2.2.2"
     react-input-range "^1.3.0"
     react-native-mime-types "2.3.0"
@@ -1399,15 +1400,7 @@
     volto-dropdownmenu "2.2.7"
     volto-form-block "2.2.2"
 
-"@eeacms/volto-clms-utils@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.1.tgz#6d27e3fa995f1cb26b1b7409fca478b5b52cc9d9"
-  integrity sha512-uiJKGRc/KoncYBgp9P0OzU1KcOhndlBF+sXU94m7wna9cXFZWSWeun42/P9StsVmlx4RBW5Jp59jlngK4ZS2mQ==
-  dependencies:
-    "@cypress/code-coverage" "^3.9.5"
-    babel-plugin-transform-class-properties "^6.24.1"
-
-"@eeacms/volto-clms-utils@0.1.6":
+"@eeacms/volto-clms-utils@*", "@eeacms/volto-clms-utils@0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.6.tgz#20f2bdb836cecd884edac9da727e16dd1d470518"
   integrity sha512-Mw6eMC4MTE3ha2p3rgic5MWWICB2rLHg1+OYWNqXJBB5VnwnDFL9S1lnMAGLjR4vjBvUoMDs9JHmQT3pdsMXrw==
@@ -10889,6 +10882,11 @@ lie@3.1.1:
   integrity sha1-mkNrLMd0bKWd56QfpGmz77dr2H4=
   dependencies:
     immediate "~3.0.5"
+
+lightgallery@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/lightgallery/-/lightgallery-2.4.0.tgz#b22b355bdbd48d3129e15c9d7d17e8e65bb2a17c"
+  integrity sha512-9i/E/w3yaqs56y3k6SWIUS3JTLpeDCZIVnIuNppzAmj5KjLGy5wrFisoDUD0HdxVUdX0wHG5mjvB4h0TXtyf/w==
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
