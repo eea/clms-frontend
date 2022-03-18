@@ -1409,14 +1409,6 @@
     "@eeacms/volto-matomo" "^2.0.7"
     babel-plugin-transform-class-properties "^6.24.1"
 
-"@eeacms/volto-clms-utils@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.1.tgz#6d27e3fa995f1cb26b1b7409fca478b5b52cc9d9"
-  integrity sha512-uiJKGRc/KoncYBgp9P0OzU1KcOhndlBF+sXU94m7wna9cXFZWSWeun42/P9StsVmlx4RBW5Jp59jlngK4ZS2mQ==
-  dependencies:
-    "@cypress/code-coverage" "^3.9.5"
-    babel-plugin-transform-class-properties "^6.24.1"
-
 "@eeacms/volto-columns-block@4.4.14":
   version "4.4.14"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.4.14.tgz#d7d67439775231e76b8154751fac704e5576bf10"
