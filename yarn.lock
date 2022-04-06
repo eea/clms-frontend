@@ -1346,10 +1346,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-image-cards@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.2.0.tgz#84cc86984ff8545e5a2af384e3130e9d8ec6fc59"
-  integrity sha512-hBtGsswI3jS8kAC6VrgGCIEMPez6gu+oftbBqxk1HcMifopvDjGbRF/idYv//LlaTDGX1/9vUGXC3lf7/Ow9xQ==
+"@eeacms/volto-block-image-cards@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.3.0.tgz#b3c7378888745b39ec9f7d9484b25dd47cf47958"
+  integrity sha512-t9VRAxbjRAHlcjIwv7gEmfk8dga7w+kuzlxPYw/NwtftwSeYPc03xnuRAH9lDhRmA/cR/+95bFgERWct11cgGQ==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-lazy-load-image-component "^1.4.0"
@@ -1434,15 +1434,15 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.2.8":
-  version "5.2.8"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.8.tgz#e5156d5346e39b886cdb72a15a5a65caa449c0a1"
-  integrity sha512-2792Uw+UypOxX8xZZkC+JlWXsF4Zlc49s084oytj2PeacRPiNeXK5kkoUYIs/ZkDx+Gyo752GyvzO0wtQOysRg==
+"@eeacms/volto-eea-kitkat@5.2.9":
+  version "5.2.9"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.9.tgz#6f4a823195777143a32b75835904e643b7837f30"
+  integrity sha512-1/DJfPRsJsteYmS1IKlyjEeQnRU3YTm1c98MwFQcIBHViySkylX156TpoyQGMlDMOXyjGoIUDizRDl0SFX921A==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.14"
     "@eeacms/volto-banner" "2.1.0"
     "@eeacms/volto-block-divider" "2.1.6"
-    "@eeacms/volto-block-image-cards" "0.2.0"
+    "@eeacms/volto-block-image-cards" "0.3.0"
     "@eeacms/volto-block-style" "3.5.18"
     "@eeacms/volto-block-toc" "2.3.0"
     "@eeacms/volto-columns-block" "4.4.14"
@@ -2222,10 +2222,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@15.2.1":
-  version "15.2.1"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.2.1.tgz#66ec4571b8015fbcb041992e39be3966c0a7f834"
-  integrity sha512-LDHSupqdi7CL15w3X6g6+HOOQbcAq0H8sJ+vk87fQUFx0ncEZHCQ6+vMSmLOu4qmYLUWoMaYTqwlD/jH0ler/g==
+"@plone/volto@15.3.0":
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.3.0.tgz#f868c1a0ef0a8212a9d087dd81f0270915bcaf92"
+  integrity sha512-6Bzmto544xM5haY49BGvL+Mlx/4XbEv94E30iOJKKwMTdxDM4XQpixuYv0NGPZj/Eo/2JGs2BOrN5OlFhsp01g==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2382,7 +2382,7 @@
     tlds "1.203.1"
     undoo "0.5.0"
     universal-cookie-express "4.0.3"
-    use-deep-compare-effect "1.6.1"
+    use-deep-compare-effect "1.8.1"
     xmlrpc "1.3.2"
     yarn-deduplicate "3.1.0"
     yarnhook "0.5.1"
@@ -2859,7 +2859,7 @@
     hoist-non-react-statics "^3.3.0"
     redux "^4.0.0"
 
-"@types/react@*", "@types/react@^17.0.0":
+"@types/react@*":
   version "17.0.30"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.30.tgz#2f8e6f5ab6415c091cc5e571942ee9064b17609e"
   integrity sha512-3Dt/A8gd3TCXi2aRe84y7cK1K8G+N9CZRDG8kDGguOKa0kf/ZkSwTmVIDPsm/KbQOVMaDJXwhBtuOXxqwdpWVg==
@@ -17747,13 +17747,12 @@ url@^0.11.0, url@~0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
-use-deep-compare-effect@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/use-deep-compare-effect/-/use-deep-compare-effect-1.6.1.tgz#061a0ac5400aa0461e33dddfaa2a98bca873182a"
-  integrity sha512-VB3b+7tFI81dHm8buGyrpxi8yBhzYZdyMX9iBJra7SMFMZ4ci4FJ1vFc1nvChiB1iLv4GfjqaYfvbNEpTT1rFQ==
+use-deep-compare-effect@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/use-deep-compare-effect/-/use-deep-compare-effect-1.8.1.tgz#ef0ce3b3271edb801da1ec23bf0754ef4189d0c6"
+  integrity sha512-kbeNVZ9Zkc0RFGpfMN3MNfaKNvcLNyxOAAd9O4CBZ+kCBXXscn9s/4I+8ytUER4RDpEYs5+O6Rs4PqiZ+rHr5Q==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@types/react" "^17.0.0"
     dequal "^2.0.2"
 
 use-memo-one@^1.1.1:
