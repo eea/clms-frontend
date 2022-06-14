@@ -2,7 +2,7 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "1.63.0",
+  "version": "1.64.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
@@ -128,7 +128,7 @@
   },
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.44",
-    "@eeacms/volto-clms-theme": "1.0.97",
+    "@eeacms/volto-clms-theme": "1.0.98",
     "@eeacms/volto-eea-kitkat": "6.1.1",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@plone/volto": "15.3.0",
