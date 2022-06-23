@@ -1371,10 +1371,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.0.tgz#e521ff18f7ca57033b77d70e23d7f3a77f674d2a"
   integrity sha512-57a8i6spgk/ZySRM9ukt7+XaWWrGs8fS4GyYGtctDj6BG5CjFx77ETBzM1mJWgsIkEeXS3ekB4HYzNRHFGjRJw==
 
-"@eeacms/volto-clms-theme@1.0.100":
-  version "1.0.100"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.100.tgz#2c172355cf037b2c420bc04150fa3029e99f885c"
-  integrity sha512-pAvoNqD9b2vLEXbVLDCQZRTGk78hWWfuBW4pD/+MdDy+NqRs3232sgn5DABw38onXhSi1F0Jth1wlv91EQjEnA==
+"@eeacms/volto-clms-theme@1.0.101":
+  version "1.0.101"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.101.tgz#723f085f780419e0acfec6a656ebb1f22a78fd2a"
+  integrity sha512-DSJK9rdI4NuG19YvcH6Wq185VxNgu55nBJOl+YjgabYQa5nkZOFYqV44LEFNizslcOo+2vsrzEYBW7znuczInA==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.13"
     "@eeacms/volto-arcgis-block" "*"
@@ -1397,6 +1397,7 @@
     react-slick "0.28.1"
     react-svg "14.0.4"
     slick-carousel "1.8.1"
+    validator "13.7.0"
     volto-cookie-banner "2.1.0"
     volto-dropdownmenu "2.2.7"
     volto-form-block "2.2.2"
@@ -17906,6 +17907,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+validator@13.7.0:
+  version "13.7.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-13.7.0.tgz#4f9658ba13ba8f3d82ee881d3516489ea85c0857"
+  integrity sha512-nYXQLCBkpJ8X6ltALua9dRrZDHVYxjJ1wgskNt1lH9fzGjs3tgojGSCBjmEPwkWS1y29+DrizMTW19Pr9uB2nw==
 
 value-equal@^1.0.1:
   version "1.0.1"
