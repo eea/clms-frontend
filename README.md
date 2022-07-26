@@ -1,7 +1,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/clms-frontend?sort=semver)](https://github.com/eea/clms-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/clms-frontend/master&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/master/display/redirect)
 [![Pipeline develop](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F1.74.0&build=last&subject=release%20v1.74.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/1.74.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F1.75.0&build=last&subject=release%20v1.75.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/1.75.0/lastBuild/display/redirect/)
 
 
 ## Documentation
