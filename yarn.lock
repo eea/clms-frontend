@@ -1372,10 +1372,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.109":
-  version "1.0.109"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.109.tgz#2d36f8498377cc96a42c6bdd8a012f309658d5df"
-  integrity sha512-YL20Xi4o2kju082/qAs3mEqAACsw6gLx+I+96ydKMy3+CXv8RVYGlUUlvdetWGO9KvzK4Rholu61CNhEz/m+4A==
+"@eeacms/volto-clms-theme@1.0.110":
+  version "1.0.110"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.110.tgz#1b2344c23a83c3def1d2a3210972e79ee7f8e8d6"
+  integrity sha512-QUiLIBUan3P+rhXphTzWE7QyQ9qpD/c/qIC2zmDwfWIeFaJRmgrrR5ZjJOExfzYMx0BdwH3OtS++6bIFdutKyA==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.13"
     "@eeacms/volto-arcgis-block" "*"
@@ -1384,6 +1384,7 @@
     "@eeacms/volto-metadata-block" "^2.1.0"
     "@eeacms/volto-react-table-widget" "0.1.1"
     "@eeacms/volto-resize-helper" "0.2.1"
+    "@eeacms/volto-tableau" "1.2.4"
     "@eeacms/volto-tabs-block" "1.2.7"
     "@eeacms/volto-taxonomy" "^1.0.0"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1518,7 +1519,7 @@
     react-papaparse "*"
     react-table "*"
 
-"@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.10":
+"@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.10", "@eeacms/volto-resize-helper@^0.2.4":
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.10.tgz#f58ecd866988444f3b0b855e30dde17431a25edf"
   integrity sha512-kbCIIzvDeqO5otAJfIgzJkJzkZFUudoG49/e320QxQzZQFrGF/jUUk54J1qgl5RJpgIcJFvchTZMFLKx5KUJ+A==
@@ -1555,6 +1556,14 @@
   dependencies:
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
+
+"@eeacms/volto-tableau@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.2.4.tgz#cab66cd708aa6fc12c9d6285f4ec9c0a7dc42697"
+  integrity sha512-3euAW+NQQVhyWj+NQaGNxWcI6EXi9jDL2ur1m4GHN4lgmTfNrImjsrKixFypoCEm2Of3M9KUFiNayyw/y9DwAw==
+  dependencies:
+    "@eeacms/volto-resize-helper" "^0.2.4"
+    tableau-api-js "github:eea/tableau-api-js#1.1.1"
 
 "@eeacms/volto-tabs-block@1.2.7":
   version "1.2.7"
@@ -17055,6 +17064,10 @@ table@^6.7.2:
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
+
+"tableau-api-js@github:eea/tableau-api-js#1.1.1":
+  version "1.1.1"
+  resolved "https://codeload.github.com/eea/tableau-api-js/tar.gz/59773ffe8bee1fdfe285c590fb38eda757b6c3fa"
 
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
