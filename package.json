@@ -2,7 +2,7 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "1.78.0",
+  "version": "1.79.0",
   "private": true,
   "workspaces": [
     "src/addons/*"
