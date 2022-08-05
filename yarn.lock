@@ -1367,10 +1367,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.114":
-  version "1.0.114"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.114.tgz#86dc0f1b0690900dbc6388adb13902e6743ade04"
-  integrity sha512-7nVaa282+fm/oMwiICOXcc4Ux21l8X29xqnluu/KYrqfrNP5Urbfkpi2b/K8+R0L1+Si6Qh4JAhOrQX8/ZjcZA==
+"@eeacms/volto-clms-theme@1.0.115":
+  version "1.0.115"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.115.tgz#cf2d043d6b72d48e280fc2e6609aa5b770575345"
+  integrity sha512-J8Fga5tr5oS2yCwpG/sGYaWL1B3lr8gW8d2TLRHcDB1f1q+uAai/ggvoySHIhzzRVx95mRbywIWG5GQHwTl7Hw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
@@ -1397,7 +1397,7 @@
     validator "13.7.0"
     volto-cookie-banner "2.1.0"
     volto-dropdownmenu "2.2.7"
-    volto-form-block "2.2.2"
+    volto-form-block "2.4.1"
 
 "@eeacms/volto-clms-utils@*", "@eeacms/volto-clms-utils@0.1.6":
   version "0.1.6"
@@ -17964,16 +17964,16 @@ volto-dropdownmenu@2.2.7:
   dependencies:
     react-outside-click-handler "1.3.0"
 
-volto-form-block@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/volto-form-block/-/volto-form-block-2.2.2.tgz#3fa28dcc6f62fb6feb7daf507aa8a75eb4c97178"
-  integrity sha512-rFyJ1WJEt7gx5WFPMOmnkIlbgfSj2BU4XO01Vao+I+cvkFSyF+aV0+wBjh8zgCFZcdmxwaGuvd+2p4qkVVIkUQ==
+volto-form-block@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/volto-form-block/-/volto-form-block-2.4.1.tgz#f8d4f7d496a48f91c77a2f187046464152ed8cc3"
+  integrity sha512-4JfmUCm2PRuPWNzX22QMH36vOVVsJTP8ypDSXbhNJWUZbgXEL5sREdEW/ZqlM5Z+qKkREZbHs8Q4zp31CVvyhA==
   dependencies:
     "@hcaptcha/react-hcaptcha" "^0.3.6"
     "@plone/scripts" "^1.0.3"
     file-saver "^2.0.5"
     react-google-recaptcha-v3 "^1.8.0"
-    volto-subblocks collective/volto-subblocks#v1.0.1
+    volto-subblocks collective/volto-subblocks#v1.2.3
 
 volto-slate@*, volto-slate@6.2.2:
   version "6.2.2"
@@ -17993,10 +17993,11 @@ volto-slate@*, volto-slate@6.2.2:
     slate-react "^0.71.0"
     weak-key "^1.0.2"
 
-volto-subblocks@collective/volto-subblocks#v1.0.1:
-  version "1.0.1"
-  resolved "https://codeload.github.com/collective/volto-subblocks/tar.gz/d565956e04521e46a186cbf8967d2c8883672e21"
+"volto-subblocks@github:collective/volto-subblocks#v1.2.3":
+  version "1.2.3"
+  resolved "https://codeload.github.com/collective/volto-subblocks/tar.gz/a57c83c54678ee6423945a5247dfa5cc9e53ca3d"
   dependencies:
+    "@plone/scripts" "^1.0.3"
     react-dnd "^5.0.0"
     react-dnd-html5-backend "^5.0.1"
 
