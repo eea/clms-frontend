@@ -1367,10 +1367,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.115":
-  version "1.0.115"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.115.tgz#cf2d043d6b72d48e280fc2e6609aa5b770575345"
-  integrity sha512-J8Fga5tr5oS2yCwpG/sGYaWL1B3lr8gW8d2TLRHcDB1f1q+uAai/ggvoySHIhzzRVx95mRbywIWG5GQHwTl7Hw==
+"@eeacms/volto-clms-theme@1.0.116":
+  version "1.0.116"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.116.tgz#979a92cb7d42beb0ae45de5ae8b07608acf2b840"
+  integrity sha512-cepSWD9HhsgX5fCXGy81BsDi+axE/lsA/l/jvgq9jhHg55kiN1F5yOx+c6rAmDC9TI7ywqShlxV4lP1aMixSuQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
@@ -1432,10 +1432,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.0.0.tgz#ed0e9ca2084b06582424e834c292799fa10455ad"
-  integrity sha512-LxVBY2Vc8DYWMAXBtMJ3rkTTuxuXCyPBU+BJwn9TAhZeTeRUzltoXnjIH/D+FlsBx35uIicUUOIqmbUUGH6SfQ==
+"@eeacms/volto-eea-kitkat@7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.0.tgz#d2d8be9a968b6b67716ed895ff7d191116b26d61"
+  integrity sha512-T6O/MCDYnEwo+NyOhdhIn8CCOtyQC2KSFO5I4OepmSYLM8W79/l/O77eRdMeD4EoxmBPzt4I81IfNcqmcx05Eg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
