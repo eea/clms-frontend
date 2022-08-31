@@ -1524,6 +1524,19 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.46":
+  version "0.1.46"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.46.tgz#c5a13d619b70a256e7d6edd9875eb9af854a9f23"
+  integrity sha512-1oGzjJ+nsRov1DzhoSBDLmMCi9qQtrEfADtSDSasfVj//HcGZ6Nw52uGoNpy+VQIt+1+piPtet8GVPl95xmKnQ==
+  dependencies:
+    "@eeacms/volto-clms-utils" "*"
+    "@fortawesome/fontawesome-svg-core" "1.2.35"
+    "@fortawesome/free-solid-svg-icons" "5.15.3"
+    "@fortawesome/react-fontawesome" "0.1.14"
+    esri-loader "3.1.0"
+    highcharts "^9.3.2"
+    highcharts-react-official "^3.1.0"
+
 "@eeacms/volto-banner@2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-2.2.1.tgz#559d31aba65b0cc87d693f5a7c0e8370f68754a1"
@@ -1562,7 +1575,39 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-utils@0.1.6":
+"@eeacms/volto-clms-theme@1.0.116":
+  version "1.0.116"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.116.tgz#979a92cb7d42beb0ae45de5ae8b07608acf2b840"
+  integrity sha512-cepSWD9HhsgX5fCXGy81BsDi+axE/lsA/l/jvgq9jhHg55kiN1F5yOx+c6rAmDC9TI7ywqShlxV4lP1aMixSuQ==
+  dependencies:
+    "@eeacms/volto-accordion-block" "3.5.0"
+    "@eeacms/volto-arcgis-block" "*"
+    "@eeacms/volto-clms-utils" "0.1.6"
+    "@eeacms/volto-columns-block" "4.4.3"
+    "@eeacms/volto-metadata-block" "^2.1.0"
+    "@eeacms/volto-react-table-widget" "0.1.1"
+    "@eeacms/volto-resize-helper" "0.2.1"
+    "@eeacms/volto-tableau" "1.2.4"
+    "@eeacms/volto-tabs-block" "1.2.7"
+    "@eeacms/volto-taxonomy" "^1.0.0"
+    "@fortawesome/fontawesome-svg-core" "1.2.35"
+    "@fortawesome/free-regular-svg-icons" "5.15.3"
+    "@fortawesome/free-solid-svg-icons" "5.15.3"
+    "@fortawesome/react-fontawesome" "0.1.14"
+    husky "7.0.4"
+    lightgallery "^2.4.0"
+    react-csv "2.2.2"
+    react-input-range "^1.3.0"
+    react-native-mime-types "2.3.0"
+    react-slick "0.28.1"
+    react-svg "14.0.4"
+    slick-carousel "1.8.1"
+    validator "13.7.0"
+    volto-cookie-banner "2.1.0"
+    volto-dropdownmenu "2.2.7"
+    volto-form-block "2.4.1"
+
+"@eeacms/volto-clms-utils@*", "@eeacms/volto-clms-utils@0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-utils/-/volto-clms-utils-0.1.6.tgz#20f2bdb836cecd884edac9da727e16dd1d470518"
   integrity sha512-Mw6eMC4MTE3ha2p3rgic5MWWICB2rLHg1+OYWNqXJBB5VnwnDFL9S1lnMAGLjR4vjBvUoMDs9JHmQT3pdsMXrw==
@@ -1746,11 +1791,6 @@
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.6.tgz#83f17f7db23c1227f07981d5b00dc3b98d1b9081"
   integrity sha512-iJQ7ATw2gl5PEi4zb7+Cs4XsFxG32WyaDheoln0zH/MzUD9ezHeZTNQD5vIaRn63Eomn8PRo92cqYcgJTiBL/Q==
-
-"@eeacms/volto-taxonomy@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-1.0.0.tgz#431477475ef56b0cc00ca7d257d0149fdb600dd2"
-  integrity sha512-LPs3D7ChvTLKYm7AR+pWYioYk40OC/TF5aVEmUZj29v6u4pIqL8aB80/+ffA6bFQS7ybwXc5QbrW2b3Ll2k+/Q==
 
 "@eeacms/volto-widget-dataprovenance@0.1.4":
   version "0.1.4"
@@ -19324,10 +19364,10 @@ volto-dropdownmenu@2.2.7:
   dependencies:
     react-outside-click-handler "1.3.0"
 
-volto-form-block@2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/volto-form-block/-/volto-form-block-2.4.2.tgz#88ec12204f12035a6bed35d579dbd867820b4772"
-  integrity sha512-eYm+IwG76fpy8jCEJGg66yn73V/YDiKQSDzCTAnwkDfjgcyb6TiuM7NYmSHX8DqQr3yKExfy8j7PGxBkRQRSIQ==
+volto-form-block@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/volto-form-block/-/volto-form-block-2.4.1.tgz#f8d4f7d496a48f91c77a2f187046464152ed8cc3"
+  integrity sha512-4JfmUCm2PRuPWNzX22QMH36vOVVsJTP8ypDSXbhNJWUZbgXEL5sREdEW/ZqlM5Z+qKkREZbHs8Q4zp31CVvyhA==
   dependencies:
     "@hcaptcha/react-hcaptcha" "^0.3.6"
     "@plone/scripts" "^1.0.3"
@@ -19353,7 +19393,7 @@ volto-slate@*, volto-slate@6.3.0:
     slate-react "^0.71.0"
     weak-key "^1.0.2"
 
-"volto-subblocks@github:collective/volto-subblocks#v1.2.3":
+volto-subblocks@collective/volto-subblocks#v1.2.3:
   version "1.2.3"
   resolved "https://codeload.github.com/collective/volto-subblocks/tar.gz/a57c83c54678ee6423945a5247dfa5cc9e53ca3d"
   dependencies:
