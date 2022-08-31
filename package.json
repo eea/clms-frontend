@@ -121,7 +121,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "^12 || ^14 || ^16"
+    "node": "^10 || ^12 || ^14"
   },
   "resolutions": {
     "react-slick": "0.28.1"
