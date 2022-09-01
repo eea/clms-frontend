@@ -145,6 +145,7 @@
     "stylelint": "13.3.3",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
-    "stylelint-prettier": "1.1.2"
+    "stylelint-prettier": "1.1.2",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "*"
   }
 }
