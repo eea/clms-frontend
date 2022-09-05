@@ -1214,10 +1214,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.51":
-  version "0.1.51"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.51.tgz#bed35865dafa8fd0fe1b28079fb3f14c628665f4"
-  integrity sha512-tJr/JClllDps96XiNXTeNGLUaaI2TiABj+DPv/hpQwKovGiESeuIa4pP3c9L0xaaTaMuFLYcp7M5ti5yjcl5Zw==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.52":
+  version "0.1.52"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.52.tgz#4931a413f365f66b02da93dbb8cc33b7b5ed8665"
+  integrity sha512-fAio9UQySHeJGa3m3YguEHPR8bEPAUZ3Y+/D2g4DrVFABF/sL5gV76cypdf2No54t8vd2SyilC6nWzUMCDGy+A==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1265,10 +1265,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.120":
-  version "1.0.120"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.120.tgz#fe6b59d28ab619630e2bbe1600458b3836c0463b"
-  integrity sha512-IshqzQm+gTY5+7rRZA2kPkRe5uMHn0EZbFf1c2HbkWwqELHg/GwX/z+wRuPMozDiVrC1W0TkTvj9Dp5kgCgwcw==
+"@eeacms/volto-clms-theme@1.0.121":
+  version "1.0.121"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.121.tgz#30fa8993a3e678b0eff6f7ae2fc49de88339f5d9"
+  integrity sha512-pppi5QSJnksqF5wB+fjWekYEW7yN9fbBc/jdMPiMHhUWsuPkvFTp5AB3PQB72X0lqPZCrutEUzsMRyMzJm6LNw==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
@@ -1330,10 +1330,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
-"@eeacms/volto-eea-kitkat@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.0.tgz#d2d8be9a968b6b67716ed895ff7d191116b26d61"
-  integrity sha512-T6O/MCDYnEwo+NyOhdhIn8CCOtyQC2KSFO5I4OepmSYLM8W79/l/O77eRdMeD4EoxmBPzt4I81IfNcqmcx05Eg==
+"@eeacms/volto-eea-kitkat@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.1.tgz#0fff5107bb51163272dca79935369fecac4d062e"
+  integrity sha512-/5ix7qy08fMaTjzdHgqHVXYcS8viVhAVuwiBDo56UvA4dfa/cUm5dU9kiA4fX/h/GLk0GWDUz+z74rYxP2U3+g==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
