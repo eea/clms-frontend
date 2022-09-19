@@ -1214,10 +1214,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.61":
-  version "0.1.61"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.61.tgz#1421de949d60c086086c49a0565726b80cb0a510"
-  integrity sha512-Pl3389qgLu8xk4vAC5RXAL6iCCPC/0IwQ+1s2ogER0xVlLn1QLa/mTkZXZbOF1icfFrhnO2/n2k7tCuHwBKPWg==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.62":
+  version "0.1.62"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.62.tgz#4af55d9e0712ad880f67ac0d8f210e47baec0be9"
+  integrity sha512-lfBINF6M30uMv4jFpGDrKO8v0WofJTN2VBZxGcT+jqbs4AxvLpfaLhnu/wWSw1lYgB256Iq+C6Lx0ZFGr/OlAw==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
