@@ -16,7 +16,7 @@
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-sentry-rancher-config",
-    "volto-slate:minimalDefault,simpleLink,tableButton"
+    "volto-slate:minimalDefault,tableButton"
   ],
   "scripts": {
     "start": "razzle start",
