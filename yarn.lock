@@ -1214,10 +1214,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.62":
-  version "0.1.62"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.62.tgz#4af55d9e0712ad880f67ac0d8f210e47baec0be9"
-  integrity sha512-lfBINF6M30uMv4jFpGDrKO8v0WofJTN2VBZxGcT+jqbs4AxvLpfaLhnu/wWSw1lYgB256Iq+C6Lx0ZFGr/OlAw==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.63":
+  version "0.1.63"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.63.tgz#09060d250909f04827a17a606dea5b46c582a9d7"
+  integrity sha512-9eUctDMM+IyRTw+4QzmM1dTWFEXcoCZJBAe6gqsUSjpeRKyqOxJpKf0sfQMLYD+crcjwLVFKO6QX2kMnJnt3cg==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1265,10 +1265,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.126":
-  version "1.0.126"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.126.tgz#c30461ef04a3b08d63bbcf27b83bac4426c60f0b"
-  integrity sha512-N8KmxYHc4VLphqGXH/jjYALwbVcZniFau8wLRS8J4AhqZ421RPdZzr/BKWPga4kiDjsH7+naBleLMiw/N5uP5g==
+"@eeacms/volto-clms-theme@1.0.127":
+  version "1.0.127"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.127.tgz#9a667237222effc399ce307b407edc7d8664ffc7"
+  integrity sha512-NtDC9hF5C2A+5Am1JH5Z2vjOdBV9JbSjOnhmJEHeZU8pBhvl9G058qRo+g66DKYZ+KttKIH7ufHPI8fadWoZJA==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
@@ -17797,7 +17797,7 @@ volto-slate@*, volto-slate@6.3.0:
     slate-react "^0.71.0"
     weak-key "^1.0.2"
 
-"volto-subblocks@github:collective/volto-subblocks#v1.2.3":
+volto-subblocks@collective/volto-subblocks#v1.2.3:
   version "1.2.3"
   resolved "https://codeload.github.com/collective/volto-subblocks/tar.gz/a57c83c54678ee6423945a5247dfa5cc9e53ca3d"
   dependencies:
