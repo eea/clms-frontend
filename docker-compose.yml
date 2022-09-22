@@ -8,8 +8,8 @@ services:
     depends_on:
       - backend
     environment:
-      API_PATH: 'http://localhost:${BACKEND:-8080}/Plone'
-      INTERNAL_API_PATH: 'http://backend:${BACKEND:-8080}/Plone'
+      RAZZLE_INTERNAL_API_PATH: 'http://localhost:${BACKEND:-8080}/Plone'
+      RAZZLE_DEV_PROXY_API_PATH: 'http://backend:${BACKEND:-8080}/Plone'
 
   backend:
     image: eeacms/clms-backend:latest
