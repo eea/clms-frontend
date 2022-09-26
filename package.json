@@ -2,7 +2,7 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "1.99.0",
+  "version": "1.100.0",
   "private": true,
   "workspaces": [
     "src/addons/volto-arcgis-block",
