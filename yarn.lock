@@ -1265,10 +1265,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.131":
-  version "1.0.131"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.131.tgz#8a17b3c6c7042b7ec023e54a628dc11b37effadc"
-  integrity sha512-fLqn6y3S4CUAo3e10Zol+s511F0/hBvHqhQ+TGMK03dASifqWqdfBFFj8q/HsMZJsuwuUdyJlBBAr3kDROa9WA==
+"@eeacms/volto-clms-theme@1.0.132":
+  version "1.0.132"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.132.tgz#efcea5355b24fa32936a6cf1065491df07abd42d"
+  integrity sha512-eQu8j6bq7eHzcodcsV8o3WRlfQNdXNdewGH/7PkMuVlLyFaWuyQ3Y4D4I4xGpU7atMDA9JaJCzPtNE6yitW7Jg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
@@ -1295,7 +1295,7 @@
     validator "13.7.0"
     volto-cookie-banner "2.1.0"
     volto-dropdownmenu "2.2.7"
-    volto-form-block "2.5.0"
+    volto-form-block "2.7.1"
 
 "@eeacms/volto-clms-utils@*", "@eeacms/volto-clms-utils@0.1.6":
   version "0.1.6"
@@ -17768,10 +17768,10 @@ volto-dropdownmenu@2.2.7:
   dependencies:
     react-outside-click-handler "1.3.0"
 
-volto-form-block@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/volto-form-block/-/volto-form-block-2.5.0.tgz#8c6005afa29043b05e391b91f26241848f68b26d"
-  integrity sha512-lul8Qk0vTwWYgj/QbsrtdjndhAo1UGcQPctoYfTV9tJW7jszOpYU1DUqkY/BMgMoRXhC1hK6IjWVbpHeMRoA+A==
+volto-form-block@2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/volto-form-block/-/volto-form-block-2.7.1.tgz#2a863a51c659058880b276a6e0490f3858de587e"
+  integrity sha512-n3Q4caE8Bv9Xg6MvoLFGI6h7BPK/Ua1CkkktajiQ8Zfwm03frAamg+l48adDh6526E9LyZ4WiLcCEpHfe1M4ig==
   dependencies:
     "@hcaptcha/react-hcaptcha" "^0.3.6"
     "@plone/scripts" "^1.0.3"
@@ -17797,7 +17797,7 @@ volto-slate@*, volto-slate@6.4.0:
     slate-react "^0.71.0"
     weak-key "^1.0.2"
 
-volto-subblocks@collective/volto-subblocks#v1.2.3:
+"volto-subblocks@github:collective/volto-subblocks#v1.2.3":
   version "1.2.3"
   resolved "https://codeload.github.com/collective/volto-subblocks/tar.gz/a57c83c54678ee6423945a5247dfa5cc9e53ca3d"
   dependencies:
