@@ -29,7 +29,7 @@
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
     "update": "./scripts/update.sh",
     "test": "./node_modules/jest/bin/jest.js --env=jsdom --passWithNoTests src/addons --verbose",
-    "i18n": "NODE_ENV=production node node_modules/@plone/volto/src/i18n.js",
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "cypress:run": "./node_modules/cypress/bin/cypress run",
     "cypress:open": "./node_modules/cypress/bin/cypress open",
     "release": "release-it",
