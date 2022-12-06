@@ -1,0 +1,1141 @@
+<html lang="en" data-reactroot="" data-react-helmet="lang">
+
+<head>
+  <meta charset="utf-8">
+  <title>Copernicus Land Monitoring Service</title>
+  <meta data-react-helmet="true" name="twitter:card" content="summary_large_image">
+  <script type="text/javascript" async="" defer="" src="https://matomo.eea.europa.eu/matomo.js"></script>
+
+  <style type="text/css">
+    svg:not(:root).svg-inline--fa {
+      overflow: visible;
+    }
+
+    .svg-inline--fa {
+      display: inline-block;
+      font-size: inherit;
+      height: 1em;
+      overflow: visible;
+      vertical-align: -0.125em;
+    }
+
+    .svg-inline--fa.fa-lg {
+      vertical-align: -0.225em;
+    }
+
+    .svg-inline--fa.fa-w-1 {
+      width: 0.0625em;
+    }
+
+    .svg-inline--fa.fa-w-2 {
+      width: 0.125em;
+    }
+
+    .svg-inline--fa.fa-w-3 {
+      width: 0.1875em;
+    }
+
+    .svg-inline--fa.fa-w-4 {
+      width: 0.25em;
+    }
+
+    .svg-inline--fa.fa-w-5 {
+      width: 0.3125em;
+    }
+
+    .svg-inline--fa.fa-w-6 {
+      width: 0.375em;
+    }
+
+    .svg-inline--fa.fa-w-7 {
+      width: 0.4375em;
+    }
+
+    .svg-inline--fa.fa-w-8 {
+      width: 0.5em;
+    }
+
+    .svg-inline--fa.fa-w-9 {
+      width: 0.5625em;
+    }
+
+    .svg-inline--fa.fa-w-10 {
+      width: 0.625em;
+    }
+
+    .svg-inline--fa.fa-w-11 {
+      width: 0.6875em;
+    }
+
+    .svg-inline--fa.fa-w-12 {
+      width: 0.75em;
+    }
+
+    .svg-inline--fa.fa-w-13 {
+      width: 0.8125em;
+    }
+
+    .svg-inline--fa.fa-w-14 {
+      width: 0.875em;
+    }
+
+    .svg-inline--fa.fa-w-15 {
+      width: 0.9375em;
+    }
+
+    .svg-inline--fa.fa-w-16 {
+      width: 1em;
+    }
+
+    .svg-inline--fa.fa-w-17 {
+      width: 1.0625em;
+    }
+
+    .svg-inline--fa.fa-w-18 {
+      width: 1.125em;
+    }
+
+    .svg-inline--fa.fa-w-19 {
+      width: 1.1875em;
+    }
+
+    .svg-inline--fa.fa-w-20 {
+      width: 1.25em;
+    }
+
+    .svg-inline--fa.fa-pull-left {
+      margin-right: 0.3em;
+      width: auto;
+    }
+
+    .svg-inline--fa.fa-pull-right {
+      margin-left: 0.3em;
+      width: auto;
+    }
+
+    .svg-inline--fa.fa-border {
+      height: 1.5em;
+    }
+
+    .svg-inline--fa.fa-li {
+      width: 2em;
+    }
+
+    .svg-inline--fa.fa-fw {
+      width: 1.25em;
+    }
+
+    .fa-layers svg.svg-inline--fa {
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .fa-layers {
+      display: inline-block;
+      height: 1em;
+      position: relative;
+      text-align: center;
+      vertical-align: -0.125em;
+      width: 1em;
+    }
+
+    .fa-layers svg.svg-inline--fa {
+      -webkit-transform-origin: center center;
+      transform-origin: center center;
+    }
+
+    .fa-layers-counter,
+    .fa-layers-text {
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+    }
+
+    .fa-layers-text {
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -webkit-transform-origin: center center;
+      transform-origin: center center;
+    }
+
+    .fa-layers-counter {
+      background-color: #ff253a;
+      border-radius: 1em;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      color: #fff;
+      height: 1.5em;
+      line-height: 1;
+      max-width: 5em;
+      min-width: 1.5em;
+      overflow: hidden;
+      padding: 0.25em;
+      right: 0;
+      text-overflow: ellipsis;
+      top: 0;
+      -webkit-transform: scale(0.25);
+      transform: scale(0.25);
+      -webkit-transform-origin: top right;
+      transform-origin: top right;
+    }
+
+    .fa-layers-bottom-right {
+      bottom: 0;
+      right: 0;
+      top: auto;
+      -webkit-transform: scale(0.25);
+      transform: scale(0.25);
+      -webkit-transform-origin: bottom right;
+      transform-origin: bottom right;
+    }
+
+    .fa-layers-bottom-left {
+      bottom: 0;
+      left: 0;
+      right: auto;
+      top: auto;
+      -webkit-transform: scale(0.25);
+      transform: scale(0.25);
+      -webkit-transform-origin: bottom left;
+      transform-origin: bottom left;
+    }
+
+    .fa-layers-top-right {
+      right: 0;
+      top: 0;
+      -webkit-transform: scale(0.25);
+      transform: scale(0.25);
+      -webkit-transform-origin: top right;
+      transform-origin: top right;
+    }
+
+    .fa-layers-top-left {
+      left: 0;
+      right: auto;
+      top: 0;
+      -webkit-transform: scale(0.25);
+      transform: scale(0.25);
+      -webkit-transform-origin: top left;
+      transform-origin: top left;
+    }
+
+    .fa-lg {
+      font-size: 1.3333333333em;
+      line-height: 0.75em;
+      vertical-align: -0.0667em;
+    }
+
+    .fa-xs {
+      font-size: 0.75em;
+    }
+
+    .fa-sm {
+      font-size: 0.875em;
+    }
+
+    .fa-1x {
+      font-size: 1em;
+    }
+
+    .fa-2x {
+      font-size: 2em;
+    }
+
+    .fa-3x {
+      font-size: 3em;
+    }
+
+    .fa-4x {
+      font-size: 4em;
+    }
+
+    .fa-5x {
+      font-size: 5em;
+    }
+
+    .fa-6x {
+      font-size: 6em;
+    }
+
+    .fa-7x {
+      font-size: 7em;
+    }
+
+    .fa-8x {
+      font-size: 8em;
+    }
+
+    .fa-9x {
+      font-size: 9em;
+    }
+
+    .fa-10x {
+      font-size: 10em;
+    }
+
+    .fa-fw {
+      text-align: center;
+      width: 1.25em;
+    }
+
+    .fa-ul {
+      list-style-type: none;
+      margin-left: 2.5em;
+      padding-left: 0;
+    }
+
+    .fa-ul>li {
+      position: relative;
+    }
+
+    .fa-li {
+      left: -2em;
+      position: absolute;
+      text-align: center;
+      width: 2em;
+      line-height: inherit;
+    }
+
+    .fa-border {
+      border: solid 0.08em #eee;
+      border-radius: 0.1em;
+      padding: 0.2em 0.25em 0.15em;
+    }
+
+    .fa-pull-left {
+      float: left;
+    }
+
+    .fa-pull-right {
+      float: right;
+    }
+
+    .fa.fa-pull-left,
+    .fas.fa-pull-left,
+    .far.fa-pull-left,
+    .fal.fa-pull-left,
+    .fab.fa-pull-left {
+      margin-right: 0.3em;
+    }
+
+    .fa.fa-pull-right,
+    .fas.fa-pull-right,
+    .far.fa-pull-right,
+    .fal.fa-pull-right,
+    .fab.fa-pull-right {
+      margin-left: 0.3em;
+    }
+
+    .fa-spin {
+      -webkit-animation: fa-spin 2s infinite linear;
+      animation: fa-spin 2s infinite linear;
+    }
+
+    .fa-pulse {
+      -webkit-animation: fa-spin 1s infinite steps(8);
+      animation: fa-spin 1s infinite steps(8);
+    }
+
+    @-webkit-keyframes fa-spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes fa-spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    .fa-rotate-90 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+
+    .fa-rotate-180 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+
+    .fa-rotate-270 {
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg);
+    }
+
+    .fa-flip-horizontal {
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+      -webkit-transform: scale(-1, 1);
+      transform: scale(-1, 1);
+    }
+
+    .fa-flip-vertical {
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+      -webkit-transform: scale(1, -1);
+      transform: scale(1, -1);
+    }
+
+    .fa-flip-both,
+    .fa-flip-horizontal.fa-flip-vertical {
+      -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+      -webkit-transform: scale(-1, -1);
+      transform: scale(-1, -1);
+    }
+
+    :root .fa-rotate-90,
+    :root .fa-rotate-180,
+    :root .fa-rotate-270,
+    :root .fa-flip-horizontal,
+    :root .fa-flip-vertical,
+    :root .fa-flip-both {
+      -webkit-filter: none;
+      filter: none;
+    }
+
+    .fa-stack {
+      display: inline-block;
+      height: 2em;
+      position: relative;
+      width: 2.5em;
+    }
+
+    .fa-stack-1x,
+    .fa-stack-2x {
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .svg-inline--fa.fa-stack-1x {
+      height: 1em;
+      width: 1.25em;
+    }
+
+    .svg-inline--fa.fa-stack-2x {
+      height: 2em;
+      width: 2.5em;
+    }
+
+    .fa-inverse {
+      color: #fff;
+    }
+
+    .sr-only {
+      border: 0;
+      clip: rect(0, 0, 0, 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+
+    .sr-only-focusable:active,
+    .sr-only-focusable:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+
+    .svg-inline--fa .fa-primary {
+      fill: var(--fa-primary-color, currentColor);
+      opacity: 1;
+      opacity: var(--fa-primary-opacity, 1);
+    }
+
+    .svg-inline--fa .fa-secondary {
+      fill: var(--fa-secondary-color, currentColor);
+      opacity: 0.4;
+      opacity: var(--fa-secondary-opacity, 0.4);
+    }
+
+    .svg-inline--fa.fa-swap-opacity .fa-primary {
+      opacity: 0.4;
+      opacity: var(--fa-secondary-opacity, 0.4);
+    }
+
+    .svg-inline--fa.fa-swap-opacity .fa-secondary {
+      opacity: 1;
+      opacity: var(--fa-primary-opacity, 1);
+    }
+
+    .svg-inline--fa mask .fa-primary,
+    .svg-inline--fa mask .fa-secondary {
+      fill: black;
+    }
+
+    .fad.fa-inverse {
+      color: #fff;
+    }
+  </style>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="generator" content="Plone 6 - https://plone.org">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" as="style" href="/demo.css" />
+
+  <meta property="og:title" content="Copernicus Land Monitoring Service" >
+  <meta property="og:description" content="Copernicus Land Monitoring Service" >
+</head>
+
+<body
+  class="view-viewview contenttype-document section-en section-about-us is-authenticated public-ui ccl-style ccl-color_land view-component with-scrollbar has-toolbar has-banner">
+  <div id="main">
+    <div class="skiplinks-wrapper" role="complementary" aria-label="skiplinks"><a class="skiplink" href="#view">Skip to
+        main content</a><a class="skiplink" href="#navigation">Skip to navigation</a><a class="skiplink"
+        href="#footer">Skip to footer</a>
+    </div>
+    <div>
+      <header class="ccl-header">
+        <div class="ccl-header-tools">
+          <div class="ccl-container">
+            <div class="ccl-main-menu-collapse-button" tabindex="0" role="button"><span class="ccl-icon-menu"></span>
+            </div>
+            <div class="ccl-search-collapse-button" tabindex="0" role="button"><span class="ccl-icon-zoom"></span></div>
+            <div class="ccl-header-tools-container">
+              <ul class="ccl-header-menu-tools">
+
+              </ul>
+              <div class="ccl-header-search-hidden">
+                <form action="/global-search" class="ui form ccl-header-search">
+                  <div class="ui input"><input type="text" aria-label="Search" name="SearchableText" value=""
+                      autocomplete="off" placeholder="Search Site" title="Search"></div><button type="submit"
+                    aria-label="Search"><span class="ccl-icon-zoom" role="button" tabindex="0"></span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ccl-header-nav ">
+          <div class="ccl-container">
+            <div class="ccl-header-logos-container">
+              <div class="ccl-header-logo-container"><a href="https://www.copernicus.eu/en" target="_blank"
+                  rel="noreferrer" class="ccl-header-logo ccl-service-button"><img title="Copernicus Logo"
+                    src="/EU-Cop-logo.4120d6e3.svg" alt="Copernicus Logo" height="44"
+                    class="ui image"></a><a title="Land Monitoring Service Site"
+                  class="ccl-header-logo ccl-service-button" href="/en"><img title="Copernicus Land Logo"
+                    src="/ccl-icon-land-text.bfaba89b.svg" alt="Copernicus Land Logo" height="44"
+                    class="ui image"></a></div>
+            </div>
+            <nav class="ccl-main-menu">
+              <ul class="ccl-header-main-menu">
+
+              </ul>
+              <ul class="ccl-header-menu-tools ccl-collapsible-toolmenu">
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <hr>
+      </header>
+    </div>
+    <nav aria-label="Breadcrumbs" class="ccl-breadcrumb">
+    </nav>
+    <div class="ui basic segment content-area">
+      <main>
+        <div id="view">
+          <div id="page-document" class="ui container">
+            <div class="styled-tabs_block styled">
+              <div class="tabs-block CCLVerticalTabs light flex-start" id="6d70259a-f7a4-4555-a17c-6ace47108903">
+                <div class="styled-tab styled">
+                  <div class="ccl-container ccl-container-flex tab-container">
+                    <div class="right-content cont-w-75">
+                      <div class="panel panel-selected" role="tabpanel" aria-hidden="false">
+                        <div>
+                          <h1 class="documentFirstHeading">Copernicus Land Monitoring Service</h1>
+
+                          <h2 class="styled-slate" id="1ae18f72-128f-4953-9851-ed37191e5b51">
+                            You are using an outdated browser
+                          </h2>
+                          <p class="styled-slate"> You are using an outdated browser which is deprecated by its vendor. That means that it does not get security updates and it is not ready for current modern web features, which deteriorates the user experience. Please upgrade to a modern browser. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="ccl-footer">
+      <div class="ccl-footer-main">
+        <div class="ccl-footer-logo"><a href="https://www.copernicus.eu/en" target="_blank" rel="noreferrer"><img
+              class="ccl-footer-logo-img" src="/copernicus_eu_logo_white.4fb5579e.svg"
+              alt="Copernicus"></a></div>
+        <div class="ccl-container ccl-container-flex">
+          <div class="ccl-footer-col">
+            <div class="ccl-footer-col-title border-bottom">Copernicus Services</div>
+            <div class="ccl-footer-services"><a href="https://atmosphere.copernicus.eu/" target="_blank"
+                rel="noreferrer"
+                class="ccl-service-button ccl-service-button-link ccl-service-button-w ccl-service-button-atmosphere">
+                <div>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="117.055" height="117.054" viewBox="0 0 117.055 117.054"
+                      class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/ccl-icon-atmosphere.51d264a1.svg">
+                      <defs>
+                        <clipPath id="clip-path-35">
+                          <rect id="Rectangle_102" data-name="Rectangle 102" width="117.055" height="117.055"
+                            transform="translate(0 0)" fill="none"></rect>
+                        </clipPath>
+                      </defs>
+                      <g id="Mask_Group_17" data-name="Mask Group 17" clip-path="url(#clip-path-35)">
+                        <g id="CAMS" transform="translate(6.847 3.178)">
+                          <g id="Group-3" transform="translate(0 0)">
+                            <path id="Fill-1-36"
+                              d="M0,55.369c0,30.546,24.452,55.309,54.611,55.309a53.266,53.266,0,0,0,24.167-5.713.152.152,0,0,0,.063-.211.146.146,0,0,0-.2-.059,48.213,48.213,0,0,1-18.016,3.417c-27.459,0-49.714-22.611-49.714-50.512S33.167,7.083,60.626,7.083a49.542,49.542,0,0,1,44.493,27.88s.072.153.191.106c.134-.051.064-.2.064-.2A54.536,54.536,0,0,0,54.611.064C24.452.064,0,24.823,0,55.369"
+                              transform="translate(0 -0.064)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          </g>
+                          <path id="Fill-4-37"
+                            d="M95.266,35.358a43.529,43.529,0,0,0-7.42-8.3,51.089,51.089,0,0,0-14.119-8.735,52.387,52.387,0,0,0-39.988,0,51.067,51.067,0,0,0-14.12,8.735,43.522,43.522,0,0,0-7.421,8.3c-1.458,2.188-2.014,3.546-1.786,3.7.248.175,1.253-.856,3.047-2.659a70.3,70.3,0,0,1,8.022-7.017,55.855,55.855,0,0,1,13.671-7.439,52.963,52.963,0,0,1,37.16,0,55.87,55.87,0,0,1,13.672,7.439A70.308,70.308,0,0,1,94.006,36.4c1.794,1.8,2.8,2.834,3.047,2.66.226-.16-.329-1.518-1.787-3.706"
+                            transform="translate(8.177 11.215)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-5-38"
+                            d="M42.977,24.706c-8.9,1.485-21.289,7.783-21.289,35.058,0,0,5.129-21.674,11.733-27.832s13.619-5.922,13.619-5.922"
+                            transform="translate(17.114 19.381)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-6-39"
+                            d="M37.163,24.706c8.9,1.485,21.289,7.783,21.289,35.058,0,0-5.129-21.674-11.733-27.832S33.1,26.009,33.1,26.009"
+                            transform="translate(26.119 19.381)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-7-40" d="M37.1,24.044s-5.66,12.08-5.66,35.175c0,0,4.485-26.781,10.14-33.989"
+                            transform="translate(24.811 18.858)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-8-41"
+                            d="M20.678,31.839A37.333,37.333,0,0,0,13.472,53.95c0,.981.048,1.949.122,2.911A37.363,37.363,0,0,1,23.636,34.113a17.314,17.314,0,0,1-2.958-2.275"
+                            transform="translate(10.63 25.009)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-9-42"
+                            d="M58.645,55.569c.075-.961.122-1.93.122-2.912A37.354,37.354,0,0,0,53.5,33.476a31.676,31.676,0,0,1-3.043,1.467,37.325,37.325,0,0,1,8.187,20.626"
+                            transform="translate(39.815 26.301)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-10-43"
+                            d="M46.928,29.114a37.021,37.021,0,0,1,27,11.667A38.337,38.337,0,0,0,77.466,39.3a37.133,37.133,0,0,0-59.2-2.486,22.872,22.872,0,0,0,3.477,2.163,36.994,36.994,0,0,1,25.182-9.86"
+                            transform="translate(14.415 18.263)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-11-44"
+                            d="M49.234,37.559c-11.463,0-21.661-2.154-28.186-5.5-.654.605-1.284,1.237-1.9,1.887,6.334,3.954,17.435,6.578,30.081,6.578,10.217,0,19.423-1.713,25.927-4.456q-.92-1.142-1.93-2.2a72.568,72.568,0,0,1-24,3.7"
+                            transform="translate(15.113 25.181)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-12-45"
+                            d="M49.38,33.72q1.008,1.064,1.93,2.2a31.672,31.672,0,0,0,3.043-1.467c-.454-.757-.935-1.5-1.436-2.218A37.365,37.365,0,0,1,49.38,33.72"
+                            transform="translate(38.964 25.323)" fill="#55bfd0" fill-rule="evenodd"></path>
+                          <path id="Fill-13-46"
+                            d="M22.353,33.01a22.783,22.783,0,0,1-3.477-2.163c-.478.578-.933,1.169-1.376,1.774A17.313,17.313,0,0,0,20.458,34.9c.611-.65,1.242-1.281,1.9-1.886"
+                            transform="translate(13.808 24.226)" fill="#55bfd0" fill-rule="evenodd"></path>
+                        </g>
+                      </g>
+                    </svg></div>
+                </div>Atmosphere
+              </a><a href="https://marine.copernicus.eu/" target="_blank" rel="noreferrer"
+                class="ccl-service-button ccl-service-button-link ccl-service-button-w ccl-service-button-marine">
+                <div>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                      id="Layer_1" x="0px" y="0px" viewBox="0 0 117.1 117.1"
+                      style="enable-background:new 0 0 117.1 117.1;" xml:space="preserve"
+                      class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/ccl-icon-marine.e1e59931.svg">
+
+                      <g>
+                        <path fill="#1484A8"
+                          d="M5,59c0,30.3,24.4,54.7,54.2,54.7c8.6,0,16.6-1.9,24.1-5.6c0,0,0.3,0,0-0.3h-0.3c-5.6,2.1-11.5,3.5-18,3.5     C38,111.3,15.8,89,15.8,61.4S38,11.2,65.4,11.2c19.3,0,36.2,11.3,44.3,27.6c0,0,0,0.3,0.3,0c0.3,0,0-0.3,0-0.3     c-8-20.1-27.6-34.3-50.7-34.3C29.4,4.2,5,28.6,5,59">
+                        </path>
+                        <path fill="#1484A8"
+                          d="M104,79.1v-7C77.7,82.8,51.7,62.7,25.4,71c0.8,2.1,1.9,4,3.2,5.9C53.6,71.3,78.8,89.5,104,79.1">
+                        </path>
+                        <path fill="#1484A8"
+                          d="M88.4,51.4c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4     C90.6,50.4,89.8,51.4,88.4,51.4 M77.2,50.6c0-3.2,2.1-6.2,5.4-6.7c-1.9,1.6-3,4-3,6.7s1.1,5.1,3,6.7C79.3,56.8,77.2,54.1,77.2,50.6      M64,33.7v4.6c-5.9,1.6-12.6,4.6-19.9,9.9c-0.5-0.8-4-5.6-12.6-8c2.4,7.5,3.2,11,3.2,11s-0.8,3.5-3.2,11c9.1-2.7,12.3-7.8,12.9-8.3     c37.3,26,53.7-3,53.7-3C88.7,35.9,64,33.7,64,33.7">
+                        </path>
+                      </g>
+                    </svg></div>
+                </div>Marine
+              </a><a href="https://land.copernicus.eu/" target="_blank" rel="noreferrer"
+                class="ccl-service-button ccl-service-button-link ccl-service-button-w ccl-service-button-land">
+                <div>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                      id="Layer_1" x="0px" y="0px" viewBox="0 0 117.1 117.1"
+                      style="enable-background:new 0 0 117.1 117.1;" xml:space="preserve"
+                      class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/ccl-icon-land.9bab9e8e.svg">
+
+                      <g>
+                        <path fill="#B0BD21"
+                          d="M72.3,77.7l0.8-3.2l0.4,0.2c-3-6-1.4-12.9-1.2-13.3l0.8-3.2l0.4,0.2c-3-6-1.4-12.9-1.2-13.3l0.8-3.2l3.2,1.2     c0.4,0.2,1,0.4,1.4,0.6V30.7H61v54h-3.4V55.1h-4v-9.7H38.9v39.3h-3.4V65.2h-4V45.5h-9.9c-1.6,4.8-2.6,10.1-2.6,15.7     c0,10.1,3.2,19.6,8.7,27.2h45.2C70.9,83.2,72.1,77.9,72.3,77.7">
+                        </path>
+                        <path fill="#B0BD21"
+                          d="M110.2,38.4C102.2,18,82.6,3.7,59.6,3.7C29.4,3.7,5,28.3,5,58.8s24.4,55,54.6,55c8.7,0,16.7-2,24.2-5.6     c0,0,0.2,0,0-0.2c0-0.2-0.2,0-0.2,0c-5.6,2.2-11.7,3.4-17.9,3.4c-27.4,0-49.6-22.6-49.6-50.4s22.2-50.4,49.6-50.4     c19.6,0,36.3,11.3,44.3,27.8C110,38.4,110,38.6,110.2,38.4C110.2,38.6,110.2,38.4,110.2,38.4">
+                        </path>
+                        <path fill="#B0BD21" d="M89.5,96.3c15.7-2,11.7-17.9,11.7-17.9S87.2,84.2,89.5,96.3"></path>
+                        <path fill="#B0BD21" d="M89.5,79.9c15.7-2,11.7-17.9,11.7-17.9S87.2,67.8,89.5,79.9"></path>
+                        <path fill="#B0BD21"
+                          d="M77.6,79.7c-1.4-0.8-2.6-1.2-2.6-1.2s-1.2,5,0.6,9.9C77,92,80,95.5,86.8,96.3C88.5,87.4,81.6,81.9,77.6,79.7">
+                        </path>
+                        <path fill="#B0BD21"
+                          d="M77.6,63.4c-1.4-0.8-2.6-1.2-2.6-1.2s-2,8.1,2.6,13.5c1.8,2.2,4.6,3.8,9.1,4.4C88.5,71.1,81.6,65.6,77.6,63.4">
+                        </path>
+                        <path fill="#B0BD21"
+                          d="M86.8,63.6c1.6-8.9-5.2-14.3-9.1-16.5c-1.4-0.8-2.6-1.2-2.6-1.2s-2,8.1,2.6,13.5C79.4,61.4,82.4,63,86.8,63.6">
+                        </path>
+                        <path fill="#B0BD21" d="M89.5,63.6c15.7-2,11.7-17.9,11.7-17.9S87.2,51.5,89.5,63.6"></path>
+                        <path fill="#B0BD21" d="M88.3,30.7c0,0-11.3,8.9,0,21C99.3,39.4,88.3,30.7,88.3,30.7"></path>
+                      </g>
+                    </svg></div>
+                </div>Land
+              </a><a href="https://www.copernicus.eu/en/services/security" target="_blank" rel="noreferrer"
+                class="ccl-service-button ccl-service-button-link ccl-service-button-w ccl-service-button-security">
+                <div>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                      id="Layer_1" x="0px" y="0px" viewBox="0 0 117.1 117.1"
+                      style="enable-background:new 0 0 117.1 117.1;" xml:space="preserve"
+                      class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/ccl-icon-security.c98f450b.svg">
+
+                      <g>
+                        <path fill="#618888"
+                          d="M5,58.8c0,30.4,24.5,54.9,54.3,54.9c8.6,0,16.7-1.9,24.2-5.6c0,0,0,0,0-0.3h-0.3c-5.6,2.2-11.6,3.5-18,3.5   c-27.4,0-49.5-22.6-49.5-50.3s22.1-50.3,49.5-50.3c19.4,0,36.3,11.3,44.4,27.7c0,0,0,0.3,0.3,0c0.3,0,0-0.3,0-0.3   C101.9,17.6,82.3,3.4,59.4,3.4C29.3,3.9,5,28.4,5,58.8">
+                        </path>
+                        <path fill="#618888" d="M65.6,34.1L65.6,34.1C65.3,34.1,65.3,34.1,65.6,34.1"></path>
+                        <path fill="#618888"
+                          d="M63.2,89.2v-56c7,5.1,16.4,8.6,26.6,9.4c0,1.1,0,1.9,0,3C89.8,65.5,79,83.3,63.2,89.2 M94.6,38.1   c-12.9,0-24.5-4.3-31.2-11c-6.7,6.7-18.3,11-31.2,11c-0.3,2.7-0.5,5.1-0.5,7.8c0,23.7,13.5,43.6,31.7,49.2   c18.3-5.9,31.7-25.8,31.7-49.2C94.9,43.5,94.9,40.8,94.6,38.1">
+                        </path>
+                      </g>
+                    </svg></div>
+                </div>Security
+              </a><a href="https://climate.copernicus.eu/" target="_blank" rel="noreferrer"
+                class="ccl-service-button ccl-service-button-link ccl-service-button-w ccl-service-button-climate">
+                <div>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                      width="117.055" height="117.054" viewBox="0 0 117.055 117.054"
+                      class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/ccl-icon-climate.9c838446.svg">
+                      <defs>
+                        <clipPath id="clip-path-47">
+                          <rect id="Rectangle_103" data-name="Rectangle 103" width="117.055" height="117.055"
+                            fill="none"></rect>
+                        </clipPath>
+                      </defs>
+                      <g id="Mask_Group_18" data-name="Mask Group 18" clip-path="url(#clip-path-47)">
+                        <g id="Climate_change" transform="translate(5.017 3.519)">
+                          <g id="C3S_POS_LINE" data-name="C3S–POS–LINE" transform="translate(0 0)">
+                            <path id="Fill-44-48"
+                              d="M0,55.251c0,30.428,24.4,55.1,54.5,55.1a53.236,53.236,0,0,0,24.119-5.69.149.149,0,0,0,.064-.209.14.14,0,0,0-.2-.06,48.255,48.255,0,0,1-17.982,3.4c-27.4,0-49.616-22.526-49.616-50.318S33.1,7.15,60.505,7.15a49.448,49.448,0,0,1,44.406,27.774s.071.151.19.1c.135-.05.065-.2.065-.2A54.426,54.426,0,0,0,54.5.157C24.4.157,0,24.822,0,55.251"
+                              transform="translate(0 -0.157)" fill="#7d1e34" fill-rule="evenodd"></path>
+                            <path id="Fill-45-49" d="M40.273,48.224V25.556h3.692V48.224a5.074,5.074,0,1,1-3.692,0"
+                              transform="translate(29.684 20.195)" fill="#7d1e34" fill-rule="evenodd"></path>
+                            <path id="Fill-46-50"
+                              d="M50.969,28.821a7.247,7.247,0,0,0-.123-1.353A6.653,6.653,0,0,0,40.829,23a6.567,6.567,0,0,0-2.763,3.461,6.393,6.393,0,0,0-.338,2.077l.043,1.711c.256,8.8.608,14.24,1,14.24s.806-7.006,1.062-15.8a4.214,4.214,0,1,1,8.429,0V49.084c.306.243.582.481.881.733.17.147.258.231.383.354a7.589,7.589,0,0,1,1.637,2.389,7.61,7.61,0,0,1,.6,3.7,7.729,7.729,0,0,1-3.642,5.886,7.832,7.832,0,0,1-6.316.834,8.047,8.047,0,0,1-4.521-3.443,8.306,8.306,0,0,1-1.258-4.655,8.722,8.722,0,0,1,.916-3.639,11.4,11.4,0,0,1,1.335-2.063c.355-.453.554-.7.5-.777s-.364.032-.865.38A7.609,7.609,0,0,0,36.037,50.7a9.015,9.015,0,0,0-1.52,4.059,9.615,9.615,0,0,0,1.1,5.737,9.913,9.913,0,0,0,5.488,4.634,10.088,10.088,0,0,0,8.3-.81,10.28,10.28,0,0,0,2.1-16.144c-.15-.151-.346-.332-.47-.441,0,0,0,0,0,0l-.068-18.916"
+                              transform="translate(27.605 17.364)" fill="#7d1e34" fill-rule="evenodd"></path>
+                            <path id="Fill-47-51"
+                              d="M12.064,43.616a11.774,11.774,0,0,1,8.773-7.539A16.011,16.011,0,0,1,37.021,21.058a16.565,16.565,0,0,1,8.739,2.469,19.484,19.484,0,0,1,17.006-9.591c10.715,0,19.406,8.293,19.406,18.518a17.785,17.785,0,0,1-.319,3.362,12.763,12.763,0,0,1,6.53,2.261,11.5,11.5,0,0,1,3.929,4.91,9.662,9.662,0,0,1,.775,3.835c-.021.892-.168,1.344-.284,1.344-.136,0-.235-.451-.445-1.258a12.883,12.883,0,0,0-1.316-3.3,10.779,10.779,0,0,0-3.773-3.839h-.021a13.02,13.02,0,0,0-6.638-1.542c-.577,0-1.142.029-1.687.08A18.123,18.123,0,0,0,79.37,34.5a16.724,16.724,0,0,0-32.535-5.779,13.351,13.351,0,0,0-13-4.05c-6.717,1.477-11.2,7.429-10.458,13.562a11.044,11.044,0,0,0-10.094,5.9,13.874,13.874,0,0,0-1.076,2.933c-.178.709-.275,1.1-.4,1.1-.11,0-.243-.392-.282-1.171a9.457,9.457,0,0,1,.537-3.379"
+                              transform="translate(9.233 10.884)" fill="#7d1e34" fill-rule="evenodd"></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></div>
+                </div>Climate Change
+              </a><a href="https://emergency.copernicus.eu/" target="_blank" rel="noreferrer"
+                class="ccl-service-button ccl-service-button-link ccl-service-button-w ccl-service-button-emergency">
+                <div>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                      id="Layer_1" x="0px" y="0px" viewBox="0 0 117.1 117.1"
+                      style="enable-background:new 0 0 117.1 117.1;" xml:space="preserve"
+                      class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/ccl-icon-emergency.2c6b2994.svg">
+
+                      <g>
+                        <path fill="#FAA73E"
+                          d="M5,60.1c0,30.5,24.6,55.1,54.5,55.1c8.6,0,16.7-1.9,24.3-5.7c0,0,0.3,0,0-0.3h-0.3c-5.7,2.2-11.6,3.5-18.1,3.5   c-27.3,0-49.7-22.4-49.7-50.2S38.2,12,65.8,12c19.4,0,36.5,11.3,44.6,27.8c0,0,0,0.3,0.3,0v-0.3C102.5,19.3,82.8,5,59.5,5   C29.6,5,5,29.6,5,60.1">
+                        </path>
+                        <path fill="#FAA73E"
+                          d="M65.8,68.5c-1.9,0-3.2-2.4-3.2-4.3c0-1.9,1.4-3.2,3.2-3.2c1.9,0,3.2,1.4,3.2,3.2C69,66,67.6,68.5,65.8,68.5    M65.8,22L26.3,86.3c0,1.6,2.2,3.5,2.2,3.5h6.8c3.8-5.9,6.2-16.5,6.2-16.5s2.7-8.6,8.4-14s10-5.9,10-5.9c1.1-0.3,1.1,0.5,1.1,1.1   c0,0.5-0.5,1.1-1.1,1.1c0,0-8.1,2.2-11.9,16.7c-0.3,0.8,1.6,2.2,1.9,1.4l2.2-5.7c1.4-3.5,2.7-4.3,3.2-4.3c0,0,1.9-0.3,1.4,2.7   c-1.1,13-7,20-10.8,23.2h15.4v-8.6h-1.4v-5.7c-0.3-3.8,1.6-5.7,3-6.5l3,3.2l3-3.2c1.1,0.8,3,2.7,3,6.5v5.9h-1.4v8.6h15.4   c-3.8-3.2-9.5-10-10.8-23.2c-0.3-2.7,1.4-2.7,1.4-2.7c0.5,0,1.9,0.5,3.2,4.3l2.2,5.7c0.3,0.8,2.2-0.5,1.9-1.4   c-3.8-14.6-11.9-16.7-11.9-16.7c-0.5-0.3-1.1-0.5-1.1-1.1c0-0.5,0-1.4,1.1-1.1c0,0,4.3,0.3,10,5.9c5.7,5.4,8.4,14,8.4,14   s2.2,10.8,7.6,16.5h9.7L65.8,22z">
+                        </path>
+                      </g>
+                    </svg></div>
+                </div>Emergency
+              </a></div>
+          </div>
+          <div class="ccl-footer-col">
+
+
+
+          </div>
+          <div class="ccl-footer-col">
+            <div class="ccl-footer-col-title border-bottom">Implemented by</div>
+            <div class="footer-implemented footer-implemented-eea"><a href="https://www.eea.europa.eu/" target="_blank"
+                rel="noreferrer">
+                <div>
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                      id="ccl-svg--_img_eea_logo_svg" x="0px" y="0px" viewBox="0 0 218.1 43"
+                      style="enable-background:new 0 0 218.1 43;" xml:space="preserve"
+                      class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/eea-logo.b8a31140.svg">
+                      <style type="text/css">
+                        .st0 {
+                          fill: #005A9A;
+                        }
+
+                        .st1 {
+                          fill: #008A8B;
+                        }
+
+                        .st2 {
+                          fill: #FFFFFF;
+                        }
+                      </style>
+                      <g>
+                        <g>
+                          <path class="st0"
+                            d="M31.8,21.8c0-2.7-1-5.2-2.9-7c-0.4-0.4-0.8-0.7-1.2-1l-1.6,2.6c1.6,1.3,2.8,3.2,2.8,5.4    c0,3.9-3.2,7.1-7.1,7.1c-0.9,0-1.8-0.2-2.6-0.5l-1.4,2.5c1.3,0.6,2.6,0.9,4,0.9C27.4,31.7,31.8,27.3,31.8,21.8z">
+                          </path>
+                          <g>
+                            <path class="st1"
+                              d="M29.3,3.8c0-0.9-0.1-1.8-0.3-2.6l-0.1-0.3l-0.2,0.2c-0.6,0.6-1.2,1.2-1.8,1.9c-2.9,3.8-4.4,8.9-3.6,12v0.1     h0.1c0.2,0,0.4,0.1,0.5,0.1c0.2,0.1,0.4,0.1,0.6,0.2h0.1l0.1-0.1C27.5,13.5,29.4,8.5,29.3,3.8z">
+                            </path>
+                            <path class="st1"
+                              d="M19.2,0.2L19,0l-0.1,0.3c-0.3,0.8-0.6,1.6-0.7,2.5c-1,4.7-0.1,9.9,2.1,12.4l0.1,0.1h0.1     c0.2,0,0.4-0.1,0.5-0.1c0.2,0,0.4,0,0.6-0.1h0.1V15c1.5-3,1-8.3-1.2-12.5C20.1,1.6,19.7,0.8,19.2,0.2z">
+                            </path>
+                            <path class="st1"
+                              d="M12.1,5c-0.7-0.5-1.5-1-2.2-1.4L9.7,3.5v0.3c0.1,0.8,0.2,1.7,0.4,2.6c1.2,4.6,4.3,8.9,7.4,10.2h0.1l0.1-0.1     c0.1-0.1,0.3-0.2,0.4-0.3c0.2-0.1,0.3-0.2,0.5-0.3h0.1v-0.1C18.7,12.3,15.9,7.8,12.1,5z">
+                            </path>
+                            <path class="st1"
+                              d="M4.5,13.2c3.1,3.6,7.8,6.1,11.1,5.8h0.1v-0.1c0.1-0.2,0.1-0.3,0.2-0.5s0.2-0.4,0.3-0.5l0.1-0.1v-0.1     c-1.5-3-6-5.8-10.7-6.7c-0.9-0.2-1.8-0.3-2.6-0.3H2.7l0.1,0.2C3.3,11.8,3.9,12.5,4.5,13.2z">
+                            </path>
+                            <path class="st1"
+                              d="M15,22.1L15,22.1l0.1-0.1c0-0.2,0-0.4,0-0.5c0-0.2,0-0.4,0.1-0.6v-0.1l-0.1-0.1c-2.7-2-8-2.6-12.5-1.3     c-0.9,0.2-1.7,0.6-2.4,0.9L0,20.4l0.2,0.2c0.7,0.5,1.5,0.9,2.3,1.2C6.9,23.7,12.1,23.8,15,22.1z">
+                            </path>
+                            <path class="st1"
+                              d="M15.8,25.2L15.8,25.2V25c-0.1-0.2-0.2-0.3-0.2-0.5c-0.1-0.2-0.2-0.4-0.2-0.6v-0.1h-0.1     C12,23.2,7,25,3.5,28.2c-0.7,0.6-1.3,1.2-1.8,1.9l-0.2,0.3h0.3c0.8,0.1,1.7,0.1,2.6,0.1C9.1,30.2,13.9,28,15.8,25.2z">
+                            </path>
+                            <path class="st1"
+                              d="M17.4,27.2c-0.2-0.1-0.3-0.3-0.4-0.4l-0.1-0.1h-0.1c-3.3,0.9-6.9,4.7-8.6,9.1c-0.3,0.8-0.6,1.7-0.8,2.5     l-0.1,0.3l0.3-0.1c0.8-0.3,1.6-0.6,2.4-1.1c4.2-2.4,7.5-6.5,7.9-9.8v-0.1l-0.1-0.1C17.6,27.4,17.5,27.3,17.4,27.2z">
+                            </path>
+                          </g>
+                          <path class="st0"
+                            d="M40.7,24.8c0.8-0.2,1.5-0.4,2.1-0.7c0.1-0.8,0.1-2.7,0.1-2.9c-0.6-0.3-1.3-0.6-2-0.8    c-1.3-0.4-3.2-0.6-4.6-0.7c-0.2-1-0.1-0.5-0.3-1.5c1.2-0.6,2.8-1.6,3.9-2.6c0.6-0.5,1.1-1.1,1.5-1.6c-0.4-0.9-0.8-1.8-1.3-2.7    c-0.7,0-1.4,0.1-2.1,0.2c-1.4,0.3-3.1,1-4.4,1.5c-0.6-0.8-0.3-0.4-1-1.2c0.7-1.1,1.8-2.8,2.2-4.1c0.3-0.7,0.4-1.4,0.5-2    c-0.6-0.5-1.3-1-1.9-1.4l-4.6,7.9c0.5,0.4,1,0.8,1.4,1.2c2.2,2.2,3.5,5.2,3.5,8.4s-1.2,6.2-3.5,8.4c-2.2,2.2-5.2,3.5-8.4,3.5    c-1.7,0-3.3-0.4-4.8-1l-4.5,7.9c0.7,0.3,1.4,0.7,2.2,0.9c0.5-0.4,0.9-0.9,1.4-1.4c0.9-1.1,1.8-2.8,2.4-4c1,0.2,0.5,0.1,1.6,0.3    c0.2,1.3,0.4,3.2,0.9,4.6c0.3,0.7,0.5,1.4,0.8,2c0.1,0,2.1-0.1,3-0.2c0.2-0.6,0.4-1.3,0.5-2c0.3-1.4,0.3-3.3,0.2-4.6    c1-0.3,0.5-0.1,1.5-0.5c0.8,1.1,1.9,2.7,2.9,3.6c0.6,0.5,1.2,0.9,1.7,1.3c0.9-0.5,1.8-1,2.6-1.6c-0.1-0.6-0.3-1.3-0.5-2    c-0.4-1.3-1.3-3-2-4.2c0.8-0.7,0.4-0.3,1.1-1.1c1.2,0.6,2.9,1.5,4.3,1.8c0.7,0.2,1.5,0.3,2.2,0.4c0.6-0.8,1.1-1.7,1.5-2.6    c-0.4-0.5-0.9-1.1-1.4-1.6c-1-1-2.6-2.1-3.7-2.8c0.3-1,0.2-0.5,0.4-1.5C37.5,25.2,39.4,25.1,40.7,24.8z">
+                          </path>
+                        </g>
+                      </g>
+                      <path class="st2" d="M54.8,17.8h5.4v1.3h-4v2H60v1.3h-3.8v2.2h4.3v1.3h-5.6L54.8,17.8L54.8,17.8z">
+                      </path>
+                      <path class="st2"
+                        d="M66.6,26h-1.3v-0.9l0,0c-0.3,0.6-0.8,1-1.7,1c-1.5,0-2-1.1-2-2.2v-3.5H63v2.8c0,0.6,0,1.6,1,1.6  c0.9,0,1.3-0.7,1.3-1.4v-3h1.4V26H66.6z">
+                      </path>
+                      <path class="st2"
+                        d="M68.1,20.4h1.4v0.9l0,0c0.3-0.6,0.9-1,1.6-1c0.2,0,0.3,0,0.5,0.1v1.3c-0.2-0.1-0.5-0.1-0.7-0.1  c-1.3,0-1.5,1.1-1.5,1.4v3H68L68.1,20.4L68.1,20.4z">
+                      </path>
+                      <path class="st2"
+                        d="M75.1,20.3c1.7,0,3,1.2,3,2.9s-1.3,2.9-3,2.9s-3-1.2-3-2.9S73.4,20.3,75.1,20.3z M75.1,24.9  c1,0,1.6-0.8,1.6-1.7s-0.6-1.7-1.6-1.7s-1.6,0.8-1.6,1.7S74,24.9,75.1,24.9z">
+                      </path>
+                      <path class="st2"
+                        d="M79.1,20.4h1.3v0.9l0,0c0.4-0.7,1.1-1,1.9-1c1.7,0,2.7,1.3,2.7,2.9s-1.1,2.9-2.7,2.9c-1,0-1.6-0.5-1.9-0.8l0,0  v3.4H79L79.1,20.4L79.1,20.4z M82.1,21.5c-1,0-1.6,0.8-1.6,1.7s0.6,1.7,1.6,1.7s1.6-0.8,1.6-1.7S83.1,21.5,82.1,21.5z">
+                      </path>
+                      <path class="st2"
+                        d="M87.2,23.7c0.1,0.8,0.7,1.3,1.5,1.3c0.7,0,1.1-0.3,1.5-0.8l1,0.8c-0.6,0.8-1.5,1.1-2.4,1.1c-1.7,0-3-1.2-3-2.9  s1.3-2.9,3-2.9c1.6,0,2.6,1.1,2.6,3v0.4C91.4,23.7,87.2,23.7,87.2,23.7z M90.1,22.7c0-0.8-0.5-1.3-1.4-1.3c-0.8,0-1.3,0.5-1.4,1.3  H90.1z">
+                      </path>
+                      <path class="st2"
+                        d="M96.2,25.2L96.2,25.2c-0.4,0.6-1.1,0.9-1.8,0.9c-1,0-2-0.6-2-1.7c0-1.8,2.1-1.9,3.5-1.9h0.3v-0.2  c0-0.7-0.5-1-1.3-1c-0.6,0-1.1,0.2-1.5,0.6l-0.7-0.7c0.6-0.6,1.5-0.9,2.4-0.9c2.4,0,2.4,1.7,2.4,2.5V26h-1.3V25.2z M96.1,23.5h-0.3  c-0.8,0-2.1,0.1-2.1,0.9c0,0.5,0.5,0.7,1,0.7c1,0,1.4-0.5,1.4-1.3V23.5z">
+                      </path>
+                      <path class="st2"
+                        d="M98.6,20.4h1.3v0.9l0,0c0.3-0.6,0.8-1,1.7-1c1.5,0,2,1.1,2,2.2V26h-1.4v-2.8c0-0.6,0-1.6-1-1.6  c-0.9,0-1.3,0.7-1.3,1.4v3h-1.4v-5.6H98.6z">
+                      </path>
+                      <path class="st2" d="M108.7,17.8h5.4v1.3h-4v2h3.8v1.3h-3.8v2.2h4.2v1.3h-5.6V17.8z"></path>
+                      <path class="st2"
+                        d="M115.6,20.4h1.3v0.9l0,0c0.3-0.6,0.8-1,1.7-1c1.5,0,2,1.1,2,2.2V26h-1.4v-2.8c0-0.6,0-1.6-1-1.6  c-0.9,0-1.3,0.7-1.3,1.4v3h-1.4L115.6,20.4L115.6,20.4z">
+                      </path>
+                      <path class="st2" d="M121.3,20.4h1.5l1.5,3.9l0,0l1.5-3.9h1.4L125,26h-1.5L121.3,20.4z"></path>
+                      <path class="st2"
+                        d="M128,20.4h1.4V26H128V20.4z M128.7,17.7c0.5,0,0.9,0.4,0.9,0.8c0,0.5-0.4,0.8-0.9,0.8s-0.9-0.4-0.9-0.8  C127.8,18.1,128.2,17.7,128.7,17.7z">
+                      </path>
+                      <path class="st2"
+                        d="M130.9,20.4h1.4v0.9l0,0c0.3-0.6,0.9-1,1.6-1c0.2,0,0.3,0,0.5,0.1v1.3c-0.2-0.1-0.5-0.1-0.7-0.1  c-1.3,0-1.5,1.1-1.5,1.4v3h-1.4L130.9,20.4L130.9,20.4z">
+                      </path>
+                      <path class="st2"
+                        d="M137.9,20.3c1.7,0,3,1.2,3,2.9s-1.3,2.9-3,2.9s-3-1.2-3-2.9S136.2,20.3,137.9,20.3z M137.9,24.9  c1,0,1.6-0.8,1.6-1.7s-0.6-1.7-1.6-1.7s-1.6,0.8-1.6,1.7S136.9,24.9,137.9,24.9z">
+                      </path>
+                      <path class="st2"
+                        d="M141.9,20.4h1.3v0.9l0,0c0.3-0.6,0.8-1,1.7-1c1.5,0,2,1.1,2,2.2V26h-1.4v-2.8c0-0.6,0-1.6-1-1.6  c-0.9,0-1.3,0.7-1.3,1.4v3h-1.4L141.9,20.4L141.9,20.4z">
+                      </path>
+                      <path class="st2"
+                        d="M148.5,20.4h1.3v0.9l0,0c0.2-0.5,0.8-1,1.7-1s1.4,0.3,1.7,1c0.4-0.7,1-1,1.8-1c1.5,0,2,1.1,2,2.4V26h-1.4v-3.2  c0-0.7-0.2-1.3-1-1.3c-0.9,0-1.2,0.7-1.2,1.4v3H152v-3.3c0-0.7-0.3-1.1-1-1.1c-0.9,0-1.3,0.7-1.3,1.4v3h-1.2V20.4z">
+                      </path>
+                      <path class="st2"
+                        d="M159.5,23.7c0.1,0.8,0.7,1.3,1.5,1.3c0.7,0,1.1-0.3,1.5-0.8l1,0.8c-0.6,0.8-1.5,1.1-2.4,1.1c-1.7,0-3-1.2-3-2.9  s1.3-2.9,3-2.9c1.6,0,2.6,1.1,2.6,3v0.4C163.7,23.7,159.5,23.7,159.5,23.7z M162.3,22.7c0-0.8-0.5-1.3-1.4-1.3  c-0.8,0-1.3,0.5-1.4,1.3H162.3z">
+                      </path>
+                      <path class="st2"
+                        d="M164.9,20.4h1.3v0.9l0,0c0.3-0.6,0.8-1,1.7-1c1.5,0,2,1.1,2,2.2V26h-1.4v-2.8c0-0.6,0-1.6-1-1.6  c-0.9,0-1.3,0.7-1.3,1.4v3h-1.4L164.9,20.4L164.9,20.4z">
+                      </path>
+                      <path class="st2"
+                        d="M170.9,21.6v-1.2h1.1v-1.6h1.4v1.6h1.5v1.2h-1.5V24c0,0.6,0.2,0.9,0.8,0.9c0.2,0,0.6,0,0.8-0.2v1.2  c-0.3,0.1-0.8,0.2-1.1,0.2c-1.5,0-1.8-0.7-1.8-2v-2.6L170.9,21.6L170.9,21.6z">
+                      </path>
+                      <path class="st2"
+                        d="M182.1,17.8h1.3l3.5,8.2h-1.7l-0.8-1.9h-3.6l-0.7,1.9h-1.6L182.1,17.8z M184,22.9l-1.3-3.3l-1.3,3.3H184z">
+                      </path>
+                      <path class="st2"
+                        d="M193.2,20.4v5.1c0,2-1,3.3-3.1,3.3c-1,0-2-0.2-2.8-0.9l0.8-1.1c0.6,0.5,1.1,0.8,1.9,0.8c1.3,0,1.8-0.8,1.8-1.9  v-0.4l0,0c-0.4,0.5-1.1,0.8-1.8,0.8c-1.7,0-2.8-1.3-2.8-2.9s1-2.9,2.7-2.9c0.8,0,1.5,0.3,1.9,1l0,0v-0.8L193.2,20.4L193.2,20.4z   M188.6,23.2c0,0.9,0.7,1.6,1.6,1.6c1,0,1.7-0.7,1.7-1.6c0-1-0.6-1.6-1.6-1.6C189.2,21.5,188.6,22.2,188.6,23.2z">
+                      </path>
+                      <path class="st2"
+                        d="M195.6,23.7c0.1,0.8,0.7,1.3,1.5,1.3c0.7,0,1.1-0.3,1.5-0.8l1,0.8c-0.6,0.8-1.5,1.1-2.4,1.1c-1.7,0-3-1.2-3-2.9  s1.3-2.9,3-2.9c1.6,0,2.6,1.1,2.6,3v0.4C199.8,23.7,195.6,23.7,195.6,23.7z M198.4,22.7c0-0.8-0.5-1.3-1.4-1.3  c-0.8,0-1.3,0.5-1.4,1.3H198.4z">
+                      </path>
+                      <path class="st2"
+                        d="M200.8,20.4h1.3v0.9l0,0c0.3-0.6,0.8-1,1.7-1c1.5,0,2,1.1,2,2.2V26h-1.3v-2.8c0-0.6,0-1.6-1-1.6  c-0.9,0-1.3,0.7-1.3,1.4v3h-1.4V20.4z">
+                      </path>
+                      <path class="st2"
+                        d="M210.8,22.1c-0.3-0.3-0.7-0.6-1.1-0.6c-1,0-1.6,0.8-1.6,1.7s0.6,1.7,1.6,1.7c0.4,0,0.8-0.2,1.1-0.5l0.9,1  c-0.6,0.6-1.5,0.8-2,0.8c-1.7,0-3-1.2-3-2.9s1.3-2.9,3-2.9c0.7,0,1.5,0.3,2,0.8L210.8,22.1z">
+                      </path>
+                      <path class="st2"
+                        d="M212.2,20.4h1.5l1.6,3.9l0,0l1.4-3.9h1.4l-2.6,6.8c-0.4,1-0.9,1.6-2.1,1.6c-0.4,0-0.7,0-1.1-0.1l0.2-1.3  c0.2,0.1,0.5,0.1,0.7,0.1c0.7,0,0.9-0.2,1.1-0.8l0.3-0.7L212.2,20.4z">
+                      </path>
+                    </svg></div>
+                </div>
+              </a></div>
+            <div class="footer-implemented footer-implemented-ec"><a href="https://ec.europa.eu/" target="_blank"
+                rel="noreferrer">
+                <div class="ccl-ec-svg-wrapper">
+                  <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                      id="Capa_2" x="0px" y="0px" viewBox="0 0 254.6 72" style="enable-background:new 0 0 254.6 72;"
+                      xml:space="preserve" class="ccl-svg ccl-service-button-icon ccl-svg--processed"
+                      data-src="/static/media/ec-logo-white.bc30e07a.svg">
+                      <style type="text/css">
+                        .st0 {
+                          fill: #FFFFFF;
+                        }
+
+                        .st1 {
+                          fill: #034EA1;
+                          stroke: #FFFFFF;
+                          stroke-width: 2;
+                        }
+
+                        .st2 {
+                          fill: #FFF100;
+                        }
+                      </style>
+                      <g>
+                        <path class="st0"
+                          d="M144.2,34.1c0-0.3,0.1-0.4,0.4-0.4h7.1c0.2,0,0.4,0.1,0.4,0.4v1.2c0,0.2-0.1,0.3-0.4,0.3h-5.3V39h4.7   c0.3,0,0.4,0.1,0.4,0.3v1.2c0,0.2-0.1,0.3-0.4,0.3h-4.7v3.8h5.4c0.2,0,0.3,0.1,0.3,0.4v1.2c0,0.3-0.1,0.3-0.4,0.3h-7.2   c-0.3,0-0.4-0.1-0.4-0.3V34.1z">
+                        </path>
+                        <path class="st0"
+                          d="M161.9,46.6h-1.4c-0.3,0-0.4-0.1-0.4-0.4v-0.6l0,0c-0.8,0.5-2.1,1.2-3.2,1.2c-2.6,0-2.9-1.5-2.9-3.6v-5.7   c0-0.2,0.1-0.4,0.4-0.4h1.4c0.3,0,0.3,0.1,0.3,0.4v5.4c0,1.2,0.2,1.9,1.4,1.9c0.8,0,2.1-0.6,2.6-0.9v-6.5c0-0.2,0.1-0.4,0.4-0.4   h1.4c0.3,0,0.4,0.1,0.4,0.4v8.7C162.3,46.4,162.2,46.6,161.9,46.6z">
+                        </path>
+                        <path class="st0"
+                          d="M166.8,46.2c0,0.2-0.1,0.4-0.4,0.4H165c-0.3,0-0.4-0.1-0.4-0.4v-8.7c0-0.3,0.1-0.4,0.4-0.4h1.4   c0.3,0,0.4,0.2,0.4,0.4v0.9l0,0c0.6-0.5,2-1.2,2.9-1.4c0.3-0.1,0.4,0,0.5,0.3l0.1,1.3c0,0.3,0,0.4-0.4,0.5   c-1.1,0.2-2.5,0.6-3.1,0.9V46.2z">
+                        </path>
+                        <path class="st0"
+                          d="M175.3,46.7c-3.9,0-4.1-2.8-4.1-5c0-1.8,0.4-4.8,4.1-4.8c3.7,0,4.3,2.5,4.3,4.8   C179.6,43.9,179.3,46.7,175.3,46.7z M175.3,38.8c-1.6,0-2,1-2,3.1c0,2,0.4,3.1,2,3.1c1.8,0,2.1-1,2.1-3.1   C177.4,39.8,177.1,38.8,175.3,38.8z">
+                        </path>
+                        <path class="st0"
+                          d="M186,46.7c-0.6,0-1.5-0.1-2.4-0.4l0,0v3.4c0,0.2-0.1,0.4-0.4,0.4h-1.4c-0.3,0-0.4-0.1-0.4-0.4V37.5   c0-0.3,0.1-0.4,0.4-0.4h1.4c0.3,0,0.3,0.2,0.3,0.4v0.6l0.1,0c0.7-0.5,1.9-1.2,3.1-1.2c2.5,0,3.2,1.9,3.2,4.8   C189.8,44.9,189,46.7,186,46.7z M186.1,38.9c-0.8,0-2,0.6-2.6,0.9v4.8c0.9,0.3,1.6,0.3,2.2,0.3c1.4,0,1.9-0.7,1.9-3.2   C187.6,39.3,187.2,38.9,186.1,38.9z">
+                        </path>
+                        <path class="st0"
+                          d="M193.5,42.4c0.1,2,0.8,2.5,2.3,2.5c0.7,0,1.8-0.1,2.5-0.2c0.3,0,0.5,0,0.5,0.3l0.1,0.6c0.1,0.3,0,0.4-0.3,0.6   c-0.8,0.3-2.2,0.5-3.1,0.5c-3.7,0-4.2-2.4-4.2-4.9c0-1.9,0.3-5,4.1-5c3.5,0,4.1,2.2,4.1,4.3c0,0.7-0.2,1.2-0.9,1.2H193.5z    M193.6,41h3.8c0-1.2-0.3-2.3-1.9-2.3C194,38.6,193.7,39.5,193.6,41z">
+                        </path>
+                        <path class="st0"
+                          d="M207.3,45.5c-1,0.7-2.3,1.3-3.6,1.3c-2,0-2.6-1.1-2.6-2.7c0-2.3,1.2-3.2,3.6-3.2h2.5v-0.5c0-1.2-0.4-1.6-2-1.6   c-0.6,0-1.9,0.1-2.6,0.2c-0.4,0.1-0.5,0-0.5-0.2l-0.2-0.7c0-0.3,0-0.4,0.4-0.6c0.8-0.3,2.4-0.4,3.3-0.4c3.3,0,3.8,1.4,3.8,3.5v3.7   c0,0.8,0.1,0.8,0.7,0.9c0.3,0,0.4,0.1,0.4,0.3v0.8c0,0.2-0.1,0.3-0.5,0.4c-0.3,0.1-0.6,0.1-0.9,0.1   C208.1,46.7,207.6,46.4,207.3,45.5L207.3,45.5z M207.2,42.2h-2.4c-1,0-1.6,0.3-1.6,1.6c0,0.9,0.3,1.1,1.2,1.1c0.8,0,2-0.5,2.7-0.9   V42.2z">
+                        </path>
+                        <path class="st0"
+                          d="M219.6,46.6h-1.4c-0.3,0-0.4-0.1-0.4-0.4l0-5.4c0-1.1-0.3-1.9-1.4-1.9c-0.8,0-2.1,0.6-2.6,0.9v6.5   c0,0.2-0.1,0.4-0.4,0.4h-1.4c-0.3,0-0.4-0.1-0.4-0.4v-8.7c0-0.3,0.1-0.4,0.4-0.4h1.4c0.3,0,0.4,0.1,0.4,0.4v0.6c0,0,0,0,0.1,0   c0.7-0.5,2.1-1.2,3.2-1.2c2.6,0,2.8,1.7,2.8,3.7v5.6C220,46.4,219.9,46.6,219.6,46.6z">
+                        </path>
+                        <path class="st0"
+                          d="M149.4,53.9c0.9,0,2.5,0.1,3.5,0.6c0.3,0.1,0.4,0.3,0.4,0.6l-0.2,0.8c-0.1,0.2-0.2,0.3-0.5,0.3   c-0.9-0.1-2.1-0.3-3.1-0.3c-2.6,0-3,2.1-3,4.6c0,2.5,0.5,4.5,3,4.5c1.1,0,2.1-0.1,3.1-0.3c0.4,0,0.4,0.1,0.5,0.3l0.2,0.7   c0.1,0.3,0,0.5-0.3,0.6c-0.9,0.4-2.6,0.6-3.6,0.6c-4.3,0-5.2-3.2-5.2-6.5C144.2,57.3,145,53.9,149.4,53.9z">
+                        </path>
+                        <path class="st0"
+                          d="M158.8,67.1c-3.9,0-4.1-2.8-4.1-5c0-1.8,0.4-4.8,4.1-4.8c3.8,0,4.3,2.5,4.3,4.8   C163.1,64.2,162.8,67.1,158.8,67.1z M158.8,59.1c-1.6,0-2,1-2,3.1c0,2,0.4,3.1,2,3.1c1.8,0,2.1-1,2.1-3.1   C160.9,60.1,160.6,59.1,158.8,59.1z">
+                        </path>
+                        <path class="st0"
+                          d="M178.5,66.9h-1.4c-0.3,0-0.4-0.1-0.4-0.4v-5.5c0-1.4-0.3-1.8-1.3-1.8c-0.7,0-1.9,0.6-2.5,0.9c0,0.2,0,0.5,0,1   v5.5c0,0.2-0.1,0.4-0.4,0.4h-1.4c-0.3,0-0.3-0.1-0.3-0.4V61c0-1.2-0.3-1.7-1.3-1.7c-0.7,0-1.8,0.5-2.5,0.9v6.5   c0,0.2-0.1,0.4-0.4,0.4h-1.4c-0.3,0-0.3-0.1-0.3-0.4v-8.7c0-0.3,0.1-0.4,0.3-0.4h1.4c0.3,0,0.4,0.2,0.4,0.4v0.6l0,0   c0.8-0.5,1.8-1.1,2.9-1.1c1.1,0,2,0.2,2.6,1.4c1-0.7,2.2-1.4,3.4-1.4c2.6,0,2.8,1.7,2.8,3.6v5.7C178.8,66.8,178.7,66.9,178.5,66.9z   ">
+                        </path>
+                        <path class="st0"
+                          d="M194.4,66.9H193c-0.3,0-0.4-0.1-0.4-0.4v-5.5c0-1.4-0.3-1.8-1.3-1.8c-0.7,0-1.9,0.6-2.5,0.9c0,0.2,0,0.5,0,1   v5.5c0,0.2-0.1,0.4-0.4,0.4h-1.4c-0.3,0-0.3-0.1-0.3-0.4V61c0-1.2-0.3-1.7-1.3-1.7c-0.7,0-1.8,0.5-2.5,0.9v6.5   c0,0.2-0.1,0.4-0.4,0.4h-1.4c-0.3,0-0.3-0.1-0.3-0.4v-8.7c0-0.3,0.1-0.4,0.3-0.4h1.4c0.3,0,0.4,0.2,0.4,0.4v0.6l0,0   c0.8-0.5,1.8-1.1,2.9-1.1c1.1,0,2,0.2,2.6,1.4c1-0.7,2.2-1.4,3.4-1.4c2.6,0,2.8,1.7,2.8,3.6v5.7C194.7,66.8,194.7,66.9,194.4,66.9z   ">
+                        </path>
+                        <path class="st0"
+                          d="M198.2,56c-1,0-1.1-0.6-1.1-1.1c0-0.6,0.2-1.1,1.1-1.1c0.9,0,1.1,0.4,1.1,1.1C199.3,55.5,199.2,56,198.2,56z    M199.2,66.5c0,0.2-0.1,0.4-0.3,0.4h-1.4c-0.3,0-0.4-0.1-0.4-0.4v-8.7c0-0.3,0.1-0.4,0.4-0.4h1.4c0.3,0,0.3,0.2,0.3,0.4V66.5z">
+                        </path>
+                        <path class="st0"
+                          d="M204.8,67.1c-1,0-2.3-0.1-3-0.4c-0.4-0.2-0.5-0.3-0.4-0.6l0.1-0.6c0.1-0.3,0.2-0.3,0.5-0.3   c0.9,0.1,2.1,0.2,2.7,0.2c1.2,0,1.7-0.3,1.7-1.1c0-0.9-0.3-1.1-1.5-1.3c-1.9-0.3-3.6-0.7-3.6-2.8c0-1.9,1.5-2.9,3.6-2.9   c0.8,0,2.1,0.1,2.9,0.4c0.3,0.1,0.5,0.3,0.4,0.6l-0.2,0.7c-0.1,0.3-0.2,0.3-0.5,0.3c-0.8-0.1-1.9-0.2-2.6-0.2   c-1.2,0-1.5,0.3-1.5,1.1c0,0.8,0.5,0.9,1.6,1c1.8,0.3,3.5,0.6,3.5,2.9C208.7,66.3,206.8,67.1,204.8,67.1z">
+                        </path>
+                        <path class="st0"
+                          d="M213.7,67.1c-1,0-2.3-0.1-3-0.4c-0.4-0.2-0.5-0.3-0.4-0.6l0.1-0.6c0.1-0.3,0.2-0.3,0.5-0.3   c0.9,0.1,2.1,0.2,2.7,0.2c1.2,0,1.7-0.3,1.7-1.1c0-0.9-0.3-1.1-1.5-1.3c-1.9-0.3-3.6-0.7-3.6-2.8c0-1.9,1.5-2.9,3.6-2.9   c0.8,0,2.1,0.1,2.9,0.4c0.3,0.1,0.5,0.3,0.4,0.6l-0.2,0.7c-0.1,0.3-0.2,0.3-0.5,0.3c-0.8-0.1-1.9-0.2-2.6-0.2   c-1.2,0-1.5,0.3-1.5,1.1c0,0.8,0.5,0.9,1.6,1c1.8,0.3,3.5,0.6,3.5,2.9C217.6,66.3,215.6,67.1,213.7,67.1z">
+                        </path>
+                        <path class="st0"
+                          d="M220.7,56c-1,0-1.1-0.6-1.1-1.1c0-0.6,0.2-1.1,1.1-1.1c0.9,0,1.1,0.4,1.1,1.1C221.9,55.5,221.7,56,220.7,56z    M221.7,66.5c0,0.2-0.1,0.4-0.3,0.4H220c-0.3,0-0.4-0.1-0.4-0.4v-8.7c0-0.3,0.1-0.4,0.4-0.4h1.4c0.3,0,0.3,0.2,0.3,0.4V66.5z">
+                        </path>
+                        <path class="st0"
+                          d="M228.1,67.1c-3.9,0-4.1-2.8-4.1-5c0-1.8,0.4-4.8,4.1-4.8c3.8,0,4.3,2.5,4.3,4.8   C232.3,64.2,232.1,67.1,228.1,67.1z M228.1,59.1c-1.6,0-2,1-2,3.1c0,2,0.4,3.1,2,3.1c1.8,0,2.1-1,2.1-3.1   C230.2,60.1,229.9,59.1,228.1,59.1z">
+                        </path>
+                        <path class="st0"
+                          d="M242.1,66.9h-1.4c-0.3,0-0.4-0.1-0.4-0.4l0-5.4c0-1.1-0.3-1.9-1.4-1.9c-0.8,0-2.1,0.6-2.6,0.9v6.5   c0,0.2-0.1,0.4-0.4,0.4h-1.4c-0.3,0-0.4-0.1-0.4-0.4v-8.7c0-0.3,0.1-0.4,0.4-0.4h1.4c0.3,0,0.4,0.1,0.4,0.4v0.6c0,0,0,0,0.1,0   c0.7-0.5,2.1-1.2,3.2-1.2c2.6,0,2.8,1.7,2.8,3.7v5.6C242.4,66.8,242.3,66.9,242.1,66.9z">
+                        </path>
+                      </g>
+                      <polygon class="st0" points="254.6,66.9 254.6,27 251.3,27 251.3,66.9 254.6,66.9 "></polygon>
+                      <g>
+                        <g>
+                          <g>
+                            <path class="st0"
+                              d="M0.5,25c0,0,39.9-5.2,41.1-5.4c1.7-0.3,3.3-0.6,4.7-1c3.2-0.9,6.2-2.3,8.8-4c2.5-1.7,4.9-4.2,7.2-6.9     c1.5-1.7,3-4,4.5-6.2V0.4c-1.7,2.6-3.4,4.8-5.2,6.7c-2.3,2.6-4.7,4.7-7.2,6.3c-2.5,1.7-5.4,2.9-8.5,3.7c-1.4,0.4-2.9,0.6-4.6,0.9     c-1.1,0.2-2.2,0.3-3.3,0.4c-0.4,0-37.5,4-37.5,4V25z">
+                            </path>
+                            <path class="st0"
+                              d="M54.1,18.2c-2.5,1.4-5.4,2.5-8.6,3.2c-1.4,0.3-2.9,0.5-4.5,0.7c-1,0.1-2,0.2-3,0.3c-0.5,0-1.1,0.1-1.6,0.1     c-12.2,1.1-24.4,2.3-35.8,3.4v2.6c11.5-1.4,23.7-2.9,36-4.3c0.5-0.1,1.1-0.1,1.6-0.2c1-0.1,2-0.2,3-0.4c1.7-0.2,3.3-0.5,4.7-0.8     c3.3-0.7,6.3-1.9,8.9-3.5c2.6-1.6,4.9-3.7,7.3-6.4c1.5-1.7,3.2-4,4.8-6.2v-1c-1.9,2.6-3.6,4.7-5.4,6.5     C59,14.8,56.5,16.8,54.1,18.2z">
+                            </path>
+                            <path class="st0"
+                              d="M61,17.6c-2.4,2.3-5,4-7.6,5.3c-2.5,1.2-5.3,2.1-8.6,2.6c-1.4,0.2-2.8,0.4-4.5,0.6L0.5,29.3v2.6l35.4-3.8     l4.6-0.5c1.7-0.2,3.2-0.4,4.6-0.7c3.4-0.6,6.3-1.6,8.9-3c2.7-1.4,5.3-3.6,7.8-6c1.7-1.6,3.3-3.7,5-5.8v-0.9     C64.8,13.8,62.9,15.8,61,17.6z">
+                            </path>
+                            <path class="st0"
+                              d="M51.4,31.1c-2.3,1.3-4.1,2.1-7.4,2.4c-2,0.2-4.1,0.3-6.1,0.4c-1,0-1.9,0.1-2.9,0.2c-6,0.3-11.9,0.7-18,1.1     L0.5,36.4V39l16.8-1.6c5.4-0.5,11.7-1.1,17.9-1.6l4.5-0.3c1.7-0.1,3.2-0.3,4.5-0.5c3.4-0.4,6.3-1.1,8.9-2.1c2.8-1,5.4-2.7,8-4.6     c2.4-1.7,5.6-5.1,5.6-5.2v-0.9c-2.1,2.1-3.4,3.3-5.7,4.8C58.3,29,53.5,29.9,51.4,31.1z">
+                            </path>
+                            <path class="st0"
+                              d="M52.3,36.1c-2.5,0.7-5.3,1.2-8.6,1.5c-1.3,0.1-2.8,0.2-4.4,0.3l-4.5,0.2c-11.1,0.5-22.1,1.1-34.2,1.7v2.6     c11.6-0.9,23-1.8,34.3-2.6l4.4-0.3c1.7-0.1,3.1-0.2,4.5-0.4c3.4-0.4,6.3-1,8.9-1.8c2.9-0.9,5.6-2.2,8.3-3.9     c1.9-1.2,3.9-2.7,5.9-4.5v0c-2.2,1.9-4.3,2.3-6.4,3.6C57.7,34,55,35.3,52.3,36.1z">
+                            </path>
+                            <path class="st0"
+                              d="M51.8,40.4c-2.5,0.6-5.3,1-8.6,1.2c-1.3,0.1-2.7,0.2-4.4,0.2L34.4,42C23.3,42.4,12,42.9,0.5,43.4V46     c11.4-0.8,22.7-1.6,34-2.3l4.4-0.3c1.7-0.1,3.1-0.2,4.4-0.3c3.4-0.3,6.2-0.8,8.8-1.5c2.9-0.8,5.7-1.9,8.4-3.3     c2.1-1.1,4.1-2.4,6.2-4v-1.1c-2.3,1.7-4.5,3-6.7,4.2C57.4,38.7,54.7,39.7,51.8,40.4z">
+                            </path>
+                            <path class="st0"
+                              d="M51.5,44.6c-2.5,0.5-5.3,0.8-8.6,0.9c-1.3,0.1-2.6,0.1-4.4,0.2l-38,1v2.6l33.7-1.8l4.4-0.2     c1.7-0.1,3.1-0.2,4.4-0.3c3.4-0.3,6.2-0.6,8.8-1.2c2.9-0.6,5.8-1.5,8.5-2.7c2.2-0.9,4.3-2.1,6.6-3.4v-1c-2.4,1.4-4.7,2.5-7,3.5     C57.1,43.3,54.3,44.1,51.5,44.6z">
+                            </path>
+                            <path class="st0"
+                              d="M51.2,48.9c-4.7,0.6-9.5,0.7-14.1,0.8c-1.1,0-2.1,0-3.2,0.1L0.5,50.3v2.6l33.4-1.5c1.1,0,2.1-0.1,3.2-0.1     c4.7-0.2,9.5-0.4,14.2-1.1c3-0.5,5.9-1.2,8.6-2.1c2.2-0.8,4.5-1.7,6.9-2.9v-1c-2.5,1.2-4.9,2.1-7.2,2.8     C56.9,47.9,54.1,48.5,51.2,48.9z">
+                            </path>
+                            <path class="st0"
+                              d="M50.9,53.1c-4.4,0.4-8.8,0.4-13.2,0.4c-1.3,0-2.7,0-4,0c-11.1,0-22,0.1-33.2,0.2v2.6     c10.6-0.4,21.9-0.7,33.2-1.1c1.3,0,2.7-0.1,4-0.1c4.3-0.1,8.8-0.2,13.3-0.7c3.1-0.3,5.9-0.8,8.6-1.5c2.3-0.6,4.8-1.4,7.2-2.3v-1     c-2.5,0.9-5,1.6-7.4,2.2C56.7,52.5,53.9,52.9,50.9,53.1z">
+                            </path>
+                            <path class="st0"
+                              d="M50.7,57.4c-1.8,0.1-3.8,0.1-6,0.1c-0.8,0-1.7,0-2.5,0l-8.6-0.1c-5.9,0-11.7-0.1-17.2-0.1l-15.9,0v2.6     l15.9-0.4c5.5-0.1,11.3-0.3,17.2-0.4l8.6-0.1c2.4,0,5.5-0.1,8.6-0.3c3.1-0.2,5.9-0.5,8.6-0.9c2.4-0.4,4.9-0.9,7.4-1.6v-0.9     c-2.5,0.6-5.1,1.1-7.5,1.4C56.6,57,53.8,57.2,50.7,57.4z">
+                            </path>
+                            <path class="st0"
+                              d="M42.1,61.4l-8.6-0.1c-10.9-0.2-21.9-0.4-33-0.6v2.6c10.6-0.1,21.9-0.2,33-0.3l8.6-0.1c2.9,0,5.7-0.1,8.6-0.2     c5.9-0.2,11.2-0.6,16.1-1.3v-0.9c-5,0.5-10.2,0.8-16.1,0.9C47.8,61.5,44.9,61.5,42.1,61.4z">
+                            </path>
+                            <polygon class="st0" points="66.8,66 0.5,64.3 0.5,66.9 66.8,66.9    "></polygon>
+                          </g>
+                          <g>
+                            <path class="st0"
+                              d="M60.8,22.5c-2.5,2-4.5,3.5-7.5,4.7c-2.7,1.1-5.6,1.5-8.9,2c-2.1,0.3-4.3,0.7-6.5,0.9     c-0.9,0.1-1.7,0.1-2.6,0.2L0.5,32.8v2.6l35-3.4l4.5-0.4c1.7-0.2,3.2-0.3,4.6-0.6c3.4-0.5,6.3-1.4,8.9-2.6c2.7-1.2,5.5-3.2,8-5.4     c1.7-1.5,3.4-3.3,5.2-5.3v-0.9C64.6,19.1,62.8,20.9,60.8,22.5z">
+                            </path>
+                          </g>
+                        </g>
+                        <g>
+                          <path class="st0"
+                            d="M95,0.4c0,0,11.9,19,14.1,22.5c2.2,3.5,4.7,6.2,13.5,8.1c8.8,1.9,12.7,2.8,12.7,2.8v0.7c0,0-5.6-1.2-12.8-2.8    c-7.2-1.6-10.2-2.2-13.5-6.7c-2.7-3.8-14-20-14-20V0.4z">
+                          </path>
+                          <path class="st0"
+                            d="M95,22.1c0,0,10.9,11.4,14,14.6c3.3,3.5,7.6,4.7,13.5,5.8c5.6,1,12.8,2.2,12.8,2.2v0.6c0,0-6.7-1.1-12.8-2.1    c-6-1-10.1-1.6-13.5-4.7c-3.1-2.8-14-13-14-13V22.1z">
+                          </path>
+                          <path class="st0"
+                            d="M95,27.2c0,0,10.3,9.6,14,12.9c3.4,3,6.1,4,13.5,5.3c7.4,1.3,12.7,2.1,12.7,2.1v0.7c0,0-6.7-1.1-12.8-2.1    c-6-1-9.9-1.3-13.5-4.3c-4.2-3.4-14-11.5-14-11.5V27.2z">
+                          </path>
+                          <path class="st0"
+                            d="M95,32.7c0,0,11.8,9.4,14,11c2.2,1.6,5.1,3.5,13.6,4.8c8.4,1.2,12.7,1.8,12.7,1.8V51c0,0-7.6-1.1-12.7-1.7    c-5.1-0.6-9-0.9-13.5-4c-4.4-3-14-9.7-14-9.7V32.7z">
+                          </path>
+                          <path class="st0"
+                            d="M95,37.9c0,0,11.8,7.9,14.1,9.1c2.2,1.2,4.9,3.3,13.5,4.4c8.6,1.1,12.7,1.6,12.7,1.6v0.7    c0,0-7.1-0.8-12.7-1.4c-5.6-0.6-9.4-1.4-13.5-3.7c-4.2-2.3-14-8-14-8V37.9z">
+                          </path>
+                          <path class="st0"
+                            d="M95,43.2c0,0,10.5,5.7,14,7.5c3.9,2,7.4,2.9,13.5,3.7c6.1,0.7,12.7,1.4,12.7,1.4v0.6c0,0-6.2-0.7-12.7-1.3    c-6.5-0.6-8.8-0.9-13.5-3c-4.2-1.9-14-6.4-14-6.4V43.2z">
+                          </path>
+                          <path class="st0"
+                            d="M95,48.5c0,0,8.3,3.5,14.1,5.8c5.7,2.3,10.1,2.5,13.5,2.8c1.5,0.2,12.7,1.3,12.7,1.3v0.6    c0,0-6.6-0.5-12.7-1.1c-6-0.5-8.7-0.8-13.5-2.4c-5-1.6-14-4.8-14-4.8V48.5z">
+                          </path>
+                          <path class="st0"
+                            d="M95,53.9c0,0,8.3,2.6,14,4.1c5.7,1.5,10.9,2.1,13.5,2.3c2.6,0.2,12.7,1,12.7,1v0.6c0,0-5.7-0.4-12.7-0.9    c-5.7-0.4-10.2-0.8-13.5-1.6c-3.7-0.8-14-3.3-14-3.3V53.9z">
+                          </path>
+                          <path class="st0"
+                            d="M95,59.3c0,0,6.8,1.2,14,2.4c5.4,0.9,12.7,1.5,13.5,1.5c0.8,0,12.7,0.9,12.7,0.9v0.6c0,0-7.6-0.4-12.7-0.7    c-5.3-0.3-10.6-0.6-13.5-0.9c-6.7-0.7-14-1.6-14-1.6V59.3z">
+                          </path>
+                          <path class="st0" d="M95,64.8c0,0,10.8,0.4,14,0.5c3.3,0.1,26.2,1,26.2,1v0.6H95V64.8z"></path>
+                          <path class="st0"
+                            d="M122.5,33.9c-9.7-2.1-11.9-5.7-13.6-7.9c-1.6-2.2-14-20.2-14-20.2v4.1c0.5,0.6,11,14.4,14,18.3    c3.3,4.3,8.6,5.3,13.5,6.3c5,1.1,12.7,2.6,12.7,2.6v-0.6C135.3,36.5,125.1,34.5,122.5,33.9z">
+                          </path>
+                          <path class="st0"
+                            d="M122.5,36.8c-8-1.6-11.2-4.1-13.6-7.2c-2.3-3.1-14-18.4-14-18.4v3.8c0.5,0.6,11.1,13.2,14,16.4    c3.3,3.8,8,4.8,13.6,5.8c5.6,1,12.7,2.4,12.7,2.4v-0.6C135.3,39.2,127.1,37.7,122.5,36.8z">
+                          </path>
+                          <path class="st0"
+                            d="M122.5,39.7c-8.3-1.6-10-2.9-13.5-6.8c-2.2-2.4-13.5-15.8-14-16.3v3.6c0,0,10.6,11.3,14,14.6    c4.5,4.4,8.6,4.7,13.6,5.6c4.9,0.9,12.7,2.3,12.7,2.3V42C135.3,42,125.9,40.4,122.5,39.7z">
+                          </path>
+                        </g>
+                      </g>
+                      <g>
+                        <polygon class="st1" points="86.1,66.4 86.1,27.5 28,27.5 28,66.4 86.1,66.4  "></polygon>
+                        <g>
+                          <polygon class="st2"
+                            points="57.7,33.1 59.7,33.1 58.1,34.3 58.7,36.4 57.1,35.1 55.5,36.4 56.1,34.3 54.5,33.1 56.5,33.1     57.1,31.1 57.7,33.1   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="57.8,59 59.8,59 58.2,60.2 58.8,62.1 57.2,60.9 55.6,62.1 56.2,60.2 54.6,59 56.6,59 57.2,57.1     57.8,59   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="64.2,57.3 66.2,57.3 64.6,58.5 65.2,60.4 63.6,59.2 62,60.4 62.6,58.5 61,57.3 63,57.3 63.6,55.4     64.2,57.3   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="64.2,34.8 66.2,34.8 64.6,36 65.2,38 63.6,36.8 62,38 62.6,36 61,34.8 63,34.8 63.6,32.9 64.2,34.8       ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="68.9,39.6 71,39.6 69.3,40.8 70,42.7 68.4,41.5 66.7,42.7 67.4,40.8 65.7,39.6 67.7,39.6 68.4,37.7     68.9,39.6   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="68.9,52.6 71,52.6 69.3,53.8 70,55.7 68.4,54.5 66.7,55.7 67.4,53.8 65.7,52.6 67.7,52.6 68.4,50.7     68.9,52.6   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="70.7,46 72.8,46 71.1,47.2 71.8,49.1 70.1,47.9 68.5,49.1 69.2,47.2 67.5,46 69.5,46 70.1,44.1     70.7,46   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="51.2,34.8 53.2,34.8 51.6,36 52.2,38 50.6,36.8 49,38 49.6,36 48,34.8 50,34.8 50.6,32.9 51.2,34.8       ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="46.6,39.6 48.6,39.6 46.9,40.8 47.6,42.7 46,41.5 44.3,42.7 45,40.8 43.3,39.6 45.3,39.6 46,37.7     46.6,39.6   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="44.8,46 46.9,46 45.2,47.2 45.9,49.1 44.2,47.9 42.6,49.1 43.3,47.2 41.6,46 43.6,46 44.2,44.1     44.8,46   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="46.6,52.6 48.6,52.6 46.9,53.8 47.6,55.7 46,54.6 44.3,55.7 45,53.8 43.3,52.6 45.3,52.6 46,50.7     46.6,52.6   ">
+                          </polygon>
+                          <polygon class="st2"
+                            points="51.2,57.3 53.3,57.3 51.6,58.5 52.3,60.4 50.6,59.2 49,60.4 49.7,58.5 48,57.3 50,57.3 50.6,55.4     51.2,57.3   ">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg></div>
+                </div>
+              </a><span>DG Joint Research Center</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="ccl-footer-bottom">
+        <ul class="ccl-footer-legal">
+          <li><a href="/en/disclaimer">Disclaimer</a></li>
+          <li><a href="/en/data-policy">Data policy</a></li>
+          <li><a href="/en/personal-data-protection">Personal data protection</a></li>
+          <li><a href="/en/cookies">Cookies</a></li>
+          <li><a href="/en/portal-sitemap">Sitemap</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>
