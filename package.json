@@ -131,7 +131,7 @@
   "dependencies": {
     "@babel/plugin-proposal-nullish-coalescing-operator": "*",
     "@eeacms/volto-arcgis-block": "0.1.81",
-    "@eeacms/volto-clms-theme": "1.0.155",
+    "@eeacms/volto-clms-theme": "1.0.156",
     "@eeacms/volto-eea-kitkat": "<=8.1.0",
     "@eeacms/volto-sentry-rancher-config": "^2.1.2",
     "@plone/volto": "15.15.0",
