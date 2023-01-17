@@ -1214,10 +1214,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.87":
-  version "0.1.87"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.87.tgz#f0c64eec7228f100d473912fd94018a7f1ab3e38"
-  integrity sha512-h730eLMLZLQfRDlPqoxVqbBql/VrAslftjZUUbPnVOUCgwaOF6oBwHjTwshTv61N1u4xDj8WVZO74AZJYDwpqg==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.88":
+  version "0.1.88"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.88.tgz#9a667a0ef18244a70ada34e0d526fafdfc0e5d8c"
+  integrity sha512-/rGUGKwBw3qJ975STCDmT/tYp986cLq/JNuM3l6JS5LICEz6KfuhwtSzVSQUA7fBJMRnrC9UCdxpGtuai2qyeg==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1265,10 +1265,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.162":
-  version "1.0.162"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.162.tgz#d56e98a794f969c1a30c20629233dfce2b91f381"
-  integrity sha512-ILCjJd+Uq6jUbF/Gagn36/hK8LoCjp46Xne2BIx5a/3tppb2oQXSGGkTbhB8CXFk4tuRCSFIHwEkEFHQtXEmcA==
+"@eeacms/volto-clms-theme@1.0.163":
+  version "1.0.163"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.163.tgz#5a2d8fc0525a2a0a1dc15a363288a38326f8e444"
+  integrity sha512-42zKWZbSotXArTrSwAM79Og5p0lfN3ejN2XnjmBkCMXw/j+7ox1LSRk7yE8+oX3jDpB1PG9RKEHUGFYSMM4/5Q==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
