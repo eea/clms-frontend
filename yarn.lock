@@ -1190,10 +1190,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.99":
-  version "0.1.99"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.99.tgz#89eee92e82473e222627ddeb442b20f7b85f8e36"
-  integrity sha512-vW+uAZtLlvQaTv2ZJgydfVml1/wzC0wCjweH/VoRbgRlFY4k4sJXk6muBOiZw7YYpauUpKYGrc3FSBJPrtkysA==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.100":
+  version "0.1.100"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.100.tgz#d5a922c4253fecd755d73085799dcb4e614aeac7"
+  integrity sha512-oTxOpPn2T/Md3qYHA/jaIGkI9lof9vkJHQqjJenB5MyCWAZXuyY9mrL9NB7mhLLwGsZYt3HkmosqTajP1nhd2A==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1241,10 +1241,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.173":
-  version "1.0.173"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.173.tgz#4863068dc7b0664559af171092300502a6bad1c9"
-  integrity sha512-WNrazMKywZ27o4YGMZLMgH4/dEGeLpLX5KoGeMqJmeTJ2h8nz1QX141ml5hfGEFLKY/tXsWU0ddGMVNVwIIqFQ==
+"@eeacms/volto-clms-theme@1.0.174":
+  version "1.0.174"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.174.tgz#efbebf7d8120e1e29d60ed4db5be01e16ed93183"
+  integrity sha512-JgscUotTvictgSiszy8ck419phfpXBnBS/RgDtCU1sBQUXLCIydDQ6a0N9iTTlQ75W/NO87N+quSg1CRG5c9AQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
