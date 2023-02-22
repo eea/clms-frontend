@@ -14,7 +14,7 @@
 
 import '@plone/volto/config';
 // custom link plugin for slate link inserter
-import installEditor from 'volto-slate/editor/plugins/Link';
+import installEditor from '@plone/volto-slate/editor/plugins/Link';
 
 export default function applyConfig(config) {
   config.blocks.requiredBlocks = [];
