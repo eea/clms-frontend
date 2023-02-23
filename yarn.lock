@@ -1628,20 +1628,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:*":
-  version: 0.1.105
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.105"
+"@eeacms/volto-arcgis-block@*, @eeacms/volto-arcgis-block@workspace:src/addons/volto-arcgis-block":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-arcgis-block@workspace:src/addons/volto-arcgis-block"
   dependencies:
+    "@cypress/code-coverage": ^3.9.5
     "@eeacms/volto-clms-utils": "*"
     "@fortawesome/fontawesome-svg-core": 1.2.35
     "@fortawesome/free-solid-svg-icons": 5.15.3
     "@fortawesome/react-fontawesome": 0.1.14
+    babel-plugin-transform-class-properties: ^6.24.1
     esri-loader: 3.1.0
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
-  checksum: 6b615f02cf8f4418523e0d453bf67b08cf60de345a2fec84221c8c908663e826efd8d56a76f5daffc69209cbe8e09612274d0592853fba97067ff4b187753548
-  languageName: node
-  linkType: hard
+    md5: ^2.3.0
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-arcgis-block@npm:0.1.101":
   version: 0.1.101
@@ -1824,14 +1826,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-clms-utils@npm:*, @eeacms/volto-clms-utils@npm:0.1.7":
-  version: 0.1.7
-  resolution: "@eeacms/volto-clms-utils@npm:0.1.7"
+"@eeacms/volto-clms-utils@*, @eeacms/volto-clms-utils@0.1.7, @eeacms/volto-clms-utils@workspace:src/addons/volto-clms-utils":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-clms-utils@workspace:src/addons/volto-clms-utils"
   dependencies:
+    "@cypress/code-coverage": ^3.9.5
     "@eeacms/volto-matomo": ^2.0.7
-  checksum: c242a8a1e73fddba51119ca552e38e5d01cc48afef3d84e70658fc72ea6675d5ddf079a01e95d30af9c73cf5dbc1935f8fa2fa40b3b6cbe06046392a87825600
-  languageName: node
-  linkType: hard
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-columns-block@npm:4.4.3":
   version: 4.4.3
