@@ -1190,10 +1190,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-3.5.0.tgz#67a0c17b03a2f9c0c2c1af5213639aa8fa67cbf2"
   integrity sha512-n+bFhG0EiQ89cz+W5oSYfFOxESI0VNwNkoAIqshWz7Y7ZObC/jlMCn+KOWHetj2kYTuSmLWMEADxDlhHRo/qSw==
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.111":
-  version "0.1.111"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.111.tgz#c2b8fe840e3b0d70e3fa1bdc2428b18a9b85d82d"
-  integrity sha512-r53IhOlsLXpdAqYj5ECixjy898Mc8z6Dhw7Ln27uwkhMW3wfMa2/1tSF+0AfiR4c2LO1eEU0cE0cJVUxSWIKDQ==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.112":
+  version "0.1.112"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.112.tgz#262f323294b53d0a0fa7fe8272642aea08415ada"
+  integrity sha512-hJKB3lwWpExU2T00sp2yYSl8Ys85Lg4yj1FC902JWkYfdmrMWMgcIWa06gdNSZFETAnW5zlJFPfiGT7t8HY4LQ==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1242,10 +1242,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.1.tgz#0f020dac44908264a7554c8229e387026b94ea56"
   integrity sha512-bDXDv47xfAK+GCd/cC4ccQpZyd4+EolRl+AX+w8FMZElix8TKSZuBaKJ+r1hLduNN54dO1gu5oS8biwf5VGGAQ==
 
-"@eeacms/volto-clms-theme@1.0.179":
-  version "1.0.179"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.179.tgz#5ee8ca8ece93e14c43296c63d6b5fea736154e75"
-  integrity sha512-JOeHnsLVfHwAeNluYOV5w897apmRT6ArzH2KXH+eGDuY2yyHQHD+4uFspz0swPu3ophXb0ska0ItBZPPhlgRLg==
+"@eeacms/volto-clms-theme@1.0.180":
+  version "1.0.180"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.180.tgz#124d7ad2b4cd661f506c5440763645bdce3df38f"
+  integrity sha512-ym/Z2RuNGmnIW7mre+Ogi/mITUtk5PEL06BnXoV5h42dqPmHffjE0t75iducepkgESTg6tjq4WjmoZg4H0NUIg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-arcgis-block" "*"
