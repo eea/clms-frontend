@@ -3038,9 +3038,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.10.0":
-  version: 16.10.0
-  resolution: "@plone/volto@npm:16.10.0"
+"@plone/volto@npm:16.13.0":
+  version: 16.13.0
+  resolution: "@plone/volto@npm:16.13.0"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -3139,6 +3139,7 @@ __metadata:
     postcss-load-config: 3.1.4
     postcss-loader: 4.3.0
     postcss-overrides: 3.1.4
+    postcss-scss: 4.0.6
     prepend-http: 2
     prettier: 2.0.5
     pretty-bytes: 5.3.0
@@ -3149,6 +3150,7 @@ __metadata:
     razzle: 4.2.17
     razzle-dev-utils: 4.2.17
     razzle-plugin-bundle-analyzer: 4.2.17
+    razzle-plugin-scss: 4.2.18
     rc-time-picker: 3.7.3
     react: 17.0.2
     react-anchor-link-smooth-scroll: 1.0.12
@@ -3220,7 +3222,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: 12f400b4e85d347ed6806c565f16c406fc9183412d12df385bbd66795188eee38b992d7a40431e27b2259561ce18973d38988a6b3c90de1ee1a23e04ec020e3d
+  checksum: c75fbfba183554aa20826601fc83d453654d61f29c59446a40257656bb61280a8043ae3a2f1aef55484fd1cf289511f57db84fad16b81110e1981d5734969c84
   languageName: node
   linkType: hard
 
@@ -6720,7 +6722,7 @@ __metadata:
     "@eeacms/volto-sentry-rancher-config": 3.0.1
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
-    "@plone/volto": 16.10.0
+    "@plone/volto": 16.13.0
     babel-preset-razzle: 4.2.17
     eslint-plugin-prettier: 3.1.3
     express-list-routes: 1.1.3
@@ -17611,6 +17613,15 @@ __metadata:
     gonzales-pe: ^4.3.0
     postcss: ^7.0.21
   checksum: d361114e5a6a6cc65db9ab71d2af2fe82df8876ce1135b6569498cbf4f3e303312edf430de925bd0d5b110f482ed55a44143da07621726cfdd07e71917390b58
+  languageName: node
+  linkType: hard
+
+"postcss-scss@npm:4.0.6":
+  version: 4.0.6
+  resolution: "postcss-scss@npm:4.0.6"
+  peerDependencies:
+    postcss: ^8.4.19
+  checksum: 133a1cba31e2e167f4e841e66ec6a798eaf44c7911f9182ade0b5b1e71a8198814aa390b8c9d5db6b01358115232e5b15b1a4f8c5198acfccfb1f3fdbd328cdf
   languageName: node
   linkType: hard
 
