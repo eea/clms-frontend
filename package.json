@@ -2,7 +2,7 @@
   "name": "clms-frontend",
   "description": "Volto Frontend for CLMS site",
   "license": "MIT",
-  "version": "2.64.0",
+  "version": "2.65.0",
   "private": true,
   "workspaces": [
     "src/addons/volto-arcgis-block",
@@ -15,20 +15,18 @@
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
-    "@eeacms/volto-sentry-rancher-config",
-    "volto-slate:minimalDefault,tableButton"
+    "@eeacms/volto-sentry-rancher-config"
   ],
   "scripts": {
     "start": "razzle start",
-    "postinstall": "yarn omelette && yarn patches",
-    "omelette": "ln -sf node_modules/@plone/volto/ omelette",
-    "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
-    "build": "razzle build",
+    "postinstall": "make omelette && make patches",
+    "build": "razzle build --noninteractive",
     "start:prod": "NODE_ENV=production node build/server.js",
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=develop",
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
     "update": "./scripts/update.sh",
     "test": "./node_modules/jest/bin/jest.js --env=jsdom --passWithNoTests src/addons --verbose",
+    "testjs": "jest",
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "cypress:run": "./node_modules/cypress/bin/cypress run",
     "cypress:open": "./node_modules/cypress/bin/cypress open",
@@ -44,24 +42,23 @@
     ],
     "transform": {
       "^.+\\.js(x)?$": "babel-jest",
-      "^.+\\.css$": "jest-css-modules",
       "^.+\\.less$": "jest-css-modules",
-      "^.+\\.scss$": "jest-css-modules",
       "^.+\\.(png)$": "jest-file",
       "^.+\\.(jpg)$": "jest-file",
       "^.+\\.(svg)$": "./node_modules/@plone/volto/jest-svgsystem-transform.js"
     },
     "transformIgnorePatterns": [
-      "/node_modules/(?!@plone/volto).+\\.js$"
+      "node_modules/(?!(@eeacms/volto-clms-utils/|@plone/volto/|slick-carousel|react-input-range))"
     ],
     "moduleNameMapper": {
       "@plone/volto/babel": "<rootDir>/node_modules/@plone/volto/babel",
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
-      "@eeacms/volto-clms-theme/(.*)$": "<rootDir>/src/addons/volto-clms-theme/src/$1",
-      "@eeacms/volto-clms-utils/(.*)$": "<rootDir>/node_modules/@eeacms/volto-clms-utils/src/$1",
+      "@plone/volto-slate": "<rootDir>/node_modules/@plone/volto/packages/volto-slate/src",
       "load-volto-addons": "<rootDir>/node_modules/@plone/volto/jest-addons-loader.js",
-      "@package/(.*)$": "<rootDir>/src/$1",
       "@root/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
+      "@eeacms/(.*?)/(.*)$": "<rootDir>/src/addons/$1/src/$2",
+      "@package/(.*)$": "<rootDir>/src/$1",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy",
       "~/(.*)$": "<rootDir>/src/$1"
     },
     "coverageThreshold": {
@@ -99,6 +96,20 @@
     "plugins": [
       "stylelint-prettier"
     ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.less"
+        ],
+        "customSyntax": "postcss-less"
+      },
+      {
+        "files": [
+          "**/*.overrides"
+        ],
+        "customSyntax": "postcss-less"
+      }
+    ],
     "rules": {
       "prettier/prettier": true,
       "rule-empty-line-before": [
@@ -126,29 +137,44 @@
     "node": "^12 || ^14 || ^16"
   },
   "resolutions": {
+    "@plone/scripts": "2.1.2",
+    "@babel/core": "7.20.12",
+    "@babel/traverse": "7.20.12",
+    "@babel/types": "7.20.7",
     "react-slick": "0.28.1"
   },
   "dependencies": {
-    "@babel/plugin-proposal-nullish-coalescing-operator": "*",
+    "@babel/runtime": "7.20.6",
     "@eeacms/volto-arcgis-block": "0.1.113",
-    "@eeacms/volto-clms-theme": "1.0.182",
-    "@eeacms/volto-eea-kitkat": "<=8.1.0",
-    "@eeacms/volto-sentry-rancher-config": "^2.1.2",
-    "@plone/volto": "15.15.0",
+    "@eeacms/volto-clms-theme": "1.0.183",
+    "@eeacms/volto-eea-kitkat": "12.0.3",
+    "@eeacms/volto-sentry-rancher-config": "3.0.1",
+    "@plone/volto": "16.13.0",
+    "babel-preset-razzle": "4.2.17",
     "express-list-routes": "1.1.3",
     "levenary": "1.1.1",
+    "razzle-dev-utils": "4.2.17",
+    "razzle-plugin-bundle-analyzer": "4.2.17",
+    "razzle-plugin-scss": "4.2.18",
+    "react-dates": "21.8.0",
     "regenerator-runtime": "0.13.9"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-nullish-coalescing-operator": "*",
     "@eeacms/volto-widget-geolocation": "^3.0.0",
+    "@plone/scripts": "^2.1.2",
     "eslint-plugin-prettier": "3.1.3",
+    "jest": "24.8.0",
+    "jest-css-modules": "2.1.0",
+    "jest-junit": "8.0.0",
     "mrs-developer": "1.6.0",
+    "postcss": "8.3.11",
     "prettier": "2.0.5",
+    "razzle": "4.2.17",
     "react-svg": "14.0.4",
-    "stylelint": "13.3.3",
+    "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
-  }
+  },
+  "packageManager": "yarn@3.2.3"
 }
