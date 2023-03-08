@@ -2,8 +2,8 @@
 const val = require('@plone/volto/babel');
 
 module.exports = function (api) {
-  let { plugins, presets } = val(api);
+  let { plugins } = val(api);
   api.cache(true);
-  plugins.push('@babel/plugin-proposal-nullish-coalescing-operator');
+  const presets = ['razzle'];
   return { plugins, presets };
 };
