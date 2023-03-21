@@ -1149,10 +1149,10 @@
   dependencies:
     github-slugger "1.4.0"
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.116":
-  version "0.1.116"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.116.tgz#e5a25295b1b97ce7057f94096cac43f272f97722"
-  integrity sha512-u0bKZz52hlM2Iv10xhw3e1Dd1/KdLJ5tmwwriMWio1Y1n+UVmSQiNHYE31JWRPX6eLoaDfZi8cbZBliL9d0aow==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.117":
+  version "0.1.117"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.117.tgz#2c36fa549db85e398c60fce20dcb147d37d64be8"
+  integrity sha512-ZDaHSA2KzTldA72pZpPGyqfqLHeQUBph40JbCpYphgUoy0yt336/EYbSxCQM1ZthkG/vGmboxf+qpfPuXidwbg==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
