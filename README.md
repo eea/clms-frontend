@@ -4,6 +4,10 @@
 [![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F3.6.0&build=last&subject=release%20v3.6.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/3.6.0/lastBuild/display/redirect/)
 
 
+## CLMS
+
+Website of the CLMS portal
+
 ## Documentation
 
 A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
