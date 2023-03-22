@@ -14,7 +14,8 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
   && mkdir -p /app/src/addons \
   && rm -rf /app/src/addons/* \
   && find /app/ -not -user node -exec chown node {} \+ \
-  && corepack enable
+  && corepack enable \
+  && yarn set version 3.2.3
 
 USER node
 RUN yarn \
