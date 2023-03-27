@@ -1212,10 +1212,10 @@
   dependencies:
     "@eeacms/volto-widget-theme-picker" "^1.0.1"
 
-"@eeacms/volto-clms-theme@1.0.191":
-  version "1.0.191"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.191.tgz#154f89b6b7e0847294be129f408446cecb3ed3e6"
-  integrity sha512-9+RwOBPKmfTTD9eH5Rq4jyvWCBJfZ5CZKgVuQUkLJKxz0vmLqVx7dIF95E9s6OtgV+e7J0b9ehxCiHMVI15TYg==
+"@eeacms/volto-clms-theme@1.0.192":
+  version "1.0.192"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.192.tgz#f850865ba24dc29f5d9d270016fc0896f87ac203"
+  integrity sha512-UV2FkOXYCthnZs4EJBAZXifCa/0fmm/KhePkeCHV3xT3GTRdmwSzSLj1+s6WEEIbEHYZ0gjkBBHZLbUEzo3EIw==
   dependencies:
     "@eeacms/volto-accordion-block" "7.0.0"
     "@eeacms/volto-arcgis-block" "*"
@@ -1439,6 +1439,11 @@
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-3.0.1.tgz#43ac118ae8c4eb1e1dd7fdb69d9ff85eb9a3713d"
   integrity sha512-FI9AzJoNP+IJ0Jh1PiY3JH6hZsPih1vaU9vBMF2idmvdwoTfUHlXeMA4wB2/WN1i+5+JeNz7i8P+zwkh8ilerw==
+
+"@eeacms/volto-sentry-rancher-config@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-3.1.0.tgz#99f6b378ece240800dda50ee0bd975fed1f748e0"
+  integrity sha512-UveANdM3TXI+gHYGeYCeXGwi2Y/CYvTQttzWi/i5tlpCS/hgSTCbDR8VIhqWsnjIS969QtO7Q+mBiUNKzyXs9g==
 
 "@eeacms/volto-slate-footnote@*", "@eeacms/volto-slate-footnote@6.0.2":
   version "6.0.2"
