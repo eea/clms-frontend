@@ -1203,10 +1203,10 @@
   dependencies:
     "@eeacms/volto-widget-theme-picker" "^1.0.1"
 
-"@eeacms/volto-clms-theme@1.0.200":
-  version "1.0.200"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.200.tgz#d50c76dc5d9a1eb54b6b9faa2f817a56e038ffc6"
-  integrity sha512-w/BAMbBkk8ykdYUwx4cHjeglr8dldGDLKBZXraLyIvEF6ivh/COGfw8SjIfIWVik3malzSvcz48+EFHMge9wEQ==
+"@eeacms/volto-clms-theme@1.0.201":
+  version "1.0.201"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.201.tgz#97e6896f2271c72ca63b717b2bf0796ab2e37e34"
+  integrity sha512-zManeULQReltpzhe/q7LT6oon5317nf1Ce0p9SIvPMgjJr4A3Xpv9kxYZFfnlpmpCVGvMMWk3PS1dLerlCZI1g==
   dependencies:
     "@eeacms/volto-accordion-block" "7.0.0"
     "@eeacms/volto-arcgis-block" "*"
@@ -1229,6 +1229,7 @@
     lightgallery "^2.4.0"
     razzle-plugin-scss "4.2.18"
     react-csv "2.2.2"
+    react-draggable "4.4.5"
     react-input-range "^1.3.0"
     react-native-mime-types "2.3.0"
     react-slick "0.28.1"
@@ -13633,6 +13634,14 @@ react-dom@17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-draggable@4.4.5:
+  version "4.4.5"
+  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-4.4.5.tgz#9e37fe7ce1a4cf843030f521a0a4cc41886d7e7c"
+  integrity sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g==
+  dependencies:
+    clsx "^1.1.1"
+    prop-types "^15.8.1"
 
 react-dropzone@11.1.0:
   version "11.1.0"
