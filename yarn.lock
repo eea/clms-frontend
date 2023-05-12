@@ -1149,10 +1149,10 @@
   dependencies:
     github-slugger "1.4.0"
 
-"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.141":
-  version "0.1.141"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.141.tgz#d7ebd20e363d1717d59265d59191ccb00e437a5c"
-  integrity sha512-TTsq490m6UqnJuI+Gg4e8VR/2dLw97QzmoILvWFwNuxFrnxBdKE5AhU+z9cmnU17QFt0PzgtlAWh+CAXxJbsuA==
+"@eeacms/volto-arcgis-block@*", "@eeacms/volto-arcgis-block@0.1.142":
+  version "0.1.142"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-arcgis-block/-/volto-arcgis-block-0.1.142.tgz#c2de853d85a199bd665f9f251e7024fdbecafd81"
+  integrity sha512-uccWQ6XwEQCim/NAp66irUOtwF7H6c46/Euk71hJwfN2JBD88+HC/DJkmRUTafRf0mzYHyDmcqvQN6RFJUCmaw==
   dependencies:
     "@eeacms/volto-clms-utils" "*"
     "@fortawesome/fontawesome-svg-core" "1.2.35"
@@ -1203,10 +1203,10 @@
   dependencies:
     "@eeacms/volto-widget-theme-picker" "^1.0.1"
 
-"@eeacms/volto-clms-theme@1.0.201":
-  version "1.0.201"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.201.tgz#97e6896f2271c72ca63b717b2bf0796ab2e37e34"
-  integrity sha512-zManeULQReltpzhe/q7LT6oon5317nf1Ce0p9SIvPMgjJr4A3Xpv9kxYZFfnlpmpCVGvMMWk3PS1dLerlCZI1g==
+"@eeacms/volto-clms-theme@1.0.202":
+  version "1.0.202"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.0.202.tgz#b84ff4880646a773a90388a0cc9ca70c80f442dc"
+  integrity sha512-MImw+B1AcALrZ1wSgnAFfiZfrJX6tLRe0vflQY+15UPTs0lTqHLgC1YR66TNoNtuhNbtv/i0gMsDkUbjqL4EfQ==
   dependencies:
     "@eeacms/volto-accordion-block" "7.0.0"
     "@eeacms/volto-arcgis-block" "*"
