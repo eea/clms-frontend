@@ -1203,10 +1203,10 @@
   dependencies:
     "@eeacms/volto-widget-theme-picker" "^1.0.1"
 
-"@eeacms/volto-clms-theme@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.1.4.tgz#0e907bcbc382959b8ef5ceac850bc6ec2d652735"
-  integrity sha512-kCq1e7WNlzymy0UOpTvQthnFH8Jv4Hkt+H5yNCeWLKLwemQv6Mlpii5w0UZr8KkmODiNqHhZ17MNkmESbPbzZQ==
+"@eeacms/volto-clms-theme@1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-clms-theme/-/volto-clms-theme-1.1.5.tgz#378d02e00567150c189b708b2d214a497a024b1a"
+  integrity sha512-907oU6Ln4R+acRBTo26JmrERRdmIggvXNRnynBK/oiOTN5NpEh+/2wpbE+/LnWunX7LiPDw6lDUzFkB9JRTwcQ==
   dependencies:
     "@eeacms/volto-accordion-block" "7.0.0"
     "@eeacms/volto-arcgis-block" "*"
