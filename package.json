@@ -168,7 +168,7 @@
     "@eeacms/volto-clms-theme": "1.1.15",
     "@eeacms/volto-eea-kitkat": "16.0.1",
     "@eeacms/volto-sentry-rancher-config": "3.1.1",
-    "@plone/volto": "16.13.0",
+    "@plone/volto": "16.21.2",
     "babel-preset-razzle": "4.2.17",
     "express-list-routes": "1.1.3",
     "levenary": "1.1.1",
