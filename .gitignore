@@ -78,6 +78,7 @@ cypress/screenshots
 # generic
 data
 omelette
+plone-data
 
 # build
 public/critical.css
