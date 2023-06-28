@@ -31,7 +31,7 @@ pipeline {
                 try {
                   sh '''docker pull eeacms/clms-backend; docker run --rm -d --name="$BUILD_TAG-clms-backend" -e SITE="Plone" -e PROFILES="clms.addon:default clms.downloadtool:default clms.statstool:default clms.types:default" eeacms/clms-backend'''
                   // sh '''docker pull eeacms/clms-backend; docker run --rm -d --name="$BUILD_TAG-plone-eeacms" -e SITE="Plone" -e PROFILES="eea.kitkat:testing" eeacms/clms-backend'''
-                  sh '''docker pull eeacms/volto-project-ci; docker run --rm  --name="$BUILD_TAG-cypress-clms" --link $BUILD_TAG-clms-backend:$BUILD_TAG-cypress-clms -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
+                  sh '''docker pull eeacms/volto-project-ci; docker run --rm  --name="$BUILD_TAG-cypress-clms" --link $BUILD_TAG-clms-backend:$BUILD_TAG-cypress-clms -e RAZZLE_API_PATH="http://$BUILD_TAG-clms-backend:8080/Plone" -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/volto-project-ci cypress'''
                   // sh '''docker pull eeacms/volto-project-ci; docker run -i --name="$BUILD_TAG-cypress-eeacms" --link $BUILD_TAG-plone-eeacms:plone -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" -e DEPENDENCIES="$DEPENDENCIES" eeacms/volto-project-ci --config-file cypress.config.js'''
                 } finally {
                   try {
