@@ -65,7 +65,7 @@ output.xml
 report.html
 selenium-screenshot-*.png
 /selenium/
-cypress/videos/*
+cypress/videos/*.mp4
 cypress/screenshots
 
 # Local environment setup
