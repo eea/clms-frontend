@@ -7715,7 +7715,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"countup.js@npm:^2.0.8, countup.js@npm:^2.2.0":
+"countup.js@npm:2.6.0":
   version: 2.6.0
   resolution: "countup.js@npm:2.6.0"
   checksum: 990e64f03e4b730983463a751bd34eb504cb1a7b47784d2dc5dff5fba299dd5de70be80f034a254a005da2201ee6bc0f7c6305a445660724093bab328352bc72
