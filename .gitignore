@@ -65,8 +65,9 @@ output.xml
 report.html
 selenium-screenshot-*.png
 /selenium/
-cypress/videos/
+cypress/videos/*.mp4
 cypress/screenshots
+cypress/reports/*.xml
 
 # Local environment setup
 .env
@@ -78,6 +79,7 @@ cypress/screenshots
 # generic
 data
 omelette
+plone-data
 
 # build
 public/critical.css
