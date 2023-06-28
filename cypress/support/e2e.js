@@ -31,11 +31,11 @@ export const setupBeforeEach = () => {
   //   contentId: 'cypress',
   //   contentTitle: 'Cypress',
   // });
-  // cy.createContent({
-  //   contentType: 'Document',
-  //   contentId: 'my-page',
-  //   contentTitle: 'My Page',
-  // });
+  cy.createContent({
+    contentType: 'Document',
+    contentId: 'my-page',
+    contentTitle: 'My Page',
+  });
   // cy.visit('/my-page');
   // cy.waitForResourceToLoad('@navigation');
   // cy.waitForResourceToLoad('@breadcrumbs');
