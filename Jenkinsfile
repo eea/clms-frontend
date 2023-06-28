@@ -35,7 +35,7 @@ pipeline {
                   try {
                     sh '''rm -rf cypress-reports cypress-results'''
                     sh '''mkdir -p cypress-reports cypress-results'''
-                    sh '''docker exec -it $BUILD_TAG-cypress-clms ls -l /opt/frontend/my-volto-project/cypress'''
+                    sh '''docker exec $BUILD_TAG-cypress-clms ls -l /opt/frontend/my-volto-project/cypress'''
                     sh '''docker cp $BUILD_TAG-cypress-clms:/opt/frontend/my-volto-project/cypress/videos cypress-reports/'''
                     sh '''docker cp $BUILD_TAG-cypress-clms:/opt/frontend/my-volto-project/cypress/reports cypress-results/'''
                     sh '''touch empty_file; for ok_test in $(grep -E 'file=.*failures="0"' $(grep 'testsuites .*failures="0"' $(find cypress-results -name *.xml) empty_file | awk -F: '{print $1}') empty_file | sed 's/.* file="\\(.*\\)" time.*/\\1/' | sed 's#^node_modules/volto-slate/##g' | sed 's#^node_modules/@eeacms/##g'); do rm -f cypress-reports/videos/$ok_test.mp4; rm -f cypress-reports/$ok_test.mp4; done'''
