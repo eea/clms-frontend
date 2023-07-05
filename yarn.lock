@@ -1764,9 +1764,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.166":
-  version: 0.1.166
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.166"
+"@eeacms/volto-arcgis-block@npm:0.1.167":
+  version: 0.1.167
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.167"
   dependencies:
     "@eeacms/volto-clms-utils": "*"
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1776,7 +1776,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 04ec1de0cc14f44a1258c2f6bccb458cd67fbf067f4efae689b794bf079e50d1c7414a67e99c9999a4c9023ecb159a25798df1eaf8327ba7a0be1b1414264e62
+  checksum: 30f3db463a4cdedd611f2306483dc1eb5173b403e1047707edad98f354a3973892f9453d4333ff374d8b965f0751f3f6b925aaf3d98ce14e785623107a09229f
   languageName: node
   linkType: hard
 
@@ -1834,9 +1834,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.19":
-  version: 1.1.19
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.19"
+"@eeacms/volto-clms-theme@npm:1.1.20":
+  version: 1.1.20
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.20"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1870,7 +1870,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: ad31535f9b6569c1e0f0874ee7bdc9568149451a63f2c1e5245fb1df629ac3f28a5f36073012dbaaa9bb4dd85741c802df0a798c489a3f9430bdee5950bd588b
+  checksum: 9f1de175d08cf46b019f0dca5f5ffc2071b9117acc06df0621d1ff93d16fb389c1d2a5c93f836b83ae493a4e3b7de17bc989e62e5bf8f43a4371362164df6b8e
   languageName: node
   linkType: hard
 
@@ -1942,9 +1942,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:16.0.2":
-  version: 16.0.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:16.0.2"
+"@eeacms/volto-eea-kitkat@npm:16.0.3":
+  version: 16.0.3
+  resolution: "@eeacms/volto-eea-kitkat@npm:16.0.3"
   dependencies:
     "@eeacms/volto-accordion-block": 9.0.0
     "@eeacms/volto-anchors": 0.3.2
@@ -1971,7 +1971,7 @@ __metadata:
     "@eeacms/volto-slate-metadata-mentions": 6.1.1
     "@eeacms/volto-slate-zotero": 5.2.1
     "@eeacms/volto-statistic-block": 1.3.0
-    "@eeacms/volto-tabs-block": 5.0.4
+    "@eeacms/volto-tabs-block": 5.0.5
     "@eeacms/volto-tags-block": 1.2.0
     "@eeacms/volto-taxonomy": 4.0.1
     "@eeacms/volto-timeline-block": 1.1.1
@@ -1983,7 +1983,7 @@ __metadata:
     "@eeacms/volto-widgets-view": 4.2.1
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: 0967f8eed661e32408f1fe396cdbdb8c361048d4ace5cc2c64cda41f4b90da854ff232a7d3a26e8d36292aea47f09ee1c31383779118355681e291a7c7f00b6f
+  checksum: ab365330c4dfea968953c61dfad8f3e306a7a479d7e5892c56a72472f9c7cb08bbcf27fce3f869fea41944cea4636cb487bbf762c9f0ae8118dcc75254a734da
   languageName: node
   linkType: hard
 
@@ -2204,16 +2204,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:5.0.4":
-  version: 5.0.4
-  resolution: "@eeacms/volto-tabs-block@npm:5.0.4"
+"@eeacms/volto-tabs-block@npm:5.0.5":
+  version: 5.0.5
+  resolution: "@eeacms/volto-tabs-block@npm:5.0.5"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: fabaf4bcfb4ebe57cbad7bb61cf614eb82641b322547224c850be2f3c829b201016b8db7e53f4a7dd3815f56c28dcc3ea99a492d5d2acb5185ddfdb459d420b6
+  checksum: add36b66123c423fea51866200638b38e299834079a750dc7ca691d572a34b2320b171186abb00dddefb6b89394d1eb4ff7502f90fe6eaf1edabe227bccb58cd
   languageName: node
   linkType: hard
 
@@ -6620,9 +6620,9 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.166
-    "@eeacms/volto-clms-theme": 1.1.19
-    "@eeacms/volto-eea-kitkat": 16.0.2
+    "@eeacms/volto-arcgis-block": 0.1.167
+    "@eeacms/volto-clms-theme": 1.1.20
+    "@eeacms/volto-eea-kitkat": 16.0.3
     "@eeacms/volto-sentry-rancher-config": 3.1.1
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
