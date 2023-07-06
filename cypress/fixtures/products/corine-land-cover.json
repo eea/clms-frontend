@@ -1,0 +1,2054 @@
+{
+    "@components": {
+      "actions": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@actions"
+      },
+      "aliases": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@aliases"
+      },
+      "breadcrumbs": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@breadcrumbs"
+      },
+      "contextnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@contextnavigation"
+      },
+      "layout": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@layout"
+      },
+      "localnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@localnavigation"
+      },
+      "navigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@navigation"
+      },
+      "navroot": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@navroot",
+        "title": "Copernicus Land Monitoring Service",
+        "url": "https://clms-prod.eea.europa.eu/en"
+      },
+      "siblings": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@siblings"
+      },
+      "translations": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@translations"
+      },
+      "types": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@types"
+      },
+      "workflow": {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@workflow"
+      }
+    },
+    "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover",
+    "@type": "Product",
+    "UID": "130299ac96e54c30a12edd575eff80f7",
+    "allow_discussion": false,
+    "blocks": {
+      "7928f5c6-7b0d-4665-89cf-5fe6c5139e25": {
+        "@layout": "82008ae8-dbe9-4d85-b411-c5a5712bf337",
+        "@type": "title",
+        "block": "5774b615-8bc4-409a-9c41-a24e6f5d3cb9"
+      },
+      "bf6c0338-2c85-4d6f-8758-24258ed32be1": {
+        "@type": "tabs_block",
+        "align": "left",
+        "data": {
+          "blocks": {
+            "39b77fb2-2699-4937-a156-7706d9be3437": {
+              "@type": "tab",
+              "blocks": {
+                "14fb8559-126f-4d60-b2aa-0f6830d2f7b7": {
+                  "@type": "accordion",
+                  "collapsed": false,
+                  "data": {
+                    "blocks": {
+                      "759d3f2a-c3a9-42f7-a8ad-99b2643ebe06": {
+                        "@type": "accordionPanel",
+                        "blocks": {
+                          "aa645e5e-1dd7-4c37-abad-01833b37ebb2": {
+                            "@type": "slate",
+                            "plaintext": "",
+                            "value": [
+                              {
+                                "children": [
+                                  {
+                                    "text": ""
+                                  }
+                                ],
+                                "type": "p"
+                              }
+                            ]
+                          },
+                          "e8fef7b6-b048-42e6-81ac-1d788c6b6a19": {
+                            "@type": "listing",
+                            "align": "left",
+                            "block": "e8fef7b6-b048-42e6-81ac-1d788c6b6a19",
+                            "query": [],
+                            "querystring": {
+                              "query": [
+                                {
+                                  "i": "portal_type",
+                                  "o": "plone.app.querystring.operation.selection.any",
+                                  "v": [
+                                    "DataSet"
+                                  ]
+                                },
+                                {
+                                  "i": "review_state",
+                                  "o": "plone.app.querystring.operation.selection.any",
+                                  "v": [
+                                    "published"
+                                  ]
+                                },
+                                {
+                                  "i": "path",
+                                  "o": "plone.app.querystring.operation.string.absolutePath",
+                                  "v": "/en/products/corine-land-cover"
+                                }
+                              ],
+                              "sort_on": "getObjPositionInParent",
+                              "sort_order": "ascending"
+                            },
+                            "styles": {
+                              "align": "left",
+                              "textAlign": "left"
+                            },
+                            "variation": "CclCardsline"
+                          }
+                        },
+                        "blocks_layout": {
+                          "items": [
+                            "e8fef7b6-b048-42e6-81ac-1d788c6b6a19",
+                            "aa645e5e-1dd7-4c37-abad-01833b37ebb2"
+                          ]
+                        },
+                        "title": "Datasets"
+                      }
+                    },
+                    "blocks_layout": {
+                      "items": [
+                        "759d3f2a-c3a9-42f7-a8ad-99b2643ebe06"
+                      ]
+                    }
+                  },
+                  "non_exclusive": true,
+                  "right_arrows": true,
+                  "styles": {
+                    "textAlign": "left"
+                  },
+                  "title_size": "h2"
+                },
+                "98509bd7-68b0-4e39-a16b-a1330a77932a": {
+                  "@type": "slate",
+                  "plaintext": "In its current form, the CORINE Land Cover (CLC) product offers a pan-European land cover and land use inventory with 44 thematic classes, ranging from broad forested areas to individual vineyards. The product is updated with new status and change layers every six years\u2014with the most recent update made in 2018. CLC serves a multitude of users and has nearly limitless potential and actual applications, including environmental monitoring, land use planning, climate change assessments, and emergency management.",
+                  "value": [
+                    {
+                      "children": [
+                        {
+                          "text": "In its current form, the CORINE Land Cover (CLC) product offers a pan-European land cover and land use inventory with 44 thematic classes, ranging from broad forested areas to individual vineyards. The product is updated with new status and change layers every six years\u2014with the most recent update made in 2018. CLC serves a multitude of users and has nearly limitless potential and actual applications, including environmental monitoring, land use planning, climate change assessments, and emergency management."
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ]
+                },
+                "a8178f58-9792-41b8-be09-348498df405f": {
+                  "@type": "accordion",
+                  "collapsed": true,
+                  "data": {
+                    "blocks": {
+                      "f62ab0eb-37f6-4898-8381-26d82d8b21a3": {
+                        "@type": "accordionPanel",
+                        "blocks": {
+                          "01dc9456-d462-47a5-a946-970260300a97": {
+                            "@type": "slate",
+                            "plaintext": " Tip : if you are interested in land cover changes between two neighbour surveys always use the corresponding change layer.",
+                            "styles": {
+                              "backgroundColor": "#ebefc6"
+                            },
+                            "value": [
+                              {
+                                "children": [
+                                  {
+                                    "text": ""
+                                  },
+                                  {
+                                    "children": [
+                                      {
+                                        "text": "Tip"
+                                      }
+                                    ],
+                                    "type": "strong"
+                                  },
+                                  {
+                                    "text": ": if you are interested in land cover changes between two neighbour surveys always use the corresponding change layer."
+                                  }
+                                ],
+                                "type": "callout"
+                              }
+                            ]
+                          },
+                          "58d246e0-fa79-4df8-9c6a-4c68c74cbba1": {
+                            "@type": "slate",
+                            "plaintext": "Evolution of CORINE Land Cover",
+                            "value": [
+                              {
+                                "children": [
+                                  {
+                                    "text": "\nEvolution of CORINE Land Cover"
+                                  }
+                                ],
+                                "type": "h3"
+                              }
+                            ]
+                          },
+                          "7cf32abe-5c04-44e3-853f-f2334339baaf": {
+                            "@type": "slate",
+                            "plaintext": "The CORINE Land Cover (CLC) updates have been produced in 2000, 2006, 2012, and 2018.\u00a0The inventory contains 44 land cover classes. The product has a Minimum Mapping Unit (MMU) of 25 hectares (ha) for areal phenomena and a minimum width of 100 m for linear phenomena.\u00a0The time series are complemented by change layers, which highlight changes in land cover with a MMU of 5 ha. Different MMUs mean that the change layer has higher resolution than the status layer. Due to differences in MMUs the difference between two status layers will not equal to the corresponding CLC Change (CHA) layer.",
+                            "value": [
+                              {
+                                "children": [
+                                  {
+                                    "text": "The CORINE Land Cover (CLC) updates have been produced in 2000, 2006, 2012, and 2018.\u00a0The inventory contains 44 land cover classes. The product has a Minimum Mapping Unit (MMU) of 25 hectares (ha) for areal phenomena and a minimum width of 100 m for linear phenomena.\u00a0The time series are complemented by change layers, which highlight changes in land cover with a MMU of 5 ha. Different MMUs mean that the change layer has higher resolution than the status layer. Due to differences in MMUs the difference between two status layers will not equal to the corresponding CLC Change (CHA) layer."
+                                  }
+                                ],
+                                "type": "p"
+                              }
+                            ]
+                          },
+                          "b2a33473-8efd-46e2-ae19-11196a58fa7f": {
+                            "@type": "slate",
+                            "plaintext": "CHARACTERISTICS CLC 1990 CLC 2000 CLC 2006 CLC 2012 CLC 2018 Satellite data Landsat-5 MSS/TM, single date Landsat-7 ETM, single date SPOT-4/5 and IRS P6 LISS III, dual date IRS P6 LISS III and RapidEye, dual date Sentinel-2 and Landsat-8 for gap filling Temporal extent 1986-1998 2000 +/- 1 year 2006+/- 1 year 2011-2012 2017-2018 Geometric accuracy, satellite data \u2264 50 m \u2264 25 m \u2264 25 m \u2264 25 m \u2264 10 m (Sentinel-2) Min. Mapping Unit/Width 25 ha / 100 m 25 ha / 100 m 25 ha / 100 m 25 ha / 100 m 25 ha / 100 m Geometric accuracy, CLC 100 m better than 100 m better than 100 m better than 100 m better than 100 m Thematic accuracy, CLC \u2265 85% (probably not achieved) \u2265 85% (achieved) \u2265 85% \u2265 85% (probably achieved) \u2265 85% Change mapping, CHA not implemented boundary displacement min. 100 m; change area for existing polygons \u2265 5 ha; for isolated changes \u2265 25 ha boundary displacement min. 100 m; all changes \u2265 5 ha are to be mapped boundary displacement min. 100 m; all changes \u2265 5 ha are to be mapped boundary displacement min. 100 m; all changes \u2265 5 ha are to be mapped Thematic accuracly, CHA - not checked \u2265 85% (achieved) \u2265 85% \u2265 85% Production time 10 years 4 years 3 years 2 years 1.5 years Number of participating countries 27 39 39 39 39",
+                            "value": [
+                              {
+                                "children": [
+                                  {
+                                    "children": [
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "CHARACTERISTICS"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "th"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "CLC 1990"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "th"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "CLC 2000"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "th"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "CLC 2006"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "th"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "CLC 2012"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "th"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "CLC 2018"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "th"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      }
+                                    ],
+                                    "type": "thead"
+                                  },
+                                  {
+                                    "children": [
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Satellite data"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Landsat-5 MSS/TM, single date"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Landsat-7 ETM, single date"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "SPOT-4/5 and"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              },
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "IRS P6 LISS III, dual date"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "IRS P6 LISS III"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              },
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "and RapidEye, dual date"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Sentinel-2 and Landsat-8 for gap filling"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Temporal extent"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "1986-1998"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "2000 +/- 1 year"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "2006+/- 1 year"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "2011-2012"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "2017-2018"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Geometric accuracy, satellite data"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2264 50 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2264 25 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2264 25 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2264 25 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2264 10 m (Sentinel-2)"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Min. Mapping Unit/Width"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "25 ha / 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "25 ha / 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "25 ha / 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "25 ha / 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "25 ha / 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Geometric accuracy, CLC"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "better than 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "better than 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "better than 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "better than 100 m"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Thematic accuracy, CLC"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              },
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "(probably not achieved)"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              },
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "(achieved)"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              },
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "(probably achieved)"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Change mapping, CHA"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "not implemented"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "boundary displacement min. 100 m; change area for existing polygons \u2265 5 ha; for isolated changes \u2265 25 ha"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "boundary displacement min. 100 m; all changes \u2265 5 ha are to be mapped"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "boundary displacement min. 100 m; all changes \u2265 5 ha are to be mapped"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "boundary displacement min. 100 m; all changes \u2265 5 ha are to be mapped"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Thematic accuracly, CHA"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "-"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "not checked"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              },
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "(achieved)"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "\u2265 85%"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Production time"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "10 years"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "4 years"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "3 years"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "2 years"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "1.5 years"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      },
+                                      {
+                                        "children": [
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "Number of participating countries"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "27"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "39"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "39"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "39"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          },
+                                          {
+                                            "children": [
+                                              {
+                                                "children": [
+                                                  {
+                                                    "text": "39"
+                                                  }
+                                                ],
+                                                "type": "p"
+                                              }
+                                            ],
+                                            "type": "td"
+                                          }
+                                        ],
+                                        "type": "tr"
+                                      }
+                                    ],
+                                    "type": "tbody"
+                                  }
+                                ],
+                                "type": "table"
+                              }
+                            ]
+                          },
+                          "fea082ef-0536-418f-a179-fbe80caa6108": {
+                            "@type": "slate",
+                            "plaintext": "Please also check the CORINE Land Cover FAQ section .",
+                            "styles": {
+                              "backgroundColor": "#ebefc6"
+                            },
+                            "value": [
+                              {
+                                "children": [
+                                  {
+                                    "text": "Please also check the\u00a0"
+                                  },
+                                  {
+                                    "children": [
+                                      {
+                                        "text": "CORINE Land Cover FAQ section"
+                                      }
+                                    ],
+                                    "data": {
+                                      "link": {
+                                        "external": {
+                                          "external_link": "https://clms-prod.eea.europa.eu/en/faq#corine_land_cover",
+                                          "target": "_self"
+                                        }
+                                      }
+                                    },
+                                    "type": "a",
+                                    "url": "https://clms-prod.eea.europa.eu/en/faq#corine_land_cover"
+                                  },
+                                  {
+                                    "text": "."
+                                  }
+                                ],
+                                "type": "callout"
+                              }
+                            ]
+                          }
+                        },
+                        "blocks_layout": {
+                          "items": [
+                            "7cf32abe-5c04-44e3-853f-f2334339baaf",
+                            "01dc9456-d462-47a5-a946-970260300a97",
+                            "58d246e0-fa79-4df8-9c6a-4c68c74cbba1",
+                            "b2a33473-8efd-46e2-ae19-11196a58fa7f",
+                            "fea082ef-0536-418f-a179-fbe80caa6108"
+                          ]
+                        },
+                        "title": "Technical summary"
+                      }
+                    },
+                    "blocks_layout": {
+                      "items": [
+                        "f62ab0eb-37f6-4898-8381-26d82d8b21a3"
+                      ]
+                    }
+                  },
+                  "non_exclusive": true,
+                  "right_arrows": true,
+                  "styles": {},
+                  "title_size": "h2"
+                },
+                "c651b820-4f36-479b-9389-94827af059cb": {
+                  "@type": "accordion",
+                  "collapsed": true,
+                  "data": {
+                    "blocks": {
+                      "f6414549-9a57-4f4b-b9a0-998cfe7728c0": {
+                        "@type": "accordionPanel",
+                        "blocks": {
+                          "2602b570-fd91-4309-8ba0-80ea5954558d": {
+                            "@type": "relatedListing",
+                            "content_type": "TechnicalLibrary",
+                            "variation": "CclCardsdoc"
+                          }
+                        },
+                        "blocks_layout": {
+                          "items": [
+                            "2602b570-fd91-4309-8ba0-80ea5954558d"
+                          ]
+                        },
+                        "title": "See product documentation here"
+                      }
+                    },
+                    "blocks_layout": {
+                      "items": [
+                        "f6414549-9a57-4f4b-b9a0-998cfe7728c0"
+                      ]
+                    }
+                  },
+                  "non_exclusive": true,
+                  "right_arrows": true,
+                  "styles": {},
+                  "title_size": "h2"
+                },
+                "cd2db394-c2f7-40cf-9d2a-6fa833fd6765": {
+                  "@type": "slate",
+                  "plaintext": "In the early 1980\u2019s, the European Commission recognized the need for a comprehensive, detailed, and harmonized dataset on the land cover and land use of the European continent. At that time, national land cover maps were often inconsistent and incomparable across borders, making the prospect of monitoring the European environment at a continental scale all but impossible. In response, the European Commission launched the CORINE (Coordination of Information on the Environment) program in an effort to develop a standardized methodology for producing continent-scale land cover, biotope, and air quality maps. In 1990, the first CORINE Land Cover dataset was produced. Since then, it has become a flagship component of the European Environment Agency\u2019s Copernicus Land Monitoring Service, where it has provided essential information on European land cover/land use for over three decades.",
+                  "value": [
+                    {
+                      "children": [
+                        {
+                          "text": "In the early 1980\u2019s, the European Commission recognized the need for a comprehensive, detailed, and harmonized dataset on the land cover and land use of the European continent. At that time, national land cover maps were often inconsistent and incomparable across borders, making the prospect of monitoring the European environment at a continental scale all but impossible. In response, the European Commission launched the CORINE (Coordination of Information on the Environment) program in an effort to develop a standardized methodology for producing continent-scale land cover, biotope, and air quality maps. In 1990, the first CORINE Land Cover dataset was produced. Since then, it has become a flagship component of the European Environment Agency\u2019s Copernicus Land Monitoring Service, where it has provided essential information on European land cover/land use for over three decades."
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ]
+                },
+                "f5e81154-3439-472d-9c15-0f224cd3c443": {
+                  "@type": "slate",
+                  "value": []
+                }
+              },
+              "blocks_layout": {
+                "items": [
+                  "cd2db394-c2f7-40cf-9d2a-6fa833fd6765",
+                  "98509bd7-68b0-4e39-a16b-a1330a77932a",
+                  "a8178f58-9792-41b8-be09-348498df405f",
+                  "c651b820-4f36-479b-9389-94827af059cb",
+                  "14fb8559-126f-4d60-b2aa-0f6830d2f7b7",
+                  "f5e81154-3439-472d-9c15-0f224cd3c443"
+                ]
+              },
+              "title": "Main"
+            },
+            "411a5824-06a7-42e9-a829-501978ea19bb": {
+              "@type": "tab",
+              "blocks": {
+                "2fac10e0-b3d1-4b32-87ba-2b626fefedc3": {
+                  "@type": "cclButtonComponent",
+                  "disabled": false,
+                  "href": [
+                    {
+                      "@id": "http://backend:8080/Plone/en/use-cases/submit-use-case",
+                      "@type": "Document",
+                      "Description": "Tell us how you use the Copernicus Land Monitoring Service data.",
+                      "Title": "Submit use case",
+                      "title": "Submit use case"
+                    }
+                  ],
+                  "style": "filled",
+                  "target": "_self",
+                  "title": "Submit your use case"
+                },
+                "4ec6c018-76e5-49bc-8342-f4a89ad2166c": {
+                  "@type": "slate",
+                  "plaintext": "If you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website.",
+                  "value": [
+                    {
+                      "children": [
+                        {
+                          "text": " If you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website."
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ]
+                },
+                "668a248b-3318-418b-b659-1c51fadc47fd": {
+                  "@type": "slate",
+                  "plaintext": "CORINE Land Cover has a wide variety of applications, underpinning various Community policies in the domains of environment, but also agriculture, transport, spatial planning.",
+                  "styles": {
+                    "textAlign": "left"
+                  },
+                  "value": [
+                    {
+                      "children": [
+                        {
+                          "text": "CORINE Land Cover has a wide variety of applications, underpinning various Community policies in the domains of environment, but also agriculture, transport, spatial planning."
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ]
+                },
+                "c32f9169-dd80-4d8a-8ec5-e296ea9dbbae": {
+                  "@type": "dividerBlock",
+                  "styles": {
+                    "textAlign": "left"
+                  }
+                },
+                "df0be08f-e6cc-4f86-8a4c-f2fb2527869a": {
+                  "@type": "slate",
+                  "plaintext": "In this section you can find documented CORINE Land Cover use cases.",
+                  "styles": {
+                    "textAlign": "left"
+                  },
+                  "value": [
+                    {
+                      "children": [
+                        {
+                          "text": " \nIn this section you can find documented CORINE Land Cover use cases."
+                        }
+                      ],
+                      "type": "p"
+                    }
+                  ]
+                },
+                "fa1c4f60-530f-43fb-b2f4-8606abe10e2c": {
+                  "@type": "relatedListing",
+                  "content_type": "UseCase",
+                  "variation": "CclCardsline-no-description"
+                }
+              },
+              "blocks_layout": {
+                "items": [
+                  "668a248b-3318-418b-b659-1c51fadc47fd",
+                  "4ec6c018-76e5-49bc-8342-f4a89ad2166c",
+                  "2fac10e0-b3d1-4b32-87ba-2b626fefedc3",
+                  "c32f9169-dd80-4d8a-8ec5-e296ea9dbbae",
+                  "df0be08f-e6cc-4f86-8a4c-f2fb2527869a",
+                  "fa1c4f60-530f-43fb-b2f4-8606abe10e2c"
+                ]
+              },
+              "selected": "df0be08f-e6cc-4f86-8a4c-f2fb2527869a",
+              "title": "Applications & use cases"
+            },
+            "ff71eb3c-df33-4f86-a12b-fbd9925ceeee": {
+              "@type": "tab",
+              "blocks": {
+                "9042901b-f9c3-447b-9dc9-bdbf8af458a8": {
+                  "@type": "slate"
+                }
+              },
+              "blocks_layout": {
+                "items": [
+                  "9042901b-f9c3-447b-9dc9-bdbf8af458a8"
+                ]
+              },
+              "title": "Roadmap"
+            }
+          },
+          "blocks_layout": {
+            "items": [
+              "39b77fb2-2699-4937-a156-7706d9be3437",
+              "411a5824-06a7-42e9-a829-501978ea19bb",
+              "ff71eb3c-df33-4f86-a12b-fbd9925ceeee"
+            ]
+          }
+        },
+        "menuAlign": "left",
+        "menuCompact": true,
+        "menuFluid": true,
+        "menuPosition": "inline",
+        "menuText": true,
+        "template": "CCLProductTabs",
+        "verticalAlign": "flex-start"
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "7928f5c6-7b0d-4665-89cf-5fe6c5139e25",
+        "bf6c0338-2c85-4d6f-8758-24258ed32be1"
+      ]
+    },
+    "changeNote": "",
+    "component_title": "Land Cover and land use mapping",
+    "contributors": [],
+    "created": "2021-10-29T09:59:43+00:00",
+    "creators": [
+      "admin"
+    ],
+    "description": "CORINE Land Cover is a pan-European land cover inventory with 44 thematic classes. Initiated in 1985 (the 1990 reference year) the inventory is available  for the 1990, 2000, 2006, 2012 and 2018 reference years including change layers 1990-2000, 2006-2012 and 2012-2018.",
+    "effective": "2021-10-29T10:06:00+00:00",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "corine-land-cover",
+    "image": {
+      "content-type": "image/png",
+      "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-400-847c110da6b92f1e7e51948158df577a.png",
+      "filename": "CLC2018.png",
+      "height": 400,
+      "scales": {
+        "great": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-1200-011689b55cc5e18d9470bf028c948661.png",
+          "height": 400,
+          "width": 400
+        },
+        "huge": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-1600-6758d9a004523b0efda2e11be6d97888.png",
+          "height": 400,
+          "width": 400
+        },
+        "huge2400": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-2400-b38f912264fbe2a646a0c7c0fec80dd7.png",
+          "height": 400,
+          "width": 400
+        },
+        "huge3000": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-3000-5cd9e22566deddb45b90b345127c7d6c.png",
+          "height": 400,
+          "width": 400
+        },
+        "huge4000": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-4000-11bed8ffb5f73fb5dadb1a0719e11d80.png",
+          "height": 400,
+          "width": 400
+        },
+        "icon": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-32-3a16b7bff0ba6e84025ea4a19408301f.png",
+          "height": 32,
+          "width": 32
+        },
+        "large": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-800-b852444c06b6ea5c6551fe12cede7922.png",
+          "height": 400,
+          "width": 400
+        },
+        "larger": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-1000-4f603b8aef9923cfc1e6661ec93c066c.png",
+          "height": 400,
+          "width": 400
+        },
+        "mini": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-200-7079ce9de86f6f0d4afc953b7b58d00b.png",
+          "height": 200,
+          "width": 200
+        },
+        "preview": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-400-7d8e8dfc63d50c9bf89ff5a7475dcd46.png",
+          "height": 400,
+          "width": 400
+        },
+        "teaser": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-600-4dbfad1254c976c8a5e641e0dff0e1e1.png",
+          "height": 400,
+          "width": 400
+        },
+        "thumb": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-128-f0696cb36da8278368ade99d741a5843.png",
+          "height": 128,
+          "width": 128
+        },
+        "tile": {
+          "download": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/@@images/image-64-1460e0e19631ba1f336e35edd8e2c0a2.png",
+          "height": 64,
+          "width": 64
+        }
+      },
+      "size": 97908,
+      "width": 400
+    },
+    "image_caption": null,
+    "is_folderish": true,
+    "items": [
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/clc2018",
+        "@type": "DataSet",
+        "description": "Provides pan-European CORINE Land Cover inventory for 44 thematic classes for the 2018 reference year. The dataset  has a Minimum Mapping Unit (MMU) of 25 hectares (ha) for areal phenomena and a Minimum Mapping Width (MMW) of 100 m for linear phenomena and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-d5ae8977f19f7aa64c7f4e86a39ba5a1.png",
+              "filename": "CLC2018.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-181a4a7e5e6cb07829c406c5e8451811.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-52f8c71ea4cd5b9d99986ffc75136c19.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-fdc0090a0e6ea2a84211f64353af62a9.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-9d03ad9677fa94013dad2291ecd90012.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-5bf66d0b7f21c5a364b6a63313bc7cf5.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 97908,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover 2018 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/clc-2012",
+        "@type": "DataSet",
+        "description": "Provides pan-European CORINE Land Cover inventory for 44 thematic classes for the 2012 reference year. The dataset has a Minimum Mapping Unit (MMU) of 25 hectares (ha) for areal phenomena and a Minimum Mapping Width (MMW) of 100 m for linear phenomena and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-58c4af5c18425f7ccf0c19f95ed538f3.png",
+              "filename": "CLC2012.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-0573880136be91eafe7f6f641c1d0327.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-c1b5a97d29d4a1aa1277813006307b17.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-4a0283fe05762fa426a11abea8e2b2b2.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-fc5c973a66eab748a280af2839b5030a.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-716adc084745e53f6a4518e74acb7024.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 97920,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover 2012 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/clc-2006",
+        "@type": "DataSet",
+        "description": "Provides pan-European CORINE Land Cover inventory for for 44 thematic classes the 2006 reference year. The dataset has a Minimum Mapping Unit (MMU) of 25 hectares (ha) for areal phenomena and a Minimum Mapping Width (MMW) of 100 m for linear phenomena and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-470409759650760b43fc387024bae938.png",
+              "filename": "CLC2006.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-2071e0960dcbcaaf3ee95b2a014ec640.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-b2f5e87a7fd4f84a496b45937ce6690c.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-c4e457e778f8dc8eef6ca73b8ad058e4.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-764e1c02ec248facb39f7adbfd9eba1d.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-ee0d428d4bb298c0f4dc781ad177a58d.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 95175,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover 2006 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/clc-2000",
+        "@type": "DataSet",
+        "description": "Provides pan-European CORINE Land Cover inventory for 44 thematic classes for the 2000 reference year. The dataset has a Minimum Mapping Unit (MMU) of 25 hectares (ha) for areal phenomena and a Minimum Mapping Width (MMW) of 100 m for linear phenomena and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-c594e291b81d8d1eb6dac88cee608661.png",
+              "filename": "CLC2000.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-183db69fecda5424b206e3e7f2933245.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-61dab1c75ca6916acc0697332a9d41fd.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-95f07f383b9e5898d17bd189c85a9980.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-f53af02f92fbb7efce0a01c33b3cb758.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-943d841079125fd37cf8cb616b2c11be.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 91689,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover 2000 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/clc-1990",
+        "@type": "DataSet",
+        "description": "Provides pan-European CORINE Land Cover inventory for 44 thematic classes for the 1990 reference year. The dataset has a Minimum Mapping Unit (MMU) of 25 hectares (ha) for areal phenomena and a Minimum Mapping Width (MMW) of 100 m for linear phenomena and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-144e96901095ad15f9343d9a2c484dc4.png",
+              "filename": "CLC1990.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-0d7d1abb6201d54ff4beb01b5932e6b5.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-7b52a91dbdbbad1c8ebab4c758cd2187.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-7de51b6b1d57d31550f9ea3af99c855f.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-8b5acff71805dfd06a52e2887a7aa42c.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-ffdb0ee38e8632a19b176c7b762b92d9.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 92228,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover 1990 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/lcc-2012-2018",
+        "@type": "DataSet",
+        "description": "Provides land cover change information between the 2012 and 2018 CLC status layers. The dataset has a Minimum Mapping Unit (MMU) of 5 hectares (ha) and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-1ded29a3ac69cc6d609a6c461c83cad0.png",
+              "filename": "CHA_2012_2018.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-6206290fbfde2139eb92af46caed1161.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-febacea6088effce0778f03914097adc.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-ed2cb0e1ccf0cf2cf250973ac8efaf4d.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-4ca30113efa4b7d47295d238ea2e77db.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-96fd47d510ff3798c08e150d6a325152.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 14454,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover Change 2012-2018 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/cha-2006-2012",
+        "@type": "DataSet",
+        "description": "Provides land cover change information between the 2006 and 2012 CLC status layers. The dataset has a Minimum Mapping Unit (MMU) of 5 hectares (ha) and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-6f7cef37fd6c68178efabcaf2696dbe7.png",
+              "filename": "CHA_2006_2012.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-e5de80969d629800eb277b0cb30a39de.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-4e69dbfe0edf14dd100574d807d418e6.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-428d517dface97987b2ac4761616903c.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-2a2cc7de8dab1474c1f95ef480af3df3.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-621da619116adb07edaf6f360c24e738.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 20627,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover Change 2006-2012 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/cha-2000-2006",
+        "@type": "DataSet",
+        "description": "Provides land cover change information between the 2006 and 2012 CLC status layers. The dataset has a Minimum Mapping Unit (MMU) of 5 hectares (ha) and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-30ca24d0212119f1050e97c7e3b8e928.png",
+              "filename": "CHA_2000_2006.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-ce9bc56949d64f9c2db2e34a0383fe02.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-5487a3404035a1e78b388d6267ad356c.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-f2513dc70666c2297f713b60cbc558b5.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-a06719d916f7e7c94e580faeefa45c97.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-6aef0f8493503a8e18ced5cdee92c708.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 17814,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover Change 2000-2006 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/cha-1990-2000",
+        "@type": "DataSet",
+        "description": "Provides land cover change information between the 1990 and 2000 CLC status layers. The dataset has a Minimum Mapping Unit (MMU) of 5 hectares (ha) and is available as vector and as 100 m raster data.",
+        "getRemoteUrl": null,
+        "image_field": "image",
+        "image_scales": {
+          "image": [
+            {
+              "content-type": "image/png",
+              "download": "@@images/image-400-d2fb9a8792d24813370641374b1ffecf.png",
+              "filename": "CHA_1990_2000.png",
+              "height": 400,
+              "scales": {
+                "icon": {
+                  "download": "@@images/image-32-6a20329b6f66d45daf52bc931649db35.png",
+                  "height": 32,
+                  "width": 32
+                },
+                "mini": {
+                  "download": "@@images/image-200-91de47dbb8607bdd05110646d5f1dae3.png",
+                  "height": 200,
+                  "width": 200
+                },
+                "preview": {
+                  "download": "@@images/image-400-f2f083994b7e4f59d689ea270d3b7648.png",
+                  "height": 400,
+                  "width": 400
+                },
+                "thumb": {
+                  "download": "@@images/image-128-f27a810deed403e6eab21ed3e5873df9.png",
+                  "height": 128,
+                  "width": 128
+                },
+                "tile": {
+                  "download": "@@images/image-64-26e99dbf08d73c0d8dbf6ef05e3390eb.png",
+                  "height": 64,
+                  "width": 64
+                }
+              },
+              "size": 31223,
+              "width": 400
+            }
+          ]
+        },
+        "review_state": "published",
+        "title": "CORINE Land Cover Change 1990-2000 (vector/raster 100 m), Europe, 6-yearly",
+        "type_title": "DataSet"
+      },
+      {
+        "@id": "https://clms-prod.eea.europa.eu/en/products/corine-land-cover/corine-land-cover-technical-overview",
+        "@type": "Document",
+        "description": "",
+        "getRemoteUrl": null,
+        "image_field": "",
+        "image_scales": null,
+        "review_state": "published",
+        "title": "CORINE Land Cover: technical overview",
+        "type_title": "Page"
+      }
+    ],
+    "items_total": 10,
+    "language": {
+      "title": "English",
+      "token": "en"
+    },
+    "layout": "view",
+    "lock": {
+      "locked": false,
+      "stealable": true
+    },
+    "mapviewer_component": {
+      "title": "01#Land Cover and Land Use Mapping",
+      "token": "2a04c969-7f91-476f-8ab2-6fb4a7588896"
+    },
+    "modified": "2023-07-03T12:33:41+00:00",
+    "next_item": {
+      "@id": "https://clms-prod.eea.europa.eu/en/products/clc-backbone",
+      "@type": "Product",
+      "description": "The CLC+ Backbone product provides a detailed pan-European wall to wall geometric vector reference layer with 18 basic thematic classes and a 11-class 10 m spatial resolution raster product. The product has a three years update cycle and is available for the 2018 reference year.",
+      "title": "CLC+Backbone",
+      "type_title": "Product"
+    },
+    "parent": {
+      "@id": "https://clms-prod.eea.europa.eu/en/products",
+      "@type": "Document",
+      "description": "Copernicus Land Monitoring Service portfolio.",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "CLMS portfolio",
+      "type_title": "Page"
+    },
+    "previous_item": {
+      "@id": "https://clms-prod.eea.europa.eu/en/products/global-dynamic-land-cover",
+      "@type": "Product",
+      "description": "The Dynamic Land Cover product provides a primary land cover scheme at three classification levels with class definitions according to the Land Cover Classification System (LCCS) scheme. The product is produced annually, and the actual version of the product (V3.0) is available for the 2015-2019 reference years.",
+      "title": "Dynamic Land Cover",
+      "type_title": "Product"
+    },
+    "review_state": "published",
+    "rights": null,
+    "show_in_mapviewer_link": true,
+    "subjects": [],
+    "text": {
+      "content-type": "text/html",
+      "data": "<p><br></p>",
+      "encoding": "utf8"
+    },
+    "title": "CORINE Land Cover",
+    "type_title": "Product",
+    "version": "current",
+    "versioning_enabled": true,
+    "working_copy": null,
+    "working_copy_of": null
+  }

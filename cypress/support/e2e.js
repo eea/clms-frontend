@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands';
+import products from '../fixtures/products.json';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
@@ -26,21 +27,13 @@ coverage-end */
 
 export const setupBeforeEach = () => {
   cy.autologin();
-  // cy.createContent({
-  //   contentType: 'Folder',
-  //   contentId: 'cypress',
-  //   contentTitle: 'Cypress',
-  // });
-  cy.createContent({
-    contentType: 'Document',
-    contentId: 'my-page',
-    contentTitle: 'My Page',
-  });
-  // cy.visit('/my-page');
-  // cy.waitForResourceToLoad('@navigation');
-  // cy.waitForResourceToLoad('@breadcrumbs');
-  // cy.waitForResourceToLoad('@actions');
-  // cy.waitForResourceToLoad('@types');
+  cy.visit('/en');
+  cy.waitForResourceToLoad('@navigation');
+  cy.waitForResourceToLoad('@breadcrumbs');
+  cy.waitForResourceToLoad('@actions');
+  cy.waitForResourceToLoad('@types');
+  cy.createContentJSON({ contentJSON: products, path: 'en' });
+  cy.setWorkflow({ path: 'en/products' });
   // cy.waitForResourceToLoad('my-page');
   // cy.navigate('/my-page/edit');
   // cy.get(`.block.title [data-contents]`);
@@ -49,5 +42,5 @@ export const setupBeforeEach = () => {
 
 export const tearDownAfterEach = () => {
   cy.autologin();
-  cy.removeContent('my-page');
+  cy.removeContent('/en/products');
 };

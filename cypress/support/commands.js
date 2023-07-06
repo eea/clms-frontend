@@ -125,6 +125,63 @@ Cypress.Commands.add(
   },
 );
 
+// --- CREATE CONTENT VIA JSON --------------------------------------------------------
+Cypress.Commands.add(
+  'createContentJSON',
+  ({ contentJSON, path = '', allow_discussion = false, extras = {} }) => {
+    let api_url, auth;
+    api_url = Cypress.env('API_PATH') || 'http://localhost:8080/Plone';
+    auth = {
+      user: 'admin',
+      pass: 'admin',
+    };
+    if (contentJSON['@type'] === 'DataSet') {
+      return cy
+        .request({
+          method: 'POST',
+          url: `${api_url}/${path}`,
+          headers: {
+            Accept: 'application/json',
+          },
+          auth: auth,
+          body: {
+            ...contentJSON,
+            '@type': contentJSON['@type'],
+            id: contentJSON.id,
+            title: contentJSON.title,
+            description: contentJSON.description,
+            effective: contentJSON.effective,
+            allow_discussion: allow_discussion,
+            ...extras,
+          },
+        })
+        .then(() => console.log(`${contentJSON['@type']} created`));
+    } else {
+      return cy
+        .request({
+          method: 'POST',
+          url: `${api_url}/${path}`,
+          headers: {
+            Accept: 'application/json',
+          },
+          auth: auth,
+          body: {
+            '@type': contentJSON['@type'],
+            id: contentJSON.id,
+            title: contentJSON.title,
+            description: contentJSON.description,
+            effective: contentJSON.effective,
+            blocks: contentJSON.blocks,
+            blocks_layout: contentJSON.blocks_layout,
+            allow_discussion: allow_discussion,
+            ...extras,
+          },
+        })
+        .then(() => console.log(`${contentJSON['@type']} created`));
+    }
+  },
+);
+
 // --- REMOVE CONTENT --------------------------------------------------------
 Cypress.Commands.add('removeContent', (path) => {
   let api_url, auth;
