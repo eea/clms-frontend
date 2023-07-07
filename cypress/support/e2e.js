@@ -17,6 +17,7 @@
 import './commands';
 import products from '../fixtures/products.json';
 import wo from '../fixtures/work-opportunities.json';
+import faq from '../fixtures/faq.json';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
@@ -37,6 +38,8 @@ export const setupBeforeEach = () => {
   cy.setWorkflow({ path: `en/${products.id}` });
   cy.createContentJSON({ contentJSON: wo, path: 'en' });
   cy.setWorkflow({ path: `en/${wo.id}` });
+  cy.createContentJSON({ contentJSON: faq, path: 'en' });
+  cy.setWorkflow({ path: `en/${faq.id}` });
   // cy.waitForResourceToLoad('my-page');
   // cy.navigate('/my-page/edit');
   // cy.get(`.block.title [data-contents]`);
@@ -47,4 +50,5 @@ export const tearDownAfterEach = () => {
   cy.autologin();
   cy.removeContent(`en/${products.id}`);
   cy.removeContent(`en/${wo.id}`);
+  cy.removeContent(`en/${faq.id}`);
 };

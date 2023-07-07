@@ -1,0 +1,349 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@actions"
+    },
+    "aliases": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@navigation"
+    },
+    "navroot": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@navroot",
+      "title": "Copernicus Land Monitoring Service",
+      "url": "https://clms-prod.eea.europa.eu/en"
+    },
+    "siblings": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@siblings"
+    },
+    "types": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@types"
+    },
+    "workflow": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/@workflow"
+    }
+  },
+  "@id": "https://clms-prod.eea.europa.eu/en/faq",
+  "@type": "Document",
+  "UID": "5b17c89c36d74eb0b280c875a98a5e2f",
+  "allow_discussion": false,
+  "blocks": {
+    "40cbdecc-5877-4341-bfa1-a1a3cc0bfda2": {
+      "@type": "cclFAQ"
+    },
+    "626361fb-15a3-41f3-ac46-54bbfd65d9df": {
+      "@type": "title"
+    },
+    "9c64946e-bbfe-4307-9e63-0d9e01dbe1a2": {
+      "@type": "title"
+    },
+    "bd0de449-c22d-41be-905b-285f6fbf955d": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d4d81345-953f-425c-9584-8071be6c26ef": {
+      "@type": "description"
+    },
+    "dc52411a-b649-4ad4-a77f-87b807226657": {
+      "@type": "slate",
+      "plaintext": "In this section you will find some common questions asked by our users. If you need guidance on various functionalities provided by our website, such as dataset catalogue, map viewer, general search and others, please consult our How to guides . If you still can't find an answer to your question please contact us through the Service desk .",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "In this section you will find some common questions asked by our users. If you need guidance on various functionalities provided by our website, such as dataset catalogue, map viewer, general search and others, please consult our "
+            },
+            {
+              "children": [
+                {
+                  "text": "How to guides"
+                }
+              ],
+              "data": {
+                "link": {
+                  "internal": {
+                    "internal_link": [
+                      {
+                        "@id": "https://clms-prod.eea.europa.eu/en/how-to-guides",
+                        "title": "How to guides"
+                      }
+                    ]
+                  }
+                }
+              },
+              "type": "a",
+              "url": "http://backend:8080/Plone/en/how-to-guides"
+            },
+            {
+              "text": ". If you still can't find an answer to your question please contact us through the "
+            },
+            {
+              "children": [
+                {
+                  "text": "Service desk"
+                }
+              ],
+              "data": {
+                "link": {
+                  "internal": {
+                    "internal_link": [
+                      {
+                        "@id": "https://clms-prod.eea.europa.eu/en/contact-service-helpdesk",
+                        "title": "Service desk"
+                      }
+                    ]
+                  }
+                }
+              },
+              "type": "a"
+            },
+            {
+              "text": "."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "626361fb-15a3-41f3-ac46-54bbfd65d9df",
+      "dc52411a-b649-4ad4-a77f-87b807226657",
+      "40cbdecc-5877-4341-bfa1-a1a3cc0bfda2",
+      "bd0de449-c22d-41be-905b-285f6fbf955d"
+    ]
+  },
+  "contributors": [],
+  "created": "2021-09-09T11:46:11+00:00",
+  "creators": ["admin"],
+  "description": "Check FAQ section on the website of the Copernicus Land Monitoring Service.",
+  "effective": "2021-09-20T13:49:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "id": "faq",
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/egms-faq-picture.png",
+      "@type": "Image",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-2202-7438a0d1fe5f811c66c1112852cc7226.png",
+            "filename": "EGMS FAQ picture.png",
+            "height": 730,
+            "scales": {
+              "great": {
+                "download": "@@images/image-1200-6715bef374694eaa0700ad199a2770d0.png",
+                "height": 397,
+                "width": 1200
+              },
+              "huge": {
+                "download": "@@images/image-1600-9dd3fb3b1e4e141ce0b7ce8a15028700.png",
+                "height": 530,
+                "width": 1600
+              },
+              "icon": {
+                "download": "@@images/image-32-d476ada5d17f5f7eac774202ec23e655.png",
+                "height": 10,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-8007c52857d44435a601efb7fc06896c.png",
+                "height": 265,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-5e23f5fa82a25f4a74e5a40c1b909d24.png",
+                "height": 331,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-53eec9842f407f3935486e410ef1ccc2.png",
+                "height": 66,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-836fb318f19352089d3deee932dd60ff.png",
+                "height": 132,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-d3cf4327d3916edc50fe787143468422.png",
+                "height": 198,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-22ffc0ed1655c26f8ba76f2062dedd3a.png",
+                "height": 42,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-06d5aabeed4c48f606f492529700375e.png",
+                "height": 21,
+                "width": 64
+              }
+            },
+            "size": 652707,
+            "width": 2202
+          }
+        ]
+      },
+      "review_state": null,
+      "title": "EGMS FAQ picture.png",
+      "type_title": "Image"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "General questions",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Data use terms and conditions",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/registration-login",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Registration/Login",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/map-viewer",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Map viewer",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/download",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Download",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/use-cases",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Use cases",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/products",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Products:",
+      "type_title": "Page"
+    }
+  ],
+  "items_total": 8,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-05-30T12:40:36+00:00",
+  "next_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/news",
+    "@type": "Document",
+    "description": "Copernicus Land Monitoring Service news.",
+    "title": "News",
+    "type_title": "Page"
+  },
+  "parent": {
+    "@id": "https://clms-prod.eea.europa.eu/en",
+    "@type": "LRF",
+    "description": "We provide geographical information on land cover and its changes, land use, ground motion, vegetation state, water cycle and earth surface energy variables for both Europe and the entire globe.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "Copernicus Land Monitoring Service",
+    "type_title": "Language Root Folder"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "previous_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/events",
+    "@type": "Document",
+    "description": "Copernicus Land Monitoring Service events.",
+    "title": "Events",
+    "type_title": "Page"
+  },
+  "relatedItems": [],
+  "review_state": "published",
+  "rights": null,
+  "subjects": [],
+  "title": "FAQ",
+  "type_title": "Page",
+  "version": "current",
+  "working_copy": null,
+  "working_copy_of": null
+}
