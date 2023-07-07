@@ -1,5 +1,6 @@
 import { setupBeforeEach, tearDownAfterEach } from '../support/e2e';
 import clc from '../fixtures/products/corine-land-cover.json';
+import pr from '../fixtures/products.json';
 
 describe('Products Tests', () => {
   beforeEach(setupBeforeEach);
@@ -8,10 +9,10 @@ describe('Products Tests', () => {
   it('Corine land cover:', () => {
     cy.createContentJSON({
       contentJSON: clc,
-      path: 'en/products',
+      path: `/en/${pr.id}`,
       extras: { mapviewer_component: clc.mapviewer_component },
     });
-    cy.navigate(`/en/products/${clc.id}`);
+    cy.navigate(`/en/${pr.id}/${clc.id}`);
     cy.get('.left-menu .card.active a').should('contain', 'Main');
     // second tab
     cy.get('.left-menu .card a').eq(1).click();
@@ -27,16 +28,16 @@ describe('Products Tests', () => {
 
     // now navigating
     // first tab
-    cy.navigate(`/en/products/${clc.id}?tab=main`);
+    cy.navigate(`/en/${pr.id}/${clc.id}?tab=main`);
     cy.get('.card.active a').should('contain', 'Main');
     // second tab
-    cy.navigate(`/en/products/${clc.id}?tab=applications__use_cases`);
+    cy.navigate(`/en/${pr.id}/${clc.id}?tab=applications__use_cases`);
     cy.get('.left-menu .card.active a').should(
       'contain',
       'Applications & use cases',
     );
     // third tab
-    cy.navigate(`/en/products/${clc.id}?tab=roadmap`);
+    cy.navigate(`/en/${pr.id}/${clc.id}?tab=roadmap`);
     cy.get('.left-menu .card.active a').should('contain', 'Roadmap');
   });
 });

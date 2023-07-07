@@ -1,4 +1,5 @@
 import { setupBeforeEach, tearDownAfterEach } from '../support/e2e';
+import pr from '../fixtures/products.json';
 import clc from '../fixtures/products/corine-land-cover.json';
 import gdlc from '../fixtures/products/global-dynamic-land-cover.json';
 
@@ -39,7 +40,7 @@ describe('Products Tests', () => {
   ];
 
   it('Products Page: testing tabs', () => {
-    cy.navigate('/en/products');
+    cy.navigate(`/en/${pr.id}`);
     cy.wait(500);
     cy.scrollTo('top');
     cy.get('.left-menu .card.subcard.active a').should(
@@ -52,14 +53,14 @@ describe('Products Tests', () => {
     cy.get('.left-menu .card.subcard.active a').should('contain', 'Explore');
     cy.url().should(
       'eq',
-      Cypress.config().baseUrl + '/en/products?tab=explore',
+      Cypress.config().baseUrl + `/en/${pr.id}?tab=explore`,
     );
     cy.get('.left-menu .card a').contains('What is coming?').click();
     cy.scrollTo('top');
     cy.get('.left-menu .card.active a').should('contain', 'What is coming?');
     cy.url().should(
       'eq',
-      Cypress.config().baseUrl + '/en/products?tab=what_is_coming',
+      Cypress.config().baseUrl + `/en/${pr.id}?tab=what_is_coming`,
     );
     // Change page title
     // cy.get('.page-title > .public-DraftStyleDefault-block')
@@ -85,11 +86,11 @@ describe('Products Tests', () => {
       var index = p.id + i;
       cy.createContentJSON({
         contentJSON: p,
-        path: 'en/products',
+        path: `/en/${pr.id}`,
         extras: { id: index, mapviewer_component: p.mapviewer_component },
       });
     });
-    cy.navigate('/en/products?tab=explore');
+    cy.navigate(`/en/${pr.id}?tab=explore`);
     cy.get('.left-menu .card.subcard.active a').should('contain', 'Explore');
     cy.get('.search-details').should('contain', 'Search results: 30');
     cy.get('.card-container').find('.card-block').should('have.length', 12);
