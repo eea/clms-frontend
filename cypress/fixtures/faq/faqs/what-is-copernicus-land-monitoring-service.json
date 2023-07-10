@@ -1,0 +1,146 @@
+{
+    "@components": {
+      "actions": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@actions"
+      },
+      "aliases": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@aliases"
+      },
+      "breadcrumbs": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@breadcrumbs"
+      },
+      "contextnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@contextnavigation"
+      },
+      "layout": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@layout"
+      },
+      "localnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@localnavigation"
+      },
+      "navigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@navigation"
+      },
+      "navroot": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@navroot",
+        "title": "Copernicus Land Monitoring Service",
+        "url": "https://clms-prod.eea.europa.eu/en"
+      },
+      "siblings": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@siblings"
+      },
+      "translations": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@translations"
+      },
+      "types": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@types"
+      },
+      "workflow": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service/@workflow"
+      }
+    },
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service",
+    "@type": "FAQ",
+    "UID": "55e039a891c44d9abfda20999fcac2e4",
+    "allow_discussion": false,
+    "blocks": {
+      "93bafd79-4e10-49e0-84d3-017ccb0342ff": {
+        "@type": "slate",
+        "plaintext": "The Copernicus Land Monitoring Service, also known as simply CLMS, is one of six thematic Copernicus services.",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "The Copernicus Land Monitoring Service, also known as simply CLMS, is one of six thematic Copernicus services."
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      },
+      "f6059cfc-a9fc-4548-8deb-8ae82f5edb09": {
+        "@type": "slate",
+        "plaintext": "The Copernicus Land Monitoring Service provides geographical information on land cover and its changes, land use, ground motions, vegetation state, water cycle and Earth's surface energy variables to a broad range of users in Europe and across the World in the field of environmental terrestrial applications.",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "The Copernicus Land Monitoring Service provides geographical information on land cover and its changes, land use, ground motions, vegetation state, water cycle and Earth's surface energy variables to a broad range of users in Europe and across the World in the field of environmental terrestrial applications."
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "93bafd79-4e10-49e0-84d3-017ccb0342ff",
+        "f6059cfc-a9fc-4548-8deb-8ae82f5edb09"
+      ]
+    },
+    "contributors": [],
+    "created": "2023-01-04T07:25:38+00:00",
+    "creators": [
+      "lizarion"
+    ],
+    "description": "",
+    "effective": "2023-01-04T07:51:57+00:00",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "what-is-copernicus-land-monitoring-service",
+    "is_folderish": true,
+    "items": [],
+    "items_total": 0,
+    "language": "",
+    "layout": "view",
+    "lock": {
+      "locked": false,
+      "stealable": true
+    },
+    "modified": "2023-05-26T08:45:35+00:00",
+    "next_item": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/i-am-having-problems-with-the-platform-how-can-i-report-an-isssue",
+      "@type": "FAQ",
+      "description": "",
+      "title": "I am having problems with the platform. How can I report an isssue?",
+      "type_title": "FAQ"
+    },
+    "parent": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "General questions",
+      "type_title": "Page"
+    },
+    "previous_item": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus",
+      "@type": "FAQ",
+      "description": "",
+      "title": "What is Copernicus?",
+      "type_title": "FAQ"
+    },
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "taxonomy_faqcategories": [
+      {
+        "title": "01#General questions",
+        "token": "f3mfger8t6"
+      }
+    ],
+    "text": {
+      "content-type": "text/html",
+      "data": "<p></p>",
+      "encoding": "utf8"
+    },
+    "title": "What is Copernicus Land Monitoring Service?",
+    "type_title": "FAQ",
+    "version": "current",
+    "working_copy": null,
+    "working_copy_of": null
+  }

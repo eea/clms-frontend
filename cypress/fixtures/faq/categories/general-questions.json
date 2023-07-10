@@ -1,0 +1,218 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@actions"
+    },
+    "aliases": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@navigation"
+    },
+    "navroot": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@navroot",
+      "title": "Copernicus Land Monitoring Service",
+      "url": "https://clms-prod.eea.europa.eu/en"
+    },
+    "siblings": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@siblings"
+    },
+    "types": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@types"
+    },
+    "workflow": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/@workflow"
+    }
+  },
+  "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions",
+  "@type": "Document",
+  "UID": "35aebfe822b1404ca7bc89a1b92670ab",
+  "allow_discussion": false,
+  "blocks": {
+    "1a22c0df-267f-45df-832f-56b9c2f331ff": {
+      "@type": "cclFAQ"
+    },
+    "1a292e70-cb82-4993-9644-eac7ee2395c1": {
+      "@type": "title"
+    },
+    "997f9664-fb9e-4012-94a7-df9f91344fce": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "1a292e70-cb82-4993-9644-eac7ee2395c1",
+      "1a22c0df-267f-45df-832f-56b9c2f331ff",
+      "997f9664-fb9e-4012-94a7-df9f91344fce"
+    ]
+  },
+  "contributors": [],
+  "created": "2023-05-26T07:16:24+00:00",
+  "creators": ["admin"],
+  "description": "",
+  "effective": "2023-05-26T08:51:42+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "general-questions",
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "What is Copernicus?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "What is Copernicus Land Monitoring Service?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/i-am-having-problems-with-the-platform-how-can-i-report-an-isssue",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "I am having problems with the platform. How can I report an isssue?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/can-i-search-data-without-being-authenticated",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Can I search data without being authenticated?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/do-i-need-to-have-an-account-to-use-the-website",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Do I need to have an account to use the website?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/how-can-i-search-for-a-particular-product-or-dataset",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "How can I search for a particular product or dataset?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-eea38",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "What is EEA38?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-the-nuts-classification",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "What is the NUTS classification?",
+      "type_title": "FAQ"
+    }
+  ],
+  "items_total": 8,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-05-26T08:56:29+00:00",
+  "next_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions",
+    "@type": "Document",
+    "description": "",
+    "title": "Data use terms and conditions",
+    "type_title": "Page"
+  },
+  "parent": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq",
+    "@type": "Document",
+    "description": "Check FAQ section on the website of the Copernicus Land Monitoring Service.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "FAQ",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "previous_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/egms-faq-picture.png",
+    "@type": "Image",
+    "description": "",
+    "title": "EGMS FAQ picture.png",
+    "type_title": "Image"
+  },
+  "relatedItems": [],
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "General questions",
+  "type_title": "Page",
+  "version": "current",
+  "working_copy": null,
+  "working_copy_of": null
+}

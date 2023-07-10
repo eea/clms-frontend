@@ -1,0 +1,1183 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@actions"
+    },
+    "aliases": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@navigation"
+    },
+    "navroot": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@navroot",
+      "title": "CLMS Portal Title",
+      "url": "https://clmsdemo.devel6cph.eea.europa.eu/en"
+    },
+    "siblings": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@siblings"
+    },
+    "translations": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@translations"
+    },
+    "types": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@types"
+    },
+    "workflow": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@workflow"
+    }
+  },
+  "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover",
+  "@type": "Product",
+  "UID": "333e4100b79045daa0ff16466ac83b7f",
+  "allow_discussion": false,
+  "blocks": {
+    "bf6c0338-2c85-4d6f-8758-24258ed32be1": {
+      "@type": "tabs_block",
+      "data": {
+        "blocks": {
+          "16da6152-9934-4b79-9cf8-e0233363319d": {
+            "@type": "tab",
+            "blocks": {
+              "25b0dbf6-8198-4205-9c0b-222c6543b0f6": {
+                "@type": "slate",
+                "plaintext": "Land cover and land cover change information is used by resource managers, policy makers and scientists studying the global carbon cycle, biodiversity loss and land degradation. Global land cover maps provide a synoptic overview and broad stratification of land cover over large areas.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Land cover and land cover change information is used by resource managers, policy makers and scientists studying the global carbon cycle, biodiversity loss and land degradation. Global land cover maps provide a synoptic overview and broad stratification of land cover over large areas."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "a4ac303c-e8db-4cf0-a9e0-52fd14bc3bcd": {
+                "@type": "slate",
+                "plaintext": "Therefore the Global Land Cover product has many applications:",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Therefore the Global Land Cover product has many applications:"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "b400b5bb-5485-495d-8c4a-3efc905ba07e": {
+                "@type": "slate",
+                "plaintext": "deforestation desertification urbanization land degradation loss of biodiversity and ecosystem functions water resource management agriculture and food security urban and regional development climate change",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "deforestation"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "desertification"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "urbanization"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "land degradation"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "loss of biodiversity and ecosystem functions"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "water resource management"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "agriculture and food security"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "urban and regional development"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "climate change"
+                          }
+                        ],
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ul"
+                  }
+                ]
+              },
+              "eba394bd-1d45-4010-8198-a45b97b601d5": {
+                "@type": "slate",
+                "plaintext": "Changes in land availability for agriculture and forestry are a key factor in sustainable development of many regions, and can be a major drive of societal conflicts. Reliable land cover change information is crucial to monitor and understand a number of processes at global level.\u00a0Changes in land cover force climate by modifying water and energy exchanges with the atmosphere, and by changing greenhous gas and aerosol sources and sinks.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Changes in land availability for agriculture and forestry are a key factor in sustainable development of many regions, and can be a major drive of societal conflicts. Reliable land cover change information is crucial to monitor and understand a number of processes at global level.\u00a0Changes in land cover force climate by modifying water and energy exchanges with the atmosphere, and by changing greenhous gas and aerosol sources and sinks."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "25b0dbf6-8198-4205-9c0b-222c6543b0f6",
+                "eba394bd-1d45-4010-8198-a45b97b601d5",
+                "a4ac303c-e8db-4cf0-a9e0-52fd14bc3bcd",
+                "b400b5bb-5485-495d-8c4a-3efc905ba07e"
+              ]
+            },
+            "title": "Application areas"
+          },
+          "29bc46d1-e521-459b-913e-f01f48d33bb1": {
+            "@type": "tab",
+            "blocks": {
+              "87dc9281-e486-450a-8251-e180e39bb177": {
+                "@type": "relatedListing",
+                "content_type": "News Item",
+                "variation": "CclCardsnews"
+              },
+              "fa8d6461-6e55-4faf-972c-54303ec6eff5": {
+                "@type": "slate",
+                "value": []
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "87dc9281-e486-450a-8251-e180e39bb177",
+                "fa8d6461-6e55-4faf-972c-54303ec6eff5"
+              ]
+            },
+            "title": "News"
+          },
+          "411a5824-06a7-42e9-a829-501978ea19bb": {
+            "@type": "tab",
+            "blocks": {
+              "1045297a-2bd6-4672-99b5-cb954ecf5064": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "h3"
+                  }
+                ]
+              },
+              "73473df4-3ba4-4339-b715-a8a76e4c36c0": {
+                "@type": "slate",
+                "value": []
+              },
+              "fa1c4f60-530f-43fb-b2f4-8606abe10e2c": {
+                "@type": "relatedListing",
+                "content_type": "UseCase",
+                "variation": "CclCardsline-no-description"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "73473df4-3ba4-4339-b715-a8a76e4c36c0",
+                "fa1c4f60-530f-43fb-b2f4-8606abe10e2c",
+                "1045297a-2bd6-4672-99b5-cb954ecf5064"
+              ]
+            },
+            "selected": "1045297a-2bd6-4672-99b5-cb954ecf5064",
+            "title": "Use cases"
+          },
+          "6b9a2b02-1485-4519-a150-82d5e77c4162": {
+            "@type": "tab",
+            "blocks": {
+              "1c7c1a6e-91ae-4374-8e39-a8ad05b50ada": {
+                "@type": "slate",
+                "plaintext": "You can access datasets",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "   \nYou can access datasets"
+                      }
+                    ],
+                    "type": "h2"
+                  }
+                ]
+              },
+              "2ea82d27-ac47-4758-980c-501955debdef": {
+                "@type": "slate",
+                "plaintext": "Read more here .",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Read more "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "here"
+                          }
+                        ],
+                        "data": {
+                          "link": {
+                            "internal": {
+                              "internal_link": [
+                                {
+                                  "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/global-dynamic-land-cover-technical-overview",
+                                  "title": "Global Dynamic Land Cover: technical overview"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "type": "a"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "68cae3ac-f993-4a1e-8327-5d40ae52fc28": {
+                "@type": "metadata",
+                "data": {
+                  "id": "description",
+                  "widget": "description"
+                }
+              },
+              "bbf0554e-c648-4540-a07e-ff526e30d626": {
+                "@type": "accordion",
+                "collapsed": false,
+                "data": {
+                  "blocks": {
+                    "30e4726d-0eed-41c7-9606-da243cdc6560": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "4aac63c8-4595-41f4-a2ab-5d203df24066": {
+                          "@type": "listing",
+                          "block": "4aac63c8-4595-41f4-a2ab-5d203df24066",
+                          "headlineTag": "h2",
+                          "query": [],
+                          "querystring": {
+                            "query": [
+                              {
+                                "i": "portal_type",
+                                "o": "plone.app.querystring.operation.selection.any",
+                                "v": ["DataSet"]
+                              },
+                              {
+                                "i": "path",
+                                "o": "plone.app.querystring.operation.string.absolutePath",
+                                "v": "/en/products/global-dynamic-land-cover"
+                              }
+                            ],
+                            "sort_on": "getObjPositionInParent",
+                            "sort_order": "ascending"
+                          },
+                          "variation": "CclCardsline"
+                        },
+                        "bf3a3d7c-9196-469a-ae68-c44a6c456961": {
+                          "@type": "slate",
+                          "plaintext": "Here you can see the validation status of the datasets, consult full metadata, get guidance on dataset citation and download datasets for an area of interest.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Here you can see the validation status of the datasets, consult full metadata, get guidance on dataset citation and download datasets for an area of interest."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "f8ca1c35-3197-4cd2-94a1-5e7ec349f2b5": {
+                          "@type": "slate"
+                        },
+                        "undefined": {
+                          "@type": "search",
+                          "listingBodyTemplate": "CclCardsline",
+                          "query": {
+                            "query": [
+                              {
+                                "i": "portal_type",
+                                "o": "plone.app.querystring.operation.selection.any",
+                                "v": ["DataSet"]
+                              },
+                              {
+                                "i": "path",
+                                "o": "plone.app.querystring.operation.string.relativePath",
+                                "v": "."
+                              }
+                            ],
+                            "sort_order": "ascending"
+                          },
+                          "showSearchInput": true,
+                          "showTotalResults": true,
+                          "variation": "facetsModalRightSide"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "bf3a3d7c-9196-469a-ae68-c44a6c456961",
+                          "f8ca1c35-3197-4cd2-94a1-5e7ec349f2b5",
+                          "4aac63c8-4595-41f4-a2ab-5d203df24066"
+                        ]
+                      },
+                      "title": "On this website"
+                    },
+                    "4487cb5f-d29b-4d56-bd75-3626bbc9a3fc": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "56de6005-f46b-4f7f-883c-3642801cd202": {
+                          "@type": "slate",
+                          "plaintext": "For scientific analysis you can use Google Earth Engine\u2122.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "For scientific analysis you can use Google Earth Engine\u2122."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "f269cf2d-d4b6-422a-a826-8e0ad0856cf0": {
+                          "@type": "slate",
+                          "plaintext": "Please click this link to open and work with the Global Land Cover datasets in Google Earth Engine\u2122.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Please click this "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "external": {
+                                        "external_link": "https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global",
+                                        "target": "_blank"
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": " to open and work with the Global Land Cover datasets in Google Earth Engine\u2122."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "56de6005-f46b-4f7f-883c-3642801cd202",
+                          "f269cf2d-d4b6-422a-a826-8e0ad0856cf0"
+                        ]
+                      },
+                      "title": "In Google Earth Engine\u2122"
+                    },
+                    "73a9e31d-5555-4b70-a249-3a134dea417b": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "9a1dc602-7d7b-4081-bbf9-5c0ecb8d49cd": {
+                          "@type": "slate",
+                          "plaintext": "You can also find Global Land Cover datasets on Zenodo Open Science Data repository.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "You can also find Global Land Cover datasets on Zenodo Open Science Data repository."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "cf300e26-1ee9-4b01-856d-0df479c650b4": {
+                          "@type": "slate",
+                          "plaintext": "Please click this link to access Global Land Cover datasets on Zenodo.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Please click this "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "link"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "external": {
+                                        "external_link": "https://zenodo.org/communities/copernicus-land-cover/?page=1&size=20",
+                                        "target": "_blank"
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": " to access Global Land Cover datasets on Zenodo."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "9a1dc602-7d7b-4081-bbf9-5c0ecb8d49cd",
+                          "cf300e26-1ee9-4b01-856d-0df479c650b4"
+                        ]
+                      },
+                      "title": "On Zenodo"
+                    },
+                    "bf33ecf2-f04e-4fc7-8527-20aa01759b3c": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "5b0711f9-6017-484e-a8e4-6c742764c82f": {
+                          "@type": "slate",
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "b30c96d8-4601-4c93-88d6-b50c9672c62c": {
+                          "@type": "slate",
+                          "plaintext": "Global Land Cover Viewer is a dedicated application developed to provide annual Global Land Cover maps and the related surface statistics.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Global Land Cover Viewer is a dedicated application developed to provide annual Global Land Cover maps and the related surface statistics."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "c6247a8e-9bfe-4ee3-bc23-f18e6d1dea4b": {
+                          "@type": "slate",
+                          "plaintext": "You can read more here .",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "You can read more "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "here"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "external": {
+                                        "external_link": "https://lcviewer.vito.be/about",
+                                        "target": "_blank"
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": "."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "e9706dee-5aa5-42c4-8999-02dc4d139bf2": {
+                          "@type": "cclButtonComponent",
+                          "href": [
+                            {
+                              "@id": "https://lcviewer.vito.be/",
+                              "title": "lcviewer.vito.be/"
+                            }
+                          ],
+                          "style": "filled",
+                          "target": "_self",
+                          "title": "Access Global Land Cover Viewer"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "b30c96d8-4601-4c93-88d6-b50c9672c62c",
+                          "e9706dee-5aa5-42c4-8999-02dc4d139bf2",
+                          "5b0711f9-6017-484e-a8e4-6c742764c82f",
+                          "c6247a8e-9bfe-4ee3-bc23-f18e6d1dea4b"
+                        ]
+                      },
+                      "title": "In Global Land Cover Viewer"
+                    },
+                    "d2d8b241-c0c5-469a-8275-1bd33ea7e391": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "d36492c8-7232-446d-9031-23b1fdabef5c": {
+                          "@type": "slate",
+                          "plaintext": " Geo-WIKI is a platform you can use for inter-comparison and validation.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Geo-WIKI"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "external": {
+                                        "external_link": "https://www.geo-wiki.org/",
+                                        "target": "_blank"
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": " is a platform you can use for inter-comparison and validation."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": ["d36492c8-7232-446d-9031-23b1fdabef5c"]
+                      },
+                      "title": "In Geo-WIKI"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": [
+                      "30e4726d-0eed-41c7-9606-da243cdc6560",
+                      "bf33ecf2-f04e-4fc7-8527-20aa01759b3c",
+                      "4487cb5f-d29b-4d56-bd75-3626bbc9a3fc",
+                      "73a9e31d-5555-4b70-a249-3a134dea417b",
+                      "d2d8b241-c0c5-469a-8275-1bd33ea7e391"
+                    ]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              },
+              "c693ec25-9b59-471d-a979-4cd7c837b617": {
+                "@type": "text",
+                "text": {
+                  "blocks": [
+                    {
+                      "data": {},
+                      "depth": 0,
+                      "entityRanges": [],
+                      "inlineStyleRanges": [],
+                      "key": "3d8bp",
+                      "text": "Next to the discrete classes, Global Dynamic Land Cover also includes continuous field layers or \u201cfraction maps\u201d for all basic land cover classes that provide proportional estimates for vegetation/ground cover for the land cover types.",
+                      "type": "unstyled"
+                    }
+                  ],
+                  "entityMap": {}
+                }
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "68cae3ac-f993-4a1e-8327-5d40ae52fc28",
+                "c693ec25-9b59-471d-a979-4cd7c837b617",
+                "2ea82d27-ac47-4758-980c-501955debdef",
+                "1c7c1a6e-91ae-4374-8e39-a8ad05b50ada",
+                "bbf0554e-c648-4540-a07e-ff526e30d626"
+              ]
+            },
+            "selected": "2ea82d27-ac47-4758-980c-501955debdef",
+            "title": "Main"
+          },
+          "ca1b4b62-a845-40b3-8276-46af2a671633": {
+            "@type": "tab",
+            "blocks": {
+              "3480d5f6-5aab-4763-99b4-009eec898766": {
+                "@type": "slate",
+                "value": []
+              }
+            },
+            "blocks_layout": {
+              "items": ["3480d5f6-5aab-4763-99b4-009eec898766"]
+            },
+            "title": "On-going and planned updates"
+          },
+          "ce19b5ce-5803-4068-810c-b5dc2ff77c97": {
+            "@type": "tab",
+            "blocks": {
+              "38dfc3e1-0de5-437e-94fa-ceb533e9c3c3": {
+                "@type": "relatedListing",
+                "content_type": "eea.meeting",
+                "variation": "CclCardsevent"
+              },
+              "9372f40d-6149-4ee7-9a88-8a3302b40851": {
+                "@type": "slate",
+                "value": []
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "38dfc3e1-0de5-437e-94fa-ceb533e9c3c3",
+                "9372f40d-6149-4ee7-9a88-8a3302b40851"
+              ]
+            },
+            "title": "User outreach"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "6b9a2b02-1485-4519-a150-82d5e77c4162",
+            "16da6152-9934-4b79-9cf8-e0233363319d",
+            "411a5824-06a7-42e9-a829-501978ea19bb",
+            "29bc46d1-e521-459b-913e-f01f48d33bb1",
+            "ce19b5ce-5803-4068-810c-b5dc2ff77c97",
+            "ca1b4b62-a845-40b3-8276-46af2a671633"
+          ]
+        }
+      },
+      "menuAlign": "left",
+      "menuCompact": true,
+      "menuFluid": true,
+      "menuPosition": "inline",
+      "menuText": true,
+      "template": "CCLProductTabs",
+      "verticalAlign": "flex-start"
+    },
+    "cb578bf9-6718-4a12-a91d-87ce9ed0d26c": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "cb578bf9-6718-4a12-a91d-87ce9ed0d26c",
+      "bf6c0338-2c85-4d6f-8758-24258ed32be1"
+    ]
+  },
+  "changeNote": "",
+  "component_title": "Land Cover and land use mapping",
+  "contributors": [],
+  "created": "2021-10-06T13:04:08+00:00",
+  "creators": ["admin"],
+  "description": "The Global Dynamic Land Cover product provides a primary land cover scheme at three classification levels with class definitions according to the Land Cover Classification System (LCCS) scheme. The product is produced annually, and the actual version of the product (V3.0) is available for the 2015-2019 reference years.",
+  "effective": "2021-10-06T13:05:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "global-dynamic-land-cover",
+  "image": {
+    "content-type": "image/png",
+    "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-1521-f459ca40a9b5bad07823c2274bc20f4a.png",
+    "filename": "Global Dynamic Land Cover - Light blue.png",
+    "height": 578,
+    "scales": {
+      "great": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-1200-a4dca95f8faebec08e09b0329a65ea5b.png",
+        "height": 456,
+        "width": 1200
+      },
+      "huge": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-1600-1c91b215686980ff0afdca0fc2f898e0.png",
+        "height": 578,
+        "width": 1521
+      },
+      "huge2400": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-2400-6b73c4308525927f68f991ab82c750ea.png",
+        "height": 578,
+        "width": 1521
+      },
+      "huge3000": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-3000-a871b5c6051625574782889838917dfa.png",
+        "height": 578,
+        "width": 1521
+      },
+      "huge4000": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-4000-176c14068647c4eccaf2834a9e1d22e4.png",
+        "height": 578,
+        "width": 1521
+      },
+      "icon": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-32-9329b217e388e17357b8a1b922573899.png",
+        "height": 12,
+        "width": 32
+      },
+      "large": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-800-f246afb1d554af0b1c086024cc6db941.png",
+        "height": 304,
+        "width": 800
+      },
+      "larger": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-1000-172fb14df8c32220b64d402c96b42c81.png",
+        "height": 380,
+        "width": 1000
+      },
+      "mini": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-200-2ae95e6d191bb5995da5a576280259e8.png",
+        "height": 76,
+        "width": 200
+      },
+      "preview": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-400-da11a3cd066d1d50e55eb5da717a6526.png",
+        "height": 152,
+        "width": 400
+      },
+      "teaser": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-600-420c08710e347badad3a1310788fda99.png",
+        "height": 228,
+        "width": 600
+      },
+      "thumb": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-128-bdcebb269fad20d1ea4bac3e540fbd34.png",
+        "height": 48,
+        "width": 128
+      },
+      "tile": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/@@images/image-64-59b46b0fcb4626d36bfaa5e6785e7840.png",
+        "height": 24,
+        "width": 64
+      }
+    },
+    "size": 230372,
+    "width": 1521
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2019 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-643-0690e29f89d3f44618109caf27a114bd.png",
+            "filename": "Global Dynamic Land Cover_2019_Africa.png",
+            "height": 378,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-ac8e8736a7fc0d7720c37b5ed54bbc42.png",
+                "height": 18,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-f0da3395d516b465c41c4dec3dc3ccdb.png",
+                "height": 117,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-d567075b35861e0529db33980bbba9eb.png",
+                "height": 235,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-40e6e0c2e25c7aea71689a82225da0bc.png",
+                "height": 352,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-d7e9111bc874dde475393a02bc73781c.png",
+                "height": 75,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-6351cc0a05f19c69cc21b06fe90c06ba.png",
+                "height": 37,
+                "width": 64
+              }
+            },
+            "size": 104473,
+            "width": 643
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Land Cover 2019,  collection 3 (100m)",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2018-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2018 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-643-30a7e50cc192c1c6257a71c69b2ab513.png",
+            "filename": "Land Cover 100m_collection3_Globe_2018_Africa.png",
+            "height": 378,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-8427e1784aea6182cb3f7acc90279125.png",
+                "height": 18,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-78054e8e6e84b0cea0d33c026982e956.png",
+                "height": 117,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-79664dccd9b64c1d76d0346856848be4.png",
+                "height": 235,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-0ee524928649c3f23debdc4c4161749f.png",
+                "height": 352,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-17d92dc10683489f6880a019895fdd39.png",
+                "height": 75,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-7665d48601edab2c0e010ab2aa796898.png",
+                "height": 37,
+                "width": 64
+              }
+            },
+            "size": 102898,
+            "width": 643
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Land Cover 2018, collection 3 (100m)",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2017-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2017 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-643-20cef5cd3331eaca219b21db34a22c7e.png",
+            "filename": "Land Cover 100m_collection3_Globe_2017_Africa.png",
+            "height": 378,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-0957d647f9b1b56c2c8818a39fe38d6f.png",
+                "height": 18,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-e190b889360459470158f32a388bfc8a.png",
+                "height": 117,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-41843ac05e6de03821c41f6425f88ade.png",
+                "height": 235,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-6263ba68872e6c8d43e94cac30a3df8d.png",
+                "height": 352,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-4dcb9a158f16575e5eb137abf3b2ba79.png",
+                "height": 75,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-c502bf5351dde52f2585991cf2f2098a.png",
+                "height": 37,
+                "width": 64
+              }
+            },
+            "size": 103397,
+            "width": 643
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Land Cover 2017, collection 3 (100m)",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2016-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2016 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-643-d1a234dffd785ac45f95ece60641e968.png",
+            "filename": "Land Cover 100m_collection3_Globe_2016_Africa.png",
+            "height": 378,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-1ab5b8b3b13bf5ec60451ec72650f8c8.png",
+                "height": 18,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-5f5237657234a4463a5baafa5f97af29.png",
+                "height": 117,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-699ef8fc300ff07b6e0dd2338a89d598.png",
+                "height": 235,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-f0ceed729cdd31c93461082c33a2b1f3.png",
+                "height": 352,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-4afddd26377a88e75ad44f55c95876c9.png",
+                "height": 75,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-7ec13cdc31b8ee0a5ad4f28df0831cf2.png",
+                "height": 37,
+                "width": 64
+              }
+            },
+            "size": 103916,
+            "width": 643
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Land Cover 2016, collection 3 (100m)",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2015-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2015 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-643-6ead0156a12599a478b6f22463455cc3.png",
+            "filename": "Land Cover 100m_collection3_Globe_2015_Africa.png",
+            "height": 378,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-d238d60fbed0bf95957c63f0d2c2beed.png",
+                "height": 18,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-b37698b11ebe0d1467083880de3836c7.png",
+                "height": 117,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-9354d3c3b6b55dfde36dbd110bea9d6f.png",
+                "height": 235,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-784680778b770f51a00545e375e22b9e.png",
+                "height": 352,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-d7ed4598c0598d70cbf60d2e7bf1b580.png",
+                "height": 75,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-4330fbbf50f636461d86ce9972455623.png",
+                "height": 37,
+                "width": 64
+              }
+            },
+            "size": 103916,
+            "width": 643
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Land Cover 2015, collection 3 (100m)",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/global-dynamic-land-cover-technical-overview",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Global Dynamic Land Cover: technical overview",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/map-legends",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Map legends",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/global-dynamic-land-cover/product-json",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Product JSON",
+      "type_title": "Page"
+    }
+  ],
+  "items_total": 8,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "mapviewer_component": {
+    "title": "01#Land Cover and Land Use Mapping",
+    "token": "2a04c969-7f91-476f-8ab2-6fb4a7588896"
+  },
+  "modified": "2023-07-06T06:45:51+00:00",
+  "next_item": {
+    "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/corine-land-cover",
+    "@type": "Product",
+    "description": "CORINE Land Cover is a pan-European land cover inventory with 44 classes. Initiated in 1985 (the 1990 reference year) the inventory is available  for the 1990, 2000, 2006, 2012 and 2018 reference years including change layers 1990-2000, 2006-2012 and 2012-2018.",
+    "title": "CORINE Land Cover",
+    "type_title": "Product"
+  },
+  "parent": {
+    "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products",
+    "@type": "Document",
+    "description": "",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "CLMS portfolio",
+    "type_title": "Page"
+  },
+  "previous_item": {},
+  "review_state": "published",
+  "rights": null,
+  "show_in_mapviewer_link": true,
+  "subjects": [],
+  "text": null,
+  "title": "Global Dynamic Land Cover",
+  "type_title": "Product",
+  "version": "current",
+  "versioning_enabled": true,
+  "working_copy": null,
+  "working_copy_of": null
+}

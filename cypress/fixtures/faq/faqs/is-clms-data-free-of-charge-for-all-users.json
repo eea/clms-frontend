@@ -1,0 +1,145 @@
+{
+    "@components": {
+      "actions": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@actions"
+      },
+      "aliases": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@aliases"
+      },
+      "breadcrumbs": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@breadcrumbs"
+      },
+      "contextnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@contextnavigation"
+      },
+      "layout": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@layout"
+      },
+      "localnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@localnavigation"
+      },
+      "navigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@navigation"
+      },
+      "navroot": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@navroot",
+        "title": "Copernicus Land Monitoring Service",
+        "url": "https://clms-prod.eea.europa.eu/en"
+      },
+      "siblings": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@siblings"
+      },
+      "translations": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@translations"
+      },
+      "types": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@types"
+      },
+      "workflow": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users/@workflow"
+      }
+    },
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users",
+    "@type": "FAQ",
+    "UID": "979171d3edb242ba9d2b4f250e025486",
+    "allow_discussion": false,
+    "blocks": {
+      "93bafd79-4e10-49e0-84d3-017ccb0342ff": {
+        "@type": "slate",
+        "plaintext": "Yes, CLMS data are free of charge for all users. More information in Data policy section.",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "Yes, CLMS data are free of charge for all users. More information in "
+              },
+              {
+                "children": [
+                  {
+                    "text": "Data policy"
+                  }
+                ],
+                "data": {
+                  "link": {
+                    "external": {
+                      "external_link": "https://clms-prod.eea.europa.eu/en/data-policy",
+                      "target": "_self"
+                    }
+                  }
+                },
+                "type": "a",
+                "url": "https://clms-prod.eea.europa.eu/en/data-policy"
+              },
+              {
+                "text": " section."
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "93bafd79-4e10-49e0-84d3-017ccb0342ff"
+      ]
+    },
+    "contributors": [],
+    "created": "2023-01-03T19:14:26+00:00",
+    "creators": [
+      "larremik"
+    ],
+    "description": "",
+    "effective": "2023-01-03T19:26:48+00:00",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "is-clms-data-free-of-charge-for-all-users",
+    "is_folderish": true,
+    "items": [],
+    "items_total": 0,
+    "language": "",
+    "layout": "view",
+    "lock": {
+      "locked": false,
+      "stealable": true
+    },
+    "modified": "2023-05-26T08:46:15+00:00",
+    "next_item": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose",
+      "@type": "FAQ",
+      "description": "",
+      "title": "Can I use CLMS data for commercial purpose?",
+      "type_title": "FAQ"
+    },
+    "parent": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Data use terms and conditions",
+      "type_title": "Page"
+    },
+    "previous_item": {},
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "taxonomy_faqcategories": [
+      {
+        "title": "03#Data use terms and conditions",
+        "token": "f39xxysm1w"
+      }
+    ],
+    "text": {
+      "content-type": "text/html",
+      "data": "<p></p>",
+      "encoding": "utf8"
+    },
+    "title": "Is CLMS data free of charge for all users?",
+    "type_title": "FAQ",
+    "version": "current",
+    "working_copy": null,
+    "working_copy_of": null
+  }
