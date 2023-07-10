@@ -1,0 +1,211 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@actions"
+    },
+    "aliases": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@navigation"
+    },
+    "navroot": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@navroot",
+      "title": "Copernicus Land Monitoring Service",
+      "url": "https://clms-prod.eea.europa.eu/en"
+    },
+    "siblings": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@siblings"
+    },
+    "types": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@types"
+    },
+    "workflow": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/@workflow"
+    }
+  },
+  "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions",
+  "@type": "Document",
+  "UID": "51e0afe5792e4ca7aaa8840cbbc019f0",
+  "allow_discussion": false,
+  "blocks": {
+    "45ee8145-1009-4dc1-98b0-5bdaa1b0be0c": {
+      "@type": "title"
+    },
+    "bc25cccc-39b8-43a2-a51f-9058838a2aff": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "dd7e2b7e-79fa-433b-94da-8b442b257de7": {
+      "@type": "slate"
+    },
+    "ec5d92a7-93ec-4b69-9700-c1a35369503d": {
+      "@type": "cclFAQ"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "45ee8145-1009-4dc1-98b0-5bdaa1b0be0c",
+      "ec5d92a7-93ec-4b69-9700-c1a35369503d",
+      "bc25cccc-39b8-43a2-a51f-9058838a2aff",
+      "dd7e2b7e-79fa-433b-94da-8b442b257de7"
+    ]
+  },
+  "contributors": [],
+  "created": "2023-05-26T07:16:39+00:00",
+  "creators": ["admin"],
+  "description": "",
+  "effective": "2023-05-26T08:51:41+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "data-use-terms-and-conditions",
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Is CLMS data free of charge for all users?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Can I use CLMS data for commercial purpose?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-redistribute-clms-data-share-it-on-social-media",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Can I redistribute CLMS data, share it on social media?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-contribute-to-your-website-with-the-data-and-services-created-using-clms-data",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Can I contribute to your website with the data and services created using CLMS data?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/how-do-i-cite-clms-data",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "How do I cite CLMS data?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/who-is-the-owner-of-the-data-or-services-i-have-created-using-clms-data",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Who is the owner of the data or services I have created using CLMS data?",
+      "type_title": "FAQ"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/what-is-a-doi",
+      "@type": "FAQ",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "What is a DOI?",
+      "type_title": "FAQ"
+    }
+  ],
+  "items_total": 7,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-05-26T08:51:41+00:00",
+  "next_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/registration-login",
+    "@type": "Document",
+    "description": "",
+    "title": "Registration/Login",
+    "type_title": "Page"
+  },
+  "parent": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq",
+    "@type": "Document",
+    "description": "Check FAQ section on the website of the Copernicus Land Monitoring Service.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "FAQ",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "previous_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions",
+    "@type": "Document",
+    "description": "",
+    "title": "General questions",
+    "type_title": "Page"
+  },
+  "relatedItems": [],
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Data use terms and conditions",
+  "type_title": "Page",
+  "version": "current",
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,151 @@
+{
+    "@components": {
+      "actions": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@actions"
+      },
+      "aliases": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@aliases"
+      },
+      "breadcrumbs": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@breadcrumbs"
+      },
+      "contextnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@contextnavigation"
+      },
+      "layout": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@layout"
+      },
+      "localnavigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@localnavigation"
+      },
+      "navigation": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@navigation"
+      },
+      "navroot": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@navroot",
+        "title": "Copernicus Land Monitoring Service",
+        "url": "https://clms-prod.eea.europa.eu/en"
+      },
+      "siblings": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@siblings"
+      },
+      "translations": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@translations"
+      },
+      "types": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@types"
+      },
+      "workflow": {
+        "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose/@workflow"
+      }
+    },
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-use-clms-data-for-commercial-purpose",
+    "@type": "FAQ",
+    "UID": "7d8df2eb3c0d48cdbd7c3aaeb6914485",
+    "allow_discussion": false,
+    "blocks": {
+      "93bafd79-4e10-49e0-84d3-017ccb0342ff": {
+        "@type": "slate",
+        "plaintext": "Yes, you are allowed to use CLMS data for all purposes, including commercial. More information in Data policy section.",
+        "value": [
+          {
+            "children": [
+              {
+                "text": "Yes, you are allowed to use CLMS data for all purposes, including commercial. More information in "
+              },
+              {
+                "children": [
+                  {
+                    "text": "Data policy"
+                  }
+                ],
+                "data": {
+                  "link": {
+                    "external": {
+                      "external_link": "https://clms-prod.eea.europa.eu/en/data-policy",
+                      "target": "_self"
+                    }
+                  }
+                },
+                "type": "a",
+                "url": "https://clms-prod.eea.europa.eu/en/data-policy"
+              },
+              {
+                "text": " section."
+              }
+            ],
+            "type": "p"
+          }
+        ]
+      }
+    },
+    "blocks_layout": {
+      "items": [
+        "93bafd79-4e10-49e0-84d3-017ccb0342ff"
+      ]
+    },
+    "contributors": [],
+    "created": "2023-01-03T19:14:37+00:00",
+    "creators": [
+      "larremik"
+    ],
+    "description": "",
+    "effective": "2023-01-03T19:26:55+00:00",
+    "exclude_from_nav": false,
+    "expires": null,
+    "id": "can-i-use-clms-data-for-commercial-purpose",
+    "is_folderish": true,
+    "items": [],
+    "items_total": 0,
+    "language": "",
+    "layout": "view",
+    "lock": {
+      "locked": false,
+      "stealable": true
+    },
+    "modified": "2023-05-26T08:46:16+00:00",
+    "next_item": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/can-i-redistribute-clms-data-share-it-on-social-media",
+      "@type": "FAQ",
+      "description": "",
+      "title": "Can I redistribute CLMS data, share it on social media?",
+      "type_title": "FAQ"
+    },
+    "parent": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Data use terms and conditions",
+      "type_title": "Page"
+    },
+    "previous_item": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/data-use-terms-and-conditions/is-clms-data-free-of-charge-for-all-users",
+      "@type": "FAQ",
+      "description": "",
+      "title": "Is CLMS data free of charge for all users?",
+      "type_title": "FAQ"
+    },
+    "review_state": "published",
+    "rights": "",
+    "subjects": [],
+    "taxonomy_faqcategories": [
+      {
+        "title": "03#Data use terms and conditions",
+        "token": "f39xxysm1w"
+      }
+    ],
+    "text": {
+      "content-type": "text/html",
+      "data": "<p></p>",
+      "encoding": "utf8"
+    },
+    "title": "Can I use CLMS data for commercial purpose?",
+    "type_title": "FAQ",
+    "version": "current",
+    "working_copy": null,
+    "working_copy_of": null
+  }

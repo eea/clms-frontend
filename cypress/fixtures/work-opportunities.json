@@ -1,0 +1,619 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@actions"
+    },
+    "aliases": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@navigation"
+    },
+    "navroot": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@navroot",
+      "title": "Copernicus Land Monitoring Service",
+      "url": "https://clms-prod.eea.europa.eu/en"
+    },
+    "siblings": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@siblings"
+    },
+    "types": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@types"
+    },
+    "workflow": {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/@workflow"
+    }
+  },
+  "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities",
+  "@type": "Document",
+  "UID": "c3f2d1e504594d08b495165d51db632f",
+  "allow_discussion": false,
+  "batching": {
+    "@id": "https://clms-prod.eea.europa.eu/++api++/en/work-opportunities?tab=vacancies",
+    "first": "https://clms-prod.eea.europa.eu/++api++/en/work-opportunities?b_start=0&tab=vacancies",
+    "last": "https://clms-prod.eea.europa.eu/++api++/en/work-opportunities?b_start=25&tab=vacancies",
+    "next": "https://clms-prod.eea.europa.eu/++api++/en/work-opportunities?b_start=25&tab=vacancies"
+  },
+  "blocks": {
+    "2744eb9e-a880-4a53-ac4c-641f5334134b": {
+      "@type": "title"
+    },
+    "81d7c4a0-1858-4c5f-b398-1ca117217046": {
+      "@type": "tabs_block",
+      "data": {
+        "blocks": {
+          "1bff9b82-d936-4340-9e42-4e27774661e8": {
+            "@type": "tab",
+            "blocks": {
+              "0c09e2ee-a2ce-4217-aa4b-311203b55188": {
+                "@type": "listing",
+                "block": "0c09e2ee-a2ce-4217-aa4b-311203b55188",
+                "headlineTag": "h2",
+                "query": [],
+                "querystring": {
+                  "b_size": "10",
+                  "query": [
+                    {
+                      "i": "portal_type",
+                      "o": "plone.app.querystring.operation.selection.any",
+                      "v": ["Tender"]
+                    },
+                    {
+                      "i": "submission_deadline",
+                      "o": "plone.app.querystring.operation.date.beforeToday",
+                      "v": ""
+                    }
+                  ],
+                  "sort_on": "submission_deadline",
+                  "sort_order": "descending",
+                  "sort_order_boolean": true
+                },
+                "variation": "CclWOCloseTenders"
+              },
+              "7d563baa-9908-4bd7-a3b8-677a4513449a": {
+                "@type": "slate",
+                "plaintext": "Open calls for tenders",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Open calls for tenders"
+                      }
+                    ],
+                    "type": "h3"
+                  }
+                ]
+              },
+              "89b4eea8-0f32-4711-a3ba-2a614e3b383a": {
+                "@type": "slate",
+                "plaintext": "Closed calls for tenders",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "\nClosed calls for tenders"
+                      }
+                    ],
+                    "type": "h3"
+                  }
+                ]
+              },
+              "ade21055-023d-4746-9eed-5ddd5a65a870": {
+                "@type": "slate"
+              },
+              "eacc15a8-cef1-479c-863c-6e22092bcad9": {
+                "@type": "dividerBlock"
+              },
+              "ec5c5fb6-75ba-4d64-8e07-f9dc27150778": {
+                "@type": "listing",
+                "block": "ec5c5fb6-75ba-4d64-8e07-f9dc27150778",
+                "headlineTag": "h2",
+                "noResults": {
+                  "data": "<p>We have no published public procurements now.</p>"
+                },
+                "query": [],
+                "querystring": {
+                  "query": [
+                    {
+                      "i": "portal_type",
+                      "o": "plone.app.querystring.operation.selection.any",
+                      "v": ["Tender"]
+                    },
+                    {
+                      "i": "submission_deadline",
+                      "o": "plone.app.querystring.operation.date.afterToday",
+                      "v": ""
+                    }
+                  ],
+                  "sort_on": "submission_deadline",
+                  "sort_order": "descending",
+                  "sort_order_boolean": true
+                },
+                "variation": "CclWOOpenTenders"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "7d563baa-9908-4bd7-a3b8-677a4513449a",
+                "ec5c5fb6-75ba-4d64-8e07-f9dc27150778",
+                "eacc15a8-cef1-479c-863c-6e22092bcad9",
+                "89b4eea8-0f32-4711-a3ba-2a614e3b383a",
+                "0c09e2ee-a2ce-4217-aa4b-311203b55188",
+                "ade21055-023d-4746-9eed-5ddd5a65a870"
+              ]
+            },
+            "title": "Calls for tenders"
+          },
+          "205b60f5-198e-485c-89ae-7b96ecec4266": {
+            "@type": "tab",
+            "blocks": {
+              "0bd3b6f6-b14b-4a48-8318-8a77101cba1a": {
+                "@type": "slate",
+                "plaintext": "Open vacancies",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Open vacancies"
+                      }
+                    ],
+                    "type": "h3"
+                  }
+                ]
+              },
+              "62890e6e-88bd-433f-8916-658429368afd": {
+                "@type": "slate",
+                "plaintext": "Closed vacancies",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "\nClosed vacancies"
+                      }
+                    ],
+                    "type": "h3"
+                  }
+                ]
+              },
+              "8dd78bd8-677b-4d76-a3a0-c185745f01f8": {
+                "@type": "listing",
+                "block": "8dd78bd8-677b-4d76-a3a0-c185745f01f8",
+                "headlineTag": "h2",
+                "noResults": {
+                  "data": "<p>We have no open vacancies now.</p>"
+                },
+                "query": [],
+                "querystring": {
+                  "query": [
+                    {
+                      "i": "portal_type",
+                      "o": "plone.app.querystring.operation.selection.any",
+                      "v": ["WorkOpportunity"]
+                    },
+                    {
+                      "i": "submission_deadline",
+                      "o": "plone.app.querystring.operation.date.afterToday",
+                      "v": ""
+                    }
+                  ],
+                  "sort_on": "submission_deadline",
+                  "sort_order": "ascending"
+                },
+                "variation": "CclWOOpenTenders"
+              },
+              "99835a17-d0c9-4eb8-8fda-f8834d1cd779": {
+                "@type": "dividerBlock"
+              },
+              "b50c0a12-22b4-44c3-a3ed-2401a0304ee8": {
+                "@type": "slate"
+              },
+              "f45bb7c7-0710-4010-8a0d-97ce844c3d48": {
+                "@type": "listing",
+                "block": "f45bb7c7-0710-4010-8a0d-97ce844c3d48",
+                "query": [],
+                "querystring": {
+                  "query": [
+                    {
+                      "i": "portal_type",
+                      "o": "plone.app.querystring.operation.selection.any",
+                      "v": ["WorkOpportunity"]
+                    },
+                    {
+                      "i": "submission_deadline",
+                      "o": "plone.app.querystring.operation.date.beforeToday",
+                      "v": ""
+                    }
+                  ],
+                  "sort_on": "submission_deadline",
+                  "sort_order": "descending",
+                  "sort_order_boolean": true
+                },
+                "variation": "CclWOCloseTenders"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "0bd3b6f6-b14b-4a48-8318-8a77101cba1a",
+                "8dd78bd8-677b-4d76-a3a0-c185745f01f8",
+                "99835a17-d0c9-4eb8-8fda-f8834d1cd779",
+                "62890e6e-88bd-433f-8916-658429368afd",
+                "f45bb7c7-0710-4010-8a0d-97ce844c3d48",
+                "b50c0a12-22b4-44c3-a3ed-2401a0304ee8"
+              ]
+            },
+            "title": "Vacancies"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "1bff9b82-d936-4340-9e42-4e27774661e8",
+            "205b60f5-198e-485c-89ae-7b96ecec4266"
+          ]
+        }
+      },
+      "menuAlign": "left",
+      "menuFluid": true,
+      "menuPosition": "inline",
+      "menuText": true,
+      "template": "CCLVerticalTabs",
+      "verticalAlign": "flex-start"
+    },
+    "9a55f107-d73b-4c83-a5c7-9d2c1636da8d": {
+      "@type": "description"
+    },
+    "de86dd8b-579e-41f6-88b8-ad308cb33e7c": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "2744eb9e-a880-4a53-ac4c-641f5334134b",
+      "81d7c4a0-1858-4c5f-b398-1ca117217046"
+    ]
+  },
+  "contributors": [],
+  "created": "2021-09-03T16:38:47+00:00",
+  "creators": ["admin"],
+  "description": "Work opportunities in the Copernicus Land Monitoring Service.",
+  "effective": "2021-09-06T05:43:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "id": "work-opportunities",
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/pan-european-high-resolution-snow-and-ice-monitoring-of-the-copernicus-land-monitoring-service-2014-production-of-basic-products",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Pan European High Resolution Snow and Ice Monitoring of the Copernicus Land Monitoring Service \u2014 Production of Basic Products",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/preparation-of-the-implementation-of-the-copernicus-european-ground-motion-service",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Preparation of the Implementation of the Copernicus European Ground Motion Service",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-european-ground-motion-service-2013-supporting-services",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Copernicus European Ground Motion Service \u2013 Supporting Services",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/high-resolution-vegetation-phenology-and-productivity-monitoring-2013-biophysical-parameters",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "High Resolution Vegetation Phenology and Productivity Monitoring \u2013 Biophysical Parameters",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/framework-service-contract-for-the-copernicus-land-monitoring-services-2013-clc-backbone-production-including-raster-and-vector-products-based-on-satellite-input-data-from-2017-2018-2019",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Framework Service Contract for the Copernicus Land Monitoring Services \u2013 CLC+ Backbone Production, Including Raster and Vector Products Based on Satellite Input Data from 2017/2018/2019",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/service-contract-for-copernicus-hotspot-monitoring-services-2014-production-of-very-high-resolution-land-cover-land-use-datasets-in-selected-natura-2000-sites-reference-year-2018-including-change-layer",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Service Contract for Copernicus Hotspot Monitoring Services \u2014 Production of Very High Resolution Land Cover/Land use Datasets in Selected Natura 2000 Sites. Reference Year 2018 Including Change Layer",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/pan-european-high-resolution-snow-ice-monitoring-of-the-copernicus-land-monitoring-service-2013-sentinel-1-based-products",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Pan European High Resolution Snow & Ice Monitoring of the Copernicus Land Monitoring Service \u2013 Sentinel 1 based products",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-land-monitoring-service-2013-copernicus-land-portal",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Copernicus land monitoring service \u2013 Copernicus land portal",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-hotspot-monitoring-services-2014-urban-atlas-production-of-digital-building-block-height-models",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Copernicus Hotspot Monitoring Services \u2014 Urban Atlas: Production of Digital Building Block Height Models",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/production-of-the-clc-core-and-provision-of-complementary-consultancy-services",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Production of the CLC+ Core and Provision of Complementary Consultancy Services",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/service-contract-for-the-copernicus-land-monitoring-services-2013-high-resolution-land-cover-characteristics-for-the-2018-reference-year",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Service contract for the Copernicus Land Monitoring Services \u2013 High Resolution Land Cover Characteristics for the 2018 Reference Year",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/expert-assistance-on-communication-awareness-raising-and-user-support-for-the-implementation-of-the-clms-and-the-copernicus-crosscutting-in-situ-data-coordination",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Expert Assistance on Communication, Awareness Raising and User Support for the Implementation of the CLMS and the Copernicus Crosscutting In Situ Data Coordination",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/end-to-end-implementation-and-operation-of-the-european-ground-motion-service-egms",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "End-to-end Implementation and Operation of the European Ground Motion Service (EGMS)",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-land-monitoring-service-high-resolution-layer-2014-vegetated-land-cover-component",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Copernicus Land Monitoring Service High Resolution Layer \u2014 Vegetated Land Cover Component",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/test-work-opportunity",
+      "@type": "WorkOpportunity",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Expert - Copernicus land monitoring",
+      "type_title": "Vacancy"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-monitoring-services-2013-contract-agent-fgiv",
+      "@type": "WorkOpportunity",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Expert - Copernicus monitoring services",
+      "type_title": "Vacancy"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/expert-2013-copernicus-and-lulucf",
+      "@type": "WorkOpportunity",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Expert \u2013 Copernicus and LULUCF",
+      "type_title": "Vacancy"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/expert-environmental-data-and-information-management",
+      "@type": "WorkOpportunity",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Expert - Environmental data and information management",
+      "type_title": "Vacancy"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-european-ground-motion-service-2013-supporting-services-1",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Copernicus European Ground Motion Service \u2013 Supporting Services",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/services-supporting-the-operation-and-evolution-of-the-copernicus-reference-data-access-node-corda-1",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Services Supporting the Operation and Evolution of the Copernicus Reference Data Access Node (CORDA)",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/production-of-clc-instances",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Production of CLC+ Instances",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-land-monitoring-service-high-resolution-layer-2014-vegetated-land-cover-component-1",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Copernicus Land Monitoring Service High Resolution Layer \u2014 Vegetated Land Cover Component",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/services-supporting-the-european-environment-agency2019s-eea-implementation-of-the-copernicus-european-ground-motion-service-2013-product-validation-1",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Services supporting the European Environment Agency\u2019s (EEA) implementation of the Copernicus European Ground Motion Service \u2013 product validation",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/copernicus-land-monitoring-service-high-resolution-layer-2013-non-vegetated-land-cover-characteristics",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Copernicus Land Monitoring Service High Resolution Layer \u2013 Non-Vegetated Land Cover Characteristics",
+      "type_title": "Tender"
+    },
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/work-opportunities/consultancy-services-on-implementation-of-the-copernicus-land-monitoring-services-clms-and-the-copernicus-cross-service-in-situ-coordination-two-lots",
+      "@type": "Tender",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Consultancy Services on Implementation of the Copernicus Land Monitoring Services (CLMS) and the Copernicus Cross-service in Situ Coordination (Two Lots)",
+      "type_title": "Tender"
+    }
+  ],
+  "items_total": 28,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-06-16T08:57:37+00:00",
+  "next_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/stats",
+    "@type": "Document",
+    "description": "",
+    "title": "Stats",
+    "type_title": "Page"
+  },
+  "parent": {
+    "@id": "https://clms-prod.eea.europa.eu/en",
+    "@type": "LRF",
+    "description": "We provide geographical information on land cover and its changes, land use, ground motion, vegetation state, water cycle and earth surface energy variables for both Europe and the entire globe.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "Copernicus Land Monitoring Service",
+    "type_title": "Language Root Folder"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "previous_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/technical-library",
+    "@type": "Document",
+    "description": "Technical library of the Copernicus Land Monitoring Service.",
+    "title": "Technical library",
+    "type_title": "Page"
+  },
+  "relatedItems": [],
+  "review_state": "published",
+  "rights": null,
+  "subjects": [],
+  "title": "Work opportunities",
+  "type_title": "Page",
+  "version": "current",
+  "working_copy": null,
+  "working_copy_of": null
+}

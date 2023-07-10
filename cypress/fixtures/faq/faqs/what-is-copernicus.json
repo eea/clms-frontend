@@ -1,0 +1,188 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@actions"
+    },
+    "aliases": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@navigation"
+    },
+    "navroot": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@navroot",
+      "title": "Copernicus Land Monitoring Service",
+      "url": "https://clms-prod.eea.europa.eu/en"
+    },
+    "siblings": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@siblings"
+    },
+    "translations": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@translations"
+    },
+    "types": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@types"
+    },
+    "workflow": {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/@workflow"
+    }
+  },
+  "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus",
+  "@type": "FAQ",
+  "UID": "3a41b24b331e4477b6d49c02d310ed78",
+  "allow_discussion": false,
+  "blocks": {
+    "780aef56-665e-4428-aa5f-74039eb82f7c": {
+      "@type": "slate",
+      "plaintext": "Copernicus collects a vast amount of data from satellites, ground based, airborne and seaborne measurements systems, processes and then analyses it to make usable in order to provide autonomous and independent access for all.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Copernicus collects a vast amount of data from satellites, ground based, airborne and seaborne measurements systems, processes and then analyses it to make usable in order to provide autonomous and independent access for all."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "cbce12b7-83f5-4cd9-9a1e-a5fa18eed463": {
+      "@type": "slate",
+      "plaintext": "Importantly, the information is free to use by anyone \u2013 whether it be used by policymakers, public and private organisations or the general public, it allows the development of new applications, products and services, research to be undertaken, policies evidenced or business planning to be improved.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Importantly, the information is free to use by anyone \u2013 whether it be used by policymakers, public and private organisations or the general public, it allows the development of new applications, products and services, research to be undertaken, policies evidenced or business planning to be improved."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "f4983b20-c60c-4662-97d0-f9e4426ba2d3": {
+      "@type": "slate",
+      "plaintext": "Copernicus is part of the European Union's Space Programme, which operates six thematic services relating to Atmosphere, Marine, Land, Climate Change, Security and Emergency. The services are designed to help us better understand our planet and sustainably manage the environment.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Copernicus is part of the European Union's Space Programme, which operates six thematic services relating to Atmosphere, Marine, Land, Climate Change, Security and Emergency. The services are designed to help us better understand our planet and sustainably manage the environment."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "f4983b20-c60c-4662-97d0-f9e4426ba2d3",
+      "780aef56-665e-4428-aa5f-74039eb82f7c",
+      "cbce12b7-83f5-4cd9-9a1e-a5fa18eed463"
+    ]
+  },
+  "contributors": [],
+  "created": "2023-01-03T19:12:11+00:00",
+  "creators": ["larremik"],
+  "description": "",
+  "effective": "2023-01-03T19:12:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "what-is-copernicus",
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus/cglops_uc_iavhassanii-moroc-i1-10_thumb.png",
+      "@type": "Image",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-110-acdf2a984812390b6274b99fb12788ca.png",
+            "filename": "CGLOPS_UC_IAVHassanII-Moroc-I1.10_thumb.png",
+            "height": 94,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-9ac65cb62e7e5bed80bcb5d8ac84148e.png",
+                "height": 27,
+                "width": 32
+              },
+              "tile": {
+                "download": "@@images/image-64-a89ad42a873e6fae568c178c2ce981aa.png",
+                "height": 54,
+                "width": 64
+              }
+            },
+            "size": 18900,
+            "width": 110
+          }
+        ]
+      },
+      "review_state": null,
+      "title": "CGLOPS_UC_IAVHassanII-Moroc-I1.10_thumb.png",
+      "type_title": "Image"
+    }
+  ],
+  "items_total": 1,
+  "language": "",
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2023-05-26T08:45:34+00:00",
+  "next_item": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions/what-is-copernicus-land-monitoring-service",
+    "@type": "FAQ",
+    "description": "",
+    "title": "What is Copernicus Land Monitoring Service?",
+    "type_title": "FAQ"
+  },
+  "parent": {
+    "@id": "https://clms-prod.eea.europa.eu/en/faq/general-questions",
+    "@type": "Document",
+    "description": "",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "General questions",
+    "type_title": "Page"
+  },
+  "previous_item": {},
+  "review_state": "published",
+  "rights": null,
+  "subjects": [],
+  "taxonomy_faqcategories": [
+    {
+      "title": "01#General questions",
+      "token": "f3mfger8t6"
+    }
+  ],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p></p>",
+    "encoding": "utf8"
+  },
+  "title": "What is Copernicus?",
+  "type_title": "FAQ",
+  "version": "current",
+  "working_copy": null,
+  "working_copy_of": null
+}
