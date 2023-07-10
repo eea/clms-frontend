@@ -135,7 +135,7 @@ Cypress.Commands.add(
       user: 'admin',
       pass: 'admin',
     };
-    if (contentJSON['@type'] === 'DataSet') {
+    if (contentJSON['@type'] === 'DataSet' || contentJSON['@type'] === 'FAQ') {
       return cy
         .request({
           method: 'POST',
