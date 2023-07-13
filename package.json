@@ -195,7 +195,7 @@
     "prettier": "2.0.5",
     "razzle": "4.2.17",
     "react-svg": "14.0.4",
-    "stylelint": "14.0.1",
+    "stylelint": "15.10.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
