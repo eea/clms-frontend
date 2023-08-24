@@ -1856,13 +1856,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.33":
-  version: 1.1.33
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.33"
+"@eeacms/volto-clms-theme@npm:1.1.34":
+  version: 1.1.34
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.34"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
-    "@eeacms/volto-clms-utils": 0.1.9
+    "@eeacms/volto-clms-utils": 0.1.10
     "@eeacms/volto-columns-block": 6.0.2
     "@eeacms/volto-embed": 5.0.1
     "@eeacms/volto-metadata-block": 5.0.1
@@ -1892,16 +1892,25 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: 5d8b78041b515e366421959c3608f675d497f851fc34b71d5a5ffd8298ca064eca549d8cae8b94dcb69a8ce815ce6b877c6baa6345b961c87ec2bb66ce53693c
+  checksum: fe4dfcef19893672dabc54537d01a724b801b7bd814c97ebcfc015c6d335c41e639d5d9208fcd049132d5e975b110037b5036f0003d1dc7be96ec122ca67a7d2
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-utils@npm:*, @eeacms/volto-clms-utils@npm:0.1.9":
+"@eeacms/volto-clms-utils@npm:*":
   version: 0.1.9
   resolution: "@eeacms/volto-clms-utils@npm:0.1.9"
   dependencies:
     "@eeacms/volto-matomo": ^2.0.7
   checksum: 537a5759b805e3dc54f77f77fb99f839553d95f58865e86b486e2ccad4f8853cebbd7efbb881501f00197108b0f799bdd3a0a9eeecdd1ed74b70181784c2889e
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-clms-utils@npm:0.1.10":
+  version: 0.1.10
+  resolution: "@eeacms/volto-clms-utils@npm:0.1.10"
+  dependencies:
+    "@eeacms/volto-matomo": ^2.0.7
+  checksum: e2033a1b19f711e52c3c928526d9a7cb848c15019ed52fd80330e15f8be98f1e617393d9683999a830574a3f05a9fb70b5ff4276840e45263692fe9593ecf264
   languageName: node
   linkType: hard
 
@@ -6675,7 +6684,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.185
-    "@eeacms/volto-clms-theme": 1.1.33
+    "@eeacms/volto-clms-theme": 1.1.34
     "@eeacms/volto-eea-kitkat": 18.0.3
     "@eeacms/volto-sentry-rancher-config": 3.1.1
     "@eeacms/volto-widget-geolocation": ^3.0.0
