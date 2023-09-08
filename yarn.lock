@@ -1785,21 +1785,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:*":
-  version: 0.1.170
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.170"
+"@eeacms/volto-arcgis-block@*, @eeacms/volto-arcgis-block@workspace:src/addons/volto-arcgis-block":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-arcgis-block@workspace:src/addons/volto-arcgis-block"
   dependencies:
-    "@eeacms/volto-clms-utils": "*"
+    "@cypress/code-coverage": ^3.9.5
+    "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
     "@fortawesome/free-solid-svg-icons": 5.15.3
     "@fortawesome/react-fontawesome": 0.1.14
+    babel-plugin-transform-class-properties: ^6.24.1
     esri-loader: 3.1.0
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
+    husky: "*"
+    lint-staged: 13.1.4
+    md5: ^2.3.0
     react-datepicker: 4.10.0
-  checksum: 749fd834b8960e9abbe73869a6b33c7eee99352a0b6a0030380a6f45ee6b81cee048987383b470f81f58aa3f4eaf7e4261a18de34a77d070fccd1d7227404bdf
-  languageName: node
-  linkType: hard
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-arcgis-block@npm:0.1.190":
   version: 0.1.190
@@ -1876,47 +1880,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.38":
-  version: 1.1.38
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.38"
-  dependencies:
-    "@eeacms/volto-accordion-block": 7.0.0
-    "@eeacms/volto-arcgis-block": "*"
-    "@eeacms/volto-clms-utils": 0.1.12
-    "@eeacms/volto-columns-block": 6.0.2
-    "@eeacms/volto-embed": 5.0.1
-    "@eeacms/volto-metadata-block": 5.0.1
-    "@eeacms/volto-react-table-widget": 0.1.3
-    "@eeacms/volto-resize-helper": 1.0.1
-    "@eeacms/volto-tableau": 1.3.0
-    "@eeacms/volto-tabs-block": 3.0.1
-    "@eeacms/volto-taxonomy": 3.0.1
-    "@fortawesome/fontawesome-svg-core": 1.2.35
-    "@fortawesome/free-regular-svg-icons": 5.15.3
-    "@fortawesome/free-solid-svg-icons": 5.15.3
-    "@fortawesome/react-fontawesome": 0.1.14
-    "@ginkgo-bioworks/react-json-schema-form-builder": 2.10.1
-    "@kitconcept/volto-blocks-grid": 7.0.2
-    connected-react-router: 6.8.0
-    husky: 7.0.4
-    lightgallery: ^2.4.0
-    razzle-plugin-scss: 4.2.18
-    react-csv: 2.2.2
-    react-draggable: 4.4.5
-    react-input-range: ^1.3.0
-    react-native-mime-types: 2.3.0
-    react-slick: 0.28.1
-    react-svg: 14.0.4
-    slick-carousel: 1.8.1
-    validator: 13.7.0
-    volto-cookie-banner: 2.1.0
-    volto-dropdownmenu: 4.0.0
-    volto-form-block: 3.0.1
-  checksum: ddcb1e9e3040a91b905c0eb22ec90c973585960f05f0ecaa0cc30d2ee4f50f8fc310ffc3bb72f76f88112d468f2e47aea4eb899afa60c9e63af1ba5c94f81a86
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-clms-theme@workspace:src/addons/volto-clms-theme":
+"@eeacms/volto-clms-theme@1.1.38, @eeacms/volto-clms-theme@workspace:src/addons/volto-clms-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-clms-theme@workspace:src/addons/volto-clms-theme"
   dependencies:
