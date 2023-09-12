@@ -21,20 +21,20 @@ describe('Profile view Tests', () => {
 
     // third tab
     cy.get('.left-menu .card a').eq(2).click();
-    tab_title = 'Newsletter subscribers';
+    tab_title = 'CLMS updates subscribers';
     cy.get('.left-menu .card.active a').should('contain', tab_title);
     cy.get('h1.page-title').should(
       'contain',
-      'Download a list of newsletter subscribers',
+      'Download a list of CLMS updates subscribers',
     );
-    cy.url().should('contain', '#newsletter_subscribers');
+    cy.url().should('contain', '#clms_updates_subscribers');
 
     // fourth tab
     cy.get('.left-menu .card a').eq(3).click();
-    tab_title = 'Subscribe to the newsletter';
+    tab_title = 'Subscribe to the CLMS updates';
     cy.get('.left-menu .card.active a').should('contain', tab_title);
     cy.get('h1.page-title').should('contain', tab_title);
-    cy.url().should('contain', '#subscribe_to_the_newsletter');
+    cy.url().should('contain', '#subscribe_to_the_clms_updates');
 
     // fifth tab
     cy.get('.left-menu .card a').eq(4).click();
@@ -71,17 +71,17 @@ describe('Profile view Tests', () => {
     cy.get('h1.page-title').should('contain', tab_title);
 
     // third tab
-    cy.navigate(`/en/${profile_id}#newsletter_subscribers`);
-    tab_title = 'Newsletter subscribers';
+    cy.navigate(`/en/${profile_id}#clms_updates_subscribers`);
+    tab_title = 'CLMS updates subscribers';
     cy.get('.left-menu .card.active a').should('contain', tab_title);
     cy.get('h1.page-title').should(
       'contain',
-      'Download a list of newsletter subscribers',
+      'Download a list of CLMS updates subscribers',
     );
 
     // fourth tab
-    cy.navigate(`/en/${profile_id}#subscribe_to_the_newsletter`);
-    tab_title = 'Subscribe to the newsletter';
+    cy.navigate(`/en/${profile_id}#subscribe_to_the_clms_updates`);
+    tab_title = 'Subscribe to the CLMS updates';
     cy.get('.left-menu .card.active a').should('contain', tab_title);
     cy.get('h1.page-title').should('contain', tab_title);
 
