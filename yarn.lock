@@ -1730,7 +1730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:*, @eeacms/volto-arcgis-block@npm:0.1.191":
+"@eeacms/volto-arcgis-block@npm:*":
   version: 0.1.191
   resolution: "@eeacms/volto-arcgis-block@npm:0.1.191"
   dependencies:
@@ -1743,6 +1743,22 @@ __metadata:
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
   checksum: 09d7677cd6a114719c2a3925275b8f9c65065e9979af6e4316be6153b8252992c81c7ed994d5b32e27ad52a95dd8f1ab4fb3b0c4bee4f4613e2f6072514e8d36
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-arcgis-block@npm:0.1.192":
+  version: 0.1.192
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.192"
+  dependencies:
+    "@eeacms/volto-clms-utils": 0.1.12
+    "@fortawesome/fontawesome-svg-core": 1.2.35
+    "@fortawesome/free-solid-svg-icons": 5.15.3
+    "@fortawesome/react-fontawesome": 0.1.14
+    esri-loader: 3.1.0
+    highcharts: ^9.3.2
+    highcharts-react-official: ^3.1.0
+    react-datepicker: 4.10.0
+  checksum: 5634e26e5a701a3d239c9cc709a2d512081408d061e2c8667521b895ac4925a6b47a8f601455c4501097d79d68231c773f75778bb38542ad69ada18c7f96710c
   languageName: node
   linkType: hard
 
@@ -1800,9 +1816,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.38":
-  version: 1.1.38
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.38"
+"@eeacms/volto-clms-theme@npm:1.1.39":
+  version: 1.1.39
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.39"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1816,6 +1832,7 @@ __metadata:
     "@eeacms/volto-tabs-block": 3.0.1
     "@eeacms/volto-taxonomy": 3.0.1
     "@fortawesome/fontawesome-svg-core": 1.2.35
+    "@fortawesome/free-brands-svg-icons": 6.4.2
     "@fortawesome/free-regular-svg-icons": 5.15.3
     "@fortawesome/free-solid-svg-icons": 5.15.3
     "@fortawesome/react-fontawesome": 0.1.14
@@ -1836,7 +1853,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: ddcb1e9e3040a91b905c0eb22ec90c973585960f05f0ecaa0cc30d2ee4f50f8fc310ffc3bb72f76f88112d468f2e47aea4eb899afa60c9e63af1ba5c94f81a86
+  checksum: b46ebf109def69c1045866310aee4a82ee25757d8a19871027e73009ed0eeef8a4dc81008736da2405ffb85b7481a7648187b4d4beee8be06556a874551d4f22
   languageName: node
   linkType: hard
 
@@ -2531,6 +2548,15 @@ __metadata:
   dependencies:
     "@fortawesome/fontawesome-common-types": 6.4.2
   checksum: 0c0ecd9058883b128127e2b281c983ba6272be38a17577aaa2293ada58e9b1538357fe44430ded508d49ae3f5cc55aa720a0448d2b9d99689bb912d786f034e5
+  languageName: node
+  linkType: hard
+
+"@fortawesome/free-brands-svg-icons@npm:6.4.2":
+  version: 6.4.2
+  resolution: "@fortawesome/free-brands-svg-icons@npm:6.4.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": 6.4.2
+  checksum: 79efd840297f7b8dc057b553e46df1d5bfbc58e936bb2c7a3e488721fbbd430a70c4f4c613ac4d52bdc752e115b104fcd92774f35080ae04b8075add5423b6f0
   languageName: node
   linkType: hard
 
@@ -6595,8 +6621,8 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.191
-    "@eeacms/volto-clms-theme": 1.1.38
+    "@eeacms/volto-arcgis-block": 0.1.192
+    "@eeacms/volto-clms-theme": 1.1.39
     "@eeacms/volto-eea-kitkat": 18.1.0
     "@eeacms/volto-sentry-rancher-config": 3.1.1
     "@eeacms/volto-widget-geolocation": ^3.0.0
