@@ -1746,9 +1746,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.197":
-  version: 0.1.197
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.197"
+"@eeacms/volto-arcgis-block@npm:0.1.198":
+  version: 0.1.198
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.198"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1758,7 +1758,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 0cb8de4ac1be4ff225cc6504504419e425ede77e5b53baeabbcc7370e7424a0ed2bad03f3703251d07b588a890d12b9a31490e7d33bb1203f875d00f484d6b8b
+  checksum: d667cfedd8f791414cce8ac185ed7d9b4a689049cdbd3329183dfc2d72b7f614813918d28526c680ca8fadd2f1e1db57ad9231d93bc880cc3e21e13aa62905f9
   languageName: node
   linkType: hard
 
@@ -6614,7 +6614,7 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.197
+    "@eeacms/volto-arcgis-block": 0.1.198
     "@eeacms/volto-clms-theme": 1.1.40
     "@eeacms/volto-eea-kitkat": 18.1.1
     "@eeacms/volto-sentry-rancher-config": 3.1.1
