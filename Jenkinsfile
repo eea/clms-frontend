@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    RANCHER_STACKID = "1st2521"
+    RANCHER_STACKID = "1st2670"
     RANCHER_ENVID = "1a486860"
     GIT_NAME = "clms-frontend"
     registry = "eeacms/clms-frontend"
