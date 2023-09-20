@@ -1875,15 +1875,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-<<<<<<< Updated upstream
-"@eeacms/volto-clms-theme@npm:1.1.45":
-  version: 1.1.45
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.45"
-=======
-"@eeacms/volto-clms-theme@1.1.44, @eeacms/volto-clms-theme@workspace:src/addons/volto-clms-theme":
+"@eeacms/volto-clms-theme@1.1.45, @eeacms/volto-clms-theme@workspace:src/addons/volto-clms-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-clms-theme@workspace:src/addons/volto-clms-theme"
->>>>>>> Stashed changes
   dependencies:
     "@cypress/code-coverage": ^3.9.5
     "@eeacms/volto-accordion-block": 7.0.0
@@ -1936,14 +1930,8 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-<<<<<<< Updated upstream
-  checksum: 9ac0d95317a2e7aa0661f4e2e7fac98dc6699107e9a819f49dfc812ce6794fa9dc9a8917c5f3d03281c188c24b091ff9c68c5709e8fdfe23d475028982f75dc5
-  languageName: node
-  linkType: hard
-=======
   languageName: unknown
   linkType: soft
->>>>>>> Stashed changes
 
 "@eeacms/volto-clms-utils@0.1.12, @eeacms/volto-clms-utils@workspace:src/addons/volto-clms-utils":
   version: 0.0.0-use.local
