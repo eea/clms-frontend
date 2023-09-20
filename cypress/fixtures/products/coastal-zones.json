@@ -1,0 +1,1129 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@actions"
+    },
+    "aliases": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@navigation"
+    },
+    "navroot": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@navroot",
+      "title": "Copernicus Land Monitoring Service",
+      "url": "https://clmsdemo.devel6cph.eea.europa.eu/en"
+    },
+    "siblings": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@siblings"
+    },
+    "translations": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@translations"
+    },
+    "types": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@types"
+    },
+    "workflow": {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@workflow"
+    }
+  },
+  "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones",
+  "@type": "Product",
+  "UID": "9bd9761fe8ca42ed8fff12817ba9725c",
+  "allow_discussion": false,
+  "blocks": {
+    "2586894b-30e6-41d2-a0b1-ef29b4f706b8": {
+      "@layout": "82008ae8-dbe9-4d85-b411-c5a5712bf337",
+      "@type": "title",
+      "block": "2586894b-30e6-41d2-a0b1-ef29b4f706b8",
+      "styles": {}
+    },
+    "390951f0-3249-4bf5-a029-3c9b93d298d5": {
+      "@layout": "1b631e7f-6eae-4c48-8a0e-3fcccd9ee2c0",
+      "@type": "tabs_block",
+      "block": "390951f0-3249-4bf5-a029-3c9b93d298d5",
+      "data": {
+        "blocks": {
+          "1af1c2f9-5dc2-4c48-8218-2a9834f92453": {
+            "@type": "tab",
+            "blocks": {
+              "1751032c-6b48-41d1-8cd4-745ea7905d92": {
+                "@type": "slate",
+                "plaintext": "The next planned product update will address land cover and land use information in the European coastal territory for the 2024 reference year including the 2018-2024 change layer. The production schedule has not been confirmed yet.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The next planned product update will address land cover and land use information in the European coastal territory for the 2024 reference year including the 2018-2024 change layer. The production schedule has not been confirmed yet."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": ["1751032c-6b48-41d1-8cd4-745ea7905d92"]
+            },
+            "title": "Roadmap"
+          },
+          "54d811ba-e862-4670-82e5-c5b690b8b769": {
+            "@type": "tab",
+            "blocks": {
+              "67c94842-abbb-4392-bb9f-32021d27f66b": {
+                "@type": "accordion",
+                "collapsed": false,
+                "data": {
+                  "blocks": {
+                    "23fa5f33-77a9-445a-8656-7e66643fe997": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "0debd7c3-069c-4f19-87e4-371317b4b777": {
+                          "@type": "relatedListing",
+                          "content_type": "eea.meeting",
+                          "variation": "CclCardsevent"
+                        },
+                        "43ee0662-46ba-4bf2-92fb-d64580441660": {
+                          "@type": "slate",
+                          "plaintext": "Here you will find information about upcoming user events and access materials of past events.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Here you will find information about upcoming user events and access materials of past events."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "5bc4e324-55a0-4cc2-adfb-5510340035fe": {
+                          "@type": "slate",
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "b9936b2e-b8b0-4688-968a-0c85c53e70ae": {
+                          "@type": "dividerBlock"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "43ee0662-46ba-4bf2-92fb-d64580441660",
+                          "b9936b2e-b8b0-4688-968a-0c85c53e70ae",
+                          "5bc4e324-55a0-4cc2-adfb-5510340035fe",
+                          "0debd7c3-069c-4f19-87e4-371317b4b777"
+                        ]
+                      },
+                      "title": "User events"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["23fa5f33-77a9-445a-8656-7e66643fe997"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              },
+              "763bbdbb-efdd-466a-b30d-ba19bb57f5b5": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "67c94842-abbb-4392-bb9f-32021d27f66b",
+                "763bbdbb-efdd-466a-b30d-ba19bb57f5b5"
+              ]
+            },
+            "title": "User outreach"
+          },
+          "a9991060-3e86-4172-b001-58320209b867": {
+            "@type": "tab",
+            "blocks": {
+              "15b54377-6506-4f5e-9adb-f5e2c47424ca": {
+                "@type": "accordion",
+                "collapsed": true,
+                "data": {
+                  "blocks": {
+                    "c7cac719-14fa-4f8b-bbd9-2453bbd6bff6": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "3c7988b4-0873-497e-a6eb-25e2c128913d": {
+                          "@type": "slate",
+                          "plaintext": "In addition to final products provided on this website you can also request access to the expert products, intermediate layers and reference datasets used in the Coastal Zones production. These products are intended for users with a deep understanding of satellite remote sensing. Therefore, please consult product documentation before using them.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "In addition to final products provided on this website you can also request access to the expert products, intermediate layers and reference datasets used in the Coastal Zones production. These products are intended for users with a deep understanding of satellite remote sensing. Therefore, please consult product documentation before using them."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "66063a8a-5041-4de4-ad90-fa620704c6a2": {
+                          "@type": "slate",
+                          "plaintext": "You can request access to these specialised products by contacting our Service desk .",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "You can request access to these specialised products by contacting our\u00a0"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Service desk"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "external": {
+                                        "external_link": "https://clms-prod.eea.europa.eu/en/contact-service-helpdesk",
+                                        "target": "_self"
+                                      }
+                                    }
+                                  },
+                                  "type": "a",
+                                  "url": "https://clmsdemo.devel6cph.eea.europa.eu/en/contact-service-helpdesk"
+                                },
+                                {
+                                  "text": "."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "8d6466e2-d1bf-46a6-8662-eaf7538b3018": {
+                          "@type": "slate",
+                          "plaintext": "The initial production of the Coastal Zones hotspot thematic mapping consists of:",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "The initial production of the Coastal Zones hotspot thematic mapping consists of:"
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "9b764ea0-9270-4054-a08c-9d094f3110c8": {
+                          "@type": "slate",
+                          "plaintext": "Land Cover/Land Use status layer for 2012 Land Cover/Land Use status layer 2018 Land Cover/Land Use change layer between 2012 and 2018",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Land Cover/Land Use status layer for 2012"
+                                    }
+                                  ],
+                                  "type": "li"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Land Cover/Land Use status layer 2018"
+                                    }
+                                  ],
+                                  "type": "li"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Land Cover/Land Use change layer between 2012 and 2018"
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "e334eb1f-5344-464a-9045-908f7bb0c801": {
+                          "@type": "slate",
+                          "plaintext": "The Coastal Zones products cover all European coastal territory to an inland depth of 10 km (coastline derived from EU-Hydro v1.1) with a total area of approximately 730,000 km\u00b2. Land Cover/Land Use layer is extracted from Very High Resolution (VHR) satellite data and other available data. The class definitions follow the pre-defined nomenclature on the basis of Mapping and Assessment of Ecosystems and their Services (MAES) typology of ecosystems (Level 1 to Level 4) and CORINE Land Cover adapted to the specific characteristics of coastal zones. The classification provides 71 distinct thematic class with a Minimum Mapping Unit (MMU) of 0.5 ha and a Minimum Mapping Width (MMW) of 10 m.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "The Coastal Zones products cover all European coastal territory to an inland depth of 10 km (coastline derived from "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "EU-Hydro"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "internal": {
+                                        "internal_link": [
+                                          {
+                                            "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/eu-hydro",
+                                            "title": "EU-Hydro"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": " v1.1) with a total area of approximately 730,000 km\u00b2. Land Cover/Land Use layer is extracted from Very High Resolution (VHR) satellite data and other available data. The class definitions follow the pre-defined nomenclature on the basis of Mapping and Assessment of Ecosystems and their Services (MAES) typology of ecosystems (Level 1 to Level 4) and "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "CORINE Land Cover"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "internal": {
+                                        "internal_link": [
+                                          {
+                                            "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/corine-land-cover",
+                                            "title": "CORINE Land Cover"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": " adapted to the specific characteristics of coastal zones. The classification provides 71 distinct thematic class with a Minimum Mapping Unit (MMU) of 0.5 ha and a Minimum Mapping Width (MMW) of 10 m."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "e587683c-9057-45d4-9fbf-a550e721c190": {
+                          "@type": "slate",
+                          "plaintext": "Expert products, intermediate layers and reference datasets",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "\nExpert products, intermediate layers and reference datasets"
+                                }
+                              ],
+                              "type": "h3"
+                            }
+                          ]
+                        },
+                        "f047a940-b818-43c7-905e-edc5e4363b98": {
+                          "@type": "slate",
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "\n"
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "e334eb1f-5344-464a-9045-908f7bb0c801",
+                          "8d6466e2-d1bf-46a6-8662-eaf7538b3018",
+                          "9b764ea0-9270-4054-a08c-9d094f3110c8",
+                          "e587683c-9057-45d4-9fbf-a550e721c190",
+                          "3c7988b4-0873-497e-a6eb-25e2c128913d",
+                          "66063a8a-5041-4de4-ad90-fa620704c6a2",
+                          "f047a940-b818-43c7-905e-edc5e4363b98"
+                        ]
+                      },
+                      "title": "Technical summary"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["c7cac719-14fa-4f8b-bbd9-2453bbd6bff6"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              },
+              "27983f42-0631-4e14-b395-40dc03162943": {
+                "@type": "slate",
+                "plaintext": "You can also check other European Priority Area Mapping products: N2K , Riparian Zones and Urban Atlas .",
+                "styles": {
+                  "backgroundColor": "#ebefc6"
+                },
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "You can also check other European Priority Area Mapping products: "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "N2K"
+                          }
+                        ],
+                        "data": {
+                          "link": {
+                            "internal": {
+                              "internal_link": [
+                                {
+                                  "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/n2k",
+                                  "title": "N2K"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "type": "a"
+                      },
+                      {
+                        "text": ", "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Riparian Zones"
+                          }
+                        ],
+                        "data": {
+                          "link": {
+                            "internal": {
+                              "internal_link": [
+                                {
+                                  "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/riparian-zones",
+                                  "title": "Riparian Zones"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "type": "a"
+                      },
+                      {
+                        "text": " and "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Urban Atlas"
+                          }
+                        ],
+                        "data": {
+                          "link": {
+                            "internal": {
+                              "internal_link": [
+                                {
+                                  "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/urban-atlas",
+                                  "title": "Urban Atlas"
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        "type": "a"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ],
+                    "type": "callout"
+                  }
+                ]
+              },
+              "566d8dac-d0f4-427e-8391-a6095483554f": {
+                "@type": "accordion",
+                "collapsed": false,
+                "data": {
+                  "blocks": {
+                    "7677551e-11a7-4e6e-8c04-d4820604ceed": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "75fc0231-1b33-46d8-9601-269247f036b1": {
+                          "@type": "slate",
+                          "instructions": {
+                            "content-type": "text/html",
+                            "data": "<p><br/></p>",
+                            "encoding": "utf8"
+                          },
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "b61e9048-b0f4-4ffc-b422-76ed4cb5572b": {
+                          "@type": "listing",
+                          "block": "b61e9048-b0f4-4ffc-b422-76ed4cb5572b",
+                          "query": [],
+                          "querystring": {
+                            "query": [
+                              {
+                                "i": "portal_type",
+                                "o": "plone.app.querystring.operation.selection.any",
+                                "v": ["DataSet"]
+                              },
+                              {
+                                "i": "path",
+                                "o": "plone.app.querystring.operation.string.absolutePath",
+                                "v": "/en/products/coastal-zones"
+                              }
+                            ],
+                            "sort_on": "getObjPositionInParent",
+                            "sort_order": "ascending"
+                          },
+                          "variation": "CclCardsline"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "b61e9048-b0f4-4ffc-b422-76ed4cb5572b",
+                          "75fc0231-1b33-46d8-9601-269247f036b1"
+                        ]
+                      },
+                      "title": "Datasets"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["7677551e-11a7-4e6e-8c04-d4820604ceed"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "title_size": "h2"
+              },
+              "819f3a50-38ca-4243-9ab0-7f824a8b2525": {
+                "@type": "slate",
+                "plaintext": "Europe\u2019s coastal regions are hotspots of biodiversity. Tens of thousands of plant and animal species rely on unique coastal ecosystems such as inland or salt marshes and intertidal flats, which are vital to the health of global oceans. Unfortunately, these fragile ecosystems are under threat from human activity. This tension is evidenced by the fact that 40% of the EU\u2019s population lives within 50 kilometres of the coast and that 75% of the EU\u2019s foreign trade volume is conducted by sea. As a result, preserving these vital ecosystems and using them sustainably depends in part on access to detailed and reliable information about them.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Europe\u2019s coastal regions are hotspots of biodiversity. Tens of thousands of plant and animal species rely on unique coastal ecosystems such as inland or salt marshes and intertidal flats, which are vital to the health of global oceans. Unfortunately, these fragile ecosystems are under threat from human activity. This tension is evidenced by the fact that 40% of the EU\u2019s population lives within 50 kilometres of the coast and that 75% of the EU\u2019s foreign trade volume is conducted by sea. As a result, preserving these vital ecosystems and using them sustainably depends in part on access to detailed and reliable information about them."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "a437e926-6e40-4b38-8938-66d03c114ca6": {
+                "@type": "accordion",
+                "collapsed": true,
+                "data": {
+                  "blocks": {
+                    "2262e82d-1f70-41e8-9c57-714f2faa2b0e": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "dc68a8ea-efb0-4844-b2da-0a73edf9eeab": {
+                          "@type": "slate",
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "fd5fd06b-7cde-480b-a70c-641da2dc7286": {
+                          "@type": "relatedListing",
+                          "content_type": "TechnicalLibrary",
+                          "variation": "CclCardsdoc"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "fd5fd06b-7cde-480b-a70c-641da2dc7286",
+                          "dc68a8ea-efb0-4844-b2da-0a73edf9eeab"
+                        ]
+                      },
+                      "title": "See product documentation here"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["2262e82d-1f70-41e8-9c57-714f2faa2b0e"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "title_size": "h2"
+              },
+              "f8bd8c67-5970-4a99-baf6-380ce4539b22": {
+                "@type": "slate",
+                "plaintext": "The Coastal Zones product gives users access to detailed land cover/land use maps of Europe\u2019s coastal regions. This data is helpful for making informed decisions about coastal ecosystem management (e.g., identifying areas that require conservation), land-use planning (e.g., in areas with competing resource demands), and disaster management (e.g., forecasting the impact of storms and flooding). The Coastal Zones product covers the entirety of European coastal areas to an inland depth of 10 kilometres\u2014a total area of roughly 730,000 square kilometres. The product is updated every six years, and currently consists of three layers: a land cover/land use status layer for both 2012 and 2018, as well as change layer for the period between 2012 and 2018.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The Coastal Zones product gives users access to detailed land cover/land use maps of Europe\u2019s coastal regions. This data is helpful for making informed decisions about coastal ecosystem management (e.g., identifying areas that require conservation), land-use planning (e.g., in areas with competing resource demands), and disaster management (e.g., forecasting the impact of storms and flooding). The Coastal Zones product covers the entirety of European coastal areas to an inland depth of 10 kilometres\u2014a total area of roughly 730,000 square kilometres. The product is updated every six years, and currently consists of three layers: a land cover/land use status layer for both 2012 and 2018, as well as change layer for the period between 2012 and 2018."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "819f3a50-38ca-4243-9ab0-7f824a8b2525",
+                "f8bd8c67-5970-4a99-baf6-380ce4539b22",
+                "27983f42-0631-4e14-b395-40dc03162943",
+                "15b54377-6506-4f5e-9adb-f5e2c47424ca",
+                "a437e926-6e40-4b38-8938-66d03c114ca6",
+                "566d8dac-d0f4-427e-8391-a6095483554f"
+              ]
+            },
+            "title": "Main"
+          },
+          "baaf8424-789a-4024-bffb-372f1062444f": {
+            "@type": "tab",
+            "blocks": {
+              "7b8f10f8-175c-48aa-a5ac-d59c73c2c710": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "c898e47a-8028-4352-8c3a-bb3bc883f8b8": {
+                "@type": "cclButtonComponent",
+                "disabled": false,
+                "download": false,
+                "href": [
+                  {
+                    "@id": "http://backend:8080/Plone/en/use-cases/submit-use-case",
+                    "@type": "Document",
+                    "Description": "Tell us how you use the Copernicus Land Monitoring Service data.",
+                    "Title": "Submit use case",
+                    "title": "Submit use case"
+                  }
+                ],
+                "style": "filled",
+                "target": "_self",
+                "title": "Submit your use case"
+              },
+              "de96f80f-cb11-4ab8-b679-f1991fad33d3": {
+                "@type": "slate",
+                "plaintext": "If you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "If you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "de96f80f-cb11-4ab8-b679-f1991fad33d3",
+                "c898e47a-8028-4352-8c3a-bb3bc883f8b8",
+                "7b8f10f8-175c-48aa-a5ac-d59c73c2c710"
+              ]
+            },
+            "selected": "087f83e5-3cfc-40d2-aa46-f161801cc22f",
+            "title": "Applications & use cases"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "a9991060-3e86-4172-b001-58320209b867",
+            "baaf8424-789a-4024-bffb-372f1062444f",
+            "54d811ba-e862-4670-82e5-c5b690b8b769",
+            "1af1c2f9-5dc2-4c48-8218-2a9834f92453"
+          ]
+        }
+      },
+      "instructions": {
+        "content-type": "text/html",
+        "data": "<p><br/></p>",
+        "encoding": "utf8"
+      },
+      "menuAlign": "left",
+      "menuCompact": true,
+      "menuFluid": true,
+      "menuPosition": "inline",
+      "menuText": true,
+      "template": "CCLProductTabs",
+      "verticalAlign": "flex-start"
+    },
+    "724354a7-09aa-4bfd-b501-6d5cabf3d442": {
+      "@layout": "250fcf76-7b52-4bec-bd66-7b50e0dd6613",
+      "@type": "text",
+      "block": "724354a7-09aa-4bfd-b501-6d5cabf3d442"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "2586894b-30e6-41d2-a0b1-ef29b4f706b8",
+      "390951f0-3249-4bf5-a029-3c9b93d298d5",
+      "724354a7-09aa-4bfd-b501-6d5cabf3d442"
+    ]
+  },
+  "changeNote": "",
+  "component_title": "Hot-spot monitoring",
+  "contributors": [],
+  "created": "2021-12-01T09:32:42+00:00",
+  "creators": ["admin"],
+  "description": "The Coastal Zones product provides detailed land cover and land use information for 71 thematic classes for all European coastal territory to a landward distance of 10 km with total area mapped of approximately 730,000 km\u00b2. The product has a six years update cycle and is now available for the 2012 and 2018 reference years with the 2012-2018 change layer.",
+  "effective": "2022-01-03T15:36:12+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "coastal-zones",
+  "image": {
+    "content-type": "image/png",
+    "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-400-77ca19fd820b9036139d689dedbb4b2f.png",
+    "filename": "CZ_2018.png",
+    "height": 400,
+    "scales": {
+      "great": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-1200-f7e681240d3b9aee8c7cf732d95489d0.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-1600-40efb9fe721355a2527ad68bf0356a96.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge2400": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-2400-105743a0fcac15a876b9713398bf3f43.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge3000": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-3000-d459c744e596f24574c8601841611773.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge4000": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-4000-3dbe585b7539a70f2d78c6510c2fc445.png",
+        "height": 400,
+        "width": 400
+      },
+      "icon": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-32-5434ebe00a1c1baa97a15e1701443e54.png",
+        "height": 32,
+        "width": 32
+      },
+      "large": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-800-add5a372fbfc62ebc0ecb1bf996970ff.png",
+        "height": 400,
+        "width": 400
+      },
+      "larger": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-1000-5c0f2c431e496d1bef1cd6cb28e7016b.png",
+        "height": 400,
+        "width": 400
+      },
+      "mini": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-200-6daf945ed42f3c46e890b5a27b1bc356.png",
+        "height": 200,
+        "width": 200
+      },
+      "preview": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-400-2a343c17c448e175aefeb9c17dd91319.png",
+        "height": 400,
+        "width": 400
+      },
+      "teaser": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-600-d50248964421bb069b6c9755dd2a76ec.png",
+        "height": 400,
+        "width": 400
+      },
+      "thumb": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-128-41c6b9e478aa5e155229511caad69417.png",
+        "height": 128,
+        "width": 128
+      },
+      "tile": {
+        "download": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/@@images/image-64-b4b6ad837644db45545718bc5b373b5a.png",
+        "height": 64,
+        "width": 64
+      }
+    },
+    "size": 67503,
+    "width": 400
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/coastal-zones-2018",
+      "@type": "DataSet",
+      "description": "Provides a detailed land cover and land use information for 71 thematic classes for areas along the European coastline for the 2018 reference year. The dataset has a Minimum Mapping Unit (MMU) of 0.5 ha and a Minimum Mapping Width (MMW) of 10 m and is available as vector data.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-7146d7d25ac983a817845582155a0784.png",
+            "filename": "CZ_2018.png",
+            "height": 400,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-e4596a8754260c6a861667f678196556.png",
+                "height": 32,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-cc2c946836c47220b548e50a45acd106.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-b3bfeddf95f50fa36c624e8d6362b883.png",
+                "height": 400,
+                "width": 400
+              },
+              "thumb": {
+                "download": "@@images/image-128-cc5362638244d9ae51bb51eb1d73c543.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-07d316ed1b444e1b01ee92b1d2a0cc17.png",
+                "height": 64,
+                "width": 64
+              }
+            },
+            "size": 66534,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Coastal Zones Land Cover/Land Use 2018 (vector), Europe, 6-yearly",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/coastal-zones-2012",
+      "@type": "DataSet",
+      "description": "Provides a detailed land cover and land use information for 71 thematic classes for areas along the European coastline for the 2012 reference year. The dataset has a Minimum Mapping Unit (MMU) of 0.5 ha and a Minimum Mapping Width (MMW) of 10 m and is available as vector data.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-ab0e8a1dcec28029424f5426151997f7.png",
+            "filename": "CZ_2012.png",
+            "height": 400,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-79bc86ccf93e69d130deed31c9b111fc.png",
+                "height": 32,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-333ba7d7279e18f31af224da9c5044e7.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-8f5c83ea1a6a35644e6257c109776323.png",
+                "height": 400,
+                "width": 400
+              },
+              "thumb": {
+                "download": "@@images/image-128-0ded4a952ba7218ae9ddaa1d9fece1a5.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-854d2f46316af3eaa2c5224c24ebcf3b.png",
+                "height": 64,
+                "width": 64
+              }
+            },
+            "size": 65841,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Coastal Zones Land Cover/Land Use 2012 (vector), Europe, 6-yearly",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/coastal-zones-change-2012-2018",
+      "@type": "DataSet",
+      "description": "Provides a detailed land cover and land use change information for 71 thematic classes for areas along the European coastline between the 2012 and 2018 reference years. The dataset has a Minimum Mapping Unit (MMU) of 0.5 ha and a Minimum Mapping Width (MMW) of 10 m and is available as vector data.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-607632d2f42bf169196e1c4760ac64d4.png",
+            "filename": "CZ_Change.png",
+            "height": 400,
+            "scales": {
+              "icon": {
+                "download": "@@images/image-32-4a7b33e048e584e7e14b9c6d8a202fa5.png",
+                "height": 32,
+                "width": 32
+              },
+              "mini": {
+                "download": "@@images/image-200-9430164e4b60941f6146f218ef641753.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-8f150137d66da2e82447a0c2de00254b.png",
+                "height": 400,
+                "width": 400
+              },
+              "thumb": {
+                "download": "@@images/image-128-b04e55831c90b0b6788a1d1fcdc2e78b.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-96c1d53194d0d7597b540844ad75e301.png",
+                "height": 64,
+                "width": 64
+              }
+            },
+            "size": 14361,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Coastal Zones Land Cover/Land Use Change 2012-2018 (vector), Europe, 6-yearly",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/coastal-zones-technical-overview",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Coastal Zones: technical overview",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/coastal-zones-roadmap",
+      "@type": "File",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": null,
+      "title": "Coastal Zones roadmap",
+      "type_title": "File"
+    },
+    {
+      "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/coastal-zones/coastal_zones.jpg",
+      "@type": "Image",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/jpeg",
+            "download": "@@images/image-6000-03f976313e9bfb7e37629bc635a631eb.jpeg",
+            "filename": "Coastal_Zones.jpg",
+            "height": 4000,
+            "scales": {
+              "great": {
+                "download": "@@images/image-1200-fa390b5ad2a372f19a305bdb1a19f05f.jpeg",
+                "height": 800,
+                "width": 1200
+              },
+              "huge": {
+                "download": "@@images/image-1600-903caab4b37d371ea4cba5fbb951b53b.jpeg",
+                "height": 1066,
+                "width": 1600
+              },
+              "huge2400": {
+                "download": "@@images/image-2400-7ced74ef559426e31d165a488fffa5a7.jpeg",
+                "height": 1600,
+                "width": 2400
+              },
+              "huge3000": {
+                "download": "@@images/image-3000-f1af99d2aa104be874fc8d85c3f4ada3.jpeg",
+                "height": 2000,
+                "width": 3000
+              },
+              "huge4000": {
+                "download": "@@images/image-4000-4f1ab6070e7cb5fc72c838957a858188.jpeg",
+                "height": 2666,
+                "width": 4000
+              },
+              "icon": {
+                "download": "@@images/image-32-ae03a6937d8b961fd9dd7366e19ce471.jpeg",
+                "height": 21,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-d7888b60901d156584ab6ccf41477721.jpeg",
+                "height": 533,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-e9d6c13e2e161eba40ecf3f5c132fa1c.jpeg",
+                "height": 666,
+                "width": 1000
+              },
+              "mini": {
+                "download": "@@images/image-200-9260da9e7ed797e9815a528a4ebad01f.jpeg",
+                "height": 133,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-b328154b97cb45e88fee6ea98ac2bdd5.jpeg",
+                "height": 266,
+                "width": 400
+              },
+              "teaser": {
+                "download": "@@images/image-600-9ca0810bd55e914de9783aae0cb0b7f6.jpeg",
+                "height": 400,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-1658cf659db3098c87aaefa79d50e1a1.jpeg",
+                "height": 85,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-f82b99f2452843e8064fd6ede6b2a4cf.jpeg",
+                "height": 42,
+                "width": 64
+              }
+            },
+            "size": 6498084,
+            "width": 6000
+          }
+        ]
+      },
+      "review_state": null,
+      "title": "CZ background",
+      "type_title": "Image"
+    }
+  ],
+  "items_total": 6,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "mapviewer_component": {
+    "title": "02#Priority Area Monitoring",
+    "token": "76c4d5c5-3da2-4abe-aba7-4eb9e23b2258"
+  },
+  "modified": "2023-07-07T11:46:15+00:00",
+  "next_item": {
+    "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/n2k",
+    "@type": "Product",
+    "description": "The N2K product provides detailed land cover and land use information for 55 thematic classes in a large number (4.790) of grassland rich Natura 2000 sites including a 2 km buffer zone. The product has a six years update cycle and is available for the 2006, 2012 and 2018 reference years including the change layers.",
+    "title": "N2K",
+    "type_title": "Product"
+  },
+  "parent": {
+    "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products",
+    "@type": "Document",
+    "description": "Copernicus Land Monitoring Service portfolio.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "CLMS portfolio",
+    "type_title": "Page"
+  },
+  "previous_item": {
+    "@id": "https://clmsdemo.devel6cph.eea.europa.eu/en/products/high-resolution-layer-small-woody-features",
+    "@type": "Product",
+    "description": "The High Resolution Layer Small Woody Features product at pan-European level provides harmonized information on linear structures such as hedgerows, as well as patches of woody features. It has a three years update cycle and is available for the 2015 and 2018 reference years including the change layer.",
+    "title": "High Resolution Layer Small Woody Features",
+    "type_title": "Product"
+  },
+  "review_state": "published",
+  "rights": "",
+  "show_in_mapviewer_link": true,
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<p><br></p>",
+    "encoding": "utf8"
+  },
+  "title": "Coastal Zones",
+  "type_title": "Product",
+  "version": "current",
+  "versioning_enabled": true,
+  "working_copy": null,
+  "working_copy_of": null
+}
