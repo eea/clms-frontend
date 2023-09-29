@@ -2131,6 +2131,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-sentry-rancher-config@npm:3.1.2":
+  version: 3.1.2
+  resolution: "@eeacms/volto-sentry-rancher-config@npm:3.1.2"
+  checksum: 5728a3f31c5ac35e2aa4de920fccf1775efa40a919ca93164f85268f5db7f6753d34e3ed1b2f7e29cb157529596d6f0a2bddf38a028b778ba4990480330f56af
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-slate-footnote@npm:*":
   version: 6.1.4
   resolution: "@eeacms/volto-slate-footnote@npm:6.1.4"
@@ -6642,7 +6649,7 @@ __metadata:
     "@eeacms/volto-arcgis-block": 0.1.207
     "@eeacms/volto-clms-theme": 1.1.55
     "@eeacms/volto-eea-kitkat": 18.1.3
-    "@eeacms/volto-sentry-rancher-config": 3.1.1
+    "@eeacms/volto-sentry-rancher-config": 3.1.2
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.24.0
