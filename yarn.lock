@@ -1814,7 +1814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@*, @eeacms/volto-arcgis-block@0.1.239, @eeacms/volto-arcgis-block@workspace:src/addons/volto-arcgis-block":
+"@eeacms/volto-arcgis-block@*, @eeacms/volto-arcgis-block@workspace:src/addons/volto-arcgis-block":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-arcgis-block@workspace:src/addons/volto-arcgis-block"
   dependencies:
@@ -1833,6 +1833,22 @@ __metadata:
     react-datepicker: 4.10.0
   languageName: unknown
   linkType: soft
+
+"@eeacms/volto-arcgis-block@npm:0.1.239":
+  version: 0.1.239
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.239"
+  dependencies:
+    "@eeacms/volto-clms-utils": 0.1.12
+    "@fortawesome/fontawesome-svg-core": 1.2.35
+    "@fortawesome/free-solid-svg-icons": 5.15.3
+    "@fortawesome/react-fontawesome": 0.1.14
+    esri-loader: 3.1.0
+    highcharts: ^9.3.2
+    highcharts-react-official: ^3.1.0
+    react-datepicker: 4.10.0
+  checksum: 27f6e4cc7873d5255b92cc654fc7fcc478b83f27e5481cc7aa82bef1d7c7cdbaeb87f302bffb8501004a48cc6c1e1311fb8234a901f048ca59b0dec863fc4adc
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-banner@npm:3.1.4":
   version: 3.1.4
