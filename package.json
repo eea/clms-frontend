@@ -182,6 +182,7 @@
     "razzle-plugin-bundle-analyzer": "4.2.17",
     "razzle-plugin-scss": "4.2.18",
     "react-dates": "21.8.0",
+    "react-zoom-pan-pinch": "3.3.0",
     "regenerator-runtime": "0.13.9"
   },
   "devDependencies": {
