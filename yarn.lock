@@ -1742,7 +1742,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:*, @eeacms/volto-arcgis-block@npm:0.1.241":
+"@eeacms/volto-arcgis-block@npm:*":
   version: 0.1.241
   resolution: "@eeacms/volto-arcgis-block@npm:0.1.241"
   dependencies:
@@ -1755,6 +1755,22 @@ __metadata:
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
   checksum: 3c6279146f8b96150dac5edf1a8f1cf91e8926c59325e7fa656b4d0e04e79173f63c757686d7b598df1d9fa253142eb7b99942fbca7411f162031215fb224350
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-arcgis-block@npm:0.1.242":
+  version: 0.1.242
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.242"
+  dependencies:
+    "@eeacms/volto-clms-utils": 0.1.12
+    "@fortawesome/fontawesome-svg-core": 1.2.35
+    "@fortawesome/free-solid-svg-icons": 5.15.3
+    "@fortawesome/react-fontawesome": 0.1.14
+    esri-loader: 3.1.0
+    highcharts: ^9.3.2
+    highcharts-react-official: ^3.1.0
+    react-datepicker: 4.10.0
+  checksum: ed2d46a4fc8044ced6338e7011280ec1d7130baf6b69ef3c51f7caf9aec3845999937afe698a19dda0c2bcf6cfedb458f5d372d50c77ff31f2a3aaaf6e977d86
   languageName: node
   linkType: hard
 
@@ -1823,9 +1839,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.93":
-  version: 1.1.93
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.93"
+"@eeacms/volto-clms-theme@npm:1.1.94":
+  version: 1.1.94
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.94"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1860,7 +1876,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: 6116773b863805bc14bedde56ebc9db0b8f3b3d78884828f360d1b6898d03467741eba704f20c587fc7cc5ed2792bdc64fbcfcdbef7c373a6f11036091882bed
+  checksum: 182103f09fdb13d62f1ab7ca578b51a2e4b16c5af6368de2eea32ca55107b3534cc92140f649ad0df81b344b9d4525cd90818fe75d7f5b17b90c63eacd934ce7
   languageName: node
   linkType: hard
 
@@ -6616,8 +6632,8 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.241
-    "@eeacms/volto-clms-theme": 1.1.93
+    "@eeacms/volto-arcgis-block": 0.1.242
+    "@eeacms/volto-clms-theme": 1.1.94
     "@eeacms/volto-eea-kitkat": 21.1.0
     "@eeacms/volto-sentry-rancher-config": 4.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
