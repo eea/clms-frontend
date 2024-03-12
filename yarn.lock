@@ -1767,9 +1767,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.263":
-  version: 0.1.263
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.263"
+"@eeacms/volto-arcgis-block@npm:0.1.264":
+  version: 0.1.264
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.264"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1779,7 +1779,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 46fccb881524299d1ba3ed365d6ec7d4548050f9bf1334388bc469ddc627a52c5f87231e2972a99d61125631e1c58efd88a51eef71a0e0146d6fa4bd79553e7e
+  checksum: 979431315a27bffde9074532a3e22e9e38643632cb5eac35fab5cd5c382abfde658e180315a71ece2e9ee27d46448b1033cc1058181391f8c26ecb1a1c6f8c1b
   languageName: node
   linkType: hard
 
@@ -3185,6 +3185,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@juggle/resize-observer@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@juggle/resize-observer@npm:3.4.0"
+  checksum: 2505028c05cc2e17639fcad06218b1c4b60f932a4ebb4b41ab546ef8c157031ae377e3f560903801f6d01706dbefd4943b6c4704bf19ed86dfa1c62f1473a570
+  languageName: node
+  linkType: hard
+
 "@kitconcept/volto-blocks-grid@npm:7.0.2":
   version: 7.0.2
   resolution: "@kitconcept/volto-blocks-grid@npm:7.0.2"
@@ -3366,9 +3373,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.24.0":
-  version: 16.24.0
-  resolution: "@plone/volto@npm:16.24.0"
+"@plone/volto@npm:16.31.1":
+  version: 16.31.1
+  resolution: "@plone/volto@npm:16.31.1"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -3526,9 +3533,9 @@ __metadata:
     semantic-ui-react: 2.0.3
     semver: 5.6.0
     serialize-javascript: 3.1.0
-    slate: 0.84.0
-    slate-hyperscript: 0.81.3
-    slate-react: 0.83.2
+    slate: 0.100.0
+    slate-hyperscript: 0.100.0
+    slate-react: 0.98.4
     start-server-and-test: 1.14.0
     style-loader: 2
     stylelint: 14.0.1
@@ -3550,7 +3557,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: c7ed6a70d70e07d1c646cb732ca7e354c29417c02baaf6f967e070e63882362a9c82ea41c31b7aadeafbc27ca65d048d52389b7dac403d9591836fdd0667bbae
+  checksum: 5a594bca64e3d1d9bbf2e9ffaa6a30dc788a62543910657d8ddfd311839ab9357b0a961d9dd0388cfc03cbd73e7b279cf87164271552afbca560d91dfac00247
   languageName: node
   linkType: hard
 
@@ -6655,13 +6662,13 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.263
+    "@eeacms/volto-arcgis-block": 0.1.264
     "@eeacms/volto-clms-theme": 1.1.120
     "@eeacms/volto-eea-kitkat": 22.1.0
     "@eeacms/volto-sentry-rancher-config": 4.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
-    "@plone/volto": 16.24.0
+    "@plone/volto": 16.31.1
     babel-preset-razzle: 4.2.17
     cypress: 11.1.0
     cypress-axe: 1.0.0
@@ -11882,10 +11889,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immer@npm:^9.0.6":
-  version: 9.0.21
-  resolution: "immer@npm:9.0.21"
-  checksum: 70e3c274165995352f6936695f0ef4723c52c92c92dd0e9afdfe008175af39fa28e76aafb3a2ca9d57d1fb8f796efc4dd1e1cc36f18d33fa5b74f3dfb0375432
+"immer@npm:^10.0.3":
+  version: 10.0.4
+  resolution: "immer@npm:10.0.4"
+  checksum: 8c69cad9adde7296b6857aadc0837b792840d46d5b5759002cfc168abe58815bd5b944a9533a03df4738d6ce3dc918cc0a88437324fd71e1fcbd2e77273c39f0
   languageName: node
   linkType: hard
 
@@ -20925,21 +20932,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-hyperscript@npm:0.81.3":
-  version: 0.81.3
-  resolution: "slate-hyperscript@npm:0.81.3"
+"slate-hyperscript@npm:0.100.0":
+  version: 0.100.0
+  resolution: "slate-hyperscript@npm:0.100.0"
   dependencies:
     is-plain-object: ^5.0.0
   peerDependencies:
     slate: ">=0.65.3"
-  checksum: cc3ba04d14e20c66eee5e5b0ca2d60fe92c0d38caf9b412153453d42f32d90bce61d57e3a00b2a4c30a7b15408bf8b14132871fd3c00f75de6ca4b49387637fe
+  checksum: 25c88fea4b9c6a8a57b2b6d5b1151190af815e84ebed76f43cc3c13b4831f26f55196a2a85a832692f3b6c9937aa9e75ee5db92fa603522c3ebdeecc692ff908
   languageName: node
   linkType: hard
 
-"slate-react@npm:0.83.2":
-  version: 0.83.2
-  resolution: "slate-react@npm:0.83.2"
+"slate-react@npm:0.98.4":
+  version: 0.98.4
+  resolution: "slate-react@npm:0.98.4"
   dependencies:
+    "@juggle/resize-observer": ^3.4.0
     "@types/is-hotkey": ^0.1.1
     "@types/lodash": ^4.14.149
     direction: ^1.0.3
@@ -20952,18 +20960,18 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
     slate: ">=0.65.3"
-  checksum: 0c18b9dfeab9d0e3baf5b22efb2df3216be326da886bdddab5ccce3d5291cc44229664f582a86936ba51d61efcdb80d13f75dbe5fe4b903f27b3bf5baa6fff48
+  checksum: d47c01e92595870585879fd0a6fcbda7825e5ea3a4a22eca6704a2b6b91a2db4fb45c9f0ba6be648dceb5fca71211163c2fb0901614754feb448da583fee584c
   languageName: node
   linkType: hard
 
-"slate@npm:0.84.0":
-  version: 0.84.0
-  resolution: "slate@npm:0.84.0"
+"slate@npm:0.100.0":
+  version: 0.100.0
+  resolution: "slate@npm:0.100.0"
   dependencies:
-    immer: ^9.0.6
+    immer: ^10.0.3
     is-plain-object: ^5.0.0
     tiny-warning: ^1.0.3
-  checksum: d74de16a40571b2513dbd96efee8fe891909357a7011131f8fae738a0eace5b3c7c2da1c0ebfb1ffe66c8c933507ca618772fb607fbc9e44aa5158d3d874c5a2
+  checksum: 2e12f46e5147c4d000995769041d51fa18735d28b4c734d43c48931daf01c164e820631e54ec355fc4d5d09f9fff6687782412d01f6841b6078c753fd61e60e4
   languageName: node
   linkType: hard
 
