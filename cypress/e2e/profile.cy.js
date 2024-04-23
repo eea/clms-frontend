@@ -52,6 +52,16 @@ describe('Profile view Tests', () => {
 
     // seventh tab
     cy.get('.left-menu .card a').eq(6).click();
+    tab_title = 'Subscribe to production updates';
+    cy.get('.left-menu .card.active a').should('contain', tab_title);
+    cy.get('h1.page-title').should(
+      'contain',
+      'Subscribe to production updates notifications',
+    );
+    cy.url().should('contain', '#subscribe_to_production_updates');
+
+    // eighth tab
+    cy.get('.left-menu .card a').eq(7).click();
     tab_title = 'Delete profile';
     cy.get('.left-menu .card.active a').should('contain', tab_title);
     cy.get('h1.page-title').should('contain', 'Delete your profile');
@@ -98,6 +108,15 @@ describe('Profile view Tests', () => {
     cy.get('h1.page-title').should('contain', tab_title);
 
     // seventh tab
+    cy.navigate(`/en/${profile_id}#subscribe_to_production_updates`);
+    tab_title = 'Subscribe to production updates';
+    cy.get('.left-menu .card.active a').should('contain', tab_title);
+    cy.get('h1.page-title').should(
+      'contain',
+      'Subscribe to production updates notifications',
+    );
+
+    // eighth tab
     cy.navigate(`/en/${profile_id}#delete_profile`);
     tab_title = 'Delete profile';
     cy.get('.left-menu .card.active a').should('contain', tab_title);

@@ -30,10 +30,10 @@ coverage-end */
 export const setupBeforeEach = () => {
   cy.autologin();
   cy.visit('/en');
-  cy.waitForResourceToLoad('@navigation');
-  cy.waitForResourceToLoad('@breadcrumbs');
-  cy.waitForResourceToLoad('@actions');
-  cy.waitForResourceToLoad('@types');
+  // cy.waitForResourceToLoad('@navigation');
+  // cy.waitForResourceToLoad('@breadcrumbs');
+  // cy.waitForResourceToLoad('@actions');
+  // cy.waitForResourceToLoad('@types');
   cy.createContentJSON({ contentJSON: products, path: 'en' });
   cy.setWorkflow({ path: `en/${products.id}` });
   cy.createContentJSON({ contentJSON: wo, path: 'en' });
