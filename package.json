@@ -54,7 +54,7 @@
     "issues:all": "make issues-all",
     "status": "make status",
     "pull": "make pull",
-    "plone": "docker-compose -f docker-compose-just-plone.yml up"
+    "plone": "docker compose -f docker-compose-just-plone.yml up"
   },
   "jest": {
     "modulePathIgnorePatterns": [
