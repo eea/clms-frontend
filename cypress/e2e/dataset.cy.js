@@ -22,7 +22,7 @@ describe('Dataset Tests', () => {
     cy.setWorkflow({ path: `/en/${pr.id}/${clc.id}/${clc2018.id}` });
 
     cy.navigate(`/en/${pr.id}/${clc.id}/${clc2018.id}`);
-    cy.get('.left-menu .card.active a').should('contain', 'General Info');
+    cy.get('.left-menu .card.active a').should('contain', 'General info');
 
     // check first accordion
     cy.get('.ui.accordion').eq(0).get('.content.active').should('exist');
@@ -50,7 +50,7 @@ describe('Dataset Tests', () => {
 
     // now navigating
     cy.navigate(`/en/${pr.id}/${clc.id}/${clc2018.id}#general_info`);
-    cy.get('.left-menu .card.active a').should('contain', 'General Info');
+    cy.get('.left-menu .card.active a').should('contain', 'General info');
     cy.navigate(`/en/${pr.id}/${clc.id}/${clc2018.id}#download`);
     cy.get('.left-menu .card.active a').should('contain', 'Download');
   });
