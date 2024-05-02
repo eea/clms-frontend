@@ -1,6 +1,8 @@
 import fsc2016p20med from '../fixtures/datasets/fsc2016p20med.json';
+import lc2019 from '../fixtures/datasets/lc2019.json';
 import pr from '../fixtures/products.json';
 import snow from '../fixtures/products/snow.json';
+import gdlc from '../fixtures/products/global-dynamic-land-cover.json';
 import { setupBeforeEach, tearDownAfterEach } from '../support/e2e';
 
 const fsc2016p20med_cart = [
@@ -46,6 +48,29 @@ const fsc2016p20med_cart = [
   },
 ];
 
+const lc2019_cart = [
+  {
+    id: 'a8d945f0edd143a0a5240c28bafa23da',
+    UID: 'a8d945f0edd143a0a5240c28bafa23da',
+    unique_id: 'a8d945f0edd143a0a5240c28bafa23da-1714028889605',
+    area: { type: 'nuts', value: 'FRJ11' },
+  },
+  {
+    id: 'a8d945f0edd143a0a5240c28bafa23da',
+    UID: 'a8d945f0edd143a0a5240c28bafa23da',
+    unique_id: 'a8d945f0edd143a0a5240c28bafa23da-1714028914341',
+    area: {
+      type: 'polygon',
+      value: [
+        3.2318115234328975,
+        45.653958892989486,
+        5.71472167968224,
+        44.27035227147864,
+      ],
+    },
+  },
+];
+
 const rest_cart = [
   {
     id: '0407d497d3c44bcd93ce8fd5bf78596a',
@@ -87,26 +112,6 @@ const rest_cart = [
     unique_id: '0acef4675a4c4a548896cca00281f434-1714027690066',
     area: { type: 'nuts', value: 'NL12', valueName: 'Friesland (NL)' },
   },
-  {
-    id: 'a8d945f0edd143a0a5240c28bafa23da',
-    UID: 'a8d945f0edd143a0a5240c28bafa23da',
-    unique_id: 'a8d945f0edd143a0a5240c28bafa23da-1714028889605',
-    area: { type: 'nuts', value: 'FRJ11' },
-  },
-  {
-    id: 'a8d945f0edd143a0a5240c28bafa23da',
-    UID: 'a8d945f0edd143a0a5240c28bafa23da',
-    unique_id: 'a8d945f0edd143a0a5240c28bafa23da-1714028914341',
-    area: {
-      type: 'polygon',
-      value: [
-        3.2318115234328975,
-        45.653958892989486,
-        5.71472167968224,
-        44.27035227147864,
-      ],
-    },
-  },
 
   {
     UID: 'c987cc580fcc40f7b7b4c31fec0a5312',
@@ -130,7 +135,7 @@ describe('Cart Tests', () => {
   beforeEach(setupBeforeEach);
   afterEach(tearDownAfterEach);
 
-  it.skip('Check UTM projection selector:', () => {
+  it('Check UTM projection selector:', () => {
     cy.clearLocalStorage();
     cy.intercept('GET', '@projections').as('projections');
     cy.intercept('GET', '@nuts_name').as('nuts_name');
@@ -320,6 +325,10 @@ describe('Cart Tests', () => {
       .click();
     cy.wait(100);
 
+    //select year and month
+    cy.get('select.react-datepicker__year-select').select('2024');
+    cy.get('select.react-datepicker__month-select').select('3');
+
     // select a 8 days range
     cy.get('.react-datepicker__month .react-datepicker__week')
       .eq(1)
@@ -361,12 +370,24 @@ describe('Cart Tests', () => {
       .should('not.contain', 'Select dates');
 
     // intercept the POST and check the body data
-    cy.intercept('POST', '@datarequest_post', (req) => {
-      expect(req.body.Datasets[0].TemporalFilter.EndDate).to.be.greaterThan(0);
-      expect(req.body.Datasets[0].TemporalFilter.StartDate).to.be.greaterThan(
-        0,
-      );
-    });
+    cy.intercept(
+      {
+        method: 'POST',
+        url: '@datarequest_post',
+      },
+      {
+        statusCode: 200,
+        body: { msg: 'success!', status: 'success' },
+      },
+      (req) => {
+        expect(req.body.Datasets[0].TemporalFilter.EndDate).to.be.greaterThan(
+          0,
+        );
+        expect(req.body.Datasets[0].TemporalFilter.StartDate).to.be.greaterThan(
+          0,
+        );
+      },
+    ).as('datarequest_post');
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
@@ -377,5 +398,109 @@ describe('Cart Tests', () => {
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
+
+    cy.wait('@datarequest_post');
+    cy.get('.ui.container h1').should('contain', 'Cart');
+    cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
+    cy.get('li a.header-login-link strong').should('contain', '0');
+  });
+
+  it('Check Land Cover 2019:', () => {
+    cy.clearLocalStorage();
+    cy.intercept('GET', '@projections').as('projections');
+    cy.intercept('GET', '@nuts_name').as('nuts_name');
+    cy.createContentJSON({
+      contentJSON: gdlc,
+      path: `en/${pr.id}`,
+      extras: { mapviewer_component: gdlc.mapviewer_component },
+    });
+    cy.setWorkflow({ path: `/en/${pr.id}/${gdlc.id}` });
+
+    cy.createContentJSON({
+      contentJSON: { ...lc2019, datasets: [] }, //ignore related datasets
+      path: `en/${pr.id}/${gdlc.id}`,
+    });
+    cy.setWorkflow({ path: `/en/${pr.id}/${gdlc.id}/${lc2019.id}` });
+
+    cy.navigate(`/en/cart`);
+    cy.wait('@projections');
+    cy.get('.ui.container h1').should('contain', 'Cart');
+    cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
+    cy.get('li a.header-login-link strong').should('contain', '0');
+
+    cy.visit(`/en/cart`, {
+      onBeforeLoad(win) {
+        win.localStorage.setItem(
+          'cart_session_admin',
+          JSON.stringify(lc2019_cart),
+        );
+      },
+    });
+    cy.wait('@projections');
+    cy.get('li a.header-login-link strong').should('contain', '2');
+    cy.wait(2000);
+    // first cart item check and modify the selection
+    cy.get('td.table-td-projections')
+      .eq(0)
+      .then(($line) => {
+        let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
+        const choices = $line.find('.ui.selection.dropdown .item');
+        expect(selected.text()).to.eq(
+          'EPSG:4326 (Source system of the dataset)',
+        );
+        expect(choices).to.have.lengthOf(4);
+        selected.click();
+        choices.eq(0).click();
+        choices.eq(0).click();
+        selected = $line.find('.ui.selection.dropdown div.text').eq(0);
+        expect(selected.text()).to.eq('EPSG:3035');
+      });
+    cy.get('td .ui.selection.dropdown.layer-selector')
+      .eq(0)
+      .then(($selector) => {
+        let selected = $selector.find('div.divider.text');
+        const choices = $selector.find('div.menu .item');
+        expect(selected.text()).to.eq(
+          'Land Cover Classification: Discrete classification',
+        );
+        expect(choices).to.have.lengthOf(15);
+        choices.eq(4).click();
+        choices.eq(4).click();
+        expect(selected.text()).to.eq('Cover Fraction: Cropland');
+      });
+
+    // intercept the POST and check the body data
+    cy.intercept(
+      {
+        method: 'POST',
+        url: '@datarequest_post',
+      },
+      {
+        statusCode: 200,
+        body: { msg: 'success!', status: 'success' },
+      },
+      (req) => {
+        expect(req.body.Datasets[0].OutputGCS).to.eq('EPSG:3035');
+        expect(req.body.Datasets[0].Layer).to.eq('Cover Fraction: Cropland');
+        expect(req.body.Datasets[1].OutputGCS).to.eq('EPSG:4326');
+        expect(req.body.Datasets[1].Layer).to.eq(
+          'Land Cover Classification: Discrete classification',
+        );
+      },
+    ).as('datarequest_post');
+
+    // Select entire cart
+    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      expect($checkbox.parent()).to.not.have.class('checked');
+      $checkbox.click();
+      expect($checkbox.parent()).to.have.class('checked');
+    });
+
+    // Download cart
+    cy.get('a.ccl-button.ccl-button--default').click();
+    cy.wait('@datarequest_post');
+    cy.get('.ui.container h1').should('contain', 'Cart');
+    cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
+    cy.get('li a.header-login-link strong').should('contain', '0');
   });
 });

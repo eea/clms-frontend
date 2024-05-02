@@ -1,0 +1,710 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@actions"
+    },
+    "aliases": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@navigation"
+    },
+    "navroot": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@navroot"
+    },
+    "siblings": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@siblings"
+    },
+    "translations": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@translations"
+    },
+    "types": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@types"
+    },
+    "workflow": {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@workflow"
+    }
+  },
+  "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe",
+  "@type": "DataSet",
+  "UID": "a8d945f0edd143a0a5240c28bafa23da",
+  "accessAndUseConstraints": {
+    "content-type": "text/html",
+    "data": "<html><body><p>(d) the confidentiality of commercial or industrial information, where such confidentiality is provided for by national or Community law to protect a legitimate economic interest, including the public interest in maintaining statistical confidentiality and tax secrecy.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "accessAndUseLimitationPublic_line": null,
+  "allow_discussion": false,
+  "changeNote": "",
+  "character_set": "utf8",
+  "characteristics_platform": null,
+  "characteristics_position_accuracy": "",
+  "characteristics_projection": "EPSG:4326",
+  "characteristics_release_major_version": null,
+  "characteristics_sensor": "PROBA-V",
+  "characteristics_spatial_coverage": "Global",
+  "characteristics_spatial_representation_type": {
+    "title": null,
+    "token": "Grid"
+  },
+  "characteristics_spatial_resolution": "100 m",
+  "characteristics_temporal_extent": "2018-2020",
+  "characteristics_temporal_usability": {
+    "title": null,
+    "token": "Archive with regular updates"
+  },
+  "characteristics_thematic_accuracy": "80.3%",
+  "characteristics_timeliness": null,
+  "characteristics_type": {
+    "title": null,
+    "token": "Satellite products"
+  },
+  "characteristics_update_frequency": {
+    "title": null,
+    "token": "Annually"
+  },
+  "citation": {
+    "content-type": "text/html",
+    "data": "<html><body><p>You can find instructions on how to cite CLMS data in our <a href=\"/en/data-policy\">Data policy</a> section.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "classificationTopicCategory": [
+    "imageryBaseMapsEarthCover",
+    "biota",
+    "environment",
+    "farming"
+  ],
+  "conformityPass": {
+    "title": "Conformant",
+    "token": "true"
+  },
+  "conformitySpecification": {
+    "content-type": "text/html",
+    "data": "<html><body><p>INSPIRE Data Specification on orthoimagery - Guidelines</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "contributors": [],
+  "coordinateReferenceSystemList": ["EPSG:4326", "WGS84"],
+  "created": "2021-10-14T09:00:10+00:00",
+  "creators": ["admin"],
+  "dataResourceAbstract": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Land cover maps represent spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands. \n\nDynamic land cover maps include transitions of land cover classes over time and hence captures land cover changes. \n\nThis Collection 3 includes the global land cover maps, at 100m resolution, for base year 2015 and subsequent years. These consist of different layers: the base classification with 23 classes, versatile fractional cover (0-100% per pixel) for the main classes, forest type and related quality information (e.g. classification probability, input data density and confidence level for the change detection).</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "dataResourceType": "series",
+  "dataset_download_information": {
+    "items": [
+      {
+        "@id": "f328dbcc-9069-4240-b8bb-6d5df918671a",
+        "collection": "100 m",
+        "full_format": "Geotiff",
+        "full_path": "v3.0.1/2019",
+        "full_source": "LANDCOVER",
+        "layers": [
+          "Land Cover Classification: Discrete classification",
+          "Land Cover Classification: Classification probability",
+          "Cover Fraction: Bare and sparse vegetation ",
+          "Cover Fraction: Built-up ",
+          "Cover Fraction: Cropland",
+          "Cover Fraction: Forest",
+          "Cover Fraction: Herbaceous vegetation",
+          "Cover Fraction: Moss and Lichen",
+          "Cover Fraction: Seasonal inland water ",
+          "Cover Fraction: Shrubland",
+          "Cover Fraction: Snow and Ice",
+          "Cover Fraction: Permanent inland water",
+          "Land Cover Changes: Change confidence",
+          "Other: Forest types",
+          "Other: Input data density"
+        ],
+        "name": "RASTER",
+        "wekeo_choices": ""
+      }
+    ]
+  },
+  "datasets": [
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2018-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2018 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Land Cover 2018 (raster 100 m), global, yearly \u2013 version 3",
+      "token": "a08da3f50c8d4b38bec35b831382162b",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2017-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2017 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Land Cover 2017 (raster 100 m), global, yearly \u2013 version 3",
+      "token": "884325e8871049848a423de02d3cac4d",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2016-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2016 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Land Cover 2016 (raster 100 m), global, yearly \u2013 version 3",
+      "token": "55e6e9c97459484a9c4d258da7376560",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2015-globe",
+      "@type": "DataSet",
+      "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2015 base year. The data are updated annually and are available for the 2015-2019 years.",
+      "getRemoteUrl": null,
+      "image_field": null,
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Land Cover 2015 (raster 100 m), global, yearly \u2013 version 3",
+      "token": "59846f949047465f9670b0c9ef490a52",
+      "type_title": "DataSet"
+    }
+  ],
+  "date_stamp": "2023-09-22T21:06:36",
+  "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2019 base year. The data are updated annually and are available for the 2015-2019 years.",
+  "distributionInfo": {
+    "items": [
+      {
+        "@id": "distributionInfo0",
+        "resourceLocator": "https://lcviewer.vito.be",
+        "services": "HTTP"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://zenodo.org/communities/copernicus-land-cover",
+        "services": "HTTP"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://zenodo.org/communities/copernicus-land-cover",
+        "services": "HTTP"
+      }
+    ]
+  },
+  "distribution_format_list": ["GeoTIFF"],
+  "download_by_area_extra_text": {
+    "content-type": "text/html",
+    "data": "<html><body><p>The files obtained for your area of interest are processed by this website: as a result, the file organization (naming convention and band number/organization) may differ considerably from the <a href=\"/en/technical-library/global-dynamic-land-cover-product-user-manual-v3.0/@@download/file\">Product User Manual</a>.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "download_full_dataset_text": {
+    "content-type": "text/html",
+    "data": "<html><body><p>You can download the full dataset, using the CLMS download API. Click here to learn more about the CLMS download API.</p><blockquote><em>This option allows to get the original Geotiff file format in full coverage, as described in the <a href=\"/en/technical-library/global-dynamic-land-cover-product-user-manual-v3.0/@@download/file\">Product User Manual</a>. </em><em></em></blockquote></body></html>",
+    "encoding": "utf8"
+  },
+  "download_grid_image_for_prepackages": null,
+  "download_limit_temporal_extent": 365,
+  "download_other_ways_access_dataset": {
+    "content-type": "text/html",
+    "data": "<html><body><p>In the <a href=\"https://lcviewer.vito.be/2019\" rel=\"noopener noreferrer\" target=\"_blank\">Global Land Cover Viewer</a>.</p><p>Global Land Cover Viewer is a dedicated application developed to provide annual Global Land Cover maps and the related surface statistics.</p><p>In <a href=\"https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_Landcover_100m_Proba-V-C3_Global\" rel=\"noopener noreferrer\" target=\"_blank\">Google Earth Engine\u2122</a>.</p><p>On <a href=\"https://zenodo.org/communities/copernicus-land-cover/?page=1&amp;size=20\" rel=\"noopener noreferrer\" target=\"_blank\">Zenodo Open Science Data repository</a>.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "download_page_information": null,
+  "download_show_auxiliary_calendar": false,
+  "download_table_area_of_interest_title": "Area of interest",
+  "downloadable_dataset": true,
+  "downloadable_files": {
+    "items": [
+      {
+        "@id": "27e4e333-149c-49c4-a11e-96a1d0d1b6ff",
+        "area": "",
+        "file": "",
+        "format": "",
+        "path": "",
+        "resolution": "",
+        "size": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "version": "",
+        "year": ""
+      }
+    ],
+    "schema": {
+      "dependencies": {},
+      "fieldsets": [
+        {
+          "fields": [
+            "title",
+            "file",
+            "area",
+            "year",
+            "version",
+            "resolution",
+            "type",
+            "format",
+            "size",
+            "path",
+            "source"
+          ],
+          "id": "default",
+          "title": "File"
+        }
+      ],
+      "properties": {
+        "area": {
+          "description": "Enter the area of this file.",
+          "title": "Area of interest",
+          "type": "string"
+        },
+        "file": {
+          "description": "Enter the file name.",
+          "title": "File",
+          "type": "string"
+        },
+        "format": {
+          "description": "Enter the format of this file.",
+          "title": "Format",
+          "type": "string"
+        },
+        "path": {
+          "description": "Enter the absolute path of this file in the storage",
+          "title": "Path",
+          "type": "string"
+        },
+        "resolution": {
+          "description": "Enter the resolution of this file. Ex: 100m",
+          "title": "Resolution",
+          "type": "string"
+        },
+        "size": {
+          "description": "Enter the size of this file. Ex: 3.5GB",
+          "title": "Size",
+          "type": "string"
+        },
+        "source": {
+          "enum": ["EEA", "HOTSPOTS"],
+          "title": "Source",
+          "type": "string"
+        },
+        "title": {
+          "description": "Enter the title of this file.",
+          "title": "Title",
+          "type": "string"
+        },
+        "type": {
+          "choices": [
+            ["Raster", "Raster"],
+            ["Vector", "Vector"]
+          ],
+          "enum": ["Raster", "Vector"],
+          "title": "Type",
+          "type": "string"
+        },
+        "version": {
+          "description": "Enter the version of this file.",
+          "title": "Version",
+          "type": "string"
+        },
+        "year": {
+          "description": "Enter the year of this file.",
+          "exclusiveMinimum": null,
+          "minimum": 1900,
+          "title": "Year",
+          "type": "number"
+        }
+      },
+      "required": [],
+      "title": "Downloadable File",
+      "type": "object"
+    },
+    "uiSchema": {
+      "ui:order": [
+        "title",
+        "file",
+        "area",
+        "year",
+        "version",
+        "resolution",
+        "type",
+        "format",
+        "size",
+        "path",
+        "source"
+      ]
+    }
+  },
+  "downloadable_full_dataset": true,
+  "effective": "2021-11-02T14:04:43+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "gemet": ["Orthoimagery", "geophysical environment"],
+  "gemetInspireThemes": ["Orthoimagery"],
+  "geographicBoundingBox": {
+    "items": [
+      {
+        "@id": "geographicBoundingBox0",
+        "east": "180",
+        "north": "78.25",
+        "south": "-60",
+        "west": "-180"
+      }
+    ]
+  },
+  "geographicCoverage": ["Globe"],
+  "geonetwork_identifiers": {
+    "items": [
+      {
+        "@id": "470e56fb-43d3-4f47-bcd1-33eff039ec83",
+        "id": "urn:cgls:global:lcc100_v3_100m",
+        "title": "Land Cover: global annual 2015-2019 (raster 100m) - collection 3, Sept. 2020",
+        "type": "VITO"
+      }
+    ]
+  },
+  "hierarchy_level": "series",
+  "id": "copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe",
+  "identifier": "urn:cgls:global:lcc100_v3_100m",
+  "image": {
+    "content-type": "image/png",
+    "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-643-fb7b938e0142e9477fa101164f6626d2.png",
+    "filename": "Global Dynamic Land Cover_2019_Africa.png",
+    "height": 378,
+    "scales": {
+      "big": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-80-b07571cae105e5b5fec74485a11b70a5.png",
+        "height": 47,
+        "width": 80
+      },
+      "great": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-1200-b9baebd89c3057e73f7465d41ca7df39.png",
+        "height": 378,
+        "width": 643
+      },
+      "huge": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-1920-943ce155f8a144627ac3f766804dd5d3.png",
+        "height": 378,
+        "width": 643
+      },
+      "huge2400": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-2400-97a6247e9743947c0fa9ffcc5d0956d2.png",
+        "height": 378,
+        "width": 643
+      },
+      "huge3000": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-3000-aee0e4c15474b1c577dfc243fa6099c2.png",
+        "height": 378,
+        "width": 643
+      },
+      "huge4000": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-4000-8716a6388ab3c473bd4658a2c97a3f95.png",
+        "height": 378,
+        "width": 643
+      },
+      "icon": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-32-64fe750b132738008808a546b98f87bd.png",
+        "height": 18,
+        "width": 32
+      },
+      "large": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-800-0e8d5b1d32a0915f7a55a1e327d1529d.png",
+        "height": 378,
+        "width": 643
+      },
+      "larger": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-1000-8826f097b7d184411f71d41bffec3c14.png",
+        "height": 378,
+        "width": 643
+      },
+      "medium": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-60-86ef67d0ef1d93062dbf10508c0df6ac.png",
+        "height": 35,
+        "width": 60
+      },
+      "mini": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-200-d5b440f70c2ee9085b41c9f4021cc83c.png",
+        "height": 117,
+        "width": 200
+      },
+      "preview": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-400-78263622fd8f76a93e397b0fdcddd745.png",
+        "height": 235,
+        "width": 400
+      },
+      "small": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-48-d924e68bf4faf57be30b9b77df364e49.png",
+        "height": 28,
+        "width": 48
+      },
+      "teaser": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-600-e4708e49b74669b2a30300e094ed77d5.png",
+        "height": 352,
+        "width": 600
+      },
+      "thumb": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-128-4a0bfcc539a60ea08c5d7810f9751ae4.png",
+        "height": 75,
+        "width": 128
+      },
+      "tile": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-64-8dc107f2732eb88b0bea399b29421476.png",
+        "height": 37,
+        "width": 64
+      },
+      "tiny": {
+        "download": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/@@images/image-24-58a3cb9b817e967ca200dc95b13ff4a5.png",
+        "height": 14,
+        "width": 24
+      }
+    },
+    "size": 104473,
+    "width": 643
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/landcover2019.json",
+      "@type": "File",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": null,
+      "title": "Layer description",
+      "type_title": "File"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/data-layers",
+      "@type": "DataSetAccordion",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Data layers",
+      "type_title": "DataSet Accordion"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/algorithm",
+      "@type": "DataSetAccordion",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Algorithm",
+      "type_title": "DataSet Accordion"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2019-globe/quality",
+      "@type": "DataSetAccordion",
+      "description": " Validation dataset for the land cover classification of reference year 2015, per continent ",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Quality",
+      "type_title": "DataSet Accordion"
+    }
+  ],
+  "items_total": 4,
+  "jrc_show_related_datasets": true,
+  "keywords": [],
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "mapviewer_default_active": false,
+  "mapviewer_handlinglevel": false,
+  "mapviewer_istimeseries": false,
+  "mapviewer_layers": {
+    "items": [
+      {
+        "@id": "3aef8218-b5b7-430d-bc0d-b1e9b26f7b5a"
+      }
+    ]
+  },
+  "mapviewer_viewservice": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/product-json/globaldynamiclandcover_2019.json/@@download/file",
+  "metadata_language": "eng",
+  "metadata_rest_api_url": "",
+  "metadata_standard_name": "ISO19115",
+  "metadata_standard_version": "2003/Cor.1:2006",
+  "metadata_wms_url": "",
+  "metadata_wmts_url": "",
+  "modified": "2024-03-19T13:16:47+00:00",
+  "next_item": {
+    "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/copernicus-global-land-service-land-cover-100m-collection-3-epoch-2018-globe",
+    "@type": "DataSet",
+    "description": "Provides at global level spatial information on different types (classes) of physical coverage of the Earth's surface, e.g. forests, grasslands, croplands, lakes, wetlands for the 2018 base year. The data are updated annually and are available for the 2015-2019 years.",
+    "title": "Land Cover 2018 (raster 100 m), global, yearly \u2013 version 3",
+    "type_title": "DataSet"
+  },
+  "parent": {
+    "@id": "https://land.copernicus.eu/en/products/global-dynamic-land-cover",
+    "@type": "Product",
+    "description": "The Dynamic Land Cover product provides a primary land cover scheme at three classification levels with class definitions according to the Land Cover Classification System (LCCS) scheme. The product is produced annually, and the actual version of the product (V3.0) is available for the 2015-2019 reference years.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "Dynamic Land Cover",
+    "type_title": "Product"
+  },
+  "point_of_contact_data": {
+    "items": [
+      {
+        "@id": "contactInfo0",
+        "administrativeArea": "",
+        "city": "Mol",
+        "country": "",
+        "deliveryPoint": "Boeretang 200",
+        "electronicMailAddress": "helpdeskticket@vgt.vito.be",
+        "organisationName": "VITO NV",
+        "postalCode": "2400",
+        "roleCode": "pointOfContact",
+        "url": "",
+        "urlTitle": ""
+      }
+    ]
+  },
+  "previous_item": {},
+  "production_updates_show": false,
+  "production_updates_text": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Production is on-going according to the plan.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "qualityLineage": {
+    "content-type": "text/html",
+    "data": "<html><body><p>The land cover map is classified from daily surface reflectances of PROBA-V sensor and training data gathered through the GEO-WIKI. Several other products are integrated into the discrete map (LCCS layer) such as World Settlement Footprint (DLR), the Global Surface Water (JRC), OpenStreetMap, the Integrated Multi-satellitE Retrievals for GPM (NASA) and Circum-Polar Arctic Vegetation Map (U.S. CPAVM team). \nThe land cover is provided at 100 m resolution, however the training data is gathered at 10m resolution which has enabled to generate the continuous cover fields and provide per pixel a cover percentage (0-100%) for a set of classes.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "qualitySpatialResolution_line": "0.000992063492063 deg",
+  "resourceEffective": "2023-09-22",
+  "resourceModified": null,
+  "responsiblePartyWithRole": {
+    "items": [
+      {
+        "@id": "contactInfo0",
+        "administrativeArea": "",
+        "city": "Mol",
+        "country": "",
+        "deliveryPoint": "Boeretang 280",
+        "electronicMailAddress": "helpdeskticket@vito.be",
+        "organisationName": "VITO NV",
+        "postalCode": "2400",
+        "roleCode": "principalInvestigator",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo1",
+        "administrativeArea": "",
+        "city": "Laxenburg",
+        "country": "",
+        "deliveryPoint": "Schlossplatz 1",
+        "electronicMailAddress": "fritz@iiasa.ac.at",
+        "organisationName": "IIASA",
+        "postalCode": "2361",
+        "roleCode": "collaborator",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo2",
+        "administrativeArea": "",
+        "city": "Wageningen",
+        "country": "",
+        "deliveryPoint": "Droevendaalsesteenweg 4",
+        "electronicMailAddress": "martin.herold@wur.nl",
+        "organisationName": "WUR",
+        "postalCode": "6708 PB",
+        "roleCode": "collaborator",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo3",
+        "administrativeArea": "",
+        "city": "Mol",
+        "country": "",
+        "deliveryPoint": "Boeretang 200",
+        "electronicMailAddress": "helpdeskticket@vgt.vito.be",
+        "organisationName": "VITO NV",
+        "postalCode": "2400",
+        "roleCode": "originator",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo4",
+        "administrativeArea": "",
+        "city": "Brussels",
+        "country": "",
+        "deliveryPoint": "Avenue d'Auderghem 45",
+        "electronicMailAddress": "ENTR-COPERNICUS-ASSETS@ec.europa.eu",
+        "organisationName": "European Commission Directorate-General for Defense, Industry and Space",
+        "postalCode": "1049",
+        "roleCode": "owner",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo5",
+        "administrativeArea": "",
+        "city": "Ispra",
+        "country": "",
+        "deliveryPoint": "Via E.Fermi, 249",
+        "electronicMailAddress": "copernicuslandproducts@jrc.ec.europa.eu",
+        "organisationName": "European Commission Directorate-General Joint Research Centre",
+        "postalCode": "21027",
+        "roleCode": "custodian",
+        "url": "",
+        "urlTitle": ""
+      }
+    ]
+  },
+  "review_state": "published",
+  "rights": "",
+  "show_legend_on_prepackages": false,
+  "show_pop_up_in_mapviewer": false,
+  "spatial_representation_type": ["grid"],
+  "subjects": [],
+  "technical_documents_accordion_text": null,
+  "temporalCoverage": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+  "temporalExtentEnd": "2020-03-31T23:59:59Z",
+  "temporalExtentStart": "2014-01-01T00:00:00Z",
+  "title": "Land Cover 2019 (raster 100 m), global, yearly \u2013 version 3",
+  "type_title": "DataSet",
+  "update_frequency": "asNeeded",
+  "validation": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Validated</p><p>See the Quality section for detailed information.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "version": "current",
+  "versioning_enabled": true,
+  "working_copy": null,
+  "working_copy_of": null
+}
