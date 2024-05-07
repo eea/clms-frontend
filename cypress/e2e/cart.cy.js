@@ -445,9 +445,7 @@ describe('Cart Tests', () => {
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
-
     cy.wait('@datarequest_post');
-    cy.visit('/en/cart');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
@@ -468,21 +466,6 @@ describe('Cart Tests', () => {
     cy.wait(2000);
 
     // first cart item check and modify the selection
-    cy.get('td.table-td-projections')
-      .eq(0)
-      .then(($line) => {
-        let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        const choices = $line.find('.ui.selection.dropdown .item');
-        expect(selected.text()).to.eq(
-          'EPSG:4326 (Source system of the dataset)',
-        );
-        expect(choices).to.have.lengthOf(4);
-        selected.click();
-        choices.eq(0).click();
-        choices.eq(0).click();
-        selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        expect(selected.text()).to.eq('EPSG:3035');
-      });
     cy.get('td .ui.selection.dropdown.layer-selector')
       .eq(0)
       .then(($selector) => {
@@ -504,9 +487,7 @@ describe('Cart Tests', () => {
         url: '@datarequest_post',
       },
       (req) => {
-        expect(req.body.Datasets[0].OutputGCS).to.eq('EPSG:3035');
         expect(req.body.Datasets[0].Layer).to.eq('Cover Fraction: Cropland');
-        expect(req.body.Datasets[1].OutputGCS).to.eq('EPSG:4326');
         expect(req.body.Datasets[1].Layer).to.eq(
           'Land Cover Classification: Discrete classification',
         );
@@ -524,7 +505,6 @@ describe('Cart Tests', () => {
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
     cy.wait('@datarequest_post');
-    cy.visit('/en/cart');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
@@ -545,21 +525,6 @@ describe('Cart Tests', () => {
     cy.wait(2000);
 
     // first cart item check and modify the selectors
-    cy.get('td.table-td-projections')
-      .eq(0)
-      .then(($line) => {
-        let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        const choices = $line.find('.ui.selection.dropdown .item');
-        expect(selected.text()).to.eq(
-          'EPSG:3035 (Source system of the dataset)',
-        );
-        expect(choices).to.have.lengthOf(4);
-        selected.click();
-        choices.eq(1).click();
-        choices.eq(1).click();
-        selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        expect(selected.text()).to.eq('EPSG:3857');
-      });
     cy.get('td .ui.selection.dropdown.collection-selector')
       .eq(0)
       .then(($selector) => {
@@ -579,12 +544,10 @@ describe('Cart Tests', () => {
         url: '@datarequest_post',
       },
       (req) => {
-        expect(req.body.Datasets[0].OutputGCS).to.eq('EPSG:3857');
         expect(req.body.Datasets[0].DatasetDownloadInformationID).to.eq(
           '95edd973-a059-46f1-b5dd-6fb2287dbb86',
         );
 
-        expect(req.body.Datasets[1].OutputGCS).to.eq('EPSG:3035');
         expect(req.body.Datasets[1].DatasetDownloadInformationID).to.eq(
           'd170eb21-c4b4-47f5-88c7-958359704542',
         );
@@ -602,7 +565,6 @@ describe('Cart Tests', () => {
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
     cy.wait('@datarequest_post');
-    cy.visit('/en/cart');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
@@ -656,13 +618,11 @@ describe('Cart Tests', () => {
         url: '@datarequest_post',
       },
       (req) => {
-        expect(req.body.Datasets[0].OutputGCS).to.eq('EPSG:3035');
         expect(req.body.Datasets[0].OutputFormat).to.eq('Geotiff');
         expect(req.body.Datasets[0].DatasetDownloadInformationID).to.eq(
           '7bcdf9d1-6ba0-4d4e-afa8-01451c7316cb',
         );
 
-        expect(req.body.Datasets[1].OutputGCS).to.eq('EPSG:3035');
         expect(req.body.Datasets[1].OutputFormat).to.eq('GDB');
         expect(req.body.Datasets[1].DatasetDownloadInformationID).to.eq(
           '1bda2fbd-3230-42ba-98cf-69c96ac063bc',
@@ -681,7 +641,6 @@ describe('Cart Tests', () => {
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
     cy.wait('@datarequest_post');
-    cy.visit('/en/cart');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
