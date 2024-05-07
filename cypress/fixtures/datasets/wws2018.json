@@ -1,0 +1,1145 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@actions"
+    },
+    "aliases": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@navigation"
+    },
+    "navroot": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@navroot"
+    },
+    "siblings": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@siblings"
+    },
+    "translations": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@translations"
+    },
+    "types": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@types"
+    },
+    "workflow": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@workflow"
+    }
+  },
+  "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018",
+  "@type": "DataSet",
+  "UID": "0acef4675a4c4a548896cca00281f434",
+  "accessAndUseConstraints": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Access to data is based on a principle of full, open and free access as established by the Copernicus data and information policy Regulation (EU) No 1159/2013 of 12 July 2013. This regulation establishes registration and licensing conditions for GMES/Copernicus users.\n\nFree, full and open access to this data set is made on the conditions that:\n\n1. When distributing or communicating Copernicus dedicated data and Copernicus service information to the public, users shall inform the public of the source of that data and information.\n\n2. Users shall make sure not to convey the impression to the public that the user's activities are officially endorsed by the Union.\n\n3. Where that data or information has been adapted or modified, the user shall clearly state this.\n\n4. The data remain the sole property of the European Union. Any information and data produced in the framework of the action shall be the sole property of the European Union. Any communication and publication by the beneficiary shall acknowledge that the data were produced \u201cwith funding by the European Union\u201d.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "accessAndUseLimitationPublic_line": "no limitations to public access",
+  "allow_discussion": false,
+  "changeNote": "",
+  "character_set": "utf8",
+  "characteristics_platform": null,
+  "characteristics_position_accuracy": "According to ortho-rectified satellite image",
+  "characteristics_projection": "EPSG:3035",
+  "characteristics_release_major_version": "V1, V2",
+  "characteristics_sensor": "Sentinel-1, Sentinel-2",
+  "characteristics_spatial_coverage": "Europe",
+  "characteristics_spatial_representation_type": {
+    "title": null,
+    "token": "Grid"
+  },
+  "characteristics_spatial_resolution": "10 m/100 m",
+  "characteristics_temporal_extent": "2012-2018",
+  "characteristics_temporal_usability": {
+    "title": null,
+    "token": "Archive with regular updates"
+  },
+  "characteristics_thematic_accuracy": "Permanent water: 85%, Temporary water: 80%, Permanent wet areas: 80%, Temporary wet areas: 80%, Dry areas: 85%",
+  "characteristics_timeliness": "",
+  "characteristics_type": {
+    "title": null,
+    "token": "Satellite products"
+  },
+  "characteristics_update_frequency": {
+    "title": null,
+    "token": "3-yearly"
+  },
+  "citation": {
+    "content-type": "text/html",
+    "data": "<html><body><ul><li><strong>DOI (raster 100 m):</strong> <a href=\"https://doi.org/10.2909/f6bbd22c-52e5-4e47-9b09-943415fcb52e\" rel=\"noopener noreferrer\" target=\"_blank\">https://doi.org/10.2909/f6bbd22c-52e5-4e47-9b09-943415fcb52e</a><a href=\"https://doi.org/10.2909/960998c1-1870-4e82-8051-6485205ebbac\" rel=\"noopener noreferrer\" target=\"_blank\"></a></li><li><strong>DOI (raster 10 m):</strong> <a href=\"https://doi.org/10.2909/7992f641-bf77-47b7-b0c1-74fc832b78b1\" rel=\"noopener noreferrer\" target=\"_blank\">https://doi.org/10.2909/7992f641-bf77-47b7-b0c1-74fc832b78b1</a></li></ul><p></p><p>You can find instructions on how to cite CLMS data in our <a href=\"/en/data-policy\">Data policy</a> section.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "classificationTopicCategory": ["environment", "imageryBaseMapsEarthCover"],
+  "conformityPass": {
+    "title": "Not evaluated",
+    "token": "Null"
+  },
+  "conformitySpecification": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "contributors": [],
+  "coordinateReferenceSystemList": ["EPSG:3035"],
+  "created": "2021-12-01T09:38:38+00:00",
+  "creators": ["admin"],
+  "dataResourceAbstract": {
+    "content-type": "text/html",
+    "data": "<html><body><p>The Copernicus High Resolution Water and Wetness (WAW) 2018 layer is a thematic product showing the occurrence of water and wet surfaces over the period from 2012 to 2018 for the EEA38 area and the United Kingdom. \nTwo products are available: \n- The main Water and Wetness (WAW) product, with defined classes of (1) permanent water, (2) temporary water, (3) permanent wetness and (4) temporary wetness. \n- The additional expert product: Water and Wetness Probability Index (WWPI). \nThe products show the occurrence of water and indicate the degree of wetness in a physical sense, assessed independently of the actual vegetation cover and are thus not limited to a specific land cover class and their relative frequencies.\nThe production of the High Resolution Water and Wetness layers was coordinated by the European Environment Agency (EEA) in the frame of the EU Copernicus programme.\nThe dataset is provided as 10 meter rasters in 100 x 100 km tiles grouped according to the EEA38 countries and the United Kingdom (fully conformant with the EEA reference grid).</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "dataResourceType": "dataset",
+  "dataset_download_information": {
+    "items": [
+      {
+        "@id": "d170eb21-c4b4-47f5-88c7-958359704542",
+        "collection": "10 m",
+        "full_format": "Geotiff",
+        "full_path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-master\\WAW_2018_10m_tiled",
+        "full_source": "EEA",
+        "name": "RASTER "
+      },
+      {
+        "@id": "95edd973-a059-46f1-b5dd-6fb2287dbb86",
+        "collection": "100 m",
+        "full_format": "Geotiff",
+        "full_path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-master\\WAW_2018_100m_tiled",
+        "full_source": "EEA",
+        "name": "RASTER ",
+        "wekeo_choices": ""
+      }
+    ]
+  },
+  "datasets": [],
+  "date_stamp": "2023-10-30T09:28:15.635Z",
+  "description": "Provides at pan-European level in the spatial resolution of 10 m and 100 m the occurrence of water and wet surfaces over the period from 2012 to 2018.",
+  "distributionInfo": {
+    "items": [
+      {
+        "@id": "distributionInfo0",
+        "resourceLocator": "https://land.copernicus.eu/pan-european/high-resolution-layers/water-wetness/status-maps/water-wetness-2018",
+        "services": "WWW:LINK-1.0-http--link"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://image.discomap.eea.europa.eu/arcgis/rest/services/GioLandPublic/HRL_WaterWetness_2018/ImageServer",
+        "services": "ESRI:REST"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://image.discomap.eea.europa.eu/arcgis/rest/services/GioLandPublic/HRL_WaterWetness_2018/ImageServer",
+        "services": "ESRI:REST"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://image.discomap.eea.europa.eu/arcgis/rest/services/GioLandPublic/HRL_WaterWetness_2018/ImageServer",
+        "services": "ESRI:REST"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://image.discomap.eea.europa.eu/arcgis/rest/services/GioLandPublic/HRL_WaterWetness_2018/ImageServer",
+        "services": "ESRI:REST"
+      }
+    ]
+  },
+  "distribution_format_list": ["GeoTIFF"],
+  "download_by_area_extra_text": null,
+  "download_full_dataset_text": {
+    "content-type": "text/html",
+    "data": "<html><body><p>You can download the full dataset as pre-packaged data collections. You can also download the full dataset, using the CLMS download API. Click <a href=\"/en/how-to-guides/how-to-download-spatial-data/how-to-download-m2m\">here</a> to learn more about the CLMS download API.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "download_grid_image_for_prepackages": null,
+  "download_limit_temporal_extent": 365,
+  "download_other_ways_access_dataset": null,
+  "download_page_information": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Pre-packaged Water and Wetness 2018 datasets can be downloaded as 10 m raster files in 100 x 100 km tiles for each EEA38 country and the United Kingdom, as well as a full mosaic for EEA38 countries and the United Kingdom. The 100 m aggregated raster file is provided as a full mosaic for EEA38 countries and the United Kingdom.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "download_show_auxiliary_calendar": false,
+  "download_table_area_of_interest_title": "Area of interest",
+  "downloadable_dataset": true,
+  "downloadable_files": {
+    "items": [
+      {
+        "@id": "5f6368b4-166e-4c80-ae02-b43230a1ffec",
+        "area": "Europe",
+        "file": "WAW_2018_100m_eu_03035_v010",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_100m\\WAW_2018_100m_eu_03035_v010.zip",
+        "resolution": "100 m",
+        "size": "30 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v010",
+        "year": ""
+      },
+      {
+        "@id": "2c844a65-9604-4e76-80b5-884b07a4f924",
+        "area": "Europe",
+        "file": "WAW_2018_010m_eu_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_eu_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "2 GB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "efa00029-9546-41f0-a49d-ed92cd96524c",
+        "area": "Albania",
+        "file": "WAW_2018_010m_al_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_al_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "5 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "258d1f36-7da8-4525-9b16-93644cce5ec5",
+        "area": "Austria",
+        "file": "WAW_2018_010m_at_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_at_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "16 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "3178790f-8c6d-4aa0-9b4a-8978eefe30a3",
+        "area": "Bosnia and Herzegovina",
+        "file": "WAW_2018_010m_ba_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_ba_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "8 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "10e39b3f-0e22-463e-a41a-10654cf00593",
+        "area": "Belgium",
+        "file": "WAW_2018_010m_be_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_be_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "14 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "1ca33105-135a-422e-807d-00acb26529f4",
+        "area": "Bulgaria",
+        "file": "WAW_2018_010m_bg_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_bg_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "12 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "e252e036-11a2-441f-aac7-e743c1498c2f",
+        "area": "Switzerland",
+        "file": "WAW_2018_010m_ch_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_ch_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "7 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "e8c447b8-8054-486e-99b3-10056919d96e",
+        "area": "Cyprus",
+        "file": "WAW_2018_010m_cy_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_cy_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "1 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "7d38e665-ed4f-43b1-aff6-987b3b51acac",
+        "area": "Czechia",
+        "file": "WAW_2018_010m_cz_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_cz_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "14 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "d97e0a65-8cb1-4f4f-b29a-b2a71d4d5a42",
+        "area": "Germany",
+        "file": "WAW_2018_010m_de_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_de_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "79 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "d535a013-cdb8-4660-972f-532125cc0b18",
+        "area": "Denmark",
+        "file": "WAW_2018_010m_dk_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_dk_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "15 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "bcd87bdd-5989-48bb-9953-25d304a74b3c",
+        "area": "Estonia",
+        "file": "WAW_2018_010m_ee_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_ee_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "12 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "9b9fed88-25b8-44ac-8414-f089854213c6",
+        "area": "Spain",
+        "file": "WAW_2018_010m_es_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_es_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "34 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "31d9673c-de5d-46ec-9bf8-d0e80cad7c6a",
+        "area": "Finland",
+        "file": "WAW_2018_010m_fi_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_fi_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "191 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "7ccc7c96-1e33-4134-9620-e66d4de3d63a",
+        "area": "France",
+        "file": "WAW_2018_010m_fr_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_fr_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "51 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "0ca6d89c-6b6b-4907-8409-45bd4a61574e",
+        "area": "United Kingdom",
+        "file": "WAW_2018_010m_gb_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_gb_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "86 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "e11ce4d6-e696-47e3-a20f-eb4b80b1bec1",
+        "area": "Greece",
+        "file": "WAW_2018_010m_gr_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_gr_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "21 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "93569660-24e2-42c2-8af9-f735c3ebf937",
+        "area": "Croatia",
+        "file": "WAW_2018_010m_hr_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_hr_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "21 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "1204e03e-0bcf-411f-9402-777d4c28653d",
+        "area": "Hungary",
+        "file": "WAW_2018_010m_hu_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_hu_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "43 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "7d70be08-eea4-4511-91d0-7684d921e648",
+        "area": "Ireland",
+        "file": "WAW_2018_010m_ie_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_ie_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "29 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "9399bf04-dacf-467e-8e60-343eb6dfa97c",
+        "area": "Island",
+        "file": "WAW_2018_010m_is_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_is_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "54 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "fb1ca4a2-bcd1-4ddb-b0ba-fadc222d685c",
+        "area": "Italy",
+        "file": "WAW_2018_010m_it_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_it_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "35 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "60be0c02-d619-48ba-9378-64609ed99062",
+        "area": "Kosovo",
+        "file": "WAW_2018_010m_ks_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_ks_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "2 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "ddbb1358-2c00-44fe-8977-6d4d9e01805c",
+        "area": "Lichtenstein",
+        "file": "WAW_2018_010m_li_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_li_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "1 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "e543eb5b-b831-4405-bed5-c03ad8ec1491",
+        "area": "Lithuania",
+        "file": "WAW_2018_010m_lt_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_lt_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "14 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "58d304e7-e900-4889-bc13-7fa2153a83b3",
+        "area": "Luxembourg",
+        "file": "WAW_2018_010m_lu_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_lu_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "1 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "9ad20f94-e1cc-450f-a03a-8bfc739bb73e",
+        "area": "Latvia",
+        "file": "WAW_2018_010m_lv_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_lv_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "16 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "383dbcc7-7e7e-4df4-a39a-3b461f2c90a4",
+        "area": "Montenegro",
+        "file": "WAW_2018_010m_me_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_me_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "2 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "311ffd0c-45d9-4781-b44b-1c83803c54c7",
+        "area": "North Macedonia",
+        "file": "WAW_2018_010m_mk_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_mk_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "5 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "dab42517-7d94-460a-9f13-936f0e5e7bb9",
+        "area": "Malta",
+        "file": "WAW_2018_010m_mt_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_mt_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "94 KB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "d1fe5e92-241e-4cd6-bf32-bbf574317e4f",
+        "area": "Netherlands",
+        "file": "WAW_2018_010m_nl_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_nl_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "30 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "46371e60-4f73-4cca-a464-8da4b3ebb094",
+        "area": "Norway",
+        "file": "WAW_2018_010m_no_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_no_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "230 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "996b40fa-553f-470f-b38e-03eabfb8a455",
+        "area": "Poland",
+        "file": "WAW_2018_010m_pl_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_pl_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "57 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "baf3e899-6cee-477f-b3c7-e622c9ca6df4",
+        "area": "Portugal",
+        "file": "WAW_2018_010m_pt_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_pt_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "8 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "dddc5adb-cff1-470e-8673-276cd3448a21",
+        "area": "Romania",
+        "file": "WAW_2018_010m_ro_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_ro_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "47 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "8c453472-78d9-4f84-bd9e-3a915bb5396c",
+        "area": "Serbia",
+        "file": "WAW_2018_010m_rs_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_rs_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "24 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "3cc3ddb5-8c47-46c8-99d7-709d8c9442c5",
+        "area": "Sweden",
+        "file": "WAW_2018_010m_se_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_se_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "243 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "c41fbd39-5bcf-4497-83a1-e36acb41b3c8",
+        "area": "Slovenia",
+        "file": "WAW_2018_010m_si_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_si_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "8 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "261f74a3-c5b3-4b9d-b167-251c21a36da1",
+        "area": "Slovakia",
+        "file": "WAW_2018_010m_sk_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_sk_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "19 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      },
+      {
+        "@id": "f12a2729-6f05-427c-ad08-9bb7e136a313",
+        "area": "Turkey",
+        "file": "WAW_2018_010m_tr_03035_v020",
+        "format": "Geotiff",
+        "path": "H:\\High_Resolution_Layers\\High_Resolution_Layers\\High_Resolution_Layer(HRL)_Water_and_Wetness\\HRL_Water_and_Wetness(WAW)_2018\\Data\\data-details\\WAW_2018_010m\\WAW_2018_010m_tr_03035_v020.zip",
+        "resolution": "10 m",
+        "size": "54 MB",
+        "source": "EEA",
+        "title": "",
+        "type": "Raster",
+        "version": "v020",
+        "year": ""
+      }
+    ],
+    "schema": {
+      "dependencies": {},
+      "fieldsets": [
+        {
+          "fields": [
+            "title",
+            "file",
+            "area",
+            "year",
+            "version",
+            "resolution",
+            "type",
+            "format",
+            "size",
+            "path",
+            "source"
+          ],
+          "id": "default",
+          "title": "File"
+        }
+      ],
+      "properties": {
+        "area": {
+          "description": "Enter the area of this file.",
+          "title": "Area of interest",
+          "type": "string"
+        },
+        "file": {
+          "description": "Enter the file name.",
+          "title": "File",
+          "type": "string"
+        },
+        "format": {
+          "description": "Enter the format of this file.",
+          "title": "Format",
+          "type": "string"
+        },
+        "path": {
+          "description": "Enter the absolute path of this file in the storage",
+          "title": "Path",
+          "type": "string"
+        },
+        "resolution": {
+          "description": "Enter the resolution of this file. Ex: 100m",
+          "title": "Resolution",
+          "type": "string"
+        },
+        "size": {
+          "description": "Enter the size of this file. Ex: 3.5GB",
+          "title": "Size",
+          "type": "string"
+        },
+        "source": {
+          "enum": ["EEA", "HOTSPOTS"],
+          "title": "Source",
+          "type": "string"
+        },
+        "title": {
+          "description": "Enter the title of this file.",
+          "title": "Title",
+          "type": "string"
+        },
+        "type": {
+          "choices": [
+            ["Raster", "Raster"],
+            ["Vector", "Vector"]
+          ],
+          "enum": ["Raster", "Vector"],
+          "title": "Type",
+          "type": "string"
+        },
+        "version": {
+          "description": "Enter the version of this file.",
+          "title": "Version",
+          "type": "string"
+        },
+        "year": {
+          "description": "Enter the year of this file.",
+          "exclusiveMinimum": null,
+          "minimum": 1900,
+          "title": "Year",
+          "type": "number"
+        }
+      },
+      "required": [],
+      "title": "Downloadable File",
+      "type": "object"
+    },
+    "uiSchema": {
+      "ui:order": [
+        "title",
+        "file",
+        "area",
+        "year",
+        "version",
+        "resolution",
+        "type",
+        "format",
+        "size",
+        "path",
+        "source"
+      ]
+    }
+  },
+  "downloadable_full_dataset": true,
+  "effective": "2022-01-21T11:06:41+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "gemet": [
+    "land cover",
+    "landscape alteration",
+    "forest management",
+    "land use",
+    "water"
+  ],
+  "gemetInspireThemes": ["Land cover"],
+  "geographicBoundingBox": {
+    "items": [
+      {
+        "@id": "geographicBoundingBox0",
+        "east": "44.807",
+        "north": "71.165",
+        "south": "27.642",
+        "west": "-31.285"
+      }
+    ]
+  },
+  "geographicCoverage": ["EEA38 (from 2020)", "United Kingdom"],
+  "geonetwork_identifiers": {
+    "items": [
+      {
+        "@id": "309298b5-7fed-45ad-912f-a78736c09d68",
+        "id": "7992f641-bf77-47b7-b0c1-74fc832b78b1",
+        "title": "Water and Wetness status 2018 (raster 100 m), Europe, 3-yearly",
+        "type": "EEA"
+      },
+      {
+        "@id": "e6279200905d4dbaa01e5ea3dcc75e0e",
+        "id": "7992f641-bf77-47b7-b0c1-74fc832b78b1",
+        "title": "Water and Wetness status 2018 (raster 10 m), Europe, 3-yearly",
+        "type": "EEA"
+      }
+    ]
+  },
+  "hierarchy_level": "dataset",
+  "id": "water-and-wetness-status-2018",
+  "identifier": "7992f641-bf77-47b7-b0c1-74fc832b78b1",
+  "image": {
+    "content-type": "image/png",
+    "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-400-d1c3a5e70c0620357064a5a573d1a47c.png",
+    "filename": "WAW18.png",
+    "height": 400,
+    "scales": {
+      "big": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-80-a97beb1e2529308018442a194029e4fa.png",
+        "height": 80,
+        "width": 80
+      },
+      "great": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-1200-9fe031716dc5a6e3aa601033d2a9a61f.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-1920-15a064be5452ba3acc02ede698634cd2.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge2400": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-2400-87c813cd32bb9514ffbba1cbad5abf34.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge3000": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-3000-fadffaafff80d41ed27495d6f228617f.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge4000": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-4000-eb0c8a44c18d37df86933da2ffc42bf5.png",
+        "height": 400,
+        "width": 400
+      },
+      "icon": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-32-163be3c19586b33e0d9327041910e6e3.png",
+        "height": 32,
+        "width": 32
+      },
+      "large": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-800-b366be509bf193b6ff1741efb7818a28.png",
+        "height": 400,
+        "width": 400
+      },
+      "larger": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-1000-d94d4197c60dc516d163d6f10a8e4a69.png",
+        "height": 400,
+        "width": 400
+      },
+      "medium": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-60-897f294bc643bc39dec8f48b3d23b25d.png",
+        "height": 60,
+        "width": 60
+      },
+      "mini": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-200-2ec0d98108a4bdaa3257107c97d01110.png",
+        "height": 200,
+        "width": 200
+      },
+      "preview": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-400-481a6289582ba4cf99ddcc4dc6aeb12e.png",
+        "height": 400,
+        "width": 400
+      },
+      "small": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-48-c8b8aaee0fe5828ccb50c5f60064bab3.png",
+        "height": 48,
+        "width": 48
+      },
+      "teaser": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-600-3717806a9cde2e117533159881b26148.png",
+        "height": 400,
+        "width": 400
+      },
+      "thumb": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-128-28cc6b7b28539f1788f9bf9cbcf7522d.png",
+        "height": 128,
+        "width": 128
+      },
+      "tile": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-64-5045e5bd83c8856ffaf7709ee65d1850.png",
+        "height": 64,
+        "width": 64
+      },
+      "tiny": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018/@@images/image-24-c2e6071d3aa8023130801917afe5d39b.png",
+        "height": 24,
+        "width": 24
+      }
+    },
+    "size": 31712,
+    "width": 400
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "items": [],
+  "items_total": 0,
+  "jrc_show_related_datasets": false,
+  "keywords": [],
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "mapviewer_default_active": false,
+  "mapviewer_handlinglevel": true,
+  "mapviewer_istimeseries": false,
+  "mapviewer_layers": {
+    "items": [
+      {
+        "@id": "dccd1c17be414b21ab7f928dde3825e2",
+        "default_active": true,
+        "id": "HRL_WaterWetness_2018:WAW_MosaicSymbology",
+        "static_legend_url": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/map-legends/hrl_water_wetness_2018_10m.jpg/@@images/image",
+        "title": "HRL Water and Wetness 2018 - raster10m"
+      }
+    ]
+  },
+  "mapviewer_viewservice": "https://image.discomap.eea.europa.eu/arcgis/services/GioLandPublic/HRL_WaterWetness_2018/ImageServer/WMSServer",
+  "metadata_language": "eng",
+  "metadata_rest_api_url": "https://image.discomap.eea.europa.eu/arcgis/rest/services/GioLandPublic/HRL_WaterWetness_2018/ImageServer",
+  "metadata_standard_name": "ISO 19115/19139",
+  "metadata_standard_version": "1.0",
+  "metadata_wms_url": "https://image.discomap.eea.europa.eu/arcgis/services/GioLandPublic/HRL_WaterWetness_2018/ImageServer/WMSServer?request=GetCapabilities&service=WMS",
+  "metadata_wmts_url": "",
+  "modified": "2024-01-24T16:08:10+00:00",
+  "next_item": {
+    "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2015",
+    "@type": "DataSet",
+    "description": "Provides at pan-European level in the spatial resolution of 20 m and 100 m the occurrence of water and wet surfaces over the period from 2009 to 2015.",
+    "title": "Water and Wetness status 2015 (raster 20 m and 100 m), Europe, 3-yearly",
+    "type_title": "DataSet"
+  },
+  "parent": {
+    "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness",
+    "@type": "Product",
+    "description": "The combined High Resolution Layer Water and Wetness product at pan-European level shows the occurrence of water and wet surfaces over the period from 2009 to 2018.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "High Resolution Layer Water and  Wetness",
+    "type_title": "Product"
+  },
+  "point_of_contact_data": {
+    "items": [
+      {
+        "@id": "contactInfo0",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "sdi@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "pointOfContact",
+        "url": "",
+        "urlTitle": ""
+      }
+    ]
+  },
+  "previous_item": {},
+  "production_updates_show": false,
+  "production_updates_text": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Production is on-going according to the plan.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "qualityLineage": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Quality assurance follows the ISO9000 standards for Quality Management and comprises of dedicated procedures of on-going quality checks (QA breakpoints) during implementation of the production chain, in order to keep persistent control over the various stages of production, assure fitness-for-purpose of the end-products and that all quality requirements are fulfilled. Priority will be given to the target thematic accuracies to be achieved by each product, as well as to the issues of product consistency (spatial, thematic, temporal) and homogeneity.\nQuality Assessment: The quality assessment has been performed according to INSPIRE Data Specifications. The data quality elements considered are:\n(i) Completeness,\n(ii) Logical Consistency,\n(iii) Thematic Accuracy,\n(iv) Temporal quality and (v) Usability.\nEach of them (excl. the Thematic Accuracy hereafter) forms a section in the QA/QC Procedures.\n\nMore information about the product can be found here: https://land.copernicus.eu/user-corner/technical-library/hrl-water-and-wetness-2018-user-manual</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "qualitySpatialResolution_line": "10 m",
+  "resourceEffective": "2023-10-30",
+  "resourceModified": "2020-11-19",
+  "responsiblePartyWithRole": {
+    "items": [
+      {
+        "@id": "contactInfo0",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "copernicus@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "distributor",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo1",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "copernicus@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "custodian",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo2",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "copernicus@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "pointOfContact",
+        "url": "",
+        "urlTitle": ""
+      }
+    ]
+  },
+  "review_state": "published",
+  "rights": "",
+  "show_legend_on_prepackages": false,
+  "show_pop_up_in_mapviewer": false,
+  "spatial_representation_type": ["grid"],
+  "subjects": [],
+  "technical_documents_accordion_text": null,
+  "temporalCoverage": ["2012", "2013", "2014", "2015", "2016", "2017", "2018"],
+  "temporalExtentEnd": "2018-12-31",
+  "temporalExtentStart": "2012-01-01",
+  "title": "Water and Wetness status 2018 (raster 10 m and 100 m), Europe, 3-yearly",
+  "type_title": "DataSet",
+  "update_frequency": "continual",
+  "validation": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Not yet validated</p></body></html>",
+    "encoding": "utf8"
+  },
+  "version": "current",
+  "versioning_enabled": true,
+  "working_copy": null,
+  "working_copy_of": null
+}
