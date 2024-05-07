@@ -51,4 +51,5 @@ export const tearDownAfterEach = () => {
   cy.removeContent(`en/${products.id}`);
   cy.removeContent(`en/${wo.id}`);
   cy.removeContent(`en/${faq.id}`);
+  cy.clearLocalStorage();
 };

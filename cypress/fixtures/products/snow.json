@@ -1,0 +1,2728 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@actions"
+    },
+    "aliases": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@navigation"
+    },
+    "navroot": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@navroot"
+    },
+    "siblings": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@siblings"
+    },
+    "translations": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@translations"
+    },
+    "types": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@types"
+    },
+    "workflow": {
+      "@id": "https://land.copernicus.eu/en/products/snow/@workflow"
+    }
+  },
+  "@id": "https://land.copernicus.eu/en/products/snow",
+  "@type": "Product",
+  "UID": "8474c3b080fa42cc837f1d2338fcf096",
+  "allow_discussion": false,
+  "blocks": {
+    "7928f5c6-7b0d-4665-89cf-5fe6c5139e25": {
+      "@layout": "82008ae8-dbe9-4d85-b411-c5a5712bf337",
+      "@type": "title",
+      "block": "5774b615-8bc4-409a-9c41-a24e6f5d3cb9"
+    },
+    "bf6c0338-2c85-4d6f-8758-24258ed32be1": {
+      "@type": "tabs_block",
+      "data": {
+        "blocks": {
+          "16da6152-9934-4b79-9cf8-e0233363319d": {
+            "@type": "tab",
+            "blocks": {
+              "14629bec-bb8f-41e5-b162-fb10138f75cb": {
+                "@type": "slate",
+                "plaintext": "In addition, snow cover parameters are crucial for the prediction of water balance, streamflow and river runoff in hydrological models and water resource management. And, in weather prediction, snow conditions\u00a0affect the energy exchange in the surface-atmosphere boundary, whereby snow cover functions as an insulator between both, the surface albedo (as bright surface) and the surface temperature regimes.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "In addition, snow cover parameters are crucial for the prediction of water balance, streamflow and river runoff in hydrological models and water resource management. And, in weather prediction, snow conditions\u00a0affect the energy exchange in the surface-atmosphere boundary, whereby snow cover functions as an insulator between both, the surface albedo (as bright surface) and the surface temperature regimes."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "1ce96723-19e7-4a07-877b-bee81145ecf1": {
+                "@type": "slate",
+                "plaintext": "Snow cover has a strong influence on the Earth's radiation and energy balance and changes in snow extent tend to amplify climate fluctuations.\u00a0Reliable information on snow cover is thus needed for climate monitoring and for the evaluation of the role of snow cover and its feedback in climate models.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Snow cover has a strong influence on the Earth's radiation and energy balance and changes in snow extent tend to amplify climate fluctuations.\u00a0Reliable information on snow cover is thus needed for climate monitoring and for the evaluation of the role of snow cover and its feedback in climate models."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "60df29b4-e07d-4642-87f6-f473c31c1a03": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "90687e2c-8b40-449d-ae3f-274e6f775a93": {
+                "@type": "relatedListing",
+                "content_type": "UseCase",
+                "variation": "CclCardsline-no-description"
+              },
+              "9d6176ae-b2c9-46d7-a7e8-c34e6ce0ccb5": {
+                "@type": "cclButtonComponent",
+                "disabled": false,
+                "download": false,
+                "href": [
+                  {
+                    "@id": "http://backend:8080/Plone/en/use-cases/submit-use-case",
+                    "@type": "Document",
+                    "Description": "Tell us how you use the Copernicus Land Monitoring Service data.",
+                    "Title": "Submit use case",
+                    "title": "Submit use case"
+                  }
+                ],
+                "style": "filled",
+                "target": "_self",
+                "title": "Submit your use case"
+              },
+              "a76d0610-ad5c-40e0-87b9-f1b37f6872a8": {
+                "@type": "dividerBlock",
+                "styles": {}
+              },
+              "dba44c07-b1ce-4817-b0ef-8d39a726653e": {
+                "@type": "slate",
+                "plaintext": "In this section you can find documented use cases of the CLMS Snow products.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "  \nIn this section you can find documented use cases of the CLMS Snow products."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "df004147-b07a-4242-bd87-cbe706f87ba6": {
+                "@type": "slate",
+                "plaintext": "If you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": " \nIf you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "1ce96723-19e7-4a07-877b-bee81145ecf1",
+                "14629bec-bb8f-41e5-b162-fb10138f75cb",
+                "df004147-b07a-4242-bd87-cbe706f87ba6",
+                "9d6176ae-b2c9-46d7-a7e8-c34e6ce0ccb5",
+                "a76d0610-ad5c-40e0-87b9-f1b37f6872a8",
+                "dba44c07-b1ce-4817-b0ef-8d39a726653e",
+                "90687e2c-8b40-449d-ae3f-274e6f775a93",
+                "60df29b4-e07d-4642-87f6-f473c31c1a03"
+              ]
+            },
+            "title": "Applications & use cases"
+          },
+          "6b9a2b02-1485-4519-a150-82d5e77c4162": {
+            "@type": "tab",
+            "blocks": {
+              "4f39306c-00bd-410c-9114-4876d569a06e": {
+                "@type": "accordion",
+                "collapsed": false,
+                "data": {
+                  "blocks": {
+                    "0c7932f9-de0a-440b-a59a-0c78db6df540": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "2c34d81d-e305-4896-a234-64567754f213": {
+                          "@type": "accordion",
+                          "collapsed": true,
+                          "data": {
+                            "blocks": {
+                              "1a5a66c3-9ca5-4b21-927e-06457d638f5c": {
+                                "@type": "accordionPanel",
+                                "blocks": {
+                                  "9441705c-0f7b-419a-ae26-b63062c5c96e": {
+                                    "@type": "listing",
+                                    "block": "9441705c-0f7b-419a-ae26-b63062c5c96e",
+                                    "headlineTag": "h2",
+                                    "query": [],
+                                    "querystring": {
+                                      "query": [
+                                        {
+                                          "i": "portal_type",
+                                          "o": "plone.app.querystring.operation.selection.any",
+                                          "v": ["DataSet"]
+                                        },
+                                        {
+                                          "i": "path",
+                                          "o": "plone.app.querystring.operation.string.absolutePath",
+                                          "v": "/en/products/snow"
+                                        },
+                                        {
+                                          "i": "Title",
+                                          "o": "plone.app.querystring.operation.string.contains",
+                                          "v": "Snow Water Equivalent"
+                                        }
+                                      ],
+                                      "sort_on": "getObjPositionInParent",
+                                      "sort_order": "ascending"
+                                    },
+                                    "variation": "CclCardsline"
+                                  }
+                                },
+                                "blocks_layout": {
+                                  "items": [
+                                    "9441705c-0f7b-419a-ae26-b63062c5c96e"
+                                  ]
+                                },
+                                "title": "Snow Water Content"
+                              },
+                              "f18e6cd7-413b-40a7-be65-c6094c220c5c": {
+                                "@type": "accordionPanel",
+                                "blocks": {
+                                  "ef7d8333-8f60-4bf4-84dd-c141d216ef51": {
+                                    "@type": "listing",
+                                    "block": "ef7d8333-8f60-4bf4-84dd-c141d216ef51",
+                                    "headlineTag": "h2",
+                                    "query": [],
+                                    "querystring": {
+                                      "query": [
+                                        {
+                                          "i": "portal_type",
+                                          "o": "plone.app.querystring.operation.selection.any",
+                                          "v": ["DataSet"]
+                                        },
+                                        {
+                                          "i": "path",
+                                          "o": "plone.app.querystring.operation.string.absolutePath",
+                                          "v": "/en/products/snow"
+                                        },
+                                        {
+                                          "i": "Title",
+                                          "o": "plone.app.querystring.operation.string.contains",
+                                          "v": "Wet Snow"
+                                        }
+                                      ],
+                                      "sort_on": "getObjPositionInParent",
+                                      "sort_order": "ascending"
+                                    },
+                                    "variation": "CclCardsline"
+                                  }
+                                },
+                                "blocks_layout": {
+                                  "items": [
+                                    "ef7d8333-8f60-4bf4-84dd-c141d216ef51"
+                                  ]
+                                },
+                                "title": "Snow State"
+                              },
+                              "fd5b3f6a-c7d3-4f22-a80a-36c6d5b14b8f": {
+                                "@type": "accordionPanel",
+                                "blocks": {
+                                  "0404b67b-43d1-4f7d-8a68-7d45401527d6": {
+                                    "@type": "listing",
+                                    "block": "0404b67b-43d1-4f7d-8a68-7d45401527d6",
+                                    "headlineTag": "h2",
+                                    "query": [],
+                                    "querystring": {
+                                      "query": [
+                                        {
+                                          "i": "portal_type",
+                                          "o": "plone.app.querystring.operation.selection.any",
+                                          "v": ["DataSet"]
+                                        },
+                                        {
+                                          "i": "path",
+                                          "o": "plone.app.querystring.operation.string.absolutePath",
+                                          "v": "/en/products/snow"
+                                        },
+                                        {
+                                          "i": "Title",
+                                          "o": "plone.app.querystring.operation.string.contains",
+                                          "v": "Snow Cover"
+                                        }
+                                      ],
+                                      "sort_on": "getObjPositionInParent",
+                                      "sort_order": "ascending"
+                                    },
+                                    "variation": "CclCardsline"
+                                  },
+                                  "7f4e3854-61cf-4c8b-9e19-189f5507a845": {
+                                    "@type": "listing",
+                                    "block": "7f4e3854-61cf-4c8b-9e19-189f5507a845",
+                                    "headlineTag": "h2",
+                                    "query": [],
+                                    "querystring": {
+                                      "query": [
+                                        {
+                                          "i": "portal_type",
+                                          "o": "plone.app.querystring.operation.selection.any",
+                                          "v": ["DataSet"]
+                                        },
+                                        {
+                                          "i": "path",
+                                          "o": "plone.app.querystring.operation.string.absolutePath",
+                                          "v": "/en/products/snow"
+                                        },
+                                        {
+                                          "i": "Title",
+                                          "o": "plone.app.querystring.operation.string.contains",
+                                          "v": "Persistent Snow Area"
+                                        }
+                                      ],
+                                      "sort_order": "ascending"
+                                    },
+                                    "variation": "CclCardsline"
+                                  }
+                                },
+                                "blocks_layout": {
+                                  "items": [
+                                    "0404b67b-43d1-4f7d-8a68-7d45401527d6",
+                                    "7f4e3854-61cf-4c8b-9e19-189f5507a845"
+                                  ]
+                                },
+                                "title": "Snow Cover"
+                              }
+                            },
+                            "blocks_layout": {
+                              "items": [
+                                "fd5b3f6a-c7d3-4f22-a80a-36c6d5b14b8f",
+                                "f18e6cd7-413b-40a7-be65-c6094c220c5c",
+                                "1a5a66c3-9ca5-4b21-927e-06457d638f5c"
+                              ]
+                            }
+                          },
+                          "non_exclusive": true,
+                          "right_arrows": true,
+                          "styles": {}
+                        },
+                        "90734ae6-2fe0-4c36-98aa-65fb30600d77": {
+                          "@type": "slate",
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "undefined": {
+                          "@type": "search",
+                          "listingBodyTemplate": "CclCardsline",
+                          "query": {
+                            "b_size": "10",
+                            "query": [
+                              {
+                                "i": "portal_type",
+                                "o": "plone.app.querystring.operation.selection.any",
+                                "v": ["DataSet"]
+                              },
+                              {
+                                "i": "path",
+                                "o": "plone.app.querystring.operation.string.absolutePath",
+                                "v": "/en/products/snow"
+                              }
+                            ],
+                            "sort_on": "getObjPositionInParent",
+                            "sort_order": "ascending"
+                          },
+                          "showSearchInput": true,
+                          "showTotalResults": true,
+                          "variation": "facetsModalRightSide"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "2c34d81d-e305-4896-a234-64567754f213",
+                          "90734ae6-2fe0-4c36-98aa-65fb30600d77"
+                        ]
+                      },
+                      "title": "Datasets"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["0c7932f9-de0a-440b-a59a-0c78db6df540"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              },
+              "819f2bf8-03be-4e7b-ac71-295e8c321f49": {
+                "@type": "slate",
+                "plaintext": "The Snow product group boasts a number of datasets related to snow monitoring across the globe. These data are mostly disseminated in near-real time and derived from high resolution spatial observations from Sentinel-1 and Sentinel-2. Snow datasets can be used for a wide array of applications, including modeling the water supply, risk assessment and hazard management, and energy production. Additionally, snow dynamics are among the environmental variables most vulnerable to climate change and given their essential role in shaping the environment and human society, timely and accurate monitoring of snow cover has arguably never been more important than it is today.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The Snow product group boasts a number of datasets related to snow monitoring across the globe. These data are mostly disseminated in near-real time and derived from high resolution spatial observations from Sentinel-1 and Sentinel-2. Snow datasets can be used for a wide array of applications, including modeling the water supply, risk assessment and hazard management, and energy production. Additionally, snow dynamics are among the environmental variables most vulnerable to climate change and given their essential role in shaping the environment and human society, timely and accurate monitoring of snow cover has arguably never been more important than it is today."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "bba179f8-d3cd-4789-b0ea-09162539e640": {
+                "@type": "slate",
+                "plaintext": "Snow plays an essential role in the water cycle. Winter precipitation and spring and summer runoff has a significant impact on the water supply, energy production, and local climate. Snow can also be directly responsible for geological hazards with dramatic societal and environmental consequences such as floods and avalanches. Indeed, snow cover was named in the top 50 most important climate variables to be monitored by satellite remote sensing by the Global Observing System for Climate (GSCOS).",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Snow plays an essential role in the water cycle. Winter precipitation and spring and summer runoff has a significant impact on the water supply, energy production, and local climate. Snow can also be directly responsible for geological hazards with dramatic societal and environmental consequences such as floods and avalanches. Indeed, snow cover was named in the top 50 most important climate variables to be monitored by satellite remote sensing by the Global Observing System for Climate (GSCOS)."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "d496ba9d-b302-4245-ac1d-897903c485c6": {
+                "@type": "accordion",
+                "collapsed": true,
+                "data": {
+                  "blocks": {
+                    "eb0b55f8-fad9-4e3a-97f9-cdd517d8ee58": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "0ad0c16f-a939-4ca9-bd19-33bb8f14a1b5": {
+                          "@type": "slate",
+                          "plaintext": "Please also check the Snow products FAQ section .",
+                          "styles": {
+                            "backgroundColor": "#ebefc6"
+                          },
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Please also check the "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Snow products FAQ section"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "external": {
+                                        "external_link": "https://land.copernicus.eu/en/faq/products#snow_products",
+                                        "target": "_self"
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": "."
+                                }
+                              ],
+                              "type": "callout"
+                            }
+                          ]
+                        },
+                        "0b24c2b1-416e-4b78-b92b-e9d8dab32f72": {
+                          "@type": "slate",
+                          "plaintext": " SAR Wet Snow: Provides information about the wet snow extent in high-mountain areas.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "SAR Wet Snow:"
+                                        }
+                                      ],
+                                      "type": "strong"
+                                    },
+                                    {
+                                      "text": "\nProvides information about the wet snow extent in high-mountain areas."
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "1035ad6c-58da-4f50-931a-66cc4402b5d5": {
+                          "@type": "slate",
+                          "plaintext": " Wet/Dry Snow: The Wet/Dry Snow product is differentiating snow state conditions within the snow mask defined by the fractional snow cover at top of canopy.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "Wet/Dry Snow:"
+                                        }
+                                      ],
+                                      "type": "strong"
+                                    },
+                                    {
+                                      "text": "\nThe Wet/Dry Snow product is differentiating snow state conditions within the snow mask defined by the fractional snow cover at top of canopy."
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "5bd8c594-8c71-4b79-bed7-4d808f529df0": {
+                          "@type": "slate",
+                          "plaintext": " Snow Cover Extent: Provides information on the water content in the snow on plain areas.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "Snow Cover Extent:"
+                                        }
+                                      ],
+                                      "type": "strong"
+                                    },
+                                    {
+                                      "text": "\n Provides information on the water content in the snow on plain areas."
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "5d9ac320-75de-45bd-849e-b6fd17fcec04": {
+                          "@type": "slate",
+                          "plaintext": " Snow Water Equivalent: Describes the equivalent amount of liquid water stored in the snow pack.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "Snow Water Equivalent:"
+                                        }
+                                      ],
+                                      "type": "strong"
+                                    },
+                                    {
+                                      "text": "\n Describes the equivalent amount of liquid water stored in the snow pack."
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "5f1677b2-2646-4951-b686-b082a18e339c": {
+                          "@type": "slate",
+                          "plaintext": " At lower level of detail, for the Northern Hemisphere and the Continental Europe, these Snow products are provided: ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "At lower level of detail, for the Northern Hemisphere and the Continental Europe, these Snow products are provided:"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "89910533-9092-4b43-9970-18b093a05a1f": {
+                          "@type": "slate",
+                          "plaintext": " Gap-filled Fractional Snow Cover: The daily cumulative Gap-filled Fractional Snow Cover (0- 100%) product provides a more complete fractional snow cover information by spatially and temporally aggregating the Fractional Snow Cover data.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "Gap-filled Fractional Snow Cover:"
+                                        }
+                                      ],
+                                      "type": "strong"
+                                    },
+                                    {
+                                      "text": "\nThe daily cumulative Gap-filled Fractional Snow Cover (0- 100%) product provides a more complete fractional snow cover information by spatially and temporally aggregating the Fractional Snow Cover data."
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "8d0a98d4-0a50-4e3c-9637-75ab62d0bacb": {
+                          "@type": "slate",
+                          "plaintext": "Fractional Snow Cover Based on Sentinel-2 MSI NRT 20 m x 20 m Gap-filled Fractional Snow Cover Combined from Fractional Snow Cover, Wet/Dry Snow, SAR Wet Snow NRT 60 m x 60 m Persistent Snow Area Based on Fractional Snow Cover Annual 20 m x 20 m Wet/Dry Snow Based on Sentinel-1 SAR, Fractional Snow Cover NRT 60 m x 60 m SAR Wet Snow Based on Sentinel-1 SAR NRT 60 m x 60 m",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Fractional Snow Cover"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Based on Sentinel-2 MSI"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "NRT"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "20 m x 20 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Gap-filled Fractional Snow Cover"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Combined from Fractional Snow Cover, Wet/Dry Snow, SAR Wet Snow"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "NRT"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "60 m x 60 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Persistent Snow Area"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Based on Fractional Snow Cover"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Annual"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "20 m x 20 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Wet/Dry Snow"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Based on Sentinel-1 SAR, Fractional Snow Cover"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "NRT"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "60 m x 60 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "SAR Wet Snow"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Based on Sentinel-1 SAR"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "NRT"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "60 m x 60 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    }
+                                  ],
+                                  "type": "tbody"
+                                }
+                              ],
+                              "type": "table"
+                            }
+                          ]
+                        },
+                        "d32d4a82-0120-4d9f-829f-031042398d62": {
+                          "@type": "slate",
+                          "plaintext": "Snow Cover Extent Northern Hemisphere Based on VIIRS NRT 1 km x 1 km Snow Cover Extent Continental Europe Based on MODIS NRT 500 m x 500 m Snow Water Equivalent Northern Hemisphere Based on SSMIS, VIIRS NRT 5 km x 5 km",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Snow Cover Extent"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Northern Hemisphere"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Based on VIIRS"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "NRT"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "1 km x 1 km"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Snow Cover Extent"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Continental Europe"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Based on MODIS"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "NRT"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "500 m x 500 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Snow Water Equivalent"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Northern Hemisphere"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Based on SSMIS, VIIRS"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "NRT"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "5 km x 5 km"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    }
+                                  ],
+                                  "type": "tbody"
+                                }
+                              ],
+                              "type": "table"
+                            }
+                          ]
+                        },
+                        "d9d091e9-a81e-4321-a3fa-2de6c9f0baf4": {
+                          "@type": "slate",
+                          "plaintext": " Fractional Snow Cover: Provides the fractional snow cover (0-100%) at top of canopy as well as on ground.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "Fractional Snow Cover:"
+                                        }
+                                      ],
+                                      "type": "strong"
+                                    },
+                                    {
+                                      "text": "\nProvides the fractional snow cover (0-100%) at top of canopy as well as on ground."
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "e4a78b26-0a2a-43cd-a434-0953ce9bb578": {
+                          "@type": "slate",
+                          "plaintext": " Persistent Snow Area: Generated from the Fractional Snow Cover for each hydrological year, the Persistent Snow Area provides information about the yearly extent of persistent snow cover.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "Persistent Snow Area:\n"
+                                        }
+                                      ],
+                                      "type": "strong"
+                                    },
+                                    {
+                                      "text": "Generated from the Fractional Snow Cover for each hydrological year, the Persistent Snow Area provides information about the yearly extent of persistent snow cover."
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "e77a8b11-9e1e-4b82-86a8-a17a1601beec": {
+                          "@type": "slate",
+                          "plaintext": " At higher level of detail, at pan-European level, the Snow products include: ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": " \n"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "At higher level of detail, at pan-European level, the Snow products include:"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "5f1677b2-2646-4951-b686-b082a18e339c",
+                          "5bd8c594-8c71-4b79-bed7-4d808f529df0",
+                          "5d9ac320-75de-45bd-849e-b6fd17fcec04",
+                          "d32d4a82-0120-4d9f-829f-031042398d62",
+                          "e77a8b11-9e1e-4b82-86a8-a17a1601beec",
+                          "d9d091e9-a81e-4321-a3fa-2de6c9f0baf4",
+                          "89910533-9092-4b43-9970-18b093a05a1f",
+                          "e4a78b26-0a2a-43cd-a434-0953ce9bb578",
+                          "1035ad6c-58da-4f50-931a-66cc4402b5d5",
+                          "0b24c2b1-416e-4b78-b92b-e9d8dab32f72",
+                          "8d0a98d4-0a50-4e3c-9637-75ab62d0bacb",
+                          "0ad0c16f-a939-4ca9-bd19-33bb8f14a1b5"
+                        ]
+                      },
+                      "title": "Technical summary"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["eb0b55f8-fad9-4e3a-97f9-cdd517d8ee58"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              },
+              "undefined": {
+                "@type": "search",
+                "listingBodyTemplate": "CclCardsline",
+                "query": {
+                  "b_size": "10",
+                  "query": [
+                    {
+                      "i": "portal_type",
+                      "o": "plone.app.querystring.operation.selection.any",
+                      "v": ["DataSet"]
+                    },
+                    {
+                      "i": "path",
+                      "o": "plone.app.querystring.operation.string.absolutePath",
+                      "v": "/en/products/snow-and-ice-parameters"
+                    }
+                  ],
+                  "sort_on": "getObjPositionInParent",
+                  "sort_order": "ascending"
+                },
+                "showSearchInput": true,
+                "showTotalResults": true,
+                "variation": "facetsModalRightSide"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "bba179f8-d3cd-4789-b0ea-09162539e640",
+                "819f2bf8-03be-4e7b-ac71-295e8c321f49",
+                "d496ba9d-b302-4245-ac1d-897903c485c6",
+                "4f39306c-00bd-410c-9114-4876d569a06e"
+              ]
+            },
+            "title": "Main"
+          },
+          "7ce78c9a-4671-4292-8932-56d00449d37d": {
+            "@type": "tab",
+            "blocks": {
+              "49897625-537b-4fe4-aa42-002c89a69dc0": {
+                "@type": "relatedListing",
+                "content_type": "News Item",
+                "variation": "CclCardsnews"
+              }
+            },
+            "blocks_layout": {
+              "items": ["49897625-537b-4fe4-aa42-002c89a69dc0"]
+            },
+            "title": "News"
+          },
+          "ca1b4b62-a845-40b3-8276-46af2a671633": {
+            "@type": "tab",
+            "blocks": {
+              "1ec3b9b6-b4d8-413f-b250-e44564caa188": {
+                "@type": "slate",
+                "plaintext": "Snow Cover Duration - yearly product, derived from the pan-European Fractional Snow Cover and in longer term will replace the Peristent Snow Area Snow Cover Onset - yearly snow onset product Snow Cover Melt out - yearly snow melt out product",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "text": "Snow Cover Duration - yearly product, derived from the pan-European Fractional Snow Cover and in longer term will replace the Peristent Snow Area"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Snow Cover Onset - yearly snow onset product"
+                          }
+                        ],
+                        "type": "li"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "Snow Cover Melt out - yearly snow melt out product"
+                          }
+                        ],
+                        "type": "li"
+                      }
+                    ],
+                    "type": "ul"
+                  }
+                ]
+              },
+              "2678f26e-a862-4982-b189-b615e81fcd91": {
+                "@type": "slate",
+                "plaintext": "The production and dissemination of these new pan-European High Resolution Snow Cover products will start in Q4 2024:",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The production and dissemination of these "
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "new "
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": "pan-European High Resolution Snow Cover products will start in Q4 2024:"
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "2678f26e-a862-4982-b189-b615e81fcd91",
+                "1ec3b9b6-b4d8-413f-b250-e44564caa188"
+              ]
+            },
+            "title": "Roadmap"
+          },
+          "ce19b5ce-5803-4068-810c-b5dc2ff77c97": {
+            "@type": "tab",
+            "blocks": {
+              "8531e87c-8dc8-43b0-9599-836ae1d3c620": {
+                "@type": "accordion",
+                "collapsed": false,
+                "data": {
+                  "blocks": {
+                    "3133a9bd-4988-4e4c-980c-e3108ffb2283": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "1c968ced-25df-40cb-b39b-89355d0288e7": {
+                          "@type": "slate",
+                          "plaintext": " Introduction to High Resolution Fractional Snow Cover and Persistent Snow Area ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Introduction to High Resolution Fractional Snow Cover and Persistent Snow Area"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "internal": {
+                                        "internal_link": [
+                                          {
+                                            "@id": "https://land.copernicus.eu/en/products/snow/introduction-to-high-resolution-fractional-snow-cover-and-persistent-snow-area",
+                                            "title": "Introduction to High Resolution Fractional Snow Cover and Persistent Snow Area"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "bfc16844-15c2-4018-8934-1fff08649020": {
+                          "@type": "slate",
+                          "plaintext": " Introduction to High Resolution to Daily Cumulative Gap-filled Fractional Snow Cover ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Introduction to High Resolution to Daily Cumulative Gap-filled Fractional Snow Cover"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "internal": {
+                                        "internal_link": [
+                                          {
+                                            "@id": "https://land.copernicus.eu/en/products/snow/introduction-to-high-resolution-to-daily-cumulative-gap-filled-fractional-snow-cover",
+                                            "title": "Introduction to High Resolution to Daily Cumulative Gap-filled Fractional Snow Cover"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "f3e500be-f7ae-4150-8097-bec39437c67f": {
+                          "@type": "slate",
+                          "plaintext": " Introduction to High Resolution SAR Wet Snow and Wet/Dry Snow ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Introduction to High Resolution SAR Wet Snow and Wet/Dry Snow"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "internal": {
+                                        "internal_link": [
+                                          {
+                                            "@id": "https://land.copernicus.eu/en/products/snow/introduction-to-high-resolution-sar-wet-snow-and-we-dry-snow",
+                                            "title": "Introduction to High Resolution SAR Wet Snow and We/Dry Snow"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "1c968ced-25df-40cb-b39b-89355d0288e7",
+                          "f3e500be-f7ae-4150-8097-bec39437c67f",
+                          "bfc16844-15c2-4018-8934-1fff08649020"
+                        ]
+                      },
+                      "title": "Videos"
+                    },
+                    "4f9e3fb7-433f-4165-80ce-b8ae104bfba1": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "4d1b872c-9731-499f-8ab1-d9b985285150": {
+                          "@type": "slate",
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "c68d4c0b-fe57-4ef2-a113-f75627c61392": {
+                          "@type": "slate",
+                          "plaintext": "Here you will find information about upcoming user events and access materials of past events.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Here you will find information about upcoming user events and access materials of past events."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "f6db4559-0ece-4880-8a7e-9137aac025b1": {
+                          "@type": "relatedListing",
+                          "content_type": "eea.meeting",
+                          "variation": "CclCardsevent"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "c68d4c0b-fe57-4ef2-a113-f75627c61392",
+                          "4d1b872c-9731-499f-8ab1-d9b985285150",
+                          "f6db4559-0ece-4880-8a7e-9137aac025b1"
+                        ]
+                      },
+                      "title": "User events"
+                    },
+                    "6dd92423-ab3b-4227-86bf-dac0aa86d8d9": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "7fc1f4e8-f11e-4699-8fae-0c20c6e53102": {
+                          "@type": "slate",
+                          "plaintext": " OBSERVER: How Copernicus Sentinels monitor the snow and ice extent over Europe | Copernicus   OBSERVER: New products from the Copernicus Land Monitoring Service | Copernicus ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "OBSERVER: How Copernicus Sentinels monitor the snow and ice extent over Europe | Copernicus"
+                                        }
+                                      ],
+                                      "data": {
+                                        "link": {
+                                          "external": {
+                                            "external_link": "https://www.copernicus.eu/en/news/news/observer-how-copernicus-sentinels-monitor-snow-and-ice-extent-over-europe",
+                                            "target": "_blank"
+                                          }
+                                        },
+                                        "title": ""
+                                      },
+                                      "type": "a"
+                                    },
+                                    {
+                                      "text": ""
+                                    }
+                                  ],
+                                  "type": "li"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "text": "OBSERVER: New products from the Copernicus Land Monitoring Service | Copernicus"
+                                        }
+                                      ],
+                                      "data": {
+                                        "link": {
+                                          "external": {
+                                            "external_link": "https://www.copernicus.eu/en/news/news/observer-new-products-copernicus-land-monitoring-service",
+                                            "target": "_blank"
+                                          }
+                                        },
+                                        "title": ""
+                                      },
+                                      "type": "a"
+                                    },
+                                    {
+                                      "text": ""
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": ["7fc1f4e8-f11e-4699-8fae-0c20c6e53102"]
+                      },
+                      "title": "Feature articles"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": [
+                      "4f9e3fb7-433f-4165-80ce-b8ae104bfba1",
+                      "3133a9bd-4988-4e4c-980c-e3108ffb2283",
+                      "6dd92423-ab3b-4227-86bf-dac0aa86d8d9"
+                    ]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              }
+            },
+            "blocks_layout": {
+              "items": ["8531e87c-8dc8-43b0-9599-836ae1d3c620"]
+            },
+            "selected": "8531e87c-8dc8-43b0-9599-836ae1d3c620",
+            "title": "User outreach"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "6b9a2b02-1485-4519-a150-82d5e77c4162",
+            "16da6152-9934-4b79-9cf8-e0233363319d",
+            "7ce78c9a-4671-4292-8932-56d00449d37d",
+            "ce19b5ce-5803-4068-810c-b5dc2ff77c97",
+            "ca1b4b62-a845-40b3-8276-46af2a671633"
+          ]
+        }
+      },
+      "menuAlign": "left",
+      "menuCompact": true,
+      "menuFluid": true,
+      "menuPosition": "inline",
+      "menuText": true,
+      "template": "CCLProductTabs",
+      "verticalAlign": "flex-start"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "7928f5c6-7b0d-4665-89cf-5fe6c5139e25",
+      "bf6c0338-2c85-4d6f-8758-24258ed32be1"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2021-10-09T17:11:00+00:00",
+  "creators": ["admin"],
+  "description": "The Snow product group provides data about snow properties on land. At pan-European level the Snow  products are available at high resolution. These high resolution Snow products are mostly disseminated in near real time, with the temporal extent from September 2016 to present. Across the Northern Hemisphere the Snow products are provided in near real time at lower level of details.  The temporal extent of these medium to low resolution Snow products also varies: the Snow Water Equivalent has the temporal extent from January 2006 to present, and the Snow Cover Extent has the temporal extent from March 2017 to present.",
+  "effective": "2021-10-09T17:13:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "snow",
+  "image": {
+    "content-type": "image/png",
+    "download": "https://land.copernicus.eu/en/products/snow/@@images/image-400-ac4b310c13f68daed502e2df6a3a3195.png",
+    "filename": "snow_ice_thumb.png",
+    "height": 210,
+    "scales": {
+      "big": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-80-ec4ca9eb62f63611d9ebcfa304e54f94.png",
+        "height": 42,
+        "width": 80
+      },
+      "great": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-1200-30aea28bca6f90c3e2993988b46528fb.png",
+        "height": 210,
+        "width": 400
+      },
+      "huge": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-1920-1ce6558b85f8d5751652baefd33a3531.png",
+        "height": 210,
+        "width": 400
+      },
+      "huge2400": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-2400-366acf9c6dd561bf790c6be41c5f1e6c.png",
+        "height": 210,
+        "width": 400
+      },
+      "huge3000": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-3000-ff1cabd77433ed0386229aedf666c7d7.png",
+        "height": 210,
+        "width": 400
+      },
+      "huge4000": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-4000-1c4c76385bda23f685d6d14800d2fa84.png",
+        "height": 210,
+        "width": 400
+      },
+      "icon": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-32-54c141e19555a9f3c74451765971131d.png",
+        "height": 16,
+        "width": 32
+      },
+      "large": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-800-26d7c365b8570c90220d8c97a6b7b3ec.png",
+        "height": 210,
+        "width": 400
+      },
+      "larger": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-1000-6e2d73afc1be13e51915a0fb80b46e6d.png",
+        "height": 210,
+        "width": 400
+      },
+      "medium": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-60-b72d9b05f88ee91b274d0e111aa8fa18.png",
+        "height": 31,
+        "width": 60
+      },
+      "mini": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-200-464d51ea0457d5431188f1dd42add2e7.png",
+        "height": 105,
+        "width": 200
+      },
+      "preview": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-400-d6b2919d1ef9302e4134384592bdaf06.png",
+        "height": 210,
+        "width": 400
+      },
+      "small": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-48-757dd7fc7f99ecca6e9a406be4bce0ce.png",
+        "height": 25,
+        "width": 48
+      },
+      "teaser": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-600-46439f4455b1d687954c420ceba712d3.png",
+        "height": 210,
+        "width": 400
+      },
+      "thumb": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-128-a31e34f82de5250d3dacea6fc12354eb.png",
+        "height": 67,
+        "width": 128
+      },
+      "tile": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-64-9a49ae7dae31323ce5520277440eec2f.png",
+        "height": 33,
+        "width": 64
+      },
+      "tiny": {
+        "download": "https://land.copernicus.eu/en/products/snow/@@images/image-24-596d345989595e50373ceb86ffabb847.png",
+        "height": 12,
+        "width": 24
+      }
+    },
+    "size": 138330,
+    "width": 400
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
+      "@type": "DataSet",
+      "description": "Provides at pan-European level according to  Sentinel-2 revisit (5 days) and in near real time daily values of the snow fraction as the percentage at the top of canopy and on ground. The data are available at 20 m x 20 m spatial resolution with the temporal extent from 2016 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-811ce0d32de430090ed0352b3829fa52.png",
+            "filename": "Fractional_Snow_Cover__2016.png",
+            "height": 400,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-c9f846fc8a5e395b63cc537678ccb9b8.png",
+                "height": 80,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-ade2b5597b023f6ed444be77d006c81e.png",
+                "height": 32,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-4eb1bd1e8260f814f4814bbc9c2a2dbd.png",
+                "height": 60,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-5890a34e91db3f4a42716dc9b71fb8da.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-1e0344b2f9fc4e91d13af872ccaaa9a1.png",
+                "height": 400,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-d072c60b4b809f8dab147da0a0a0f675.png",
+                "height": 48,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-ad9103bc37d1e5872b122a1438312a43.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-42dca0da3393e5a1ba0dee77e9bf112d.png",
+                "height": 64,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-2bcc7f23987cf91d86a247619125cb48.png",
+                "height": 24,
+                "width": 24
+              }
+            },
+            "size": 220534,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Fractional Snow Cover 2016-present (raster 20 m), Europe, daily",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/high-resolution-gap-filled-fractional-snow-cover",
+      "@type": "DataSet",
+      "description": "Provides at pan-European level, at each release of the Fractional Snow Cover, Wet/Dry Snow and SAR Wet Snow datasets and in near real time, daily values of the the extent of the snow cover per pixel as the percentage. The data are available at 60 m x 60 m spatial resolution with the temporal extent from 2016 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-68892ca8e384d2f5426f7c196d8c4814.png",
+            "filename": "Gap_filled_Fractional_Snow_Cover_2016_present.png",
+            "height": 400,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-a1f2d47ada532aa9a1be9671860054a2.png",
+                "height": 80,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-eb477bd659a853893213a4949dea7bc1.png",
+                "height": 32,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-bf0ddf1337c5bc39a9d3aa860542aede.png",
+                "height": 60,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-0c8f8d536625d36e66759dd477528653.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-f5e10356a7bbf7c15f1fa561423b5e81.png",
+                "height": 400,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-c395dee75debed01f6a66458672cad5a.png",
+                "height": 48,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-0c317906f75df54ec0039f9f2ada8323.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-c4cf91c15b1cabd29176f3654009e999.png",
+                "height": 64,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-e64d17bbad0bb1259c7274cb77a08d21.png",
+                "height": 24,
+                "width": 24
+              }
+            },
+            "size": 136548,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Gap-filled Fractional Snow Cover 2016-present (raster 60 m), Europe, daily",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/high-resolution-persistent-snow-area",
+      "@type": "DataSet",
+      "description": "Provides at pan-European level and on annual basis the extent of persistent snow cover.  The annual update is normally released at the end of the hydrological year. The data are available at 20 m x 20 m spatial resolution with the temporal extent from 2016 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-52b0d6ee7c834d6b34e00ab8516c6fb0.png",
+            "filename": "Persistent_Snow_Area_2016_2022.png",
+            "height": 400,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-02d1db7865aa86c965cee786b3627607.png",
+                "height": 80,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-6165ff33680cc329ecfd800c7c2576fa.png",
+                "height": 32,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-1f6803cef94462aa7dacdc3b9bc061af.png",
+                "height": 60,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-51f0ca00717b79f01f1ab1a743943f14.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-651e974c6696d4209da6802ef5d10cfb.png",
+                "height": 400,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-dd8688be63209e3b64ba36e7bd7078dc.png",
+                "height": 48,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-db5e1fb1385f68e561062609e8d69503.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-f4f8b29480a84909ec307b32591e855d.png",
+                "height": 64,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-42abb3d682d450f4f27ed36323ac4c39.png",
+                "height": 24,
+                "width": 24
+              }
+            },
+            "size": 22129,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Persistent Snow Area 2016-present (raster 20 m), Europe, yearly",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/river-and-lake-ice-extent-s2",
+      "@type": "DataSet",
+      "description": "Provides at pan-European scale and in near real time information on the area of snow-free or snow-covered ice. The data is available since September 2016.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-128-9559401a0450bf5b45dc52c1a886fda5.png",
+            "filename": "RLIE.png",
+            "height": 111,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-f59f9320978b77834d96f68b9e955a06.png",
+                "height": 69,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-c0131d016383a55590e1dcc786065534.png",
+                "height": 27,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-4053a9627264a7e91991536991d17057.png",
+                "height": 52,
+                "width": 60
+              },
+              "small": {
+                "download": "@@images/image-48-9cdeb885a716f30adcf192c875d62117.png",
+                "height": 41,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-602c3f52c4236e8a14f0369fb13b4eb0.png",
+                "height": 111,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-f0377eb95273ae4fb6a47e88a79c1dfc.png",
+                "height": 55,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-34057e143b5ccb13e5f88ffbf21afd69.png",
+                "height": 20,
+                "width": 24
+              }
+            },
+            "size": 43129,
+            "width": 128
+          }
+        ]
+      },
+      "review_state": "private",
+      "title": "DEPRECATED - River and Lake Ice Extent - Sentinel-2 Based",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/high-resolution-river-and-lake-ice-extent-sentinel-2-and-sentinel-1-based",
+      "@type": "DataSet",
+      "description": "Provides at pan-European scale and in delayed mode information on the area of snow-free or snow-covered ice. The data is available since September 2016.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-128-e5f1e1f928605ec5df0a8b50d8d4c2ae.png",
+            "filename": "RLIE.png",
+            "height": 111,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-5ad0c203eb722d9afd7f3d15e4685067.png",
+                "height": 69,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-0513a98bf2e47138efb9538732170beb.png",
+                "height": 27,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-50fa46c9fe8298bcdbdef902bf4ad499.png",
+                "height": 52,
+                "width": 60
+              },
+              "small": {
+                "download": "@@images/image-48-91ce5a2e75c3b41eb547f0d8b1c86801.png",
+                "height": 41,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-b0d592996d9850625cdf68b6ef3d0b64.png",
+                "height": 111,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-89024b3963ea4881ea14ea1d526b18e8.png",
+                "height": 55,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-b2a0ab6454386f031e4a82a37c30db8b.png",
+                "height": 20,
+                "width": 24
+              }
+            },
+            "size": 43129,
+            "width": 128
+          }
+        ]
+      },
+      "review_state": "private",
+      "title": "DEPRECATED - River and Lake Ice Extent - Sentinel-2 and Sentinel-1 Based",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/high-resolution-sar-wet-snow",
+      "@type": "DataSet",
+      "description": "Provides at pan-European level according to Sentinel-1 revisit time (6 days) and in near real time information on the wet snow extent and the snow free or patchy snow or dry snow extent in high-mountain areas. The data are available at 60 m x 60 m spatial resolution with the temporal extent from September 2016 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-0e68047a86e1034d06829503e2db92a6.png",
+            "filename": "SAR_Wet_Snow_2016_present.png",
+            "height": 394,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-42eb49cbde27bce5a28f7b6ad32aad0b.png",
+                "height": 78,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-785f4a0a77842d050551803e73f21863.png",
+                "height": 31,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-1df62d88dc0f591412dfdf8179bc1975.png",
+                "height": 59,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-6c778ce492e04b653413dc342ce8f9ca.png",
+                "height": 197,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-8e3ffbe25da6b3c11e5c51211b0df27b.png",
+                "height": 394,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-cfd220c96bbf2771e2651e8f0b658a15.png",
+                "height": 47,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-d2ad351c6aef9d11b3d0f58c745fad92.png",
+                "height": 126,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-061372380c43a834714c7dc4ffcb99c6.png",
+                "height": 63,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-67cb515f0bb2262ce20f97e1e96fc6d1.png",
+                "height": 23,
+                "width": 24
+              }
+            },
+            "size": 111300,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "SAR Wet Snow 2016-present (raster 60 m), Europe, daily",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/snow-cover-extent-europe-v1-0-500m",
+      "@type": "DataSet",
+      "description": "Provides for Europe daily updates of the fraction of snow cover on the ground (also in forested areas) per pixel in percentage (0% \u2013 100%). The data is available in near real time in the spatial resolution of 500 m and with the temporal extent from March 2017 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-2944-b84acf71da0967b96ea5859f24dfe68d.png",
+            "filename": "Snow Cover Extent 2017-present (raster 500 m), Europe, daily \u2013 version 1.png",
+            "height": 2480,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-5edc9091127e0c114c35d3b8e2320aef.png",
+                "height": 67,
+                "width": 80
+              },
+              "great": {
+                "download": "@@images/image-1200-61bea07ce5c6c10050a393e5781277e3.png",
+                "height": 1010,
+                "width": 1200
+              },
+              "huge": {
+                "download": "@@images/image-1920-0dce3267365b22f73b7d994418722c1b.png",
+                "height": 1617,
+                "width": 1920
+              },
+              "huge2400": {
+                "download": "@@images/image-2400-dc5a768e393fa0118abecf70c404823e.png",
+                "height": 2021,
+                "width": 2400
+              },
+              "icon": {
+                "download": "@@images/image-32-c1f3a29bb459e647f18fdf44207cd2b8.png",
+                "height": 26,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-129c0d0bf43fcdfa27318b53ab3d32c4.png",
+                "height": 673,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-c7313d7ad069bd1e4519bed88d1ead2c.png",
+                "height": 842,
+                "width": 1000
+              },
+              "medium": {
+                "download": "@@images/image-60-92b82a6e70f61d377f699a3ee35f8fac.png",
+                "height": 50,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-aa3581eabab5d63c85916281ff3b70ff.png",
+                "height": 168,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-deb520f488a01bfa32507e2316faea53.png",
+                "height": 336,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-25ba55946efbed2d4cc2af9b5b0e1314.png",
+                "height": 40,
+                "width": 48
+              },
+              "teaser": {
+                "download": "@@images/image-600-43d86f1244ee462ee195dafe0f0dda0b.png",
+                "height": 505,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-95bb3ffefbab10091ab250448ed44d96.png",
+                "height": 107,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-7d858645d0382b53dec10f853d550f55.png",
+                "height": 53,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-e4caac67e8e6e1e7ca8b9fd95dae0288.png",
+                "height": 20,
+                "width": 24
+              }
+            },
+            "size": 937345,
+            "width": 2944
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Snow Cover Extent 2017-present (raster 500 m), Europe, daily \u2013 version 1",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/snow-cover-extent-northern-hemisphere-v1-0-1km",
+      "@type": "DataSet",
+      "description": "Provides for Northern Hemisphere daily maps of the fraction of snow cover on ground (also in forested areas) per pixel in percentage (0% \u2013 100%). The data is available in near real time with a pixel spacing of about 1 km and with the temporal extent from January 2018 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-2944-987c3d1e7b30748a569e82b6041848d9.png",
+            "filename": "Snow Cover Extent 2018-present (raster 1 km), Northern Hemisphere, daily \u2013 version 1.png",
+            "height": 2480,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-af70974fa40226a4c52db8e72ec75f21.png",
+                "height": 67,
+                "width": 80
+              },
+              "great": {
+                "download": "@@images/image-1200-dd3cd4d493a29d2afd7d3dd988eb452e.png",
+                "height": 1010,
+                "width": 1200
+              },
+              "huge": {
+                "download": "@@images/image-1920-f1683e4a79a06c24133979a7efa709fd.png",
+                "height": 1617,
+                "width": 1920
+              },
+              "huge2400": {
+                "download": "@@images/image-2400-479de386a53877e95ddbda4f0f8c7679.png",
+                "height": 2021,
+                "width": 2400
+              },
+              "icon": {
+                "download": "@@images/image-32-4e46ab89e3e0765b30d16e075b94ec1b.png",
+                "height": 26,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-13e097ea8efa23a9fbb5daf4cb87fc8e.png",
+                "height": 673,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-41a4f94b08c81a7eb16959133494e90f.png",
+                "height": 842,
+                "width": 1000
+              },
+              "medium": {
+                "download": "@@images/image-60-cab1e224181e7f955072b281e7be9c83.png",
+                "height": 50,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-5a063925242d9013ff4db3883d64e89d.png",
+                "height": 168,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-c1649dc0bc6166deb2d56ba893431384.png",
+                "height": 336,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-9d4318845496eff6df7aa1d2b804771f.png",
+                "height": 40,
+                "width": 48
+              },
+              "teaser": {
+                "download": "@@images/image-600-2af1d3c0a6968dcce28d27b9224dd58f.png",
+                "height": 505,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-2a2b013f294370de43fc7a221d2def20.png",
+                "height": 107,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-38d94ec3015687f0329abf29829d3ab1.png",
+                "height": 53,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-7123b9693afed28b5b59f21771458066.png",
+                "height": 20,
+                "width": 24
+              }
+            },
+            "size": 545163,
+            "width": 2944
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Snow Cover Extent 2018-present (raster 1 km), Northern Hemisphere, daily \u2013 version 1",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/snow-water-equivalent-v1-0-5km",
+      "@type": "DataSet",
+      "description": "Provides for the Northern Hemisphere daily updates of the equivalent amount of liquid water stored in the snow pack. The data is available in near real time in the spatial resolution of 5 km and with the temporal extent from January 2006 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-2944-5ad73a5035b380a6a28ed00a9df95add.png",
+            "filename": "Snow Water Equivalent 2006-present (raster 5 km), Northern Hemisphere, daily \u2013 version 1.png",
+            "height": 2480,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-92fe772ad6d4624c868d2457f0436d76.png",
+                "height": 67,
+                "width": 80
+              },
+              "great": {
+                "download": "@@images/image-1200-87563911ff1f699cd13de47e642d8456.png",
+                "height": 1010,
+                "width": 1200
+              },
+              "huge": {
+                "download": "@@images/image-1920-eb141e31359d8fdf16d11e7601f9167c.png",
+                "height": 1617,
+                "width": 1920
+              },
+              "huge2400": {
+                "download": "@@images/image-2400-13ea3e6a64a89241c9074dea5994632b.png",
+                "height": 2021,
+                "width": 2400
+              },
+              "icon": {
+                "download": "@@images/image-32-be23143ea8712ec4787b1a92fef18c04.png",
+                "height": 26,
+                "width": 32
+              },
+              "large": {
+                "download": "@@images/image-800-5e5cdbb8ed1e6fcefbf25c7bfd8fbfe6.png",
+                "height": 673,
+                "width": 800
+              },
+              "larger": {
+                "download": "@@images/image-1000-0a52d24b4fcc311312a2ded2a4699f49.png",
+                "height": 842,
+                "width": 1000
+              },
+              "medium": {
+                "download": "@@images/image-60-a4442492589213fdfd52bad50b138e99.png",
+                "height": 50,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-976e10a3018bcd3c034a0b0102f6280a.png",
+                "height": 168,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-f8c333cfd4fa48f8b317bf75899d219e.png",
+                "height": 336,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-3762e7bc1a6b5fa9d8803a1c4fdb0fc6.png",
+                "height": 40,
+                "width": 48
+              },
+              "teaser": {
+                "download": "@@images/image-600-fd66b8a6e2a1f7e36a4e2954c7e5597c.png",
+                "height": 505,
+                "width": 600
+              },
+              "thumb": {
+                "download": "@@images/image-128-563e1516370bb00ba885568ad468c6cf.png",
+                "height": 107,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-1a3f08cef8dac23725b0420ec7338fb7.png",
+                "height": 53,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-cf81494137d226a623dddc26bb8e3594.png",
+                "height": 20,
+                "width": 24
+              }
+            },
+            "size": 482070,
+            "width": 2944
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Snow Water Equivalent 2006-present (raster 5 km), Northern Hemisphere, daily \u2013 version 1",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/aggregated-river-and-lake-ice-extent",
+      "@type": "DataSet",
+      "description": "Provides at pan-European scale on monthly basis and in delayed mode the percent coverage of snow-covered or snow-free ice on lakes and on 10 km river sections. The data is available since September 2016.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-128-d0e507d61cdcd6c17ac77a343bb71a9c.png",
+            "filename": "ARLIE.png",
+            "height": 90,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-bbf060a3ef8de7370218dc3a572a964e.png",
+                "height": 56,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-769abcbb53b3e6b6c3dbea006cea9a00.png",
+                "height": 22,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-a53502f60a05bbcbd0d45ecc7be5d43b.png",
+                "height": 42,
+                "width": 60
+              },
+              "small": {
+                "download": "@@images/image-48-c29776b93a9b7c02225fb10d786adab5.png",
+                "height": 33,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-e92e3238f5a16a1eb92695dedbb9e9b6.png",
+                "height": 90,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-c2108fc20d7c5dd3be37928cc30417b0.png",
+                "height": 45,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-e9f3a01dc1e57d7d4f1a8890a141cc32.png",
+                "height": 16,
+                "width": 24
+              }
+            },
+            "size": 31712,
+            "width": 128
+          }
+        ]
+      },
+      "review_state": "private",
+      "title": "DEPRECATED - Aggregated River and Lake Ice Extent - Sentinel-2 Based (Temporary)",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/high-resolution-wet-dry-snow",
+      "@type": "DataSet",
+      "description": "Provides at pan-European level according to Sentinel-1 revisit time (6 days) and in near real time daily binary differentiation of wet and dry snow and identifies patchy snow or snow free areas. The data are available at 60 m  x 60 m spatial resolution with the temporal extent from September 2016 to present.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-398-58795eea84a56746667e506937c17782.png",
+            "filename": "Wet_Dry_Snow_2016_present.png",
+            "height": 397,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-dcacfd59f28008caf1d6f8448394da5f.png",
+                "height": 79,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-6a3033a06d11add03fabc66c7dd3db35.png",
+                "height": 31,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-f3ce3a7e101ed8dc5b993c92a73abdc4.png",
+                "height": 59,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-abd04c923a605c5c0cc685c8bb7d9084.png",
+                "height": 199,
+                "width": 200
+              },
+              "small": {
+                "download": "@@images/image-48-1c7d89c5425340883f344740d26aa7d6.png",
+                "height": 47,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-ad5b334b19bad06807211efab40cdfb6.png",
+                "height": 127,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-8654d43fb558da70bc03ecf9a561d6bc.png",
+                "height": 63,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-44f80ab37641c17cec4c25b8a8e834b6.png",
+                "height": 23,
+                "width": 24
+              }
+            },
+            "size": 277093,
+            "width": 398
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Wet/Dry Snow 2016-present (raster 60 m), Europe, daily",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/map-legends",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Map legends",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/introduction-to-high-resolution-fractional-snow-cover-and-persistent-snow-area",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Introduction to High Resolution Fractional Snow Cover and Persistent Snow Area",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/introduction-to-high-resolution-sar-wet-snow-and-we-dry-snow",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Introduction to High Resolution SAR Wet Snow and We/Dry Snow",
+      "type_title": "Page"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/snow/introduction-to-high-resolution-to-daily-cumulative-gap-filled-fractional-snow-cover",
+      "@type": "Document",
+      "description": "",
+      "getRemoteUrl": null,
+      "image_field": "",
+      "image_scales": null,
+      "review_state": "published",
+      "title": "Introduction to High Resolution to Daily Cumulative Gap-filled Fractional Snow Cover",
+      "type_title": "Page"
+    }
+  ],
+  "items_total": 15,
+  "language": "",
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "mapviewer_component": {
+    "title": "03#Bio-geophysical Parameters",
+    "token": "38900ec1-a308-44f4-88c1-b4a9dd0fb2b8"
+  },
+  "mapviewer_message": null,
+  "modified": "2024-02-09T13:07:56+00:00",
+  "next_item": {
+    "@id": "https://land.copernicus.eu/en/products/temperature-and-reflectance",
+    "@type": "Product",
+    "description": "The Temperature and Reflectance product group provides biophysical variables assessing the energy budget at the land and inland water surfaces. These products are available at global scale in kilometric resolution and as continuous time series.",
+    "title": "Temperature and Reflectance",
+    "type_title": "Product"
+  },
+  "parent": {
+    "@id": "https://land.copernicus.eu/en/products",
+    "@type": "Document",
+    "description": "",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "CLMS portfolio",
+    "type_title": "Page"
+  },
+  "previous_item": {
+    "@id": "https://land.copernicus.eu/en/products/soil-moisture",
+    "@type": "Product",
+    "description": "The Soil Moisture product group provides bio-geophysical parameters describing the relative water content in the soil and quantifying the moisture condition at various depths in the soil. The Surface Soil Moisture and the Soil Water Index products are available as long-term timeseries at European and global scale.",
+    "title": "Soil Moisture",
+    "type_title": "Product"
+  },
+  "review_state": "published",
+  "rights": null,
+  "show_in_mapviewer_link": true,
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<html><body><p><br/></p></body></html>",
+    "encoding": "utf8"
+  },
+  "title": "Snow",
+  "type_title": "Product",
+  "version": "current",
+  "versioning_enabled": true,
+  "working_copy": null,
+  "working_copy_of": null
+}
