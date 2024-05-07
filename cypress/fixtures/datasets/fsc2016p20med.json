@@ -1,0 +1,664 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@actions"
+    },
+    "aliases": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@navigation"
+    },
+    "navroot": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@navroot"
+    },
+    "siblings": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@siblings"
+    },
+    "translations": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@translations"
+    },
+    "types": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@types"
+    },
+    "workflow": {
+      "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@workflow"
+    }
+  },
+  "@id": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
+  "@type": "DataSet",
+  "UID": "10ee0f23fcb146ea89dcdacc40b0900d",
+  "accessAndUseConstraints": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Access to data is based on a principle of full, open and free access as established by the Copernicus data and information policy Regulation (EU) No 1159/2013 of 12 July 2013. This regulation establishes registration and licensing conditions for GMES/Copernicus users.\n\nFree, full and open access to this data set is made on the conditions that:\n\n1. When distributing or communicating Copernicus dedicated data and Copernicus service information to the public, users shall inform the public of the source of that data and information.\n\n2. Users shall make sure not to convey the impression to the public that the user's activities are officially endorsed by the Union.\n\n3. Where that data or information has been adapted or modified, the user shall clearly state this.\n\n4. The data remain the sole property of the European Union. Any information and data produced in the framework of the action shall be the sole property of the European Union. Any communication and publication by the beneficiary shall acknowledge that the data were produced \u201cwith funding by the European Union\u201d.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "accessAndUseLimitationPublic_line": "no limitations to public access",
+  "allow_discussion": false,
+  "changeNote": "",
+  "character_set": "utf8",
+  "characteristics_platform": "",
+  "characteristics_position_accuracy": "",
+  "characteristics_projection": "EPSG:32625/ 32626/ 32627/ 32628/ 32629/ 32630/ 32631/ 32632/ 32633/ 32634/ 32635/ 32636/ 32637/ 32638",
+  "characteristics_release_major_version": "",
+  "characteristics_sensor": "Sentinel-2A/2B",
+  "characteristics_spatial_coverage": "Europe",
+  "characteristics_spatial_representation_type": {
+    "title": null,
+    "token": "Grid"
+  },
+  "characteristics_spatial_resolution": "20 m",
+  "characteristics_temporal_extent": "2016 - present",
+  "characteristics_temporal_usability": {
+    "title": null,
+    "token": "Archive with regular updates"
+  },
+  "characteristics_thematic_accuracy": "",
+  "characteristics_timeliness": "",
+  "characteristics_type": {
+    "title": null,
+    "token": "Satellite observations"
+  },
+  "characteristics_update_frequency": {
+    "title": null,
+    "token": "AsNeeded"
+  },
+  "citation": {
+    "content-type": "text/html",
+    "data": "<html><body><ul><li><strong>DOI:</strong> <a href=\"https://doi.org/10.2909/3e2b4b7b-a460-41dd-a373-962d032795f3\" rel=\"noopener noreferrer\" target=\"_blank\">https://doi.org/10.2909/3e2b4b7b-a460-41dd-a373-962d032795f3</a></li></ul><p></p><p>You can find instructions on how to cite CLMS data in our <a href=\"/en/data-policy\">Data policy</a> section.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "classificationTopicCategory": [
+    "environment",
+    "imageryBaseMapsEarthCover",
+    "climatologyMeteorologyAtmosphere"
+  ],
+  "conformityPass": {
+    "title": "Not evaluated",
+    "token": "Null"
+  },
+  "conformitySpecification": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "contributors": [],
+  "coordinateReferenceSystemList": [
+    "EPSG:32625",
+    "EPSG:32626",
+    "EPSG:32627",
+    "EPSG:32628",
+    "EPSG:32629",
+    "EPSG:32630",
+    "EPSG:32631",
+    "EPSG:32632",
+    "EPSG:32633",
+    "EPSG:32634",
+    "EPSG:32635",
+    "EPSG:32636",
+    "EPSG:32637",
+    "EPSG:32638"
+  ],
+  "created": "2021-10-29T10:18:22+00:00",
+  "creators": ["ghitab"],
+  "dataResourceAbstract": {
+    "content-type": "text/html",
+    "data": "<html><body><p>The Copernicus Fractional Snow Cover (FSC) product is generated in near real-time for the entire EEA38 and the United Kingdom, based on optical satellite data from the Sentinel-2 constellation. The product provides the fraction of the surface covered by snow at the top of canopy (FSC-TOC) and on ground (FSC-OG) per pixel as a percentage (0% \u2013 100%) with a spatial resolution of 20 m x 20 m.\nFSC is one of the products of the pan-European High-Resolution Snow &amp; Ice service (HR-S&amp;I), which are provided at high spatial resolution (20 m x 20 m and 60 m x 60 m), from the Sentinel-2 and Sentinel-1 constellations data from September 1, 2016 onwards. Visit https://land.copernicus.eu/pan-european/biophysical-parameters/high-resolution-snow-and-ice-monitoring to get more information on the different HR-S&amp;I products (Snow products : FSC, WDS, SWS, GFSC, and PSA. Ice products : RLIE and ARLIE)\nThe FSC product is distributed in raster files covering an area of 110 km by 110 km with a pixel size of 20 m by 20 m in UTM/WGS84 projection, which corresponds to the Sentinel-2 input L1C product tile. Each product is composed of seven separate files corresponding to the different layers of the product, and another metadata file.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "dataResourceType": "dataset",
+  "dataset_download_information": {
+    "items": [
+      {
+        "@id": "5e17b475-ab82-4a77-8c30-77dc406b3605",
+        "collection": "20m ",
+        "full_format": {
+          "title": "Geotiff",
+          "token": "Geotiff"
+        },
+        "full_path": "EO:CRYO:DAT:HRSI:FSC",
+        "full_source": "WEKEO",
+        "name": "RASTER",
+        "wekeo_choices": "{\"datasetId\":\"EO:CRYO:DAT:HRSI:FSC\",\"boundingBoxValues\":[{\"name\":\"bbox\",\"bbox\":[@xmin,@ymin,@xmax,@ymax]}],\"dateRangeSelectValues\":[{\"name\":\"Observed\",\"start\":\"@startdate\",\"end\":\"@enddate\"}],\"stringChoiceValues\":[{\"name\":\"productType\",\"value\":\"FSC\"}]}"
+      }
+    ]
+  },
+  "datasets": [],
+  "date_stamp": "2023-08-29T11:36:27.94Z",
+  "description": "Provides at pan-European level according to  Sentinel-2 revisit (5 days) and in near real time daily values of the snow fraction as the percentage at the top of canopy and on ground. The data are available at 20 m x 20 m spatial resolution with the temporal extent from 2016 to present.",
+  "distributionInfo": {
+    "items": [
+      {
+        "@id": "distributionInfo0",
+        "resourceLocator": "https://cryo.land.copernicus.eu/finder/",
+        "services": "WWW:LINK-1.0-http--link"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      },
+      {
+        "@id": "distributionInfo1",
+        "resourceLocator": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+        "services": "OGC:WMS"
+      }
+    ]
+  },
+  "distribution_format_list": ["GeoTIFF"],
+  "download_by_area_extra_text": null,
+  "download_full_dataset_text": {
+    "content-type": "text/html",
+    "data": "<html><body><p>You can download the full dataset, using the CLMS download API. Click <a href=\"/en/how-to-guides/how-to-download-spatial-data/how-to-download-m2m\">here</a> to learn more about the CLMS download API.</p></body></html>",
+    "encoding": "utf8"
+  },
+  "download_grid_image_for_prepackages": null,
+  "download_limit_temporal_extent": 7,
+  "download_other_ways_access_dataset": {
+    "content-type": "text/html",
+    "data": "<html><body><p>In <strong><a href=\"https://cryo.land.copernicus.eu/finder/\" rel=\"noopener noreferrer\" target=\"_blank\">Finder</a></strong>.</p><p>Finder is a dedicated user interface developed to find and download pan-European High Resolution snow and ice datasets (register <a href=\"https://identity.cloudferro.com/auth/realms/cryo/protocol/openid-connect/registrations?client_id=finder&amp;redirect_uri=https%3A%2F%2Fcryo.land.copernicus.eu%2Ffinder%2F&amp;state=57306543-6a3c-44cd-a44d-aabd6c36dbba&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid&amp;nonce=34d07868-a7de-4ca5-8830-899730883f3d\" rel=\"noopener noreferrer\" target=\"_blank\">here</a> to download the data).</p><p></p><hr/><p> </p><p><strong>In <a href=\"https://www.wekeo.eu/\" rel=\"noopener noreferrer\" target=\"_blank\">WEkEO</a>.</strong></p><p><em><a href=\"https://www.wekeo.eu/\" rel=\"noopener noreferrer\" target=\"_blank\">WEkEO</a> is the EU Copernicus DIAS reference service for environmental data, virtual processing environments and skilled user support.</em></p><blockquote></blockquote><p>For web access use the <a href=\"https://www.wekeo.eu/data?view=viewer\" rel=\"noopener noreferrer\" target=\"_blank\">WEkEO data viewer</a>.</p><p>For programatic access check the tools listed below:</p><ul><li><a href=\"https://github.com/eea/clms-hrsi-api-client-python\" rel=\"noopener noreferrer\" target=\"_blank\">Python client for accessing the HTTP API by means of REST calls</a> (register <a href=\"https://cryo.land.copernicus.eu/finder/\" rel=\"noopener noreferrer\" target=\"_blank\">here</a> to download the data).</li><li><a href=\"https://github.com/MatMatt/clmsapi\" rel=\"noopener noreferrer\" target=\"_blank\">R-Client for accessing the HTTP API by means of REST calls</a> (register <a href=\"https://cryo.land.copernicus.eu/finder/\" rel=\"noopener noreferrer\" target=\"_blank\">here</a> to download the data).</li><li><a href=\"https://github.com/eea/clms-data-science-applications/tree/main/datacubes-snow-monitoring\" rel=\"noopener noreferrer\" target=\"_blank\">Demonstration Jupyter Notebook for requesting and visualizing the data with xcube and other datacube technologies in the EDC EOxHub Workplace</a>.</li></ul><p></p><p>The Python and R code is demonstrated using notebooks that can be run on <a href=\"https://help.wekeo.eu/en/articles/6337538-what-is-the-wekeo-jupyterhub\" rel=\"noopener noreferrer\" target=\"_blank\">WEkEO\u2019s JupyterHub</a> for interactive exploration and demonstration. <br/>After opening the WEkEO JupyterHub, you will find a set of notebook examples that are prepared by the WEkEO team and also available on the <a href=\"https://github.com/wekeo\" rel=\"noopener noreferrer\" target=\"_blank\">WEkEO GitHub</a> (e.g. repository <a href=\"https://github.com/wekeo/wekeo4land\" rel=\"noopener noreferrer\" target=\"_blank\">wekeo4land</a>). <br/>The sample code can be run locally on your computer(s) or other JupyterHub services as well.<a href=\"/\"></a></p></body></html>",
+    "encoding": "utf8"
+  },
+  "download_page_information": {
+    "content-type": "text/html",
+    "data": "<html><body><p></p></body></html>",
+    "encoding": "utf8"
+  },
+  "download_table_area_of_interest_title": "Area of interest",
+  "downloadable_dataset": true,
+  "downloadable_files": {
+    "items": [
+      {
+        "@id": "fd99d423-f2e1-421a-9eaa-5f56e35c2888",
+        "area": "",
+        "file": "",
+        "format": "",
+        "path": "",
+        "resolution": "",
+        "size": "",
+        "source": "",
+        "title": "",
+        "type": "",
+        "version": "",
+        "year": ""
+      }
+    ],
+    "schema": {
+      "dependencies": {},
+      "fieldsets": [
+        {
+          "fields": [
+            "title",
+            "file",
+            "area",
+            "year",
+            "version",
+            "resolution",
+            "type",
+            "format",
+            "size",
+            "path",
+            "source"
+          ],
+          "id": "default",
+          "title": "File"
+        }
+      ],
+      "properties": {
+        "area": {
+          "description": "Enter the area of this file.",
+          "title": "Area of interest",
+          "type": "string"
+        },
+        "file": {
+          "description": "Enter the file name.",
+          "title": "File",
+          "type": "string"
+        },
+        "format": {
+          "description": "Enter the format of this file.",
+          "title": "Format",
+          "type": "string"
+        },
+        "path": {
+          "description": "Enter the absolute path of this file in the storage",
+          "title": "Path",
+          "type": "string"
+        },
+        "resolution": {
+          "description": "Enter the resolution of this file. Ex: 100m",
+          "title": "Resolution",
+          "type": "string"
+        },
+        "size": {
+          "description": "Enter the size of this file. Ex: 3.5GB",
+          "title": "Size",
+          "type": "string"
+        },
+        "source": {
+          "enum": ["EEA", "HOTSPOTS"],
+          "title": "Source",
+          "type": "string"
+        },
+        "title": {
+          "description": "Enter the title of this file.",
+          "title": "Title",
+          "type": "string"
+        },
+        "type": {
+          "choices": [
+            ["Raster", "Raster"],
+            ["Vector", "Vector"]
+          ],
+          "enum": ["Raster", "Vector"],
+          "title": "Type",
+          "type": "string"
+        },
+        "version": {
+          "description": "Enter the version of this file.",
+          "title": "Version",
+          "type": "string"
+        },
+        "year": {
+          "description": "Enter the year of this file.",
+          "exclusiveMinimum": null,
+          "minimum": 1900,
+          "title": "Year",
+          "type": "number"
+        }
+      },
+      "required": [],
+      "title": "Downloadable File",
+      "type": "object"
+    },
+    "uiSchema": {
+      "ui:order": [
+        "title",
+        "file",
+        "area",
+        "year",
+        "version",
+        "resolution",
+        "type",
+        "format",
+        "size",
+        "path",
+        "source"
+      ]
+    }
+  },
+  "downloadable_full_dataset": true,
+  "effective": "2020-06-04T13:10:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "gemet": [
+    "monitoring",
+    "landscape alteration",
+    "ice",
+    "land cover",
+    "climate change impact",
+    "snow"
+  ],
+  "gemetInspireThemes": ["Land cover"],
+  "geographicBoundingBox": {
+    "items": [
+      {
+        "@id": "geographicBoundingBox0",
+        "east": "44.00",
+        "north": "66.00",
+        "south": "34.00",
+        "west": "-26.00"
+      }
+    ]
+  },
+  "geographicCoverage": ["EEA38 (from 2020)", "United Kingdom"],
+  "geonetwork_identifiers": {
+    "items": [
+      {
+        "@id": "fd46132e-3ae4-4353-8b1a-7a3a9e8d62fd",
+        "id": "3e2b4b7b-a460-41dd-a373-962d032795f3",
+        "title": "Fractional Snow Cover 2016-present (raster 20 m), Europe, daily",
+        "type": "EEA"
+      }
+    ]
+  },
+  "hierarchy_level": "dataset",
+  "id": "fractional-snow-cover",
+  "identifier": "3e2b4b7b-a460-41dd-a373-962d032795f3",
+  "image": {
+    "content-type": "image/png",
+    "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-400-cfefffcd098d7c1f49e5fa5aa3caeaf3.png",
+    "filename": "Fractional_Snow_Cover__2016.png",
+    "height": 400,
+    "scales": {
+      "big": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-80-e3f3e95e04677d79cc288d330991c065.png",
+        "height": 80,
+        "width": 80
+      },
+      "great": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-1200-14ed1d262c512f10e80df1591ab19f49.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-1920-4819acd09d801005b65be6e54888cbf6.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge2400": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-2400-f8ed9fbd748d0dc6edd5e78da104624a.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge3000": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-3000-d827d654d5468d742ade887bbaf69ac6.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge4000": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-4000-f39a83c63aeb34cad025a506cc8d8821.png",
+        "height": 400,
+        "width": 400
+      },
+      "icon": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-32-025effb734550afcce18c71905741d52.png",
+        "height": 32,
+        "width": 32
+      },
+      "large": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-800-c6bcad49f4f59b5dd65b7a04cdfd6ab2.png",
+        "height": 400,
+        "width": 400
+      },
+      "larger": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-1000-f75742503b25a72b6dd44ce611633a02.png",
+        "height": 400,
+        "width": 400
+      },
+      "medium": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-60-ac4e3792e28baa6245509e115c55bedd.png",
+        "height": 60,
+        "width": 60
+      },
+      "mini": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-200-b868d30a6835dace613d354d1dc145f9.png",
+        "height": 200,
+        "width": 200
+      },
+      "preview": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-400-5ad8119ac37307fd62ff4e028f7715ea.png",
+        "height": 400,
+        "width": 400
+      },
+      "small": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-48-448ec6a392e25b57d19a5c345c769bc2.png",
+        "height": 48,
+        "width": 48
+      },
+      "teaser": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-600-676810a553a93bb2bf27348f0c1c3400.png",
+        "height": 400,
+        "width": 400
+      },
+      "thumb": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-128-3bfd9191d41e7265e735ebeed1813744.png",
+        "height": 128,
+        "width": 128
+      },
+      "tile": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-64-80074f64e126454527091c725eeb51e4.png",
+        "height": 64,
+        "width": 64
+      },
+      "tiny": {
+        "download": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover/@@images/image-24-8bb8973fb52dc0df63c78090280eb75c.png",
+        "height": 24,
+        "width": 24
+      }
+    },
+    "size": 220534,
+    "width": 400
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "items": [],
+  "items_total": 0,
+  "jrc_show_related_datasets": false,
+  "keywords": [
+    "Copernicus",
+    "FSC",
+    "Cryo",
+    "Snow",
+    "Biophysical parameters",
+    "Fractional Snow Cover",
+    "Land",
+    "Pan-European"
+  ],
+  "language": "",
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "mapviewer_default_active": false,
+  "mapviewer_handlinglevel": false,
+  "mapviewer_istimeseries": true,
+  "mapviewer_layers": {
+    "items": [
+      {
+        "@id": "d07517cb-fa0b-4198-a5ac-5d1e630e7c51",
+        "default_active": true,
+        "id": "1_FSC_TOC",
+        "static_legend_url": "https://land.copernicus.eu/en/products/snow/map-legends/hr-s-i/fsc_fsctoc.jpg/@@images/image",
+        "title": "Fractional Snow Cover at the top of canopy"
+      },
+      {
+        "@id": "74ee230f-6e4e-4b34-ba4f-17df0029048c",
+        "default_active": false,
+        "id": "2_FSC_QC_TOC",
+        "static_legend_url": "https://land.copernicus.eu/en/products/snow/map-legends/hr-s-i/fsc_qctog.jpg/@@images/image",
+        "title": "Fractional Snow Cover at the top of canopy -  confidence level "
+      },
+      {
+        "@id": "94bfd3f3-3b05-4929-bba0-fca0edf0838f",
+        "default_active": false,
+        "id": "3_FSC_OG",
+        "static_legend_url": "https://land.copernicus.eu/en/products/snow/map-legends/hr-s-i/fsc_fscog.jpg/@@images/image",
+        "title": "Fractional Snow Cover on the ground"
+      },
+      {
+        "@id": "c193fec0-d3a9-4ef6-ad79-64c324bee2db",
+        "id": "4_FSC_QC_OG",
+        "static_legend_url": "https://land.copernicus.eu/en/products/snow/map-legends/hr-s-i/fsc_qcog.jpg/@@images/image",
+        "title": "Fractional Snow Cover on the ground - confidence level "
+      },
+      {
+        "@id": "61c61719-b0d1-41c2-9b63-ad2e6e3a7710",
+        "id": "5_FSC_NDSI",
+        "static_legend_url": "https://land.copernicus.eu/en/products/snow/map-legends/hr-s-i/fsc_ndsi.jpg/@@images/image",
+        "title": "Fractional Snow Cover - Normalised difference snow index"
+      },
+      {
+        "@id": "10e0d13a-e110-48f9-99b8-ca7b9f4725d2",
+        "id": "6_FSC_CLD",
+        "static_legend_url": "https://land.copernicus.eu/en/products/snow/map-legends/hr-s-i/fsc_cld.jpg/@@images/image",
+        "title": "Fractional Snow Cover - MAJA L2A cloud and cloud shadow mask "
+      }
+    ]
+  },
+  "mapviewer_viewservice": "https://cryo.land.copernicus.eu/wms/FSC/?",
+  "metadata_language": "eng",
+  "metadata_rest_api_url": "",
+  "metadata_standard_name": "ISO 19115/19139",
+  "metadata_standard_version": "1.0",
+  "metadata_wms_url": "https://cryo.land.copernicus.eu/wms/FSC?service=WMS&request=GetCapabilities&version=1.3.0",
+  "metadata_wmts_url": "",
+  "modified": "2023-12-15T11:14:40+00:00",
+  "next_item": {
+    "@id": "https://land.copernicus.eu/en/products/snow/high-resolution-gap-filled-fractional-snow-cover",
+    "@type": "DataSet",
+    "description": "Provides at pan-European level, at each release of the Fractional Snow Cover, Wet/Dry Snow and SAR Wet Snow datasets and in near real time, daily values of the the extent of the snow cover per pixel as the percentage. The data are available at 60 m x 60 m spatial resolution with the temporal extent from 2016 to present.",
+    "title": "Gap-filled Fractional Snow Cover 2016-present (raster 60 m), Europe, daily",
+    "type_title": "DataSet"
+  },
+  "parent": {
+    "@id": "https://land.copernicus.eu/en/products/snow",
+    "@type": "Product",
+    "description": "The Snow product group provides data about snow properties on land. At pan-European level the Snow  products are available at high resolution. These high resolution Snow products are mostly disseminated in near real time, with the temporal extent from September 2016 to present. Across the Northern Hemisphere the Snow products are provided in near real time at lower level of details.  The temporal extent of these medium to low resolution Snow products also varies: the Snow Water Equivalent has the temporal extent from January 2006 to present, and the Snow Cover Extent has the temporal extent from March 2017 to present.",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "Snow",
+    "type_title": "Product"
+  },
+  "point_of_contact_data": {
+    "items": [
+      {
+        "@id": "contactInfo0",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "sdi@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "pointOfContact",
+        "url": "",
+        "urlTitle": ""
+      }
+    ]
+  },
+  "previous_item": {},
+  "production_updates_show": false,
+  "production_updates_text": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Production is on-going according to the plan.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "qualityLineage": {
+    "content-type": "text/html",
+    "data": "<html><body><p>The validation of algorithm for FSC retrieval is fully described in the Quality Assessment Report:\nhttps://land.copernicus.eu/user-corner/technical-library/hrsi-snow-qar\nThe evaluation is based on various remote-sensing reference datasets and will be completed at the end of 2020.\nMore information about this product can be found in the Product User Manual here: https://land.copernicus.eu/user-corner/technical-library/hrsi-snow-pum.</p></body></html>",
+    "encoding": "utf-8"
+  },
+  "qualitySpatialResolution_line": "20 m",
+  "resourceEffective": "2023-08-29",
+  "resourceModified": null,
+  "responsiblePartyWithRole": {
+    "items": [
+      {
+        "@id": "contactInfo0",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "copernicus@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "distributor",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo1",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "copernicus@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "custodian",
+        "url": "",
+        "urlTitle": ""
+      },
+      {
+        "@id": "contactInfo2",
+        "administrativeArea": "K",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "deliveryPoint": "Kongens Nytorv 6",
+        "electronicMailAddress": "copernicus@eea.europa.eu",
+        "organisationName": "European Environment Agency",
+        "postalCode": "1050",
+        "roleCode": "pointOfContact",
+        "url": "",
+        "urlTitle": ""
+      }
+    ]
+  },
+  "review_state": "published",
+  "rights": "",
+  "show_legend_on_prepackages": false,
+  "show_pop_up_in_mapviewer": false,
+  "spatial_representation_type": ["grid"],
+  "subjects": [],
+  "technical_documents_accordion_text": null,
+  "temporalCoverage": [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "temporalExtentEnd": "",
+  "temporalExtentStart": "2016-09-01",
+  "title": "Fractional Snow Cover 2016-present (raster 20 m), Europe, daily",
+  "type_title": "DataSet",
+  "update_frequency": "continual",
+  "validation": {
+    "content-type": "text/html",
+    "data": "<html><body><p>Validated</p></body></html>",
+    "encoding": "utf8"
+  },
+  "version": "current",
+  "versioning_enabled": true,
+  "working_copy": null,
+  "working_copy_of": null
+}

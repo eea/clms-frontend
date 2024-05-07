@@ -1,0 +1,1260 @@
+{
+  "@components": {
+    "actions": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@actions"
+    },
+    "aliases": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@aliases"
+    },
+    "breadcrumbs": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@breadcrumbs"
+    },
+    "contextnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@contextnavigation"
+    },
+    "layout": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@layout"
+    },
+    "localnavigation": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@localnavigation"
+    },
+    "navigation": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@navigation"
+    },
+    "navroot": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@navroot"
+    },
+    "siblings": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@siblings"
+    },
+    "translations": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@translations"
+    },
+    "types": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@types"
+    },
+    "workflow": {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@workflow"
+    }
+  },
+  "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness",
+  "@type": "Product",
+  "UID": "ef09d9948c6749859a2b9bddd749c9d4",
+  "allow_discussion": false,
+  "blocks": {
+    "c5287fd9-cd4d-4198-9b71-051aa7bcbc88": {
+      "@layout": "1b631e7f-6eae-4c48-8a0e-3fcccd9ee2c0",
+      "@type": "tabs_block",
+      "block": "c5287fd9-cd4d-4198-9b71-051aa7bcbc88",
+      "data": {
+        "blocks": {
+          "1af1c2f9-5dc2-4c48-8218-2a9834f92453": {
+            "@type": "tab",
+            "blocks": {
+              "455a08b2-26ec-4e1e-9a76-34d95c5251a8": {
+                "@type": "slate",
+                "plaintext": "High Resolution Water Layer product will be produced as part of the High Resolution Water, Snow and Ice project. It will give continuation to High Resolution Layer Water and Wetness  product on the water information (the wetness information will not be included).",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "High Resolution Water Layer product will be produced as part of the High Resolution Water, Snow and Ice project. It will give continuation to High Resolution Layer Water and Wetness  product on the water information (the wetness information will not be included). "
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "66b7e647-8875-40a3-8bb7-94c882eff291": {
+                "@type": "slate",
+                "plaintext": "The first High Resolution Water Layer product for the 2021 reference year will be made available in Q1 2025 and will become part of the Water Bodies product group.",
+                "styles": {
+                  "backgroundColor": "#ebefc6"
+                },
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The first High Resolution Water Layer product for the 2021 reference year will be made available in Q1 2025 and will become part of the Water Bodies product group."
+                      }
+                    ],
+                    "type": "callout"
+                  }
+                ]
+              },
+              "9dc9d7d6-7034-482d-8090-bb1b37ff72b6": {
+                "@type": "slate",
+                "plaintext": "The new High Resolution Water Layer product will be produced for the 2021 and 2024 reference years. This product is expected to serve special applications used to the High Resolution Water Layer interpretation of permanent/temporary water.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The new High Resolution Water Layer product will be produced for the 2021 and 2024 reference years. This product is expected to serve special applications used to the High Resolution Water Layer interpretation of permanent/temporary water."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "455a08b2-26ec-4e1e-9a76-34d95c5251a8",
+                "9dc9d7d6-7034-482d-8090-bb1b37ff72b6",
+                "66b7e647-8875-40a3-8bb7-94c882eff291"
+              ]
+            },
+            "title": "Roadmap"
+          },
+          "a9991060-3e86-4172-b001-58320209b867": {
+            "@type": "tab",
+            "blocks": {
+              "566d8dac-d0f4-427e-8391-a6095483554f": {
+                "@type": "accordion",
+                "collapsed": false,
+                "data": {
+                  "blocks": {
+                    "7677551e-11a7-4e6e-8c04-d4820604ceed": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "75fc0231-1b33-46d8-9601-269247f036b1": {
+                          "@type": "slate",
+                          "instructions": {
+                            "content-type": "text/html",
+                            "data": "<p><br/></p>",
+                            "encoding": "utf8"
+                          },
+                          "plaintext": "Subsets of High Resolution Layer Water and Wetness datasets have also been produced in national projections, i.e. according to national extents and national spatial reference systems. You can request access to these subsets by contacting our Service desk .",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "Subsets of High Resolution Layer Water and Wetness datasets have also been produced in national projections, i.e. according to national extents and national spatial reference systems. You can request access to these subsets by contacting our "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Service desk"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "internal": {
+                                        "internal_link": [
+                                          {
+                                            "@id": "https://land.copernicus.eu/en/contact-service-helpdesk",
+                                            "title": "/en/contact-service-helpdesk"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "type": "a"
+                                },
+                                {
+                                  "text": ". "
+                                }
+                              ],
+                              "type": "callout"
+                            }
+                          ]
+                        },
+                        "b61e9048-b0f4-4ffc-b422-76ed4cb5572b": {
+                          "@type": "listing",
+                          "block": "b61e9048-b0f4-4ffc-b422-76ed4cb5572b",
+                          "query": [],
+                          "querystring": {
+                            "query": [
+                              {
+                                "i": "portal_type",
+                                "o": "plone.app.querystring.operation.selection.any",
+                                "v": ["DataSet"]
+                              },
+                              {
+                                "i": "path",
+                                "o": "plone.app.querystring.operation.string.absolutePath",
+                                "v": "/en/products/high-resolution-layer-water-and-wetness"
+                              }
+                            ],
+                            "sort_on": "getObjPositionInParent",
+                            "sort_order": "ascending"
+                          },
+                          "variation": "CclCardsline"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "b61e9048-b0f4-4ffc-b422-76ed4cb5572b",
+                          "75fc0231-1b33-46d8-9601-269247f036b1"
+                        ]
+                      },
+                      "title": "Datasets"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["7677551e-11a7-4e6e-8c04-d4820604ceed"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              },
+              "73c9dac7-1a1d-44ae-87da-bd941b79a8b5": {
+                "@type": "slate",
+                "plaintext": "The importance of water is very hard to overstate. It shapes life at every scale of organization, from microscopic cells to our continent-spanning civilizations. Accurate and timely data on water bodies and other wet surfaces is therefore extremely valuable, as water resources form the backbone of ecosystems, enable agriculture, and guide urban planning decisions. Such data has historically been challenging to acquire due mostly to the dynamic and complex nature of water itself, but given how essential it is to monitor water resources in the modern age, significant efforts have been made to overcome these challenges.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The importance of water is very hard to overstate. It shapes life at every scale of organization, from microscopic cells to our continent-spanning civilizations. Accurate and timely data on water bodies and other wet surfaces is therefore extremely valuable, as water resources form the backbone of ecosystems, enable agriculture, and guide urban planning decisions. Such data has historically been challenging to acquire due mostly to the dynamic and complex nature of water itself, but given how essential it is to monitor water resources in the modern age, significant efforts have been made to overcome these challenges."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "963bdc6c-a4e7-4a49-b4a7-833130887e70": {
+                "@type": "accordion",
+                "collapsed": true,
+                "data": {
+                  "blocks": {
+                    "9b709e3b-0977-4939-ba6e-30fe52a1f207": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "0e2e83f4-3e17-4802-95be-01a0f57fdd64": {
+                          "@type": "slate",
+                          "plaintext": "External validation",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "\nExternal validation"
+                                }
+                              ],
+                              "type": "h3"
+                            }
+                          ]
+                        },
+                        "4041f054-0a6f-4c88-912c-cebfad7cae1d": {
+                          "@type": "slate",
+                          "plaintext": "You can request access to the specialised products by contacting our Service desk .",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "You can request access to the specialised products by contacting our\u00a0"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Service desk"
+                                    }
+                                  ],
+                                  "data": {
+                                    "link": {
+                                      "external": {
+                                        "external_link": "https://clms-prod.eea.europa.eu/en/contact-service-helpdesk",
+                                        "target": "_self"
+                                      }
+                                    }
+                                  },
+                                  "type": "a",
+                                  "url": "https://land.copernicus.eu/en/contact-service-helpdesk"
+                                },
+                                {
+                                  "text": "."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "5dfe8c69-dfcc-4bc1-a4eb-91eb026f94d2": {
+                          "@type": "slate",
+                          "plaintext": " Warning: for the reasons outlined above, we see only a limited relevance of the High Resolution Layer Water and WetnessValidation report to the now available products.",
+                          "styles": {
+                            "backgroundColor": "#fce6dc"
+                          },
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Warning:"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": " for the reasons outlined above, we see only a limited relevance of the High Resolution Layer Water and WetnessValidation report to the now available products."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "6171b961-ff4c-4e02-a9fe-f3d957b16109": {
+                          "@type": "slate",
+                          "plaintext": "Expert products and Intermediate layers",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": " \nExpert products and Intermediate layers"
+                                }
+                              ],
+                              "type": "h3"
+                            }
+                          ]
+                        },
+                        "712229a9-7504-43c0-a3f1-291eb3aa91f3": {
+                          "@type": "slate",
+                          "plaintext": "In addition to the High Resolution Layer Water and Wetness products provided on this website you can also request access to the intermediate layers used in the production of the High Resolution Water and Wetness products and expert products. These products are intended for users with a deep understanding of satellite remote sensing. Therefore, please consult product documentation before using them.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "In addition to the High Resolution Layer Water and Wetness products provided on this website you can also request access to the intermediate layers used in the production of the High Resolution Water and Wetness products and expert products. These products are intended for users with a deep understanding of satellite remote sensing. Therefore, please consult product documentation before using them."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "7fdc281f-100c-4ee3-b24a-b133c0e2e91a": {
+                          "@type": "slate",
+                          "plaintext": "First quality check of the High Resolution Layer Water and Wetness initial delivery showed that the 2018 layer had an increase in temporary wet over the mapped area compared to the 2015 layer, mainly on agricultural land. Due to this, the consistency between the 2015 and 2018 products was evaluated as limited. The re-processing of the historic water and wetness masks (2009-2015) has been performed using the current methodology (2018) to enhance the quality of the historic products. Since the historic masks 2012-2015 are also used as input also for the current production, this step improved the overall quality of the 2018 layer. In addition, also the temporary wet class of the 2015 layer has been re-processed with this delivery based on the new methodology and the re-processed water and wetness masks. This improved the overall quality of the layer and furthermore ensures consistency across the whole time series and provides an enhanced and reusable rolling archive.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "First quality check of the High Resolution Layer Water and Wetness initial delivery showed that the 2018 layer had an increase in temporary wet over the mapped area compared to the 2015 layer, mainly on agricultural land. Due to this, the consistency between the 2015 and 2018 products was evaluated as limited. The re-processing of the historic water and wetness masks (2009-2015) has been performed using the current methodology (2018) to enhance the quality of the historic products. Since the historic masks 2012-2015 are also used as input also for the current production, this step improved the overall quality of the 2018 layer. In addition, also the temporary wet class of the 2015 layer has been re-processed with this delivery based on the new methodology and the re-processed water and wetness masks. This improved the overall quality of the layer and furthermore ensures consistency across the whole time series and provides an enhanced and reusable rolling archive."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "957b7cbf-30f9-4831-8821-616b09d810b8": {
+                          "@type": "slate",
+                          "plaintext": "   Intermediate layers: ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": " "
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": ""
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": "\n"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Intermediate layers:"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "974a5786-0d66-4df3-b2e6-fe9506761c7c": {
+                          "@type": "slate",
+                          "plaintext": "See the High Resolution Layer Water and Wetnes intermediate layers and expert products here.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "See the High Resolution Layer Water and Wetnes intermediate layers and expert products here."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "97a80e60-040b-44df-9891-be323a72a8ae": {
+                          "@type": "slate",
+                          "plaintext": " Expert products: ",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": " \n"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Expert products:"
+                                    }
+                                  ],
+                                  "type": "strong"
+                                },
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "9ccf6892-9bdb-4c93-92f9-8d10ac9ae695": {
+                          "@type": "slate",
+                          "plaintext": "The main High Resolution Layer Water and Wetness product at pan-European level shows the occurrence of water and wet surfaces over the period from 2009 to 2018 and has four classess:",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "The main High Resolution Layer Water and Wetness product at pan-European level shows the occurrence of water and wet surfaces over the period from 2009 to 2018 and has four classess:"
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "9f5fd108-3196-496e-be21-bda61b548342": {
+                          "@type": "slate",
+                          "plaintext": "The product is based on multi-temporal and multi-seasonal optical high-resolution satellite imagery and on radar information (Sentinel-1 data) with a geometric resolution of 10 m on a pan-European basis. A multitude of optical and SAR imagery is used, covering a prolonged time series of seven years, which aim at capturing the intra-annual dynamics as much as possible within a given area and lead to one image composite per season (each season covered by three months) and year during the observation period.",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": " \nThe product is based on multi-temporal and multi-seasonal optical high-resolution satellite imagery and on radar information (Sentinel-1 data) with a geometric resolution of 10 m on a pan-European basis. A multitude of optical and SAR imagery is used, covering a prolonged time series of seven years, which aim at capturing the intra-annual dynamics as much as possible within a given area and lead to one image composite per season (each season covered by three months) and year during the observation period."
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "ae8ee239-3c59-4ed1-9a1d-3e7e66a2ec98": {
+                          "@type": "slate",
+                          "plaintext": "Ppermanent water Temporary water Permanent wetness Temporary wetness",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Ppermanent water"
+                                    }
+                                  ],
+                                  "type": "li"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Temporary water"
+                                    }
+                                  ],
+                                  "type": "li"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Permanent wetness"
+                                    }
+                                  ],
+                                  "type": "li"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "text": "Temporary wetness"
+                                    }
+                                  ],
+                                  "type": "li"
+                                }
+                              ],
+                              "type": "ul"
+                            }
+                          ]
+                        },
+                        "bae8240d-837b-4631-924d-e0e3fef6164b": {
+                          "@type": "slate",
+                          "plaintext": "Water and Wetness Probability Index 2015 20 m Water and Wetness Probability Index 2018 10 m",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Water and Wetness Probability Index"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "2015"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "20 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Water and Wetness Probability Index"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "2018"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "10 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    }
+                                  ],
+                                  "type": "tbody"
+                                }
+                              ],
+                              "type": "table"
+                            }
+                          ]
+                        },
+                        "d3283d8a-0314-4072-ad4a-e1e08d9de260": {
+                          "@type": "slate",
+                          "plaintext": "The\u00a0external validation of the High Resolution Layer Water and Wetness was limited to a preliminary version, where the class temporary wetness (class 4) was excluded. This version was later fully replaced with a second full delivery of the product. The re-processing was necessary for the following reasons:",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": "The\u00a0external validation of the High Resolution Layer Water and Wetness was limited to a preliminary version, where the class temporary wetness (class 4) was excluded. This version was later fully replaced with a second full delivery of the product. The re-processing was necessary for the following reasons:"
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "f6ec79c8-b831-4411-9517-fd6479787b2b": {
+                          "@type": "slate",
+                          "plaintext": "Water and Wetness Confidence Layer 2015 10 m Water and Wetness Consistency Support Layer 2018 10 m",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Water and Wetness Confidence Layer"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "2015"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "10 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "Water and Wetness Consistency Support Layer"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "2018"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        },
+                                        {
+                                          "children": [
+                                            {
+                                              "children": [
+                                                {
+                                                  "text": "10 m"
+                                                }
+                                              ],
+                                              "type": "p"
+                                            }
+                                          ],
+                                          "type": "td"
+                                        }
+                                      ],
+                                      "type": "tr"
+                                    }
+                                  ],
+                                  "type": "tbody"
+                                }
+                              ],
+                              "type": "table"
+                            }
+                          ]
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "9ccf6892-9bdb-4c93-92f9-8d10ac9ae695",
+                          "ae8ee239-3c59-4ed1-9a1d-3e7e66a2ec98",
+                          "9f5fd108-3196-496e-be21-bda61b548342",
+                          "6171b961-ff4c-4e02-a9fe-f3d957b16109",
+                          "712229a9-7504-43c0-a3f1-291eb3aa91f3",
+                          "4041f054-0a6f-4c88-912c-cebfad7cae1d",
+                          "974a5786-0d66-4df3-b2e6-fe9506761c7c",
+                          "97a80e60-040b-44df-9891-be323a72a8ae",
+                          "bae8240d-837b-4631-924d-e0e3fef6164b",
+                          "957b7cbf-30f9-4831-8821-616b09d810b8",
+                          "f6ec79c8-b831-4411-9517-fd6479787b2b",
+                          "0e2e83f4-3e17-4802-95be-01a0f57fdd64",
+                          "d3283d8a-0314-4072-ad4a-e1e08d9de260",
+                          "7fdc281f-100c-4ee3-b24a-b133c0e2e91a",
+                          "5dfe8c69-dfcc-4bc1-a4eb-91eb026f94d2"
+                        ]
+                      },
+                      "title": "Technical summary"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["9b709e3b-0977-4939-ba6e-30fe52a1f207"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "styles": {},
+                "title_size": "h2"
+              },
+              "a437e926-6e40-4b38-8938-66d03c114ca6": {
+                "@type": "accordion",
+                "collapsed": true,
+                "data": {
+                  "blocks": {
+                    "2262e82d-1f70-41e8-9c57-714f2faa2b0e": {
+                      "@type": "accordionPanel",
+                      "blocks": {
+                        "dc68a8ea-efb0-4844-b2da-0a73edf9eeab": {
+                          "@type": "slate",
+                          "plaintext": "",
+                          "value": [
+                            {
+                              "children": [
+                                {
+                                  "text": ""
+                                }
+                              ],
+                              "type": "p"
+                            }
+                          ]
+                        },
+                        "ed936160-193b-40b9-8488-2117fe3ef3d6": {
+                          "@type": "relatedListing",
+                          "content_type": "TechnicalLibrary",
+                          "variation": "CclCardsdoc"
+                        }
+                      },
+                      "blocks_layout": {
+                        "items": [
+                          "ed936160-193b-40b9-8488-2117fe3ef3d6",
+                          "dc68a8ea-efb0-4844-b2da-0a73edf9eeab"
+                        ]
+                      },
+                      "title": "See product documentation here"
+                    }
+                  },
+                  "blocks_layout": {
+                    "items": ["2262e82d-1f70-41e8-9c57-714f2faa2b0e"]
+                  }
+                },
+                "non_exclusive": true,
+                "right_arrows": true,
+                "title_size": "h2"
+              },
+              "c560bf7a-bc2f-412b-b8d1-2f057b3cc14c": {
+                "@type": "slate",
+                "plaintext": "",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "cb1392d0-80c3-4261-a94f-dbc3e3d0becc": {
+                "@type": "slate",
+                "plaintext": "The High Resolution Layer Water and Wetness provides detailed information about the presence and condition of water and wet surfaces across Europe. This product leverages both Sentinel-1 and Sentinel-2 images to enable effective mapping of land cover characteristics such as permanent water bodies, transitional water bodies, and soil wetness. The product has a wide range of applications, including supporting policy decisions, aiding in climate change research, hydrological modeling, habitat mapping, and urban planning. As challenges related to managing water resources continue multiply, the High Resolution Layer Water and Wetness product remains an instrumental tool in addressing them.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The High Resolution Layer Water and Wetness provides detailed information about the presence and condition of water and wet surfaces across Europe. This product leverages both Sentinel-1 and Sentinel-2 images to enable effective mapping of land cover characteristics such as permanent water bodies, transitional water bodies, and soil wetness. The product has a wide range of applications, including supporting policy decisions, aiding in climate change research, hydrological modeling, habitat mapping, and urban planning. As challenges related to managing water resources continue multiply, the High Resolution Layer Water and Wetness product remains an instrumental tool in addressing them."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "73c9dac7-1a1d-44ae-87da-bd941b79a8b5",
+                "cb1392d0-80c3-4261-a94f-dbc3e3d0becc",
+                "963bdc6c-a4e7-4a49-b4a7-833130887e70",
+                "a437e926-6e40-4b38-8938-66d03c114ca6",
+                "566d8dac-d0f4-427e-8391-a6095483554f",
+                "c560bf7a-bc2f-412b-b8d1-2f057b3cc14c"
+              ]
+            },
+            "title": "Main"
+          },
+          "baaf8424-789a-4024-bffb-372f1062444f": {
+            "@type": "tab",
+            "blocks": {
+              "195e3649-bfc6-4ae4-95e4-edb9c59a8b70": {
+                "@type": "slate",
+                "value": []
+              },
+              "2632a0ea-7cdb-498b-945b-26c8d51527b6": {
+                "@type": "slate",
+                "plaintext": "The High Resolution Layer Water and Wetness product addresses a wide range of European Union policies such as environment, agriculture, regional development, transport and energy. In this context, frequently updated reliable data about water and wet surfaces in Europe is necessary for efficient water management. Specifically, with the more frequent and higher quality Earth observation data of the Sentinel satellites this information can be provided even in a higher spatial resolution of 10 m for the 2018 reference year as compared to 2015 (20 m spatial resolution). Higher resolution of the input data and additional layers improve the information quality and quantity to feed the increasing reporting obligations of European Union organisations as well as Member States.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The High Resolution Layer Water and Wetness product addresses a wide range of European Union policies such as environment, agriculture, regional development, transport and energy. In this context, frequently updated reliable data about water and wet surfaces in Europe is necessary for efficient water management. Specifically, with the more frequent and higher quality Earth observation data of the Sentinel satellites this information can be provided even in a higher spatial resolution of 10 m for the 2018 reference year as compared to 2015 (20 m spatial resolution). Higher resolution of the input data and additional layers improve the information quality and quantity to feed the increasing reporting obligations of European Union organisations as well as Member States."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "339b00d0-7a5c-4c20-9d70-d91809519c3a": {
+                "@type": "relatedListing",
+                "content_type": "UseCase",
+                "variation": "CclCardsline-no-description"
+              },
+              "34b71351-8ca1-4ed3-9270-120b4ebbef99": {
+                "@type": "dividerBlock",
+                "styles": {}
+              },
+              "466d7e36-b74b-43d4-9545-a3cffa7438d9": {
+                "@type": "slate",
+                "plaintext": "In this section you can find documented High Resolution Layer Water and Wetness use cases.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "  \nIn this section you can find documented High Resolution Layer Water and Wetness use cases."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "5ff03a2d-324d-48d3-b151-9bceb06e6f47": {
+                "@type": "slate",
+                "plaintext": "If you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": " \nIf you would like to share your use case please submit it using the form accessible below. All use cases are reviewed by our experts, and the most innovative use cases are published on our website."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              },
+              "fdd6138f-372b-4258-8ebc-eaa36ff9303d": {
+                "@type": "cclButtonComponent",
+                "disabled": false,
+                "download": false,
+                "href": [
+                  {
+                    "@id": "http://backend:8080/Plone/en/use-cases/submit-use-case",
+                    "@type": "Document",
+                    "Description": "Tell us how you use the Copernicus Land Monitoring Service data.",
+                    "Title": "Submit use case",
+                    "title": "Submit use case"
+                  }
+                ],
+                "style": "filled",
+                "target": "_self",
+                "title": "Submit your use case"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "2632a0ea-7cdb-498b-945b-26c8d51527b6",
+                "5ff03a2d-324d-48d3-b151-9bceb06e6f47",
+                "fdd6138f-372b-4258-8ebc-eaa36ff9303d",
+                "34b71351-8ca1-4ed3-9270-120b4ebbef99",
+                "466d7e36-b74b-43d4-9545-a3cffa7438d9",
+                "339b00d0-7a5c-4c20-9d70-d91809519c3a",
+                "195e3649-bfc6-4ae4-95e4-edb9c59a8b70"
+              ]
+            },
+            "title": "Applications & use cases"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "a9991060-3e86-4172-b001-58320209b867",
+            "baaf8424-789a-4024-bffb-372f1062444f",
+            "1af1c2f9-5dc2-4c48-8218-2a9834f92453"
+          ]
+        }
+      },
+      "instructions": {
+        "content-type": "text/html",
+        "data": "<p><br/></p>",
+        "encoding": "utf8"
+      },
+      "menuAlign": "left",
+      "menuCompact": true,
+      "menuFluid": true,
+      "menuPosition": "inline",
+      "menuText": true,
+      "template": "CCLProductTabs",
+      "verticalAlign": "flex-start"
+    },
+    "c6465dc3-63bb-4ece-a2f8-a74425666587": {
+      "@layout": "82008ae8-dbe9-4d85-b411-c5a5712bf337",
+      "@type": "title",
+      "block": "c6465dc3-63bb-4ece-a2f8-a74425666587"
+    },
+    "f7dfdd4a-0432-44a5-bc2b-96c1675d3897": {
+      "@layout": "250fcf76-7b52-4bec-bd66-7b50e0dd6613",
+      "@type": "text",
+      "block": "f7dfdd4a-0432-44a5-bc2b-96c1675d3897"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "c6465dc3-63bb-4ece-a2f8-a74425666587",
+      "c5287fd9-cd4d-4198-9b71-051aa7bcbc88",
+      "f7dfdd4a-0432-44a5-bc2b-96c1675d3897"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2021-12-01T09:32:19+00:00",
+  "creators": ["admin"],
+  "description": "The combined High Resolution Layer Water and Wetness product at pan-European level shows the occurrence of water and wet surfaces over the period from 2009 to 2018.",
+  "effective": "2022-01-21T11:09:10+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "id": "high-resolution-layer-water-and-wetness",
+  "image": {
+    "content-type": "image/png",
+    "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-400-84502b959c2934a9483b87febd9a0876.png",
+    "filename": "WAW18.png",
+    "height": 400,
+    "scales": {
+      "big": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-80-6a548154470a92445eb73af5467e6606.png",
+        "height": 80,
+        "width": 80
+      },
+      "great": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-1200-a7bacde95e7276fe0acff27b37e1e260.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-1920-acddb132c99e3f23bcaf69ee6eb8b1b7.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge2400": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-2400-9607e92374597d585f4bf4ad19698618.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge3000": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-3000-ce2689d46f4f4e9f0972331188d98bc6.png",
+        "height": 400,
+        "width": 400
+      },
+      "huge4000": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-4000-ec2216023a91c5e02d1f9d6a6c592c3a.png",
+        "height": 400,
+        "width": 400
+      },
+      "icon": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-32-974877b5e194bec9efd92f211f425bd7.png",
+        "height": 32,
+        "width": 32
+      },
+      "large": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-800-dd6950a0d1dfe796606dd04fbe4474fd.png",
+        "height": 400,
+        "width": 400
+      },
+      "larger": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-1000-da65eeb324aa5557e5a6d35b30d6761c.png",
+        "height": 400,
+        "width": 400
+      },
+      "medium": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-60-a59c2301ed6f29903edc08252377eb38.png",
+        "height": 60,
+        "width": 60
+      },
+      "mini": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-200-8e882a8559c4ec42b85955c7fd8fe2d7.png",
+        "height": 200,
+        "width": 200
+      },
+      "preview": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-400-4d3d2326b3f2a7a7c35479fa0d737b5e.png",
+        "height": 400,
+        "width": 400
+      },
+      "small": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-48-31b7de4d6298de062864d99c86410d9e.png",
+        "height": 48,
+        "width": 48
+      },
+      "teaser": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-600-ccd54ebd16f7b76424500a4633ea4726.png",
+        "height": 400,
+        "width": 400
+      },
+      "thumb": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-128-a5b6677ac365354f5756333edadf50dc.png",
+        "height": 128,
+        "width": 128
+      },
+      "tile": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-64-c398e4857e56c4143d1bdea1164d9d4f.png",
+        "height": 64,
+        "width": 64
+      },
+      "tiny": {
+        "download": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/@@images/image-24-842f02da5912db76586dfb2635fd86ed.png",
+        "height": 24,
+        "width": 24
+      }
+    },
+    "size": 26285,
+    "width": 400
+  },
+  "image_caption": null,
+  "is_folderish": true,
+  "items": [
+    {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2018",
+      "@type": "DataSet",
+      "description": "Provides at pan-European level in the spatial resolution of 10 m and 100 m the occurrence of water and wet surfaces over the period from 2012 to 2018.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-0a6baf4cd3dffeb5691a6cd804d723b7.png",
+            "filename": "WAW18.png",
+            "height": 400,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-d4a1e3121e49ecdbd5be3ffe5bd84ddb.png",
+                "height": 80,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-cd13523b266d9bfca6a3dae1ad5f1c86.png",
+                "height": 32,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-f30c309b27589e93c5cff6e3707e51ac.png",
+                "height": 60,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-bc57287a05dc0b7ce0bf377f22abefa1.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-51447a562560b1122d7d9dcaadb1180e.png",
+                "height": 400,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-4ce3f35776418956176079b4695874a8.png",
+                "height": 48,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-12bd8e2148a1f010caa22831fbf5ca9e.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-d73357816dca0d3d21b8342187591a10.png",
+                "height": 64,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-22688a13d524a311e5c6426b7b55660b.png",
+                "height": 24,
+                "width": 24
+              }
+            },
+            "size": 31712,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Water and Wetness status 2018 (raster 10 m and 100 m), Europe, 3-yearly",
+      "type_title": "DataSet"
+    },
+    {
+      "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-water-and-wetness/water-and-wetness-status-2015",
+      "@type": "DataSet",
+      "description": "Provides at pan-European level in the spatial resolution of 20 m and 100 m the occurrence of water and wet surfaces over the period from 2009 to 2015.",
+      "getRemoteUrl": null,
+      "image_field": "image",
+      "image_scales": {
+        "image": [
+          {
+            "content-type": "image/png",
+            "download": "@@images/image-400-d624a1ff6bf14014e8169ec80cb3acfe.png",
+            "filename": "WAW15.png",
+            "height": 400,
+            "scales": {
+              "big": {
+                "download": "@@images/image-80-5c2f500380f188456c1a7173c0c28d3b.png",
+                "height": 80,
+                "width": 80
+              },
+              "icon": {
+                "download": "@@images/image-32-f75b4c10a2ed345b25ef3e357fb85431.png",
+                "height": 32,
+                "width": 32
+              },
+              "medium": {
+                "download": "@@images/image-60-40d9beabadeff5fd3aad94f373d291aa.png",
+                "height": 60,
+                "width": 60
+              },
+              "mini": {
+                "download": "@@images/image-200-10750b1108e1230510204b012489266d.png",
+                "height": 200,
+                "width": 200
+              },
+              "preview": {
+                "download": "@@images/image-400-e46a1fc930ee52447480a64de42fa784.png",
+                "height": 400,
+                "width": 400
+              },
+              "small": {
+                "download": "@@images/image-48-90e8bb3dd83375f451098f747ea1e257.png",
+                "height": 48,
+                "width": 48
+              },
+              "thumb": {
+                "download": "@@images/image-128-47bf7a19702514164171a8ae695ce2ee.png",
+                "height": 128,
+                "width": 128
+              },
+              "tile": {
+                "download": "@@images/image-64-3b0afefbcd80894802c9e30a1e0554ca.png",
+                "height": 64,
+                "width": 64
+              },
+              "tiny": {
+                "download": "@@images/image-24-1dde0969f54f057fe42e529a9e869237.png",
+                "height": 24,
+                "width": 24
+              }
+            },
+            "size": 44411,
+            "width": 400
+          }
+        ]
+      },
+      "review_state": "published",
+      "title": "Water and Wetness status 2015 (raster 20 m and 100 m), Europe, 3-yearly",
+      "type_title": "DataSet"
+    }
+  ],
+  "items_total": 2,
+  "language": {
+    "title": "English",
+    "token": "en"
+  },
+  "layout": "view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "mapviewer_component": {
+    "title": "01#Land Cover and Land Use Mapping",
+    "token": "2a04c969-7f91-476f-8ab2-6fb4a7588896"
+  },
+  "mapviewer_message": null,
+  "modified": "2024-02-09T13:18:21+00:00",
+  "next_item": {
+    "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-small-woody-features",
+    "@type": "Product",
+    "description": "The High Resolution Layer Small Woody Features product at pan-European level provides harmonized information on linear structures such as hedgerows, as well as patches of woody features. It has a three years update cycle and is available for the 2015 and 2018 reference years including the change layer.",
+    "title": "High Resolution Layer Small Woody Features",
+    "type_title": "Product"
+  },
+  "parent": {
+    "@id": "https://land.copernicus.eu/en/products",
+    "@type": "Document",
+    "description": "",
+    "getRemoteUrl": null,
+    "image_field": null,
+    "image_scales": null,
+    "review_state": "published",
+    "title": "CLMS portfolio",
+    "type_title": "Page"
+  },
+  "previous_item": {
+    "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-grassland",
+    "@type": "Product",
+    "description": "The High Resolution Layer Grassland is a binary product at pan-European level providing a grassland/non-grassland mask. It has a three years update cycle and is available for the 2015 and 2018 reference years including the change layer.",
+    "title": "High Resolution Layer Grassland",
+    "type_title": "Product"
+  },
+  "review_state": "published",
+  "rights": "",
+  "show_in_mapviewer_link": true,
+  "subjects": [],
+  "text": {
+    "content-type": "text/html",
+    "data": "<html><body><p><br/></p></body></html>",
+    "encoding": "utf8"
+  },
+  "title": "High Resolution Layer Water and  Wetness",
+  "type_title": "Product",
+  "version": "current",
+  "versioning_enabled": true,
+  "working_copy": null,
+  "working_copy_of": null
+}
