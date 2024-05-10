@@ -120,6 +120,13 @@ const clc2018_cart = [
     area: { type: 'nuts', value: 'ES513', valueName: 'Lleida' },
   },
 ];
+
+const all_cart = [
+  ...fsc2016p20med_cart,
+  ...lc2019_cart,
+  ...wws2018_cart,
+  ...clc2018_cart,
+];
 // const rest_cart = [
 //   {
 //     UID: 'c987cc580fcc40f7b7b4c31fec0a5312',
@@ -230,8 +237,8 @@ describe('Cart Tests', () => {
         );
       },
     });
-    cy.get('li a.header-login-link strong').should('contain', '4');
     cy.wait('@projections');
+    cy.get('li a.header-login-link strong').should('contain', '4');
 
     cy.wait(2000);
     // first cart item check and modify the selection
@@ -645,5 +652,62 @@ describe('Cart Tests', () => {
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
     cy.get('li a.header-login-link strong').should('contain', '0');
+  });
+
+  it('Test Cart pagination and clearing', () => {
+    cy.visit(`/en/cart`, {
+      onBeforeLoad(win) {
+        win.localStorage.setItem(
+          'cart_session_admin',
+          JSON.stringify(all_cart),
+        );
+      },
+    });
+
+    cy.wait('@projections');
+    cy.get('li a.header-login-link strong').should('contain', '10');
+    cy.wait(2000);
+    cy.get('.pagination-wrapper').should('not.exist');
+    cy.get('tbody').find('tr').should('have.length', 10);
+
+    // Duplicate the last element
+    cy.get('td.text-end').eq(3).find('.info-icon').eq(0).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '11');
+    cy.get('.pagination-wrapper').should('exist');
+    cy.get('tbody').find('tr').should('have.length', 10);
+
+    // Go to 2nd page
+    cy.get('.pagination-wrapper .item').contains('2').click();
+    cy.get('tbody').find('tr').should('have.length', 1);
+
+    // Remove the element in the second page
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('.pagination-wrapper').should('not.exist');
+    cy.get('tbody').find('tr').should('have.length', 10);
+
+    //Remove all the elements
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '9');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '8');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '7');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '6');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '5');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '4');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '3');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '2');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('li a.header-login-link strong').should('contain', '1');
+    cy.get('td.text-end').eq(0).find('.info-icon').eq(1).find('button').click();
+    cy.get('.ui.container h1').should('contain', 'Cart');
+    cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
+    cy.get('li a.header-login-link strong').should('contain', '0');
+    cy.wait(1000);
   });
 });
