@@ -1767,9 +1767,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.278":
-  version: 0.1.278
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.278"
+"@eeacms/volto-arcgis-block@npm:0.1.279":
+  version: 0.1.279
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.279"
   dependencies:
     "@eeacms/volto-clms-utils": 0.1.12
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1779,7 +1779,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: e20d58c32b049dd3bd53f1f37631be19e7c3c62dd197f46c8673f15e62b8b9ccbf4af2712385f04a180e507f43cc414e7204f430e523635a58c033f18fb94309
+  checksum: 93e65f36f52ece52369fc1578828c71f765ad2f37be02126cb77a8ee674fcd39746cd4cc78afec51d92866409a4c9ef61524804df8e841e75a2e347294872554
   languageName: node
   linkType: hard
 
@@ -1857,9 +1857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.146":
-  version: 1.1.146
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.146"
+"@eeacms/volto-clms-theme@npm:1.1.147":
+  version: 1.1.147
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.147"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1894,7 +1894,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: 5547ee0b955efc981d6de66373b11b760f3459607158d1a4a89cec20266756d5bc159d4bde00b2e9b06d726f6fe28b3e65bbab3a8e396c78f541b9fee6043c29
+  checksum: 4386e50c41bee945560a465a692edd22fcdb2460c41dc54669675b31f2a00d38b446f654a81c55566516f2952301eaa1ddbfa325f077a1e7253e3bbaa29c670d
   languageName: node
   linkType: hard
 
@@ -6695,8 +6695,8 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.278
-    "@eeacms/volto-clms-theme": 1.1.146
+    "@eeacms/volto-arcgis-block": 0.1.279
+    "@eeacms/volto-clms-theme": 1.1.147
     "@eeacms/volto-eea-kitkat": 24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
