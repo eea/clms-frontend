@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    deploy:
+      replicas: 0
+
+  backend:
+    entrypoint: sh -c "tail -f /dev/null"
+    build: ./eea.docker.plone.clms/develop/
+    volumes:
+      - ./data:/data
+      #- ./sources:/app/sources
+      - ./sources:/app/dev-sources
+      - ./eea.docker.plone.clms/develop:/app/develop
