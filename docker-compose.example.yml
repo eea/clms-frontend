@@ -1,5 +1,13 @@
 version: '3.8'
 
+# How to copy sources from container
+# first docker compose up without the
+#- ./sources:/app/sources
+# inside the container, copy
+# cp sources/* /app/dev-sources
+# then you can enable the following commented line
+#- ./sources:/app/sources
+
 services:
   frontend:
     deploy:
