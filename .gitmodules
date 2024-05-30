@@ -1,0 +1,3 @@
+[submodule "eea.docker.plone.clms"]
+	path = eea.docker.plone.clms
+	url = git@github.com:eea/eea.docker.plone.clms.git

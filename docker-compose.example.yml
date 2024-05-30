@@ -1,0 +1,23 @@
+version: '3.8'
+
+# How to copy sources from container
+# first docker compose up without the
+#- ./sources:/app/sources
+# inside the container, copy
+# cp sources/* /app/dev-sources
+# then you can enable the following commented line
+#- ./sources:/app/sources
+
+services:
+  frontend:
+    deploy:
+      replicas: 0
+
+  backend:
+    entrypoint: sh -c "tail -f /dev/null"
+    build: ./eea.docker.plone.clms/develop/
+    volumes:
+      - ./data:/data
+      #- ./sources:/app/sources
+      - ./sources:/app/dev-sources
+      - ./eea.docker.plone.clms/develop:/app/develop
