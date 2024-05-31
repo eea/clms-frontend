@@ -1751,23 +1751,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:*":
-  version: 0.1.279
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.279"
-  dependencies:
-    "@eeacms/volto-clms-utils": 0.1.12
-    "@fortawesome/fontawesome-svg-core": 1.2.35
-    "@fortawesome/free-solid-svg-icons": 5.15.3
-    "@fortawesome/react-fontawesome": 0.1.14
-    esri-loader: 3.4.0
-    highcharts: ^9.3.2
-    highcharts-react-official: ^3.1.0
-    react-datepicker: 4.10.0
-  checksum: 93e65f36f52ece52369fc1578828c71f765ad2f37be02126cb77a8ee674fcd39746cd4cc78afec51d92866409a4c9ef61524804df8e841e75a2e347294872554
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-arcgis-block@npm:0.1.283":
+"@eeacms/volto-arcgis-block@npm:*, @eeacms/volto-arcgis-block@npm:0.1.283":
   version: 0.1.283
   resolution: "@eeacms/volto-arcgis-block@npm:0.1.283"
   dependencies:
@@ -1857,9 +1841,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.155":
-  version: 1.1.155
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.155"
+"@eeacms/volto-clms-theme@npm:1.1.156":
+  version: 1.1.156
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.156"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1894,7 +1878,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: 08c7e081d77a98c8fcc346d73670354a4edc1aa055438055c9b66d710c5fac680aecf1ff86e6b3a76139f7e2196126afc5c583b983c1a49cab9f8f99a83d7bcf
+  checksum: 76ba52253b50ea78c94716f173221df474e0867d1137666a045e10c0f6c4a871201f7c140d22b78553d15a8e96558c75d56a05435180b6fd67efbc30d204598f
   languageName: node
   linkType: hard
 
@@ -6696,7 +6680,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.283
-    "@eeacms/volto-clms-theme": 1.1.155
+    "@eeacms/volto-clms-theme": 1.1.156
     "@eeacms/volto-eea-kitkat": <=24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
