@@ -4,20 +4,23 @@
     "https": "https://github.com/eea/volto-clms-theme.git",
     "path": "src",
     "package": "@eeacms/volto-clms-theme",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false
   },
   "volto-arcgis-block": {
     "url": "git@github.com:eea/volto-arcgis-block.git",
     "https": "https://github.com/eea/volto-arcgis-block.git",
     "path": "src",
     "package": "@eeacms/volto-arcgis-block",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false
   },
   "volto-clms-utils": {
     "url": "git@github.com:eea/volto-clms-utils.git",
     "https": "https://github.com/eea/volto-clms-utils.git",
     "path": "src",
     "package": "@eeacms/volto-clms-utils",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false
   }
 }
