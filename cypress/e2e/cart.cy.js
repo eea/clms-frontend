@@ -459,6 +459,49 @@ describe('Cart Tests', () => {
     cy.get('li a.header-login-link strong').should('contain', '0');
   });
 
+  it('Test dataset without date', () => {
+    cy.visit(`/en/cart`, {
+      onBeforeLoad(win) {
+        win.localStorage.setItem(
+          'cart_session_admin',
+          JSON.stringify([fsc2016p20med_cart[0]]),
+        );
+      },
+    });
+    cy.wait('@projections');
+    cy.get('li a.header-login-link strong').should('contain', '1');
+    cy.wait(1000);
+
+    cy.get('td.table-td-timeseries')
+      .eq(0)
+      .find('.info-icon')
+      .eq(0)
+      .find('button span')
+      .should('contain', 'Select dates');
+
+    // Select entire cart
+    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      expect($checkbox.parent()).to.not.have.class('checked');
+      $checkbox.click();
+      expect($checkbox.parent()).to.have.class('checked');
+    });
+
+    // Download cart
+    cy.get('a.ccl-button.ccl-button--default').click();
+    // cy.wait('@datarequest_post');
+
+    cy.get('.ui.container h1').should('contain', 'Cart');
+    cy.get('.ui.container .ccl-container h2').should(
+      'not.contain',
+      'Empty cart',
+    );
+    cy.get('.Toastify__toast-body .toast-inner-content').should(
+      'contain',
+      'Something went wrong.',
+    );
+    cy.get('li a.header-login-link strong').should('contain', '1');
+  });
+
   it('Test Layer/Band selector', () => {
     cy.visit(`/en/cart`, {
       onBeforeLoad(win) {
