@@ -370,3 +370,62 @@ Cypress.Commands.add('store', () => {
 Cypress.Commands.add('settings', (key, value) => {
   return cy.window().its('settings');
 });
+
+Cypress.Commands.add(
+  'selectDatesRange',
+  (subject, days, limitTemporalExtent = 365) => {
+    cy.wrap(subject)
+      .eq(0)
+      .find('.info-icon')
+      .eq(0)
+      .find('button span')
+      .should('contain', 'Select dates');
+    // Open timeseries datepicker
+    cy.wrap(subject).eq(0).find('.info-icon').eq(0).find('button').click();
+    cy.wait(100);
+
+    //select year and month
+    cy.get('select.react-datepicker__year-select').select('2024');
+    cy.get('select.react-datepicker__month-select').select('3');
+
+    // select a 8 days range
+    cy.get('.react-datepicker__month .react-datepicker__week')
+      .eq(1)
+      .find('.react-datepicker__day')
+      .eq(0)
+      .click();
+    cy.get('.react-datepicker__month .react-datepicker__week')
+      .eq(2)
+      .find('.react-datepicker__day')
+      .eq(0)
+      .click();
+    if (limitTemporalExtent === 7) {
+      cy.get('.react-datepicker__children-container button.ccl-button').should(
+        'have.attr',
+        'disabled',
+      );
+    }
+
+    if (days === 3) {
+      cy.get('.react-datepicker__month .react-datepicker__week')
+        .eq(1)
+        .find('.react-datepicker__day')
+        .eq(0)
+        .click();
+      cy.get('.react-datepicker__month .react-datepicker__week')
+        .eq(1)
+        .find('.react-datepicker__day')
+        .eq(2)
+        .click();
+    }
+
+    // Apply the date range
+    cy.get('.react-datepicker__children-container button.ccl-button').click();
+    cy.get('td.table-td-timeseries')
+      .eq(0)
+      .find('.info-icon')
+      .eq(0)
+      .find('button span')
+      .should('not.contain', 'Select dates');
+  },
+);
