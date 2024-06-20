@@ -343,6 +343,18 @@ describe('Cart Tests', () => {
       expect($checkbox.parent()).to.have.class('checked');
     });
 
+    cy.contains(
+      'You need to select the dates interval for some of your download items',
+    );
+    cy.get('.ccl-container .ccl-button--default').should(
+      'have.attr',
+      'disabled',
+    );
+
+    cy.get('td.table-td-timeseries').each(($el) => {
+      cy.selectDatesRange($el, 3);
+    });
+
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
 
@@ -367,64 +379,9 @@ describe('Cart Tests', () => {
     cy.get('li a.header-login-link strong').should('contain', '1');
     cy.wait(1000);
 
-    cy.get('td.table-td-timeseries')
-      .eq(0)
-      .find('.info-icon')
-      .eq(0)
-      .find('button span')
-      .should('contain', 'Select dates');
-    // open timeseries datepicker
-    cy.get('td.table-td-timeseries')
-      .eq(0)
-      .find('.info-icon')
-      .eq(0)
-      .find('button')
-      .click();
-    cy.wait(100);
-
-    //select year and month
-    cy.get('select.react-datepicker__year-select').select('2024');
-    cy.get('select.react-datepicker__month-select').select('3');
-
-    // select a 8 days range
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(1)
-      .find('.react-datepicker__day')
-      .eq(0)
-      .click();
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(2)
-      .find('.react-datepicker__day')
-      .eq(0)
-      .click();
-    cy.get('.react-datepicker__children-container button.ccl-button').should(
-      'have.attr',
-      'disabled',
-    );
-
-    // select a 3 days range
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(1)
-      .find('.react-datepicker__day')
-      .eq(0)
-      .click();
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(1)
-      .find('.react-datepicker__day')
-      .eq(2)
-      .click();
-    cy.get('.react-datepicker__children-container button.ccl-button').should(
-      'not.have.attr',
-      'disabled',
-    );
-    //apply the date range
-    cy.get('.react-datepicker__children-container button.ccl-button').click();
-    cy.get('td.table-td-timeseries')
-      .eq(0)
-      .find('.info-icon')
-      .eq(0)
-      .find('button span')
-      .should('not.contain', 'Select dates');
+    cy.get('td.table-td-timeseries').each(($el) => {
+      cy.selectDatesRange($el, 3);
+    });
 
     // intercept the POST and check the body data
     cy.intercept(
@@ -490,17 +447,18 @@ describe('Cart Tests', () => {
     });
 
     // Download cart
-    cy.get('a.ccl-button.ccl-button--default').click();
-    // cy.wait('@datarequest_post');
+    cy.contains(
+      'You need to select the dates interval for some of your download items',
+    );
+    cy.get('.ccl-container .ccl-button--default').should(
+      'have.attr',
+      'disabled',
+    );
 
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should(
       'not.contain',
       'Empty cart',
-    );
-    cy.get('.Toastify__toast-body .toast-inner-content').should(
-      'contain',
-      'Something went wrong.',
     );
     cy.get('li a.header-login-link strong').should('contain', '1');
   });
@@ -755,5 +713,78 @@ describe('Cart Tests', () => {
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
     cy.get('li a.header-login-link strong').should('contain', '0');
     cy.wait(1000);
+  });
+
+  it('Test Cart downloading dataset with auxiliary calendar without dates', () => {
+    cy.visit(`/en/cart`, {
+      onBeforeLoad(win) {
+        win.localStorage.setItem(
+          'cart_session_admin',
+          JSON.stringify([fsc2016p20med_cart[0]]),
+        );
+      },
+    });
+    cy.wait('@projections');
+    cy.get('li a.header-login-link strong').should('contain', '1');
+    cy.wait(1000);
+
+    cy.get('td.table-td-timeseries')
+      .eq(0)
+      .find('.info-icon')
+      .eq(0)
+      .find('button span')
+      .should('contain', 'Select dates');
+    // open timeseries datepicker
+    cy.get('td.table-td-timeseries')
+      .eq(0)
+      .find('.info-icon')
+      .eq(0)
+      .find('button')
+      .click();
+    cy.wait(100);
+
+    // Select entire cart
+    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      expect($checkbox.parent()).to.not.have.class('checked');
+      $checkbox.click();
+      expect($checkbox.parent()).to.have.class('checked');
+    });
+
+    cy.contains(
+      'You need to select the dates interval for some of your download items',
+    );
+    cy.get('.ccl-container .ccl-button--default').should(
+      'have.attr',
+      'disabled',
+    );
+
+    cy.get('td.table-td-timeseries').each(($el) => {
+      cy.selectDatesRange($el, 3);
+    });
+
+    // intercept the POST and check the body data
+    cy.intercept(
+      {
+        method: 'POST',
+        url: '@datarequest_post',
+      },
+      (req) => {
+        expect(req.body.Datasets[0].TemporalFilter.EndDate).to.be.greaterThan(
+          0,
+        );
+        expect(req.body.Datasets[0].TemporalFilter.StartDate).to.be.greaterThan(
+          0,
+        );
+        req.reply(success_reponse);
+      },
+    ).as('datarequest_post');
+
+    // Download cart
+    cy.get('a.ccl-button.ccl-button--default').click();
+    cy.wait('@datarequest_post');
+
+    cy.get('.ui.container h1').should('contain', 'Cart');
+    cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
+    cy.get('li a.header-login-link strong').should('contain', '0');
   });
 });
