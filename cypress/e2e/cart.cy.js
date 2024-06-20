@@ -758,64 +758,9 @@ describe('Cart Tests', () => {
       'disabled',
     );
 
-    cy.get('td.table-td-timeseries')
-      .eq(0)
-      .find('.info-icon')
-      .eq(0)
-      .find('button span')
-      .should('contain', 'Select dates');
-    // open timeseries datepicker
-    cy.get('td.table-td-timeseries')
-      .eq(0)
-      .find('.info-icon')
-      .eq(0)
-      .find('button')
-      .click();
-    cy.wait(100);
-
-    //select year and month
-    cy.get('select.react-datepicker__year-select').select('2024');
-    cy.get('select.react-datepicker__month-select').select('3');
-
-    // select a 8 days range
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(1)
-      .find('.react-datepicker__day')
-      .eq(0)
-      .click();
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(2)
-      .find('.react-datepicker__day')
-      .eq(0)
-      .click();
-    cy.get('.react-datepicker__children-container button.ccl-button').should(
-      'have.attr',
-      'disabled',
-    );
-
-    // select a 3 days range
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(1)
-      .find('.react-datepicker__day')
-      .eq(0)
-      .click();
-    cy.get('.react-datepicker__month .react-datepicker__week')
-      .eq(1)
-      .find('.react-datepicker__day')
-      .eq(2)
-      .click();
-    cy.get('.react-datepicker__children-container button.ccl-button').should(
-      'not.have.attr',
-      'disabled',
-    );
-    //apply the date range
-    cy.get('.react-datepicker__children-container button.ccl-button').click();
-    cy.get('td.table-td-timeseries')
-      .eq(0)
-      .find('.info-icon')
-      .eq(0)
-      .find('button span')
-      .should('not.contain', 'Select dates');
+    cy.get('td.table-td-timeseries').each(($el) => {
+      cy.selectDatesRange($el, 3);
+    });
 
     // intercept the POST and check the body data
     cy.intercept(
