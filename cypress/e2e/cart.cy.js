@@ -240,7 +240,7 @@ describe('Cart Tests', () => {
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '4');
 
-    cy.wait(4000);
+    cy.wait(5000);
     // first cart item check and modify the selection
     cy.get('td.table-td-projections')
       .eq(0)
@@ -577,8 +577,10 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
