@@ -257,6 +257,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(1)
       .then(($line) => {
@@ -274,6 +275,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(2)
       .then(($line) => {
@@ -284,6 +286,7 @@ describe('Cart Tests', () => {
         expect(choices).to.have.lengthOf(4);
       });
 
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(3)
       .then(($line) => {
@@ -300,6 +303,7 @@ describe('Cart Tests', () => {
     cy.get('td.text-end').eq(3).find('.info-icon').eq(0).find('button').click();
     cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '5');
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(4)
       .then(($line) => {
@@ -316,6 +320,7 @@ describe('Cart Tests', () => {
     cy.get('td.text-end').eq(1).find('.info-icon').eq(0).find('button').click();
     cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '6');
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(2)
       .then(($line) => {
@@ -508,6 +513,7 @@ describe('Cart Tests', () => {
     ).as('datarequest_post');
 
     // Select entire cart
+    cy.wait(2000);
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
       cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
