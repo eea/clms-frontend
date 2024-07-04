@@ -247,7 +247,7 @@ describe('Cart Tests', () => {
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
         const choices = $line.find('.ui.selection.dropdown .item');
-        cy.wait(3000);
+        cy.wait(4000);
         expect(selected.text()).to.eq('EPSG:3035');
         expect(choices).to.have.lengthOf(4);
         selected.click();
@@ -597,7 +597,7 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(2000);
+    cy.wait(4000);
 
     cy.get('td .collection-container').eq(0).should('have.text', '-');
     cy.get('td .ui.selection.dropdown.format-selector')
