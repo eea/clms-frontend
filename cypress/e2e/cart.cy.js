@@ -748,8 +748,10 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
