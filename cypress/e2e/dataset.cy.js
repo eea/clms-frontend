@@ -35,10 +35,11 @@ describe('Dataset Tests', () => {
     cy.clearCookies();
     cy.visit(`/en/${pr.id}/${clc.id}/${clc2018.id}`);
     cy.get('.left-menu .card a').eq(1).click();
-    cy.get('.ui.modal.visible .modal-login-title').contains(
-      'This website uses EU Login for user authentication.',
-    );
-    cy.get('.ui.modal.visible .modal-close.modal-clms-close span').click();
+    // Deprecated: Download tab doesn't require login now
+    // cy.get('.ui.modal.visible .modal-login-title').contains(
+    //  'This website uses EU Login for user authentication.',
+    // );
+    // cy.get('.ui.modal.visible .modal-close.modal-clms-close span').click();
 
     // logged in second tab
     cy.autologin();
