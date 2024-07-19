@@ -240,13 +240,14 @@ describe('Cart Tests', () => {
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '4');
 
-    cy.wait(2000);
+    cy.wait(10000);
     // first cart item check and modify the selection
     cy.get('td.table-td-projections')
       .eq(0)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
         const choices = $line.find('.ui.selection.dropdown .item');
+        cy.wait(4000);
         expect(selected.text()).to.eq('EPSG:3035');
         expect(choices).to.have.lengthOf(4);
         selected.click();
@@ -256,6 +257,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(1)
       .then(($line) => {
@@ -273,6 +275,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(2)
       .then(($line) => {
@@ -283,6 +286,7 @@ describe('Cart Tests', () => {
         expect(choices).to.have.lengthOf(4);
       });
 
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(3)
       .then(($line) => {
@@ -299,6 +303,7 @@ describe('Cart Tests', () => {
     cy.get('td.text-end').eq(3).find('.info-icon').eq(0).find('button').click();
     cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '5');
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(4)
       .then(($line) => {
@@ -315,6 +320,7 @@ describe('Cart Tests', () => {
     cy.get('td.text-end').eq(1).find('.info-icon').eq(0).find('button').click();
     cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '6');
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(2)
       .then(($line) => {
@@ -377,7 +383,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(1000);
+    cy.wait(10000);
 
     cy.get('td.table-td-timeseries').each(($el) => {
       cy.selectDatesRange($el, 3);
@@ -427,7 +433,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(1000);
+    cy.wait(10000);
 
     cy.get('td.table-td-timeseries')
       .eq(0)
@@ -435,8 +441,6 @@ describe('Cart Tests', () => {
       .eq(0)
       .find('button span')
       .should('contain', 'Select dates');
-
-    cy.wait(2000);
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
@@ -474,7 +478,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(2000);
+    cy.wait(10000);
 
     // first cart item check and modify the selection
     cy.get('td .ui.selection.dropdown.layer-selector')
@@ -507,9 +511,12 @@ describe('Cart Tests', () => {
     ).as('datarequest_post');
 
     // Select entire cart
+    cy.wait(2000);
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
@@ -533,7 +540,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(2000);
+    cy.wait(10000);
 
     // first cart item check and modify the selectors
     cy.get('td .ui.selection.dropdown.collection-selector')
@@ -568,8 +575,10 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
@@ -594,7 +603,7 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(2000);
+    cy.wait(10000);
 
     cy.get('td .collection-container').eq(0).should('have.text', '-');
     cy.get('td .ui.selection.dropdown.format-selector')
@@ -670,7 +679,7 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '10');
-    cy.wait(2000);
+    cy.wait(10000);
     cy.get('.pagination-wrapper').should('not.exist');
     cy.get('tbody').find('tr').should('have.length', 10);
 
@@ -726,7 +735,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(1000);
+    cy.wait(10000);
 
     cy.get('td.table-td-timeseries')
       .eq(0)
@@ -745,8 +754,10 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
