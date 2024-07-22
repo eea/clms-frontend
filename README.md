@@ -93,6 +93,9 @@ Exceptions from automated upgrades ( see https://docs.npmjs.com/cli/v8/configuri
 
 ## Release
 
+## Build and QA testing on clms-staging
+
+In some scenarios it's beneficial to have a deployed Volto system that runs a specific branch. We use the clms-staging stack in Rancher S3 - CLMS Staging environment. Create a shell in the `frontend` container, run `tmux a` (if this fail, start a new tmux session with `tmux`). If Volto is already started, stop it with CTRL+C. You can go to `src/addons/<addon>` and switch branches, git pull, etc. In the main /app frontend folder, you have to create a new build, using `NODE_OPTIONS=--max-old-space-size=7900 yarn build`. Then you can start the frontend with `yarn start:prod`. You can detach from tmux with `ctrl+b d`. 
   
 ### Automatic release using Jenkins
 
