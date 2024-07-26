@@ -1,7 +1,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/clms-frontend?sort=semver)](https://github.com/eea/clms-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/clms-frontend/master&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/master/display/redirect)
 [![Pipeline develop](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F3.311.0&build=last&subject=release%20v3.311.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/3.311.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F3.312.0&build=last&subject=release%20v3.312.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/3.312.0/lastBuild/display/redirect/)
 
 ## Backend
 
@@ -93,6 +93,9 @@ Exceptions from automated upgrades ( see https://docs.npmjs.com/cli/v8/configuri
 
 ## Release
 
+## Build and QA testing on clms-staging
+
+In some scenarios it's beneficial to have a deployed Volto system that runs a specific branch. We use the clms-staging stack in Rancher S3 - CLMS Staging environment. Create a shell in the `frontend` container, run `tmux a` (if this fail, start a new tmux session with `tmux`). If Volto is already started, stop it with CTRL+C. You can go to `src/addons/<addon>` and switch branches, git pull, etc. In the main /app frontend folder, you have to create a new build, using `NODE_OPTIONS=--max-old-space-size=7900 yarn build`. Then you can start the frontend with `yarn start:prod`. You can detach from tmux with `ctrl+b d`. 
   
 ### Automatic release using Jenkins
 
