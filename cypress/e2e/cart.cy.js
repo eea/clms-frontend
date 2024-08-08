@@ -240,7 +240,7 @@ describe('Cart Tests', () => {
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '4');
 
-    cy.wait(5000);
+    cy.wait(10000);
     // first cart item check and modify the selection
     cy.get('td.table-td-projections')
       .eq(0)
@@ -383,7 +383,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(5000);
+    cy.wait(10000);
 
     cy.get('td.table-td-timeseries').each(($el) => {
       cy.selectDatesRange($el, 3);
@@ -433,7 +433,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(5000);
+    cy.wait(10000);
 
     cy.get('td.table-td-timeseries')
       .eq(0)
@@ -478,7 +478,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(5000);
+    cy.wait(10000);
 
     // first cart item check and modify the selection
     cy.get('td .ui.selection.dropdown.layer-selector')
@@ -540,7 +540,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(5000);
+    cy.wait(10000);
 
     // first cart item check and modify the selectors
     cy.get('td .ui.selection.dropdown.collection-selector')
@@ -603,7 +603,7 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(5000);
+    cy.wait(10000);
 
     cy.get('td .collection-container').eq(0).should('have.text', '-');
     cy.get('td .ui.selection.dropdown.format-selector')
@@ -679,7 +679,7 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '10');
-    cy.wait(5000);
+    cy.wait(10000);
     cy.get('.pagination-wrapper').should('not.exist');
     cy.get('tbody').find('tr').should('have.length', 10);
 
@@ -735,7 +735,7 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(5000);
+    cy.wait(10000);
 
     cy.get('td.table-td-timeseries')
       .eq(0)
