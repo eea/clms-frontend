@@ -247,7 +247,7 @@ describe('Cart Tests', () => {
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
         const choices = $line.find('.ui.selection.dropdown .item');
-        cy.wait(2000);
+        cy.wait(4000);
         expect(selected.text()).to.eq('EPSG:3035');
         expect(choices).to.have.lengthOf(4);
         selected.click();
@@ -257,7 +257,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.wait(2000);
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(1)
       .then(($line) => {
@@ -275,7 +275,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.wait(2000);
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(2)
       .then(($line) => {
@@ -286,7 +286,7 @@ describe('Cart Tests', () => {
         expect(choices).to.have.lengthOf(4);
       });
 
-    cy.wait(2000);
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(3)
       .then(($line) => {
@@ -301,9 +301,9 @@ describe('Cart Tests', () => {
 
     // Duplicate the last element
     cy.get('td.text-end').eq(3).find('.info-icon').eq(0).find('button').click();
-    cy.wait(500);
+    cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '5');
-    cy.wait(2000);
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(4)
       .then(($line) => {
@@ -318,9 +318,9 @@ describe('Cart Tests', () => {
 
     // Duplicate the second element
     cy.get('td.text-end').eq(1).find('.info-icon').eq(0).find('button').click();
-    cy.wait(500);
+    cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '6');
-    cy.wait(2000);
+    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(2)
       .then(($line) => {
@@ -445,7 +445,7 @@ describe('Cart Tests', () => {
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
       expect($checkbox.parent()).to.not.have.class('checked');
-      cy.wait(1000);
+      cy.wait(2000);
       $checkbox.click();
       expect($checkbox.parent()).to.have.class('checked');
     });
@@ -511,12 +511,12 @@ describe('Cart Tests', () => {
     ).as('datarequest_post');
 
     // Select entire cart
-    cy.wait(1000);
+    cy.wait(2000);
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(1000);
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
-      cy.wait(1000);
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
@@ -575,10 +575,10 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(1000);
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
-      cy.wait(1000);
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
@@ -721,7 +721,7 @@ describe('Cart Tests', () => {
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
     cy.get('li a.header-login-link strong').should('contain', '0');
-    cy.wait(500);
+    cy.wait(1000);
   });
 
   it('Test Cart downloading dataset with auxiliary calendar without dates', () => {
@@ -754,10 +754,10 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(1000);
+      cy.wait(2000);
       expect($checkbox.parent()).to.not.have.class('checked');
       $checkbox.click();
-      cy.wait(1000);
+      cy.wait(2000);
       expect($checkbox.parent()).to.have.class('checked');
     });
 
