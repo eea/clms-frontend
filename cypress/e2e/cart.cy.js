@@ -247,7 +247,6 @@ describe('Cart Tests', () => {
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
         const choices = $line.find('.ui.selection.dropdown .item');
-        cy.wait(4000);
         expect(selected.text()).to.eq('EPSG:3035');
         expect(choices).to.have.lengthOf(4);
         selected.click();
@@ -257,7 +256,6 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(1)
       .then(($line) => {
@@ -275,7 +273,6 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(2)
       .then(($line) => {
@@ -286,7 +283,6 @@ describe('Cart Tests', () => {
         expect(choices).to.have.lengthOf(4);
       });
 
-    cy.wait(4000);
     cy.get('td.table-td-projections')
       .eq(3)
       .then(($line) => {
