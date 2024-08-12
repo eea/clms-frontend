@@ -239,8 +239,8 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '4');
+    cy.get('td.table-td-projections').contains('EPSG:3035').should('exist');
 
-    cy.wait(10000);
     // first cart item check and modify the selection
     cy.get('td.table-td-projections')
       .eq(0)
