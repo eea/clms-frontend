@@ -9,6 +9,15 @@ import gdlc from '../fixtures/products/global-dynamic-land-cover.json';
 import hrlwaw from '../fixtures/products/high-resolution-layer-water-and-wetness.json';
 import { setupBeforeEach, tearDownAfterEach } from '../support/e2e';
 
+function selectEntireCart() {
+  // Select entire cart
+  cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+    cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+    cy.wrap($checkbox).click({ force: true });
+    cy.wrap($checkbox).parent().should('have.class', 'checked');
+  });
+}
+
 const fsc2016p20med_cart = [
   {
     id: '10ee0f23fcb146ea89dcdacc40b0900d',
@@ -336,12 +345,7 @@ describe('Cart Tests', () => {
       req.reply(success_reponse);
     }).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
-      cy.wrap($checkbox).click({ force: true });
-      cy.wrap($checkbox).parent().should('have.class', 'checked');
-    });
+    selectEntireCart();
 
     cy.contains(
       'You need to select the dates interval for some of your download items',
@@ -401,12 +405,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
-      cy.wrap($checkbox).click({ force: true });
-      cy.wrap($checkbox).parent().should('have.class', 'checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -437,12 +436,7 @@ describe('Cart Tests', () => {
       .find('button span')
       .should('contain', 'Select dates');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
-      cy.wrap($checkbox).click({ force: true });
-      cy.wrap($checkbox).parent().should('have.class', 'checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.contains(
@@ -504,12 +498,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
-      cy.wrap($checkbox).click({ force: true });
-      cy.wrap($checkbox).parent().should('have.class', 'checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -564,12 +553,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
-      cy.wrap($checkbox).click({ force: true });
-      cy.wrap($checkbox).parent().should('have.class', 'checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -640,12 +624,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
-      cy.wrap($checkbox).click({ force: true });
-      cy.wrap($checkbox).parent().should('have.class', 'checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -741,12 +720,7 @@ describe('Cart Tests', () => {
       .click();
     cy.wait(100);
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
-      cy.wrap($checkbox).click({ force: true });
-      cy.wrap($checkbox).parent().should('have.class', 'checked');
-    });
+    selectEntireCart();
 
     cy.contains(
       'You need to select the dates interval for some of your download items',
