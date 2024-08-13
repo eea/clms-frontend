@@ -201,6 +201,7 @@ We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [J
 
 * Within your Rancher environment click on the `Upgrade available` yellow button next to your stack.
 
+
 * Confirm the upgrade
 
 * Or roll-back if something went wrong and abort the upgrade procedure.
