@@ -377,11 +377,12 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(10000);
 
-    cy.get('td.table-td-timeseries').each(($el) => {
-      cy.selectDatesRange($el, 3);
-    });
+    cy.get('td.table-td-timeseries')
+      .should('have.length.at.least', 1)
+      .each(($el) => {
+        cy.selectDatesRange($el, 3);
+      });
 
     // intercept the POST and check the body data
     cy.intercept(
@@ -427,9 +428,9 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(10000);
 
     cy.get('td.table-td-timeseries')
+      .should('have.length.at.least', 1)
       .eq(0)
       .find('.info-icon')
       .eq(0)
