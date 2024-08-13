@@ -403,9 +403,9 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
+      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+      cy.wrap($checkbox).click({ force: true });
+      cy.wrap($checkbox).parent().should('have.class', 'checked');
     });
 
     // Download cart
@@ -439,10 +439,9 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      cy.wait(2000);
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
+      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+      cy.wrap($checkbox).click({ force: true });
+      cy.wrap($checkbox).parent().should('have.class', 'checked');
     });
 
     // Download cart
@@ -506,13 +505,10 @@ describe('Cart Tests', () => {
     ).as('datarequest_post');
 
     // Select entire cart
-    cy.wait(2000);
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(2000);
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      cy.wait(2000);
-      expect($checkbox.parent()).to.have.class('checked');
+      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+      cy.wrap($checkbox).click({ force: true });
+      cy.wrap($checkbox).parent().should('have.class', 'checked');
     });
 
     // Download cart
@@ -570,11 +566,9 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(2000);
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      cy.wait(2000);
-      expect($checkbox.parent()).to.have.class('checked');
+      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+      cy.wrap($checkbox).click({ force: true });
+      cy.wrap($checkbox).parent().should('have.class', 'checked');
     });
 
     // Download cart
@@ -648,9 +642,9 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
+      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+      cy.wrap($checkbox).click({ force: true });
+      cy.wrap($checkbox).parent().should('have.class', 'checked');
     });
 
     // Download cart
@@ -749,11 +743,9 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(2000);
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      cy.wait(2000);
-      expect($checkbox.parent()).to.have.class('checked');
+      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+      cy.wrap($checkbox).click({ force: true });
+      cy.wrap($checkbox).parent().should('have.class', 'checked');
     });
 
     cy.contains(
