@@ -310,14 +310,13 @@ describe('Cart Tests', () => {
     cy.get('td.table-td-projections')
       .should('have.length.at.least', 5)
       .eq(4)
-      .then(($line) => {
-        let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        const choices = $line.find('.ui.selection.dropdown .item');
-
-        expect(selected.text()).to.eq(
-          'EPSG:32632 (Source system of the dataset)',
-        );
-        expect(choices).to.have.lengthOf(5);
+      .find('.ui.selection.dropdown .item')
+      .should('have.length', 5)
+      .then(($items) => {
+        cy.wrap($items)
+          .closest('.ui.selection.dropdown')
+          .find('div.text')
+          .should('have.text', 'EPSG:32632 (Source system of the dataset)');
       });
 
     // Duplicate the second element
