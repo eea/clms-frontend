@@ -297,10 +297,9 @@ describe('Cart Tests', () => {
 
     // Duplicate the last element
     cy.get('td.text-end').eq(3).find('.info-icon').eq(0).find('button').click();
-    cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '5');
-    cy.wait(4000);
     cy.get('td.table-td-projections')
+      .should('have.length.at.least', 5)
       .eq(4)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -314,10 +313,9 @@ describe('Cart Tests', () => {
 
     // Duplicate the second element
     cy.get('td.text-end').eq(1).find('.info-icon').eq(0).find('button').click();
-    cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '6');
-    cy.wait(4000);
     cy.get('td.table-td-projections')
+      .should('have.length.at.least', 6)
       .eq(2)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -340,9 +338,9 @@ describe('Cart Tests', () => {
 
     // Select entire cart
     cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
+      cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+      cy.wrap($checkbox).click({ force: true });
+      cy.wrap($checkbox).parent().should('have.class', 'checked');
     });
 
     cy.contains(
