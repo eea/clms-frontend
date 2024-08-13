@@ -325,12 +325,11 @@ describe('Cart Tests', () => {
     cy.get('td.table-td-projections')
       .should('have.length.at.least', 6)
       .eq(2)
-      .then(($line) => {
-        let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        const choices = $line.find('.ui.selection.dropdown .item');
-
-        expect(selected.text()).to.eq('EPSG:3857');
-        expect(choices).to.have.lengthOf(5);
+      .within(() => {
+        cy.get('.ui.selection.dropdown .item').should('have.length', 5);
+        cy.get('.ui.selection.dropdown div.text')
+          .eq(0)
+          .should('have.text', 'EPSG:3857');
       });
 
     // intercept the POST and check the body data
