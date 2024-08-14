@@ -464,11 +464,11 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(10000);
 
     // first cart item check and modify the selection
     cy.get('td .ui.selection.dropdown.layer-selector')
       .eq(0)
+      .should('be.visible')
       .then(($selector) => {
         let selected = $selector.find('div.divider.text');
         const choices = $selector.find('div.menu .item');
@@ -476,9 +476,12 @@ describe('Cart Tests', () => {
           'Land Cover Classification: Discrete classification',
         );
         expect(choices).to.have.lengthOf(15);
-        choices.eq(4).click();
-        choices.eq(4).click();
-        expect(selected.text()).to.eq('Cover Fraction: Cropland');
+
+        cy.wrap(choices.eq(4))
+          .click({ force: true })
+          .should(() => {
+            expect(selected.text()).to.eq('Cover Fraction: Cropland');
+          });
       });
 
     // intercept the POST and check the body data
