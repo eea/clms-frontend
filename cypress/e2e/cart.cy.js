@@ -519,13 +519,14 @@ describe('Cart Tests', () => {
         );
       },
     });
+
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(10000);
 
     // first cart item check and modify the selectors
     cy.get('td .ui.selection.dropdown.collection-selector')
       .eq(0)
+      .should('be.visible')
       .then(($selector) => {
         let selected = $selector.find('div.divider.text');
         const choices = $selector.find('div.menu .item');
@@ -577,11 +578,10 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(10000);
-
     cy.get('td .collection-container').eq(0).should('have.text', '-');
     cy.get('td .ui.selection.dropdown.format-selector')
       .eq(0)
+      .should('be.visible')
       .then(($selector) => {
         let selected = $selector.find('div.divider.text');
         const choices = $selector.find('div.menu .item');
@@ -591,6 +591,7 @@ describe('Cart Tests', () => {
         choices.eq(1).click();
         expect(selected.text()).to.eq('Geography Markup Language (GML)');
       });
+
     cy.get('td .ui.selection.dropdown.type-selector')
       .eq(0)
       .then(($selector) => {
@@ -648,7 +649,6 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '10');
-    cy.wait(10000);
     cy.get('.pagination-wrapper').should('not.exist');
     cy.get('tbody').find('tr').should('have.length', 10);
 
@@ -690,7 +690,6 @@ describe('Cart Tests', () => {
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
     cy.get('li a.header-login-link strong').should('contain', '0');
-    cy.wait(1000);
   });
 
   it('Test Cart downloading dataset with auxiliary calendar without dates', () => {
@@ -704,7 +703,6 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(10000);
 
     cy.get('td.table-td-timeseries')
       .eq(0)
@@ -719,7 +717,6 @@ describe('Cart Tests', () => {
       .eq(0)
       .find('button')
       .click();
-    cy.wait(100);
 
     selectEntireCart();
 
