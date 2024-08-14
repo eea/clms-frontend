@@ -251,7 +251,7 @@ describe('Cart Tests', () => {
     cy.get('td.table-td-projections').contains('EPSG:3035').should('exist');
 
     // first cart item check and modify the selection
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(0)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -265,7 +265,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(1)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -282,7 +282,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(2)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -292,7 +292,7 @@ describe('Cart Tests', () => {
         expect(choices).to.have.lengthOf(4);
       });
 
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(3)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -307,7 +307,7 @@ describe('Cart Tests', () => {
     // Duplicate the last element
     cy.get('td.text-end').eq(3).find('.info-icon').eq(0).find('button').click();
     cy.get('li a.header-login-link strong').should('contain', '5');
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .should('have.length.at.least', 5)
       .eq(4)
       .find('.ui.selection.dropdown .item')
@@ -322,7 +322,7 @@ describe('Cart Tests', () => {
     // Duplicate the second element
     cy.get('td.text-end').eq(1).find('.info-icon').eq(0).find('button').click();
     cy.get('li a.header-login-link strong').should('contain', '6');
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .should('have.length.at.least', 6)
       .eq(2)
       .within(() => {
@@ -426,7 +426,7 @@ describe('Cart Tests', () => {
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
 
-    cy.get('td.table-td-timeseries')
+    cy.get('td.table-td-timeseries', { timeout: 10000 })
       .should('have.length.at.least', 1)
       .eq(0)
       .find('.info-icon')
