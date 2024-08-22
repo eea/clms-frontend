@@ -9,6 +9,15 @@ import gdlc from '../fixtures/products/global-dynamic-land-cover.json';
 import hrlwaw from '../fixtures/products/high-resolution-layer-water-and-wetness.json';
 import { setupBeforeEach, tearDownAfterEach } from '../support/e2e';
 
+function selectEntireCart() {
+  // Select entire cart
+  cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
+    cy.wrap($checkbox).parent().should('not.have.class', 'checked');
+    cy.wrap($checkbox).click({ force: true });
+    cy.wrap($checkbox).parent().should('have.class', 'checked');
+  });
+}
+
 const fsc2016p20med_cart = [
   {
     id: '10ee0f23fcb146ea89dcdacc40b0900d',
@@ -239,15 +248,14 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '4');
+    cy.get('td.table-td-projections').contains('EPSG:3035').should('exist');
 
-    cy.wait(10000);
     // first cart item check and modify the selection
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(0)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
         const choices = $line.find('.ui.selection.dropdown .item');
-        cy.wait(4000);
         expect(selected.text()).to.eq('EPSG:3035');
         expect(choices).to.have.lengthOf(4);
         selected.click();
@@ -257,8 +265,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.wait(4000);
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(1)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -275,8 +282,7 @@ describe('Cart Tests', () => {
         expect(selected.text()).to.eq('EPSG:3857');
       });
 
-    cy.wait(4000);
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(2)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -286,8 +292,7 @@ describe('Cart Tests', () => {
         expect(choices).to.have.lengthOf(4);
       });
 
-    cy.wait(4000);
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
       .eq(3)
       .then(($line) => {
         let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
@@ -301,34 +306,30 @@ describe('Cart Tests', () => {
 
     // Duplicate the last element
     cy.get('td.text-end').eq(3).find('.info-icon').eq(0).find('button').click();
-    cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '5');
-    cy.wait(4000);
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
+      .should('have.length.at.least', 5)
       .eq(4)
-      .then(($line) => {
-        let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        const choices = $line.find('.ui.selection.dropdown .item');
-
-        expect(selected.text()).to.eq(
-          'EPSG:32632 (Source system of the dataset)',
-        );
-        expect(choices).to.have.lengthOf(5);
+      .find('.ui.selection.dropdown .item')
+      .should('have.length', 5)
+      .then(($items) => {
+        cy.wrap($items)
+          .closest('.ui.selection.dropdown')
+          .find('div.text')
+          .should('have.text', 'EPSG:32632 (Source system of the dataset)');
       });
 
     // Duplicate the second element
     cy.get('td.text-end').eq(1).find('.info-icon').eq(0).find('button').click();
-    cy.wait(1000);
     cy.get('li a.header-login-link strong').should('contain', '6');
-    cy.wait(4000);
-    cy.get('td.table-td-projections')
+    cy.get('td.table-td-projections', { timeout: 10000 })
+      .should('have.length.at.least', 6)
       .eq(2)
-      .then(($line) => {
-        let selected = $line.find('.ui.selection.dropdown div.text').eq(0);
-        const choices = $line.find('.ui.selection.dropdown .item');
-
-        expect(selected.text()).to.eq('EPSG:3857');
-        expect(choices).to.have.lengthOf(5);
+      .within(() => {
+        cy.get('.ui.selection.dropdown .item').should('have.length', 5);
+        cy.get('.ui.selection.dropdown div.text')
+          .eq(0)
+          .should('have.text', 'EPSG:3857');
       });
 
     // intercept the POST and check the body data
@@ -342,12 +343,7 @@ describe('Cart Tests', () => {
       req.reply(success_reponse);
     }).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
-    });
+    selectEntireCart();
 
     cy.contains(
       'You need to select the dates interval for some of your download items',
@@ -383,11 +379,12 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(10000);
 
-    cy.get('td.table-td-timeseries').each(($el) => {
-      cy.selectDatesRange($el, 3);
-    });
+    cy.get('td.table-td-timeseries')
+      .should('have.length.at.least', 1)
+      .each(($el) => {
+        cy.selectDatesRange($el, 3);
+      });
 
     // intercept the POST and check the body data
     cy.intercept(
@@ -406,12 +403,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -433,22 +425,16 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(10000);
 
-    cy.get('td.table-td-timeseries')
+    cy.get('td.table-td-timeseries', { timeout: 10000 })
+      .should('have.length.at.least', 1)
       .eq(0)
       .find('.info-icon')
       .eq(0)
       .find('button span')
       .should('contain', 'Select dates');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      cy.wait(2000);
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.contains(
@@ -478,11 +464,11 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(10000);
 
     // first cart item check and modify the selection
     cy.get('td .ui.selection.dropdown.layer-selector')
       .eq(0)
+      .should('be.visible')
       .then(($selector) => {
         let selected = $selector.find('div.divider.text');
         const choices = $selector.find('div.menu .item');
@@ -490,9 +476,12 @@ describe('Cart Tests', () => {
           'Land Cover Classification: Discrete classification',
         );
         expect(choices).to.have.lengthOf(15);
-        choices.eq(4).click();
-        choices.eq(4).click();
-        expect(selected.text()).to.eq('Cover Fraction: Cropland');
+
+        cy.wrap(choices.eq(4))
+          .click({ force: true })
+          .should(() => {
+            expect(selected.text()).to.eq('Cover Fraction: Cropland');
+          });
       });
 
     // intercept the POST and check the body data
@@ -510,15 +499,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.wait(2000);
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(2000);
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      cy.wait(2000);
-      expect($checkbox.parent()).to.have.class('checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -538,13 +519,14 @@ describe('Cart Tests', () => {
         );
       },
     });
+
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(10000);
 
     // first cart item check and modify the selectors
     cy.get('td .ui.selection.dropdown.collection-selector')
       .eq(0)
+      .should('be.visible')
       .then(($selector) => {
         let selected = $selector.find('div.divider.text');
         const choices = $selector.find('div.menu .item');
@@ -573,14 +555,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(2000);
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      cy.wait(2000);
-      expect($checkbox.parent()).to.have.class('checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -603,11 +578,10 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '2');
-    cy.wait(10000);
-
     cy.get('td .collection-container').eq(0).should('have.text', '-');
     cy.get('td .ui.selection.dropdown.format-selector')
       .eq(0)
+      .should('be.visible')
       .then(($selector) => {
         let selected = $selector.find('div.divider.text');
         const choices = $selector.find('div.menu .item');
@@ -617,6 +591,7 @@ describe('Cart Tests', () => {
         choices.eq(1).click();
         expect(selected.text()).to.eq('Geography Markup Language (GML)');
       });
+
     cy.get('td .ui.selection.dropdown.type-selector')
       .eq(0)
       .then(($selector) => {
@@ -651,12 +626,7 @@ describe('Cart Tests', () => {
       },
     ).as('datarequest_post');
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      expect($checkbox.parent()).to.have.class('checked');
-    });
+    selectEntireCart();
 
     // Download cart
     cy.get('a.ccl-button.ccl-button--default').click();
@@ -679,7 +649,6 @@ describe('Cart Tests', () => {
 
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '10');
-    cy.wait(10000);
     cy.get('.pagination-wrapper').should('not.exist');
     cy.get('tbody').find('tr').should('have.length', 10);
 
@@ -721,7 +690,6 @@ describe('Cart Tests', () => {
     cy.get('.ui.container h1').should('contain', 'Cart');
     cy.get('.ui.container .ccl-container h2').should('contain', 'Empty cart');
     cy.get('li a.header-login-link strong').should('contain', '0');
-    cy.wait(1000);
   });
 
   it('Test Cart downloading dataset with auxiliary calendar without dates', () => {
@@ -735,7 +703,6 @@ describe('Cart Tests', () => {
     });
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
-    cy.wait(10000);
 
     cy.get('td.table-td-timeseries')
       .eq(0)
@@ -750,16 +717,8 @@ describe('Cart Tests', () => {
       .eq(0)
       .find('button')
       .click();
-    cy.wait(100);
 
-    // Select entire cart
-    cy.get('td.table-td-checkbox div.ui.checkbox input').each(($checkbox) => {
-      cy.wait(2000);
-      expect($checkbox.parent()).to.not.have.class('checked');
-      $checkbox.click();
-      cy.wait(2000);
-      expect($checkbox.parent()).to.have.class('checked');
-    });
+    selectEntireCart();
 
     cy.contains(
       'You need to select the dates interval for some of your download items',

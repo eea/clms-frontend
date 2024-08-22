@@ -1,7 +1,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/clms-frontend?sort=semver)](https://github.com/eea/clms-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/clms-frontend/master&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/master/display/redirect)
 [![Pipeline develop](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F3.317.0&build=last&subject=release%20v3.317.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/3.317.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F3.318.0&build=last&subject=release%20v3.318.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/3.318.0/lastBuild/display/redirect/)
 
 ## Backend
 
@@ -200,6 +200,7 @@ We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [J
 ### Upgrade
 
 * Within your Rancher environment click on the `Upgrade available` yellow button next to your stack.
+
 
 * Confirm the upgrade
 
