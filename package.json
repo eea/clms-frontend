@@ -189,6 +189,7 @@
   "devDependencies": {
     "@eeacms/volto-widget-geolocation": "^3.0.0",
     "@plone/scripts": "^2.1.2",
+    "bundlewatch": "0.3.3",
     "eslint-plugin-prettier": "3.1.3",
     "jest": "24.8.0",
     "jest-css-modules": "2.1.0",
