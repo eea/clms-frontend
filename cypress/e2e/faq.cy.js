@@ -61,7 +61,6 @@ describe('FAQ page Tests', () => {
     });
 
     cy.navigate(`/en/${faq.id}/`);
-    cy.wait(10000); // tests keep failing, TODO: remove this
     cy.get('.left-menu .card.active a').should('contain', gq.title);
 
     // FAQ TESTS
