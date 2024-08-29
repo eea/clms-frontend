@@ -1857,9 +1857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.177":
-  version: 1.1.177
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.177"
+"@eeacms/volto-clms-theme@npm:1.1.181":
+  version: 1.1.181
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.181"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1895,7 +1895,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: d17c513eaee2f2bb355a43e35678c3543aa36f6915f9ee4c56bfddb0bf9cb00a9fba9c1abc7144bdecc73c35e4964c5fb3e4c32973c0dd742228de53e43d300d
+  checksum: 2056eba4f52b9abba9fdc1c1825e4c8713ecb0f720ac66389751c1dcd84117aa52f64afd3ed88f0a30194afa2c8d95e04225328701249235595976fe25d74bb9
   languageName: node
   linkType: hard
 
@@ -5467,6 +5467,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^0.24.0":
+  version: 0.24.0
+  resolution: "axios@npm:0.24.0"
+  dependencies:
+    follow-redirects: ^1.14.4
+  checksum: 468cf496c08a6aadfb7e699bebdac02851e3043d4e7d282350804ea8900e30d368daa6e3cd4ab83b8ddb5a3b1e17a5a21ada13fc9cebd27b74828f47a4236316
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^2.0.2":
   version: 2.2.0
   resolution: "axobject-query@npm:2.2.0"
@@ -6242,6 +6251,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bundlewatch@npm:0.3.3":
+  version: 0.3.3
+  resolution: "bundlewatch@npm:0.3.3"
+  dependencies:
+    axios: ^0.24.0
+    bytes: ^3.1.1
+    chalk: ^4.0.0
+    ci-env: ^1.17.0
+    commander: ^5.0.0
+    glob: ^7.1.2
+    gzip-size: ^6.0.0
+    jsonpack: ^1.1.5
+    lodash.merge: ^4.6.1
+    read-pkg-up: ^7.0.1
+  bin:
+    bundlewatch: lib/bin/index.js
+  checksum: ed47e5081664b667c512ef9c4f4d3b60228580939727b3ab39ff2f19c89b3fece7cdd0d0a175ed3ab0ade73a185b60ed9f9bc61a0b36c44f10835b2069f22c6a
+  languageName: node
+  linkType: hard
+
 "bytes@npm:3.0.0":
   version: 3.0.0
   resolution: "bytes@npm:3.0.0"
@@ -6249,7 +6278,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bytes@npm:3.1.2, bytes@npm:^3.0.0":
+"bytes@npm:3.1.2, bytes@npm:^3.0.0, bytes@npm:^3.1.1":
   version: 3.1.2
   resolution: "bytes@npm:3.1.2"
   checksum: e4bcd3948d289c5127591fbedf10c0b639ccbf00243504e4e127374a15c3bc8eed0d28d4aaab08ff6f1cf2abc0cce6ba3085ed32f4f90e82a5683ce0014e1b6e
@@ -6617,7 +6646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-env@npm:^1.14.0":
+"ci-env@npm:^1.14.0, ci-env@npm:^1.17.0":
   version: 1.17.0
   resolution: "ci-env@npm:1.17.0"
   checksum: e6a06d9a6c5abce1ab8fa0f1b0f80e7eb7615d59a937ed0a20a3589441cf49cff1fc64f4fa4b289e3b789dd4a1d9a8255f36a93ed3fc15b6e2be9b795d21fb46
@@ -6782,13 +6811,14 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.301
-    "@eeacms/volto-clms-theme": 1.1.177
+    "@eeacms/volto-clms-theme": 1.1.181
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.31.1
     babel-preset-razzle: 4.2.17
+    bundlewatch: 0.3.3
     cypress: 11.1.0
     cypress-axe: 1.0.0
     cypress-file-upload: 5.0.8
@@ -10655,6 +10685,16 @@ __metadata:
     debug:
       optional: true
   checksum: 584da22ec5420c837bd096559ebfb8fe69d82512d5585004e36a3b4a6ef6d5905780e0c74508c7b72f907d1fa2b7bd339e613859e9c304d0dc96af2027fd0231
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.14.4":
+  version: 1.15.6
+  resolution: "follow-redirects@npm:1.15.6"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: a62c378dfc8c00f60b9c80cab158ba54e99ba0239a5dd7c81245e5a5b39d10f0c35e249c3379eae719ff0285fff88c365dd446fab19dee771f1d76252df1bbf5
   languageName: node
   linkType: hard
 
