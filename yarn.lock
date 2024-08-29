@@ -1857,9 +1857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.180":
-  version: 1.1.180
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.180"
+"@eeacms/volto-clms-theme@npm:1.1.181":
+  version: 1.1.181
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.181"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1895,7 +1895,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: 1bdbadf1520dc72cadec313c00589b7dd9b128c3369650264b2e11058cdf512bf98ee68b5d68cea42053fa7b61902eadf4e73576ae1104078e0f2df5588b95fa
+  checksum: 2056eba4f52b9abba9fdc1c1825e4c8713ecb0f720ac66389751c1dcd84117aa52f64afd3ed88f0a30194afa2c8d95e04225328701249235595976fe25d74bb9
   languageName: node
   linkType: hard
 
@@ -6811,7 +6811,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.301
-    "@eeacms/volto-clms-theme": 1.1.180
+    "@eeacms/volto-clms-theme": 1.1.181
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
