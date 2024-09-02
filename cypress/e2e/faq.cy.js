@@ -107,13 +107,13 @@ describe('FAQ page Tests', () => {
     // first tab
     cy.navigate(`/en/${faq.id}#general_questions`);
     cy.get('.left-menu .card.active a').should('contain', gq.title);
-    cy.get(activeSelector).eq(0).should('contain', wic.title);
-    cy.get(inactiveSelector).eq(0).should('contain', wiclms.title);
+    cy.get(activeSelector).eq(0).should('contain', wiclms.title);
+    cy.get(inactiveSelector).eq(0).should('contain', wic.title);
 
     // second tab
     cy.navigate(`/en/${faq.id}#data_use_terms_and_conditions`);
     cy.get('.left-menu .card.active a').should('contain', dutac.title);
-    cy.get(activeSelector).eq(0).should('contain', icdfocfau.title);
-    cy.get(inactiveSelector).eq(0).should('contain', ciucdfcp.title);
+    cy.get(inactiveSelector).eq(0).should('contain', icdfocfau.title);
+    cy.get(activeSelector).eq(0).should('contain', ciucdfcp.title);
   });
 });
