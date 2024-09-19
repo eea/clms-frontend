@@ -15,12 +15,11 @@ services:
 
   backend:
     entrypoint: sh -c "tail -f /dev/null"
-    build: ./eea.docker.plone.clms/develop/
+    build: ./eea.docker.plone.clms/docker/
     environment:
       SITE: Plone
       PROFILES: 'clms.addon:default clms.downloadtool:default clms.statstool:default clms.types:default eea.volto.policy:default collective.volto.cookieconsent:default collective.volto.dropdownmenu:default'
     volumes:
       - ./data:/data
-      #- ./sources:/app/sources
-      - ./sources:/app/dev-sources
-      - ./eea.docker.plone.clms/develop:/app/develop
+      - ./eea.docker.plone.clms/docker/sources.ini:/app/sources.ini
+      - ./eea.docker.plone.clms/sources:/app/sources
