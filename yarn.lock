@@ -1923,22 +1923,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-utils@npm:0.1.15":
-  version: 0.1.15
-  resolution: "@eeacms/volto-clms-utils@npm:0.1.15"
-  dependencies:
-    "@eeacms/volto-matomo": ^2.0.7
-    "@fortawesome/fontawesome-svg-core": 6.5.2
-    "@fortawesome/free-brands-svg-icons": 6.4.2
-    "@fortawesome/free-regular-svg-icons": 6.5.2
-    "@fortawesome/free-solid-svg-icons": 6.5.2
-    "@fortawesome/react-fontawesome": 0.2.2
-  peerDependencies:
-    "@loadable/component": "*"
-  checksum: 7082174d1d58071bba9e401d012b1e9b6a7ba467cbb1ec23feb89efa5750cbb3cede886429b8ce8ad001223ee35254873fde0870a35719c739ef45be990f01d4
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-clms-utils@npm:^0.1.13":
   version: 0.1.13
   resolution: "@eeacms/volto-clms-utils@npm:0.1.13"
@@ -6828,7 +6812,6 @@ __metadata:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.304
     "@eeacms/volto-clms-theme": 1.1.188
-    "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
