@@ -17,6 +17,10 @@
         "maxSize": "310kB"
       },
       {
+        "path": "build/public/static/js/fortawesome-free-brands-svg-icons*.js",
+        "maxSize": "220kB"
+      },
+      {
         "path": "build/public/static/js/ginkgo-bioworks-react-json-schema-form-builder-dist-index*.js",
         "maxSize": "420kB"
       },
