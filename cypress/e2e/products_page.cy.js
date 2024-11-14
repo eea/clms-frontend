@@ -120,24 +120,32 @@ describe('Products Tests', () => {
       .find('.card-block')
       .should('have.length', 6);
 
+    cy.intercept('GET', '**/++api++/en/products/**').as('getProducts');
+
     // navigate to the filtered url
     cy.navigate(
       `/en/${pr.id}?b_size=12&query=%5B%7B%22i%22%3A%22portal_type%22%2C%22o%22%3A%22paqo.selection.any%22%2C%22v%22%3A%5B%22Product%22%5D%7D%2C%7B%22i%22%3A%22component_title%22%2C%22o%22%3A%22paqo.list.contains%22%2C%22v%22%3A%5B%222a04c969-7f91-476f-8ab2-6fb4a7588896%22%5D%7D%5D&sort_on=getObjPositionInParent&sort_order=ascending&tab=explore`,
     );
+    cy.wait('@getProducts');
     cy.wait(3000);
     cy.get('.search-details').should('contain', 'Search results: 23');
 
     // reload the filtered url
     cy.reload();
+    cy.wait('@getProducts');
     cy.wait(3000);
+    cy.get('.search-details').should('be.visible');
     cy.get('.search-details').should('contain', 'Search results: 23');
 
     // navigate /en and the to filtered url
     cy.navigate('/en');
+    cy.wait(3000);
     cy.navigate(
       `/en/${pr.id}?b_size=12&query=%5B%7B%22i%22%3A%22portal_type%22%2C%22o%22%3A%22paqo.selection.any%22%2C%22v%22%3A%5B%22Product%22%5D%7D%2C%7B%22i%22%3A%22component_title%22%2C%22o%22%3A%22paqo.list.contains%22%2C%22v%22%3A%5B%222a04c969-7f91-476f-8ab2-6fb4a7588896%22%5D%7D%5D&sort_on=getObjPositionInParent&sort_order=ascending&tab=explore`,
     );
+    cy.wait('@getProducts');
     cy.wait(3000);
+    cy.get('.search-details').should('be.visible');
     cy.get('.search-details').should('contain', 'Search results: 23');
 
     // navigate /en reload and then to filtered url
@@ -146,7 +154,9 @@ describe('Products Tests', () => {
     cy.navigate(
       `/en/${pr.id}?b_size=12&query=%5B%7B%22i%22%3A%22portal_type%22%2C%22o%22%3A%22paqo.selection.any%22%2C%22v%22%3A%5B%22Product%22%5D%7D%2C%7B%22i%22%3A%22component_title%22%2C%22o%22%3A%22paqo.list.contains%22%2C%22v%22%3A%5B%222a04c969-7f91-476f-8ab2-6fb4a7588896%22%5D%7D%5D&sort_on=getObjPositionInParent&sort_order=ascending&tab=explore`,
     );
+    cy.wait('@getProducts');
     cy.wait(3000);
+    cy.get('.search-details').should('be.visible');
     cy.get('.search-details').should('contain', 'Search results: 23');
 
     // navigate /en the to filtered url and reload
@@ -155,7 +165,9 @@ describe('Products Tests', () => {
       `/en/${pr.id}?b_size=12&query=%5B%7B%22i%22%3A%22portal_type%22%2C%22o%22%3A%22paqo.selection.any%22%2C%22v%22%3A%5B%22Product%22%5D%7D%2C%7B%22i%22%3A%22component_title%22%2C%22o%22%3A%22paqo.list.contains%22%2C%22v%22%3A%5B%222a04c969-7f91-476f-8ab2-6fb4a7588896%22%5D%7D%5D&sort_on=getObjPositionInParent&sort_order=ascending&tab=explore`,
     );
     cy.reload();
+    cy.wait('@getProducts');
     cy.wait(3000);
+    cy.get('.search-details').should('be.visible');
     cy.get('.search-details').should('contain', 'Search results: 23');
   });
 });

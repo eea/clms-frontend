@@ -1767,9 +1767,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.312":
-  version: 0.1.312
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.312"
+"@eeacms/volto-arcgis-block@npm:0.1.314":
+  version: 0.1.314
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.314"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1779,7 +1779,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.10.0
-  checksum: 79f0d89cc189ef431e1ae6c7f80ce46b15233e498b077ea1b566d2c042ed5d635a76cff3fba380ab14f1b8bb7de03da999793e2b5b3637ab9554425c77a96523
+  checksum: e84c55fe752fb1f57f45f9614c01652edadc489fd1361ddd10a2c843f7cfb0a09dc93cab4a7a46a093f1462ca061d7e35286042d4c9aa4d204f1d839f0c6026a
   languageName: node
   linkType: hard
 
@@ -1857,9 +1857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.196":
-  version: 1.1.196
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.196"
+"@eeacms/volto-clms-theme@npm:1.1.199":
+  version: 1.1.199
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.199"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1895,7 +1895,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: a6a3eb253af8d7e71491e05298dee33d9bd56a09d0c8ebf9903f91e0348323839225398e9081a8794acaa297abe9742b74c1a40281801b8d374da4576f8ecadb
+  checksum: 5bcfeea88c4a7458f683f05690dc171d19601a738ee761b47eafff33f91323ef7dae897624af91ad2ba637d72820999daa66ee8e5a9efa4c7c958d39c98cf904
   languageName: node
   linkType: hard
 
@@ -6811,8 +6811,8 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.312
-    "@eeacms/volto-clms-theme": 1.1.196
+    "@eeacms/volto-arcgis-block": 0.1.314
+    "@eeacms/volto-clms-theme": 1.1.199
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
