@@ -20,7 +20,7 @@ describe('Profile view Tests', () => {
     cy.url().should('contain', '#api_tokens');
 
     // third tab
-    cy.get('.left-menu .card a').eq(7).click();
+    cy.get('.left-menu .card a').eq(2).click();
     tab_title = 'Delete profile';
     cy.get('.left-menu .card.active a').should('contain', tab_title);
     cy.get('h1.page-title').should('contain', 'Delete your profile');
