@@ -120,7 +120,7 @@ describe('Products Tests', () => {
       .find('.card-block')
       .should('have.length', 6);
 
-    cy.intercept('GET', '/++api++/en/products/**').as('getProducts');
+    cy.intercept('GET', '**/++api++/en/products/**').as('getProducts');
 
     // navigate to the filtered url
     cy.navigate(
