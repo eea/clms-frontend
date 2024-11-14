@@ -358,7 +358,9 @@ describe('Cart Tests', () => {
     });
 
     // Download cart
-    cy.get('.ccl-container a.ccl-button.ccl-button--default').click();
+    cy.get(
+      '.content-area .ui.container .ccl-container a.ccl-button.ccl-button--default',
+    ).click();
 
     //expect an empty cart
     cy.wait('@datarequest_post');
@@ -406,7 +408,9 @@ describe('Cart Tests', () => {
     selectEntireCart();
 
     // Download cart
-    cy.get('.ccl-container a.ccl-button.ccl-button--default').click();
+    cy.get(
+      '.content-area .ui.container .ccl-container a.ccl-button.ccl-button--default',
+    ).click();
     cy.wait('@datarequest_post');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
@@ -502,7 +506,9 @@ describe('Cart Tests', () => {
     selectEntireCart();
 
     // Download cart
-    cy.get('.ccl-container a.ccl-button.ccl-button--default').click();
+    cy.get(
+      '.content-area .ui.container .ccl-container a.ccl-button.ccl-button--default',
+    ).click();
     cy.wait('@datarequest_post');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
@@ -558,7 +564,9 @@ describe('Cart Tests', () => {
     selectEntireCart();
 
     // Download cart
-    cy.get('.ccl-container a.ccl-button.ccl-button--default').click();
+    cy.get(
+      '.content-area .ui.container .ccl-container a.ccl-button.ccl-button--default',
+    ).click();
     cy.wait('@datarequest_post');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
@@ -629,7 +637,9 @@ describe('Cart Tests', () => {
     selectEntireCart();
 
     // Download cart
-    cy.get('.ccl-container a.ccl-button.ccl-button--default').click();
+    cy.get(
+      '.content-area .ui.container .ccl-container a.ccl-button.ccl-button--default',
+    ).click();
     cy.wait('@datarequest_post');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
@@ -750,7 +760,9 @@ describe('Cart Tests', () => {
     ).as('datarequest_post');
 
     // Download cart
-    cy.get('.ccl-container a.ccl-button.ccl-button--default').click();
+    cy.get(
+      '.content-area .ui.container .ccl-container a.ccl-button.ccl-button--default',
+    ).click();
     cy.wait('@datarequest_post');
 
     cy.get('.ui.container h1').should('contain', 'Cart');
