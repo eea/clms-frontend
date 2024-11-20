@@ -82,7 +82,6 @@ omelette
 plone-data
 
 # build
-public/critical.css
 src/addons/*
 /cache
 
