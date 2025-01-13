@@ -1556,6 +1556,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime-corejs3@npm:^7.10.4":
+  version: 7.26.0
+  resolution: "@babel/runtime-corejs3@npm:7.26.0"
+  dependencies:
+    core-js-pure: ^3.30.2
+    regenerator-runtime: ^0.14.0
+  checksum: c6c5adac03e33aa4b5bb636a677aa2a6e400b91d91aac5674448d20af4100b80a8bedfb742338e4236e22c092d3edeb27210efdf48bd13ec353bd899f097ff41
+  languageName: node
+  linkType: hard
+
 "@babel/runtime-corejs3@npm:^7.12.1":
   version: 7.23.5
   resolution: "@babel/runtime-corejs3@npm:7.23.5"
@@ -1857,9 +1867,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.206":
-  version: 1.1.206
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.206"
+"@eeacms/volto-clms-theme@npm:1.1.207":
+  version: 1.1.207
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.207"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1895,7 +1905,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.0.1
-  checksum: 0a617253fe04c78ffdff2805cd293968e5212ad2e79deef7815292d3501fb5c800125711dbc6c81419eb3cc2405815753396197fbb0d1c634bde0a7351116b51
+  checksum: 9646d80e409a1ac871f0cf6c3c0bf53e7b4c12ad3ecf62dd64fc2a270ba8223132b4e74cd153c9cfcba8ca60cbace4f63cd957f035278a1b406b14dae15aad9b
   languageName: node
   linkType: hard
 
@@ -6812,7 +6822,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.328
-    "@eeacms/volto-clms-theme": 1.1.206
+    "@eeacms/volto-clms-theme": 1.1.207
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
@@ -6826,6 +6836,7 @@ __metadata:
     cypress-file-upload: 5.0.8
     eslint-plugin-prettier: 3.1.3
     express-list-routes: 1.1.3
+    friendly-challenge: 0.9.18
     jest: 24.8.0
     jest-css-modules: 2.1.0
     jest-junit: 8.0.0
@@ -7337,6 +7348,13 @@ __metadata:
   version: 2.6.12
   resolution: "core-js@npm:2.6.12"
   checksum: 44fa9934a85f8c78d61e0c8b7b22436330471ffe59ec5076fe7f324d6e8cf7f824b14b1c81ca73608b13bdb0fef035bd820989bf059767ad6fa13123bb8bd016
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.6.5":
+  version: 3.40.0
+  resolution: "core-js@npm:3.40.0"
+  checksum: fc962b93470fd4a129555c765b630c1741fc38706bca68779879f0feaef3b6eec11a33904e3111b2b0e8ba206e8cfbc2a70193271227cfa2f2d13a986f78e557
   languageName: node
   linkType: hard
 
@@ -10815,6 +10833,28 @@ __metadata:
   version: 0.5.2
   resolution: "fresh@npm:0.5.2"
   checksum: 13ea8b08f91e669a64e3ba3a20eb79d7ca5379a81f1ff7f4310d54e2320645503cc0c78daedc93dfb6191287295f6479544a649c64d8e41a1c0fb0c221552346
+  languageName: node
+  linkType: hard
+
+"friendly-challenge@npm:0.9.18":
+  version: 0.9.18
+  resolution: "friendly-challenge@npm:0.9.18"
+  dependencies:
+    "@babel/runtime-corejs3": ^7.10.4
+    core-js: ^3.6.5
+    friendly-pow: 0.2.2
+    object-assign-polyfill: ^0.1.0
+    promis: ^1.1.4
+    url-polyfill: ^1.1.10
+    whatwg-fetch: ^3.4.1
+  checksum: b58c9685b8311206e247a4697f955ccd4965c6b9d0a496448f334a149901b1b374f2150881b7ee9aae62557bef540cbf9d57016b708b9b3efbdfb787597e2416
+  languageName: node
+  linkType: hard
+
+"friendly-pow@npm:0.2.2":
+  version: 0.2.2
+  resolution: "friendly-pow@npm:0.2.2"
+  checksum: d6cd60c009c1deea083da19094703cf0a4a7a98fa9d863ea7bb754df4cdd9050cd8e4cae5091da2e0dcf9c365c4d8e5ae74c5ed0b14c9ff0edbcbd4edf494aa9
   languageName: node
   linkType: hard
 
@@ -16313,6 +16353,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"object-assign-polyfill@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "object-assign-polyfill@npm:0.1.0"
+  checksum: 136f9f3d3dcff4c053d5298ea9c23a782fc24fc22cf3eadf4482a60ec5c45055313d648cceb025599e37d25db909cbcb21c1f1610d73003df59d627008845dfb
+  languageName: node
+  linkType: hard
+
 "object-assign@npm:4.1.1, object-assign@npm:4.x, object-assign@npm:^4.0.1, object-assign@npm:^4.1.0, object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
@@ -17851,6 +17898,13 @@ __metadata:
   version: 2.0.3
   resolution: "progress@npm:2.0.3"
   checksum: f67403fe7b34912148d9252cb7481266a354bd99ce82c835f79070643bb3c6583d10dbcfda4d41e04bbc1d8437e9af0fb1e1f2135727878f5308682a579429b7
+  languageName: node
+  linkType: hard
+
+"promis@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "promis@npm:1.1.4"
+  checksum: 8a28d97e025929a81e533106855eb992704b95cde08ae8bb01b905f8a9768f08c4f406cefeceaac25ba1c823e92f63235cd888894f5e976eb197e092a2c2fb5f
   languageName: node
   linkType: hard
 
@@ -23119,6 +23173,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"url-polyfill@npm:^1.1.10":
+  version: 1.1.12
+  resolution: "url-polyfill@npm:1.1.12"
+  checksum: 3214cc82424c215e921dacadac56b4b099f995d24e14078369bea9ff8aa74d1a4c803ab03021e61e0a275bee7979d212d046092dba3aab73cf232ee6739ddee4
+  languageName: node
+  linkType: hard
+
 "url@npm:^0.11.0":
   version: 0.11.3
   resolution: "url@npm:0.11.3"
@@ -23762,6 +23823,13 @@ __metadata:
   version: 3.6.19
   resolution: "whatwg-fetch@npm:3.6.19"
   checksum: 2896bc9ca867ea514392c73e2a272f65d5c4916248fe0837a9df5b1b92f247047bc76cf7c29c28a01ac6c5fb4314021d2718958c8a08292a96d56f72b2f56806
+  languageName: node
+  linkType: hard
+
+"whatwg-fetch@npm:^3.4.1":
+  version: 3.6.20
+  resolution: "whatwg-fetch@npm:3.6.20"
+  checksum: c58851ea2c4efe5c2235f13450f426824cf0253c1d45da28f45900290ae602a20aff2ab43346f16ec58917d5562e159cd691efa368354b2e82918c2146a519c5
   languageName: node
   linkType: hard
 
