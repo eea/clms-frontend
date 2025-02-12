@@ -1777,9 +1777,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.335":
-  version: 0.1.335
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.335"
+"@eeacms/volto-arcgis-block@npm:0.1.336":
+  version: 0.1.336
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.336"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -1788,8 +1788,8 @@ __metadata:
     esri-loader: 3.4.0
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
-    react-datepicker: 4.10.0
-  checksum: 62fc16194e72c9472faab02e91cdbcea705bedc7759f7744fb06b012c3b9c0ef8dac9ba001be480135abb7a21f6e539c9d87833eb9b666e078f253d3347e4775
+    react-datepicker: 4.15.0
+  checksum: cd25f169400e655fbfcec1cc10375240706cb7f1b7b0c99375a4768b8368562d1e6b4f439235505e0670202e7260d5bffb771ec7e7b45c1287ade5e9f317d07b
   languageName: node
   linkType: hard
 
@@ -1867,9 +1867,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.209":
-  version: 1.1.209
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.209"
+"@eeacms/volto-clms-theme@npm:1.1.210":
+  version: 1.1.210
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.210"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": "*"
@@ -1905,7 +1905,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: c2ac7315c370dfadaea875fc1d06c6a6b3f158db9674d227642aecb166e98d5a98d51607548623a872472389a50d5c53ebeee84bde69acf0cccebb1359717b2d
+  checksum: 45004fa138dc4cf7c9e66f6b92487c79fde6d98d253591d69d7a78d50399a450294ce36a0c9dff6201bcc6abe4c49bd71e66aae5e0a34fb823697d187c9f5cf6
   languageName: node
   linkType: hard
 
@@ -6821,8 +6821,8 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.335
-    "@eeacms/volto-clms-theme": 1.1.209
+    "@eeacms/volto-arcgis-block": 0.1.336
+    "@eeacms/volto-clms-theme": 1.1.210
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
@@ -18633,6 +18633,23 @@ __metadata:
     react: ^16.9.0 || ^17 || ^18
     react-dom: ^16.9.0 || ^17 || ^18
   checksum: d3e433e35a80308fe0c12d97a6d27148c5d31cc5a640d26da77c50ceff71541b1809b86372ad9d0e53aa4795fe50bb544c0f26f17ef2223cca0682089fe29450
+  languageName: node
+  linkType: hard
+
+"react-datepicker@npm:4.15.0":
+  version: 4.15.0
+  resolution: "react-datepicker@npm:4.15.0"
+  dependencies:
+    "@popperjs/core": ^2.9.2
+    classnames: ^2.2.6
+    date-fns: ^2.24.0
+    prop-types: ^15.7.2
+    react-onclickoutside: ^6.12.2
+    react-popper: ^2.3.0
+  peerDependencies:
+    react: ^16.9.0 || ^17 || ^18
+    react-dom: ^16.9.0 || ^17 || ^18
+  checksum: 1a61a5328fcae0611f61873b5f752f9ceb4092dcce0d5c6caab70a71b8f059c7a4a4bca25ffebf5c9906947c38160e056790e0c7fd95d24d2b9a5105053dbae3
   languageName: node
   linkType: hard
 
