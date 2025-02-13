@@ -1761,22 +1761,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:*":
-  version: 0.1.283
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.283"
-  dependencies:
-    "@eeacms/volto-clms-utils": 0.1.12
-    "@fortawesome/fontawesome-svg-core": 1.2.35
-    "@fortawesome/free-solid-svg-icons": 5.15.3
-    "@fortawesome/react-fontawesome": 0.1.14
-    esri-loader: 3.4.0
-    highcharts: ^9.3.2
-    highcharts-react-official: ^3.1.0
-    react-datepicker: 4.10.0
-  checksum: bc12dd6909c8348151b3686fae7fbfa02ff6cb716d47c4e6d7b654e97315e3b37f223465f504367ffcd06962aca9fd9196be5718fd054a5963830762f5551080
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-arcgis-block@npm:0.1.336":
   version: 0.1.336
   resolution: "@eeacms/volto-arcgis-block@npm:0.1.336"
@@ -1867,12 +1851,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.210":
-  version: 1.1.210
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.210"
+"@eeacms/volto-clms-theme@npm:1.1.211":
+  version: 1.1.211
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.211"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
-    "@eeacms/volto-arcgis-block": "*"
+    "@eeacms/volto-arcgis-block": 0.1.336
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-columns-block": 6.0.2
     "@eeacms/volto-embed": 6.0.0
@@ -1905,16 +1889,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 45004fa138dc4cf7c9e66f6b92487c79fde6d98d253591d69d7a78d50399a450294ce36a0c9dff6201bcc6abe4c49bd71e66aae5e0a34fb823697d187c9f5cf6
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-clms-utils@npm:0.1.12":
-  version: 0.1.12
-  resolution: "@eeacms/volto-clms-utils@npm:0.1.12"
-  dependencies:
-    "@eeacms/volto-matomo": ^2.0.7
-  checksum: 769005e19aa71c093f7be4871cf3b1f866e3115f14c306830bc79146bcfb68ecbb594974a7dd9c3b2c18a05f59752ab5e0fa9f0045f207c9ad71d6730512751d
+  checksum: dda2b6317ab63c0515235c6264684454ee677eaabd94d40dc4a749bab1dfa0bf0f5cb0a639b4aed8f7fdab3b0ff3923274b6e81f08cfaf57b6f3faf82d678655
   languageName: node
   linkType: hard
 
@@ -6822,7 +6797,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.336
-    "@eeacms/volto-clms-theme": 1.1.210
+    "@eeacms/volto-clms-theme": 1.1.211
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
@@ -18616,23 +18591,6 @@ __metadata:
   version: 2.2.2
   resolution: "react-csv@npm:2.2.2"
   checksum: a6ffabd67fc9ba1478b003977923cfa3ccdd9553ac5edcc3824b4a5ea849b87cb2acfcc0781b0cd0a259bf56e6a7dfd35cfc307576aa51819fc5a32b03118fab
-  languageName: node
-  linkType: hard
-
-"react-datepicker@npm:4.10.0":
-  version: 4.10.0
-  resolution: "react-datepicker@npm:4.10.0"
-  dependencies:
-    "@popperjs/core": ^2.9.2
-    classnames: ^2.2.6
-    date-fns: ^2.24.0
-    prop-types: ^15.7.2
-    react-onclickoutside: ^6.12.2
-    react-popper: ^2.3.0
-  peerDependencies:
-    react: ^16.9.0 || ^17 || ^18
-    react-dom: ^16.9.0 || ^17 || ^18
-  checksum: d3e433e35a80308fe0c12d97a6d27148c5d31cc5a640d26da77c50ceff71541b1809b86372ad9d0e53aa4795fe50bb544c0f26f17ef2223cca0682089fe29450
   languageName: node
   linkType: hard
 
