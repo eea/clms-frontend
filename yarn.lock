@@ -1777,6 +1777,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-arcgis-block@npm:0.1.337":
+  version: 0.1.337
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.337"
+  dependencies:
+    "@eeacms/volto-clms-utils": ^0.1.13
+    "@fortawesome/fontawesome-svg-core": 1.2.35
+    "@fortawesome/free-solid-svg-icons": 5.15.3
+    "@fortawesome/react-fontawesome": 0.1.14
+    esri-loader: 3.4.0
+    highcharts: ^9.3.2
+    highcharts-react-official: ^3.1.0
+    react-datepicker: 4.15.0
+  checksum: e624365d8d1e2b4f6fdd6801a546c21c8f43b292fab17ffc2724a8c092875bf1b505cf109dbd60114ed85ea98b6124e08af98d4a57967a4dedc56a83d3ba7fe0
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-banner@npm:3.1.5":
   version: 3.1.5
   resolution: "@eeacms/volto-banner@npm:3.1.5"
@@ -6796,7 +6812,7 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.336
+    "@eeacms/volto-arcgis-block": 0.1.337
     "@eeacms/volto-clms-theme": 1.1.211
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
