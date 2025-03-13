@@ -8,20 +8,46 @@ $ cd WORK
 ```
 (WORK)$ git clone git@github.com:eea/clms-frontend.git
 (WORK)$ cd clms-frontend/
-(clms-frontend)$ git submodule init
-(clms-frontend)$ git submodule update
 (clms-frontend)$ git checkout develop
 (clms-frontend)$ git pull
+(clms-frontend)$ git submodule init
+(clms-frontend)$ git submodule update
+(clms-frontend)$ cd eea.docker.plone.clms
+(eea.docker.plone.clms)$ git checkout master
+(eea.docker.plone.clms)$ cd ..
 ```
 
 ## Backend
 ```
 (clms-frontend)$ cp docker-compose.example.yml docker-compose.override.yml
-
 (clms-frontend)$ docker-compose up
+    container.image_config['ContainerConfig'].get('Volumes') or {}
+KeyError: 'ContainerConfig'
+(clms-frontend)$ docker-compose down
+(clms-frontend)$ docker-compose up
+
 (clms-frontend, in a new tab)$ docker-compose exec backend bash
-root@c7f52c675b48:/app# ./docker-entrypoint.sh start
-2024-09-05 11:40:18 INFO [waitress:486][MainThread] Serving on http://0.0.0.0:8080
+app# ./docker-entrypoint.sh start
+zope.configuration.xmlconfig.ZopeXMLConfigurationError: File "/app/lib/python3.11/site-packages/Products/CMFPlone/meta.zcml", line 66.2-70.8
+    File "/app/etc/site.zcml", line 10.2-10.39
+    ModuleNotFoundError: No module named 'clms.addon
+
+app# bin/mxdev -c sources.ini
+🎂 You are now ready for: pip install -r requirements-mxdev.txt
+   (path to pip may vary dependent on your installation method)
+   
+app# bin/pip install -r requirements-mxdev.txt
+Successfully installed
+
+app# ./docker-entrypoint.sh start
+2025-03-13 14:35:31 INFO [Zope:42][MainThread] Ready to handle requests
+Starting server in PID 648.
+2025-03-13 14:35:32 INFO [waitress:486][MainThread] Serving on http://0.0.0.0:8080
+
+(clms-frontend)$ ls eea.docker.plone.clms/sources/
+clms.addon  clms.downloadtool  clms.statstool  clms.types  eea.meeting  eea.volto.policy  ftw.tokenauth  pas.plugins.oidc
+
+(clms-frontend)$ sudo chown -R (whoami) eea.docker.plone.clms/sources
 ```
 Result: http://localhost:8080/Plone/en - empty default Plone
 
@@ -37,25 +63,6 @@ Proxying API requests from http://localhost:3000/++api++ to http://localhost:808
 Volto started at 0.0.0.0:3000
 ```
 Result: http://localhost:3000/en - empty default plone with volto (and copernicus theme)
-
-## Backend sources (plone addons)
-```
-$ docker-compose exec backend bash
-root@d64f9d5fb0a8:/app# cp -r sources/* /app/dev-sources
-```
-close frontend, backend, docker
-
-```
-(clms-frontend)$ vim docker-compose.override.yml
-uncomment line
-- ./sources:/app/sources
-(clms-frontend)$ docker-compose up
-```
-Close docker. Now you have the sources.
-```
-(clms-frontend)$ ls sources
-clms.addon  clms.downloadtool  clms.statstool  clms.types  eea.meeting  ftw.tokenauth  pas.plugins.oidc
-```
 
 ## Database
 close frontend, backend, docker
