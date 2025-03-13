@@ -96,6 +96,8 @@ paste filestorage contents into WORK/clms-frontend/data/filestorage/
 
 https://github.com/plone/volto/issues/2810#issuecomment-1384056419
 
+Then you can login with your user/password: http://localhost:3000/en/login-plone
+
 ## Test plone addons editing (clms.types)
 ```
 (clms-frontend)$ vim sources/clms.types/clms/types/content/data_set.py
