@@ -64,6 +64,28 @@ Volto started at 0.0.0.0:3000
 ```
 Result: http://localhost:3000/en - empty default plone with volto (and copernicus theme)
 
+### src/addons
+```
+(clms-frontend)$ vim mrs.developer.json
+change "develop": false -> true for volto-clms-theme, volto-arcgis-block, volto-clms-utils
+
+(clms-frontend)$ make develop
+Using src/addons
+Cloning volto-clms-theme from git@github.com:eea/volto-clms-theme.git...
+✓ cloned volto-clms-theme at src/addons/volto-clms-theme
+✓ update volto-clms-theme to branch develop
+Cloning volto-arcgis-block from git@github.com:eea/volto-arcgis-block.git...
+✓ cloned volto-arcgis-block at src/addons/volto-arcgis-block
+✓ update volto-arcgis-block to branch develop
+Cloning volto-clms-utils from git@github.com:eea/volto-clms-utils.git...
+✓ cloned volto-clms-utils at src/addons/volto-clms-utils
+✓ update volto-clms-utils to branch develop
+Update paths in tsconfig.json
+
+(clms-frontend)$ yarn
+(clms-frontend)$ yarn start
+```
+
 ## Database
 close frontend, backend, docker
 ```
@@ -90,6 +112,10 @@ paste filestorage contents into WORK/clms-frontend/data/filestorage/
 ### Solve permissions:
 ```
 (clms-frontend)$ sudo chown -R 500 data/
+
+or
+
+(clms-frontend)$ sudo chown -R 1000 data/
 ```
 
 ## Add manager user (admin)
