@@ -89,19 +89,6 @@ paste filestorage contents into WORK/clms-frontend/data/filestorage/
 
 ### Solve permissions:
 ```
-(clms-frontend)$ vim fix_permissions
-
-#!/bin/sh
-sudo chown -R `whoami` .
-sudo setfacl  -R -m u:500:rwX sources/
-sudo setfacl -dR -m u:500:rwX sources/
-getfacl sources/
-```
-Save the file
-```
-(clms-frontend)$ chmod +x fix_permissions.sh
-(clms-frontend)$ ./fix_permissions
-
 (clms-frontend)$ sudo chown -R 500 data/
 ```
 
