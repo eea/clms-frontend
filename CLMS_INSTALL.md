@@ -8,20 +8,46 @@ $ cd WORK
 ```
 (WORK)$ git clone git@github.com:eea/clms-frontend.git
 (WORK)$ cd clms-frontend/
-(clms-frontend)$ git submodule init
-(clms-frontend)$ git submodule update
 (clms-frontend)$ git checkout develop
 (clms-frontend)$ git pull
+(clms-frontend)$ git submodule init
+(clms-frontend)$ git submodule update
+(clms-frontend)$ cd eea.docker.plone.clms
+(eea.docker.plone.clms)$ git checkout master
+(eea.docker.plone.clms)$ cd ..
 ```
 
 ## Backend
 ```
 (clms-frontend)$ cp docker-compose.example.yml docker-compose.override.yml
-
 (clms-frontend)$ docker-compose up
+    container.image_config['ContainerConfig'].get('Volumes') or {}
+KeyError: 'ContainerConfig'
+(clms-frontend)$ docker-compose down
+(clms-frontend)$ docker-compose up
+
 (clms-frontend, in a new tab)$ docker-compose exec backend bash
-root@c7f52c675b48:/app# ./docker-entrypoint.sh start
-2024-09-05 11:40:18 INFO [waitress:486][MainThread] Serving on http://0.0.0.0:8080
+app# ./docker-entrypoint.sh start
+zope.configuration.xmlconfig.ZopeXMLConfigurationError: File "/app/lib/python3.11/site-packages/Products/CMFPlone/meta.zcml", line 66.2-70.8
+    File "/app/etc/site.zcml", line 10.2-10.39
+    ModuleNotFoundError: No module named 'clms.addon
+
+app# bin/mxdev -c sources.ini
+🎂 You are now ready for: pip install -r requirements-mxdev.txt
+   (path to pip may vary dependent on your installation method)
+   
+app# bin/pip install -r requirements-mxdev.txt
+Successfully installed
+
+app# ./docker-entrypoint.sh start
+2025-03-13 14:35:31 INFO [Zope:42][MainThread] Ready to handle requests
+Starting server in PID 648.
+2025-03-13 14:35:32 INFO [waitress:486][MainThread] Serving on http://0.0.0.0:8080
+
+(clms-frontend)$ ls eea.docker.plone.clms/sources/
+clms.addon  clms.downloadtool  clms.statstool  clms.types  eea.meeting  eea.volto.policy  ftw.tokenauth  pas.plugins.oidc
+
+(clms-frontend)$ sudo chown -R (whoami) eea.docker.plone.clms/sources
 ```
 Result: http://localhost:8080/Plone/en - empty default Plone
 
@@ -38,23 +64,26 @@ Volto started at 0.0.0.0:3000
 ```
 Result: http://localhost:3000/en - empty default plone with volto (and copernicus theme)
 
-## Backend sources (plone addons)
+### src/addons
 ```
-$ docker-compose exec backend bash
-root@d64f9d5fb0a8:/app# cp -r sources/* /app/dev-sources
-```
-close frontend, backend, docker
+(clms-frontend)$ vim mrs.developer.json
+change "develop": false -> true for volto-clms-theme, volto-arcgis-block, volto-clms-utils
 
-```
-(clms-frontend)$ vim docker-compose.override.yml
-uncomment line
-- ./sources:/app/sources
-(clms-frontend)$ docker-compose up
-```
-Close docker. Now you have the sources.
-```
-(clms-frontend)$ ls sources
-clms.addon  clms.downloadtool  clms.statstool  clms.types  eea.meeting  ftw.tokenauth  pas.plugins.oidc
+(clms-frontend)$ make develop
+Using src/addons
+Cloning volto-clms-theme from git@github.com:eea/volto-clms-theme.git...
+✓ cloned volto-clms-theme at src/addons/volto-clms-theme
+✓ update volto-clms-theme to branch develop
+Cloning volto-arcgis-block from git@github.com:eea/volto-arcgis-block.git...
+✓ cloned volto-arcgis-block at src/addons/volto-arcgis-block
+✓ update volto-arcgis-block to branch develop
+Cloning volto-clms-utils from git@github.com:eea/volto-clms-utils.git...
+✓ cloned volto-clms-utils at src/addons/volto-clms-utils
+✓ update volto-clms-utils to branch develop
+Update paths in tsconfig.json
+
+(clms-frontend)$ yarn
+(clms-frontend)$ yarn start
 ```
 
 ## Database
@@ -82,21 +111,30 @@ paste filestorage contents into WORK/clms-frontend/data/filestorage/
 
 ### Solve permissions:
 ```
-(clms-frontend)$ vim fix_permissions
-
-#!/bin/sh
-sudo chown -R `whoami` .
-sudo setfacl  -R -m u:500:rwX sources/
-sudo setfacl -dR -m u:500:rwX sources/
-getfacl sources/
-```
-Save the file
-```
-(clms-frontend)$ chmod +x fix_permissions.sh
-(clms-frontend)$ ./fix_permissions
-
 (clms-frontend)$ sudo chown -R 500 data/
+
+or
+
+(clms-frontend)$ sudo chown -R 1000 data/
 ```
+
+## Add manager user (admin)
+
+https://github.com/plone/volto/issues/2810#issuecomment-1384056419
+
+Then you can login with your user/password: http://localhost:3000/en/login-plone
+
+## Disable LDAP
+
+You already have an admin account created in the local application, so you can disable LDAP and the site pages will load faster when working locally.
+
+http://localhost:8080/Plone/@@overview-controlpanel
+
+Site Setup -> Management Interface (ZMI) -> acl_users -> pasldap -> Activate -> uncheck all -> Update
+
+## Disable content rules
+
+In http://localhost:8080/Plone/@@rules-controlpanel disable all content rules used to send email/notification.
 
 ## Test plone addons editing (clms.types)
 ```
