@@ -92,6 +92,10 @@ paste filestorage contents into WORK/clms-frontend/data/filestorage/
 (clms-frontend)$ sudo chown -R 500 data/
 ```
 
+## Add manager user (admin)
+
+https://github.com/plone/volto/issues/2810#issuecomment-1384056419
+
 ## Test plone addons editing (clms.types)
 ```
 (clms-frontend)$ vim sources/clms.types/clms/types/content/data_set.py
