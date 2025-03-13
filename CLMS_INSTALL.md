@@ -106,6 +106,10 @@ http://localhost:8080/Plone/@@overview-controlpanel
 
 Site Setup -> Management Interface (ZMI) -> acl_users -> pasldap -> Activate -> uncheck all -> Update
 
+## Disable content rules
+
+In http://localhost:8080/Plone/@@rules-controlpanel disable all content rules used to send email/notification.
+
 ## Test plone addons editing (clms.types)
 ```
 (clms-frontend)$ vim sources/clms.types/clms/types/content/data_set.py
