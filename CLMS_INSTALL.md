@@ -98,6 +98,14 @@ https://github.com/plone/volto/issues/2810#issuecomment-1384056419
 
 Then you can login with your user/password: http://localhost:3000/en/login-plone
 
+## Disable LDAP
+
+You already have an admin account created in the local application, so you can disable LDAP and the site pages will load faster when working locally.
+
+http://localhost:8080/Plone/@@overview-controlpanel
+
+Site Setup -> Management Interface (ZMI) -> acl_users -> pasldap -> Activate -> uncheck all -> Update
+
 ## Test plone addons editing (clms.types)
 ```
 (clms-frontend)$ vim sources/clms.types/clms/types/content/data_set.py
