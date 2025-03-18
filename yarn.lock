@@ -1867,9 +1867,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.221":
-  version: 1.1.221
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.221"
+"@eeacms/volto-clms-theme@npm:1.1.222":
+  version: 1.1.222
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.222"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -1905,7 +1905,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: aa06555d31340959a35edddb74182031c1dc096527da6aa59e5fdfeffb98068c8a1078ee4ba14dd2100e5621092ede2f421737b505787fee6cb2c90aa46af500
+  checksum: 4527335b5b06f9fdd2d02f0e5642c2bab12e0aae4eb70e6d057e156a0a9be94c9f5ae067269318559b8bd6fbf2ab5d1e893ea3fae255e604212666241256f8be
   languageName: node
   linkType: hard
 
@@ -6813,7 +6813,7 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.341
-    "@eeacms/volto-clms-theme": 1.1.221
+    "@eeacms/volto-clms-theme": 1.1.222
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
