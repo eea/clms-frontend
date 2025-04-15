@@ -247,6 +247,7 @@ describe('Cart Tests', () => {
       },
     });
     cy.wait('@projections');
+    cy.wait(10000);
     cy.get('li a.header-login-link strong').should('contain', '4');
     cy.get('td.table-td-projections').contains('EPSG:3035').should('exist');
 
