@@ -1798,9 +1798,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.349":
-  version: 0.1.349
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.349"
+"@eeacms/volto-arcgis-block@npm:0.1.353":
+  version: 0.1.353
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.353"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@eeacms/volto-taxonomy": 5.1.0
@@ -1811,7 +1811,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: 3acfeb8586ccc6b1b7a87e03a417868f7bda01829196ca4c0d5402407410d1db64fc72c66751ebe50d135a6db2f06887e25e382ef1d554fc920fedb406efb6f9
+  checksum: 9b378e925eabf80cd82b732071a74b1a4a681b025da15e0932906d5b55297fa2702e5cfe8f729bab682498c4b0778488492739a114f86ec3116440a9c4333e24
   languageName: node
   linkType: hard
 
