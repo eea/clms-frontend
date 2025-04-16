@@ -1889,9 +1889,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.1.13":
-  version: 0.1.13
-  resolution: "@eeacms/volto-chatbot@npm:0.1.13"
+"@eeacms/volto-chatbot@npm:0.1.15":
+  version: 0.1.15
+  resolution: "@eeacms/volto-chatbot@npm:0.1.15"
   dependencies:
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
@@ -1904,17 +1904,17 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 3b7b946557c90d550dcfc91cb73bb033d5a9db901c5c730aa568df7fef010e25a199638c1267a4eaea0b119896bde268ebc87a7865c41128403bc08d89687ef7
+  checksum: 9abade00aac9711dcdb90a30bf8879f3b68a27cb9d30ff518cf4f55df53d80c459dc31bfbd78352a06ab17206af9278bd313f3f2416b22fbffdcf1c05f2a7fb9
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@github:eea/volto-clms-theme#ask_copernicus":
+"@eeacms/volto-clms-theme@github:eea/volto-clms-theme#9338680d15589b6b5cd5c13a56a65c9d9d0e17f4":
   version: 1.1.229
-  resolution: "@eeacms/volto-clms-theme@https://github.com/eea/volto-clms-theme.git#commit=a793a97943aee9222d5f39141aebe252b87ba078"
+  resolution: "@eeacms/volto-clms-theme@https://github.com/eea/volto-clms-theme.git#commit=9338680d15589b6b5cd5c13a56a65c9d9d0e17f4"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
-    "@eeacms/volto-chatbot": 0.1.13
+    "@eeacms/volto-chatbot": 0.1.15
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-columns-block": 6.0.2
     "@eeacms/volto-embed": 6.0.0
@@ -1947,7 +1947,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 16e6287b34d772c3f74f15c09af0d340d24db9e290b8a57f9d03c00264e3d3e2845962b6525bfc9468946a844fb9eef7af807455ed744d7898015a1baa7f5f3a
+  checksum: 156abc142c7a27a8f7b0b41d67cd48d5e352b3b00683b36708a1701352da4460385e648820f98907c983b923903e4bf29ee12be7246e5cdb0c26d837437bcce9
   languageName: node
   linkType: hard
 
@@ -6974,7 +6974,7 @@ __metadata:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.353
-    "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#ask_copernicus"
+    "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#9338680d15589b6b5cd5c13a56a65c9d9d0e17f4"
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
