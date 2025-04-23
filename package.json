@@ -169,7 +169,7 @@
   "dependencies": {
     "@babel/runtime": "7.20.6",
     "@eeacms/volto-arcgis-block": "0.1.353",
-    "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#ca3005139d212fc1f903048ba8fdd0ab863c1533",
+    "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#25da681f707de18697a8da4028da11d3b580c00c",
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "@eeacms/volto-sentry-rancher-config": "5.0.0",
