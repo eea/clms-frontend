@@ -1889,9 +1889,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@github:eea/volto-chatbot#6c3469b8bae30778aefa987db8f5ab70661d75d1":
+"@eeacms/volto-chatbot@github:eea/volto-chatbot#22a8152bff97629b96f503788dc2792d6b420802":
   version: 0.1.16
-  resolution: "@eeacms/volto-chatbot@https://github.com/eea/volto-chatbot.git#commit=6c3469b8bae30778aefa987db8f5ab70661d75d1"
+  resolution: "@eeacms/volto-chatbot@https://github.com/eea/volto-chatbot.git#commit=22a8152bff97629b96f503788dc2792d6b420802"
   dependencies:
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
@@ -1904,17 +1904,17 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: c75690901fcf323529e6a2b0a872f723d989702d289286c67cac03717af2c8dee5423231161d0940f7876f780158bdda35482e2bb251d788e8544382134a3785
+  checksum: ceef43dbb7a3a99c50555134c8455aae69c3b137606499faaa525a5feae24b96241b8083dd7c0bc5df89993e2911d26bb59783dc6838b6ef4282fff6e437e0ab
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@github:eea/volto-clms-theme#47480bea5ec8336461327056eda98d0eb6e6bf7a":
+"@eeacms/volto-clms-theme@github:eea/volto-clms-theme#cc970fbe63158221040cafb9b7d54fb6dc67f9cd":
   version: 1.1.229
-  resolution: "@eeacms/volto-clms-theme@https://github.com/eea/volto-clms-theme.git#commit=47480bea5ec8336461327056eda98d0eb6e6bf7a"
+  resolution: "@eeacms/volto-clms-theme@https://github.com/eea/volto-clms-theme.git#commit=cc970fbe63158221040cafb9b7d54fb6dc67f9cd"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
-    "@eeacms/volto-chatbot": "github:eea/volto-chatbot#6c3469b8bae30778aefa987db8f5ab70661d75d1"
+    "@eeacms/volto-chatbot": "github:eea/volto-chatbot#22a8152bff97629b96f503788dc2792d6b420802"
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-columns-block": 6.0.2
     "@eeacms/volto-embed": 6.0.0
@@ -1947,7 +1947,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 2b1e62cfb8d8036a087f9d4d26c19b75ff0aa3f151a8d8370c57b28e8eda8ca4b6187d658a0855f8480040bfbbe7f76531f5e3ba7fe4f906a976f0a81c10b454
+  checksum: 5e01b6dd8e33589f380b9486483f068eca99d443450ae419d26d3b4cdcf65a2f13fb7d77046a6dce8d1c1c8bc31c958608d91645148473ce5290ba5187077e6e
   languageName: node
   linkType: hard
 
@@ -6974,7 +6974,7 @@ __metadata:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.353
-    "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#47480bea5ec8336461327056eda98d0eb6e6bf7a"
+    "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#cc970fbe63158221040cafb9b7d54fb6dc67f9cd"
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
