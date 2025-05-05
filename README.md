@@ -4,6 +4,12 @@
 [![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fclms-frontend%2F3.405.0&build=last&subject=release%20v3.405.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/clms-frontend/job/3.405.0/lastBuild/display/redirect/)
 
 ## [CLMS Installation](https://github.com/eea/clms-frontend/blob/develop/CLMS_INSTALL.md) full guide
+
+
+## Frontend dockerhub image
+
+[eeacms/clms-frontend](https://hub.docker.com/r/eeacms/clms-frontend)
+
 ## Backend
 
 [eeacms/clms-backend](https://github.com/eea/eea.docker.plone.clms)
