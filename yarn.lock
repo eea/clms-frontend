@@ -1777,9 +1777,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.355":
-  version: 0.1.355
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.355"
+"@eeacms/volto-arcgis-block@npm:0.1.356":
+  version: 0.1.356
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.356"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@eeacms/volto-taxonomy": 5.1.0
@@ -1790,7 +1790,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: 53ca1b3e818baf0a97929856614bac012ed882c21f0ff4f7be7b05248e561f3925bd811a6c9586fc4c6de928dca212a34780113c088e9978024533934c2272ac
+  checksum: cf354372b521633da52f5bfec42e7bd21585bf04991d8e0cfe9fca616e62ee67b1a81d601d37c598e923a86d6223cdc174959fad7a54b890a2c564579c11bbde
   languageName: node
   linkType: hard
 
@@ -6813,7 +6813,7 @@ __metadata:
   resolution: "clms-frontend@workspace:."
   dependencies:
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.355
+    "@eeacms/volto-arcgis-block": 0.1.356
     "@eeacms/volto-clms-theme": 1.1.232
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
