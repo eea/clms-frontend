@@ -170,7 +170,7 @@
   "dependencies": {
     "@babel/runtime": "7.20.6",
     "@eeacms/volto-arcgis-block": "0.1.353",
-    "@eeacms/volto-chatbot": "github:eea/volto-chatbot#ec26459f60ed5b4119ac200f550e03f3d56d5d2e",
+    "@eeacms/volto-chatbot": "github:eea/volto-chatbot#33556562a6ed92147db4d0ae9ad722636986f223",
     "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#72b79e26ed799a84ee9720e47f0a5d9b877983f5",
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
