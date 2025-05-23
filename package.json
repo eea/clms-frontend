@@ -10,6 +10,7 @@
     "src/addons/volto-clms-utils"
   ],
   "addons": [
+    "@eeacms/volto-searchlib",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-clms-theme",
     "@eeacms/volto-arcgis-block",
@@ -172,6 +173,7 @@
     "@eeacms/volto-clms-theme": "1.1.236",
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
+    "@eeacms/volto-searchlib": "2.0.16",
     "@eeacms/volto-sentry-rancher-config": "5.0.0",
     "@plone/volto": "16.31.1",
     "babel-preset-razzle": "4.2.17",
