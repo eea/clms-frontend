@@ -1868,9 +1868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.236":
-  version: 1.1.236
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.236"
+"@eeacms/volto-clms-theme@npm:1.1.237":
+  version: 1.1.237
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.237"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -1909,7 +1909,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 1ba35feb440a32d6535253ef402db729603f70c50a37fec7c2ea4e22e55e1d734a5b35cc98f17f7982e7cc5bce61b20a0c4a40b2554c8abd7c15a81c10b97d10
+  checksum: 4ecbbce7bb65148696d6e9c7c04cd1329113fd101a20a236cdd1c71c6488205b7659ea5a87df1153b6bfc466e268be765661961d98fee5949fadffb82beac09c
   languageName: node
   linkType: hard
 
@@ -2233,7 +2233,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:*":
+"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:2.0.16":
   version: 2.0.16
   resolution: "@eeacms/volto-searchlib@npm:2.0.16"
   dependencies:
@@ -7177,9 +7177,10 @@ __metadata:
   dependencies:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.362
-    "@eeacms/volto-clms-theme": 1.1.236
+    "@eeacms/volto-clms-theme": 1.1.237
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
+    "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
@@ -7189,6 +7190,7 @@ __metadata:
     cypress: 11.1.0
     cypress-axe: 1.0.0
     cypress-file-upload: 5.0.8
+    d3-array: ^2.12.1
     eslint-plugin-prettier: 3.1.3
     express-list-routes: 1.1.3
     friendly-challenge: 0.9.18
@@ -8278,16 +8280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"d3-array@npm:2 - 3, d3-array@npm:2.10.0 - 3, d3-array@npm:2.5.0 - 3, d3-array@npm:3":
-  version: 3.2.4
-  resolution: "d3-array@npm:3.2.4"
-  dependencies:
-    internmap: 1 - 2
-  checksum: a5976a6d6205f69208478bb44920dd7ce3e788c9dceb86b304dbe401a4bfb42ecc8b04c20facde486e9adcb488b5d1800d49393a3f81a23902b68158e12cddd0
-  languageName: node
-  linkType: hard
-
-"d3-array@npm:2, d3-array@npm:^2.12.1, d3-array@npm:^2.3.0, d3-array@npm:^2.8.0":
+"d3-array@npm:^2.12.1":
   version: 2.12.1
   resolution: "d3-array@npm:2.12.1"
   dependencies:
@@ -12933,13 +12926,6 @@ __metadata:
     hasown: ^2.0.0
     side-channel: ^1.0.4
   checksum: 7872454888047553ce97a3fa1da7cc054a28ec5400a9c2e9f4dbe4fe7c1d041cb8e8301467614b80d4246d50377aad2fb58860b294ed74d6700cc346b6f89549
-  languageName: node
-  linkType: hard
-
-"internmap@npm:1 - 2":
-  version: 2.0.3
-  resolution: "internmap@npm:2.0.3"
-  checksum: 7ca41ec6aba8f0072fc32fa8a023450a9f44503e2d8e403583c55714b25efd6390c38a87161ec456bf42d7bc83aab62eb28f5aef34876b1ac4e60693d5e1d241
   languageName: node
   linkType: hard
 
