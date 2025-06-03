@@ -13,6 +13,7 @@
     "@eeacms/volto-searchlib",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-clms-theme",
+    "@eeacms/volto-chatbot",
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
@@ -194,6 +195,7 @@
     "regenerator-runtime": "0.13.9"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-methods": "7.18.6",
     "@eeacms/volto-widget-geolocation": "^3.0.0",
     "@plone/scripts": "^2.1.2",
     "bundlewatch": "0.3.3",
