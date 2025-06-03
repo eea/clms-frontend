@@ -22,5 +22,13 @@
     "package": "@eeacms/volto-clms-utils",
     "branch": "develop",
     "develop": false
+  },
+  "volto-chatbot": {
+    "url": "git@github.com:eea/volto-chatbot.git",
+    "https": "https://github.com/eea/volto-chatbot.git",
+    "path": "src",
+    "package": "@eeacms/volto-chatbot",
+    "branch": "develop",
+    "develop": false
   }
 }
