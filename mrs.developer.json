@@ -5,7 +5,7 @@
     "path": "src",
     "package": "@eeacms/volto-clms-theme",
     "branch": "develop",
-    "develop": true
+    "develop": false
   },
   "volto-arcgis-block": {
     "url": "git@github.com:eea/volto-arcgis-block.git",
@@ -29,6 +29,6 @@
     "path": "src",
     "package": "@eeacms/volto-chatbot",
     "branch": "develop",
-    "develop": true
+    "develop": false
   }
 }
