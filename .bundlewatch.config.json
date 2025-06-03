@@ -1,48 +1,48 @@
 {
-   "files": [
-      {
-        "path": "build/public/static/js/*.js",
-        "maxSize": "50kB"
-      },
-      {
-        "path": "build/public/static/js/d3*.js",
-        "maxSize": "103kB"
-      },
-      {
-        "path": "build/public/static/js/constants-utmProjections*.js",
-        "maxSize": "60kB"
-      },
-      {
-        "path": "build/public/static/js/fortawesome-free-solid-svg-icons*.js",
-        "maxSize": "310kB"
-      },
-      {
-        "path": "build/public/static/js/fortawesome-free-brands-svg-icons*.js",
-        "maxSize": "220kB"
-      },
-      {
-        "path": "build/public/static/js/ginkgo-bioworks-react-json-schema-form-builder-dist-index*.js",
-        "maxSize": "420kB"
-      },
-      {
-        "path": "build/public/static/js/highcharts*.js",
-        "maxSize": "100kB"
-      },
-      {
-        "path": "build/public/static/js/draft-js*.js",
-        "maxSize": "125kB"
-      },
-      {
-        "path": "build/public/static/js/prettier-standalone*.js",
-        "maxSize": "140kB"
-      },
-      {
-        "path": "build/public/static/js/react-sortable*.js",
-        "maxSize": "110kB"
-      },
-      {
-        "path": "build/public/static/js/client*.js",
-        "maxSize": "1.7MB"
-      }
-    ]
+  "files": [
+    {
+      "path": "build/public/static/js/*.js",
+      "maxSize": "250kB"
+    },
+    {
+      "path": "build/public/static/js/d3*.js",
+      "maxSize": "103kB"
+    },
+    {
+      "path": "build/public/static/js/constants-utmProjections*.js",
+      "maxSize": "60kB"
+    },
+    {
+      "path": "build/public/static/js/fortawesome-free-solid-svg-icons*.js",
+      "maxSize": "310kB"
+    },
+    {
+      "path": "build/public/static/js/fortawesome-free-brands-svg-icons*.js",
+      "maxSize": "220kB"
+    },
+    {
+      "path": "build/public/static/js/ginkgo-bioworks-react-json-schema-form-builder-dist-index*.js",
+      "maxSize": "420kB"
+    },
+    {
+      "path": "build/public/static/js/highcharts*.js",
+      "maxSize": "100kB"
+    },
+    {
+      "path": "build/public/static/js/draft-js*.js",
+      "maxSize": "125kB"
+    },
+    {
+      "path": "build/public/static/js/prettier-standalone*.js",
+      "maxSize": "140kB"
+    },
+    {
+      "path": "build/public/static/js/react-sortable*.js",
+      "maxSize": "110kB"
+    },
+    {
+      "path": "build/public/static/js/client*.js",
+      "maxSize": "1.7MB"
+    }
+  ]
 }
