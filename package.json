@@ -171,7 +171,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.20.6",
-    "@eeacms/volto-arcgis-block": "0.1.366",
+    "@eeacms/volto-arcgis-block": "0.1.367",
     "@eeacms/volto-chatbot": "0.1.20",
     "@eeacms/volto-clms-theme": "1.1.241",
     "@eeacms/volto-clms-utils": "0.1.15",
