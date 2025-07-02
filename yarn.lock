@@ -1887,9 +1887,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.1.20":
-  version: 0.1.20
-  resolution: "@eeacms/volto-chatbot@npm:0.1.20"
+"@eeacms/volto-chatbot@npm:0.1.21":
+  version: 0.1.21
+  resolution: "@eeacms/volto-chatbot@npm:0.1.21"
   dependencies:
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
@@ -1902,7 +1902,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 79e78f36346d9b91f0f7f19ebd078ebd464412184d0b1fe13e46d4076f862cd76aeef3db42077dc27ef045ac7b5a5f70183ba4d9039ba1a8d89099d65b78c643
+  checksum: 3d7bc885e4a2cafa19cc0a95c72d4f8811bb9124f48f13f8404b01fc32dc5e49f71cccd0098419f41e4d6a25e825576cfe801410c9ffbf0a6b24269ac7126d82
   languageName: node
   linkType: hard
 
@@ -7334,7 +7334,7 @@ __metadata:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.372
-    "@eeacms/volto-chatbot": 0.1.20
+    "@eeacms/volto-chatbot": 0.1.21
     "@eeacms/volto-clms-theme": 1.1.244
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
