@@ -2271,7 +2271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:2.0.16":
+"@eeacms/volto-searchlib@npm:*":
   version: 2.0.16
   resolution: "@eeacms/volto-searchlib@npm:2.0.16"
   dependencies:
@@ -2312,6 +2312,50 @@ __metadata:
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
   checksum: cf8a0f8c6d1c113824c036c2ad42141264d3a799fa7df63c55a2568781b2f812542e5e2ef06adbc858c90eb99053d232785b2da4dd29241fc4713e7183efdce1
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-searchlib@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@eeacms/volto-searchlib@npm:2.1.0"
+  dependencies:
+    "@eeacms/volto-matomo": 5.0.0
+    "@elastic/react-search-ui": 1.20.2
+    "@elastic/react-search-ui-views": 1.20.2
+    "@elastic/search-ui": 1.20.2
+    "@visx/group": ^1.7.0
+    "@visx/responsive": ^1.10.1
+    "@visx/scale": ^1.11.1
+    "@visx/shape": ^1.12.0
+    "@visx/tooltip": ^1.7.2
+    classnames: ^2.2.6
+    csv-stringify: ^5.6.5
+    d3-array: ^2.12.1
+    d3-scale: ^3.3.0
+    deep-equal: ^2.0.5
+    downshift: ^3.4.8
+    elasticsearch: 16.7.3
+    fast-deep-equal: ^3.1.3
+    http-proxy-middleware: ^2.0.1
+    jotai: 2.0.3
+    lodash: 4.17.21
+    lodash.clonedeep: ^4.5.0
+    lodash.isfunction: ^3.0.9
+    lodash.uniq: ^4.5.0
+    luxon: ^1.22.0
+    node-fetch: ^2.6.1
+    re-resizable: ^6.9.0
+    react-compound-slider: ^3.4.0
+    react-masonry-component: 6.3.0
+    react-motion: ^0.5.2
+    react-speech-recognition: ^3.8.2
+    react-toastify: 5.4.1
+    redux: 4.1.0
+    semantic-ui-react: 2.0.3
+    superagent: 3.8.2
+    svg-loader: 0.0.2
+    use-deep-compare-effect: 1.8.1
+  checksum: 4aece0ffff0e2b52ad3e9c9a0aaedb8aa87b065376039b4256df09a2705656917822d9700f061a72075e62aa771caefa72c1b8b09dc61ca7858a66bbd95dae54
   languageName: node
   linkType: hard
 
@@ -7338,7 +7382,7 @@ __metadata:
     "@eeacms/volto-clms-theme": 1.1.244
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
-    "@eeacms/volto-searchlib": 2.0.16
+    "@eeacms/volto-searchlib": 2.1.0
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
