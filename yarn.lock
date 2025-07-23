@@ -1887,9 +1887,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.2.1":
-  version: 0.2.1
-  resolution: "@eeacms/volto-chatbot@npm:0.2.1"
+"@eeacms/volto-chatbot@npm:0.2.2":
+  version: 0.2.2
+  resolution: "@eeacms/volto-chatbot@npm:0.2.2"
   dependencies:
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
@@ -1902,13 +1902,13 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: f89d2e54a7d1da4d4c65eda9a3d916556fcad8311fb57083214bc30e1f87c8014b4bceec35f19c56b20d968ac213b10f456a1449294e9b20b3a465f5dcbf363e
+  checksum: 64c6b0075615188dc1760579e7d5a44e53daeb8fd20d5ea53018bea4bf818cdf82ea2f1113d7db3c8d63d5501bda7748a97b071c4d55a38a234c9f5900dcad0b
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.244":
-  version: 1.1.244
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.244"
+"@eeacms/volto-clms-theme@npm:1.1.245":
+  version: 1.1.245
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.245"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -1947,7 +1947,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 2d44002291e6700883f76717926d2614b311be83c69a67ad815809fb89d6994ee6f438448d15adfcd5ae04a7cd78039d99e42b7540e3a438e136b1d06e910539
+  checksum: a092d557f66a1d1c1d3e39de82fc519430c7ed93a0b6027a7e101700e79959feafc4e8eaaad593dc50af355f408495bfaa15082e27dbf66e8f06ab218b57c2a5
   languageName: node
   linkType: hard
 
@@ -2315,9 +2315,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@eeacms/volto-searchlib@npm:2.1.2"
+"@eeacms/volto-searchlib@npm:2.1.3":
+  version: 2.1.3
+  resolution: "@eeacms/volto-searchlib@npm:2.1.3"
   dependencies:
     "@eeacms/volto-matomo": 5.0.0
     "@elastic/react-search-ui": 1.20.2
@@ -2355,7 +2355,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 13cc81f958aa3e23ab2772e1d5042d1dca6c9e58b0572aa33037052b774e399570a57b07f39be247049e890dac7537713f453452f0ce1531a2719bc036aaa3e0
+  checksum: e9975220d16c36b4fce26f43408366ffeb1de26abd5848fb86a25fc2a0442f1a5a0a052b03f9f48a1968d932431f4d05c45239ca51adc781672180cb50a81d45
   languageName: node
   linkType: hard
 
@@ -7378,11 +7378,11 @@ __metadata:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.376
-    "@eeacms/volto-chatbot": 0.2.1
-    "@eeacms/volto-clms-theme": 1.1.244
+    "@eeacms/volto-chatbot": 0.2.2
+    "@eeacms/volto-clms-theme": 1.1.245
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
-    "@eeacms/volto-searchlib": 2.1.2
+    "@eeacms/volto-searchlib": 2.1.3
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
