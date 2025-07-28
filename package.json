@@ -163,7 +163,7 @@
     "@babel/types": "7.20.7",
     "react-slick": "0.28.1",
     "countup.js": "2.6.0",
-    "@eeacms/volto-columns-block": "8.0.3",
+    "@eeacms/volto-columns-block": "8.1.0",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "d3-array": "^2.12.1"
   },
