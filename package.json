@@ -174,7 +174,7 @@
     "@eeacms/volto-clms-theme": "1.1.245",
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
-    "@eeacms/volto-searchlib": "2.1.6",
+    "@eeacms/volto-searchlib": "2.1.7",
     "@eeacms/volto-sentry-rancher-config": "5.0.0",
     "@plone/volto": "16.31.1",
     "babel-preset-razzle": "4.2.17",
