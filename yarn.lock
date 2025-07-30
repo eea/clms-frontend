@@ -1796,9 +1796,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.376":
-  version: 0.1.376
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.376"
+"@eeacms/volto-arcgis-block@npm:0.1.377":
+  version: 0.1.377
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.377"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@eeacms/volto-taxonomy": 5.1.0
@@ -1809,7 +1809,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: f36f2fd38595268c8f8a18f32fbb26f955eb57eff5680d595d523d0c1f15bcc3f122796c5900f1db09bffb0c96d37fae8e6af614218cbfb8decfae1e451e4efa
+  checksum: ee1d7be58a3e0c7586bf0ebe54cb51fe8c4f615924f9466cfe014116fc7187ec3171454ac833c9f8cad15b532eb2f1713bd2d319277a0789571b93ef7191c933
   languageName: node
   linkType: hard
 
@@ -1982,12 +1982,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-columns-block@npm:8.0.3":
-  version: 8.0.3
-  resolution: "@eeacms/volto-columns-block@npm:8.0.3"
+"@eeacms/volto-columns-block@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@eeacms/volto-columns-block@npm:8.1.0"
   dependencies:
     react-color: ~2.19.3
-  checksum: d5f0bceec06be3428dc741f2d07321e1d9cd1914a9abc8e19539d00d5e609e6cd33510057fe7930a2aaa6b5bad5d529f7855c865ffeb18f3a253f8d96aa5517d
+  checksum: 584133d780694d1ec13944c8287c0dedc3f151a0b118d2f4c450085e93f07f3aae5a79a60a28c428090bafe4c19c88299da275a50a3514f7a1fa311feace0e99
   languageName: node
   linkType: hard
 
@@ -7377,7 +7377,7 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.376
+    "@eeacms/volto-arcgis-block": 0.1.377
     "@eeacms/volto-chatbot": 0.2.2
     "@eeacms/volto-clms-theme": 1.1.245
     "@eeacms/volto-clms-utils": 0.1.15
