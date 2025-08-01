@@ -1887,10 +1887,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.2.2":
-  version: 0.2.2
-  resolution: "@eeacms/volto-chatbot@npm:0.2.2"
+"@eeacms/volto-chatbot@npm:0.2.3":
+  version: 0.2.3
+  resolution: "@eeacms/volto-chatbot@npm:0.2.3"
   dependencies:
+    "@eeacms/volto-matomo": 6.0.0
     "@microsoft/fetch-event-source": 2.0.1
     fast-json-patch: 3.1.1
     highlight.js: 11.10.0
@@ -1902,7 +1903,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 64c6b0075615188dc1760579e7d5a44e53daeb8fd20d5ea53018bea4bf818cdf82ea2f1113d7db3c8d63d5501bda7748a97b071c4d55a38a234c9f5900dcad0b
+  checksum: 01d1b0dd5bfa72e4543bb44518285978159cee51426e16dc8664ba8f625bbf2fd8479115eae5a658eae122d22d67be6bf9762cf74db9f719b9558d7c13a00e4a
   languageName: node
   linkType: hard
 
@@ -2172,6 +2173,15 @@ __metadata:
   dependencies:
     "@datapunt/matomo-tracker-react": 0.3.1
   checksum: 238fe12d34eb1d108998d536c036b8ca4f68afd35d409d6a12a9331a0b93c87dd048079712d9922bef4ec0dbc3aded188aac98e3a4c5ab9ee9cd6e8b6c0eb27a
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-matomo@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@eeacms/volto-matomo@npm:6.0.0"
+  dependencies:
+    "@datapunt/matomo-tracker-react": 0.3.1
+  checksum: 93295f22e1eed040f802c1857ece026ae53554a2c88e6100e78cc281f4e2431d701414701158cc36dc40260a8af17b77f3ef180c5175a640d220cb651580c620
   languageName: node
   linkType: hard
 
@@ -7378,7 +7388,7 @@ __metadata:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.377
-    "@eeacms/volto-chatbot": 0.2.2
+    "@eeacms/volto-chatbot": 0.2.3
     "@eeacms/volto-clms-theme": 1.1.245
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
