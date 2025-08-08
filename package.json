@@ -158,9 +158,9 @@
   },
   "resolutions": {
     "@plone/scripts": "2.1.2",
-    "@babel/core": "7.20.12",
-    "@babel/traverse": "7.20.12",
-    "@babel/types": "7.20.7",
+    "@babel/core": "7.28.0",
+    "@babel/traverse": "7.28.0",
+    "@babel/types": "7.28.0",
     "react-slick": "0.28.1",
     "countup.js": "2.6.0",
     "@eeacms/volto-columns-block": "8.1.0",
@@ -190,7 +190,9 @@
     "razzle-plugin-scss": "4.2.18",
     "react-dates": "21.8.0",
     "react-zoom-pan-pinch": "3.3.0",
-    "regenerator-runtime": "0.13.9"
+    "regenerator-runtime": "0.13.9",
+    "webpack-pwa-manifest": "4.2.0",
+    "workbox-webpack-plugin": "6.6.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-methods": "7.18.6",
