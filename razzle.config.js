@@ -163,6 +163,7 @@ const customModifyWebpackConfig = ({
         name: 'CLMS - Copernicus Land Monitoring Service',
         short_name: 'CLMS',
         filename: 'site.webmanifest',
+        start_url: '../en',
         theme_color: '#a0b128',
         background_color: '#ffffff',
         inject: false,
