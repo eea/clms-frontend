@@ -165,6 +165,7 @@
     "react-error-overlay": "6.0.9",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "react-slick": "0.28.1",
+    "@plone/scripts": "^3.3.2",
     "countup.js": "2.6.0"
   },
   "dependencies": {
