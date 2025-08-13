@@ -47,6 +47,25 @@ const customModifyWebpackConfig = ({
         maximumFileSizeToCacheInBytes: 5000000,
         swDest: 'service-worker.js', // Output to root of build directory
         importScripts: ['./sw-scripts.js'],
+        // Exclude non-critical assets from precaching to speed up PWA installation
+        exclude: [
+          /flags\d+\..*\.chunk\.js$/, // Flag icons (256+ files)
+          /fortawesome-.*\.chunk\.js$/,
+          /\.map$/, // Source maps
+          /^static\/js\/[0-9]+\..*\.chunk\.js$/,
+          /highcharts/,
+          /react-.*\.chunk\.js$/,
+          /prettier/,
+          /prismjs/,
+          /immutable/,
+          /luxon/,
+          /sentry/,
+          /ginkgo-bioworks/,
+          /hcaptcha/,
+          /taxonomy-edit-tree/,
+          /^static\/media\/[a-z]{2}\..*\.svg$/, // Country flag SVG images
+          /^static\/media\/gb-[a-z]{3}\..*\.svg$/, // GB country flag SVG images
+        ],
         runtimeCaching: [
           {
             urlPattern: ({ request, url }) =>
