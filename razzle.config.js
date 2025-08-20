@@ -101,6 +101,22 @@ const customModifyWebpackConfig = ({
                 '/en/use-cases',
               ];
 
+              const excludedPaths = [
+                'edit',
+                'mapviewer',
+                'map-viewer',
+                'technical-library',
+                '@@download',
+                '@types',
+                'contents',
+                'add',
+              ];
+
+              // Check if path should be excluded
+              if (excludedPaths.some((path) => url.pathname.includes(path))) {
+                return false;
+              }
+
               return (
                 request.mode === 'navigate' &&
                 pagePaths.some(
