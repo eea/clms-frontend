@@ -3045,6 +3045,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-design-tokens@npm:*":
+  version: 1.1.0
+  resolution: "@eeacms/volto-design-tokens@npm:1.1.0"
+  checksum: c69ddaaeac7106fc4e32ab4b09481047d99336ec8d65e468923ec40967bc5c8da417c54a8fd77cbcccd35d9d19ec10fcf9470a0287a1d96f09b8d1553ac83131
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-kitkat@npm:^24.0.1":
   version: 24.0.1
   resolution: "@eeacms/volto-eea-kitkat@npm:24.0.1"
@@ -3330,10 +3337,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.1.8":
-  version: 2.1.8
-  resolution: "@eeacms/volto-searchlib@npm:2.1.8"
+"@eeacms/volto-searchlib@npm:2.1.10":
+  version: 2.1.10
+  resolution: "@eeacms/volto-searchlib@npm:2.1.10"
   dependencies:
+    "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
     "@elastic/react-search-ui": 1.20.2
     "@elastic/react-search-ui-views": 1.20.2
@@ -3370,7 +3378,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: bcd7e29895bee5892cacf645bf11c14716b0df57fb6924987bd3c58d212498e275e58e49bbd6584cd7ee002ae91b7952e918c3fcd9ffd13fd81b1c18a7800b55
+  checksum: abeb43f15e02c3f7174a2024e6d93a3763b7b31ebfb1b6115fd27a40dba099f301c3bbe661fbd0c29a03174fd4476a65b133f2f752168765006e0061c7e43730
   languageName: node
   linkType: hard
 
@@ -9068,7 +9076,7 @@ __metadata:
     "@eeacms/volto-clms-theme": 1.1.247
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
-    "@eeacms/volto-searchlib": 2.1.8
+    "@eeacms/volto-searchlib": 2.1.10
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
