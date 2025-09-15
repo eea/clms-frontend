@@ -170,7 +170,7 @@
   },
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.353",
-    "@eeacms/volto-chatbot": "0.3.1",
+    "@eeacms/volto-chatbot": "0.4.0",
     "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#e6d32c465c53ebf548771e034a058cb440477dd1",
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-kitkat": "28.0.2",
