@@ -2921,9 +2921,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.251":
-  version: 1.1.251
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.251"
+"@eeacms/volto-clms-theme@npm:1.1.252":
+  version: 1.1.252
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.252"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2935,7 +2935,7 @@ __metadata:
     "@eeacms/volto-react-table-widget": 0.1.3
     "@eeacms/volto-resize-helper": 1.0.1
     "@eeacms/volto-tableau": 1.3.0
-    "@eeacms/volto-tabs-block": 3.0.1
+    "@eeacms/volto-tabs-block": 5.1.0
     "@eeacms/volto-taxonomy": 5.1.0
     "@elastic/search-ui": 1.21.2
     "@fortawesome/fontawesome-svg-core": 1.2.35
@@ -2962,7 +2962,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 8c59d397a962ef2fb3d1b8984656bc5ee270aa88d816a61504259ea9e7dbe94fc443d951efcf9a6c6846121ee9876408a6099b1599f8ce1dd89d015eea73dde6
+  checksum: 707d585f7e0e093cefdda77376d5ea72fd0e8260b00f7ab491d9a87b4834c4f380d7595c8b316ce5180462697c4a885d80b7f190e6bc23d317dd39d0073d6074
   languageName: node
   linkType: hard
 
@@ -3451,15 +3451,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-tabs-block@npm:3.0.1"
+"@eeacms/volto-tabs-block@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@eeacms/volto-tabs-block@npm:5.1.0"
   dependencies:
+    "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 9195e032ee54f6f4e8db086e77fa6e6818b2ef6be3e4f5d2f0a77cb606cbb692b46cec4e4225433d5b6bd980c7087fa32fb15be210e8a12b5ae93d3ad9eeb677
+  checksum: 439d73e76e6f956cf1ecdedf44d77fc028bda7e97c1ace06d49cf78e1e582c4109327f9c93635e67a0ea2a501ef13c072b0f9a6d83e5775b35d0e1abc62510f6
   languageName: node
   linkType: hard
 
@@ -9073,7 +9074,7 @@ __metadata:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.389
     "@eeacms/volto-chatbot": 0.4.0
-    "@eeacms/volto-clms-theme": 1.1.251
+    "@eeacms/volto-clms-theme": 1.1.252
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": 2.1.10
