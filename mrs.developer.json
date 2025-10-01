@@ -28,7 +28,7 @@
     "https": "https://github.com/eea/volto-chatbot.git",
     "path": "src",
     "package": "@eeacms/volto-chatbot",
-    "branch": "develop",
+    "branch": "c9306f6e522b41e725cd69edfe0a1a6dab4c922f",
     "develop": false
   }
 }
