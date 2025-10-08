@@ -165,6 +165,7 @@
     "countup.js": "2.6.0",
     "@eeacms/volto-columns-block": "8.1.0",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
+    "unist-util-visit": "2.0.3",
     "d3-array": "^2.12.1"
   },
   "dependencies": {
