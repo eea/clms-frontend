@@ -4,6 +4,14 @@
     "https": "https://github.com/eea/volto-clms-theme.git",
     "path": "src",
     "package": "@eeacms/volto-clms-theme",
+    "branch": "ask_copernicus",
+    "develop": false
+  },
+  "volto-chatbot": {
+    "url": "git@github.com:eea/volto-chatbot.git",
+    "https": "https://github.com/eea/volto-chatbot.git",
+    "path": "src",
+    "package": "@eeacms/volto-chatbot",
     "branch": "develop",
     "develop": false
   },
