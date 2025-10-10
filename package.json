@@ -171,7 +171,7 @@
     "@babel/runtime": "7.20.6",
     "@eeacms/volto-arcgis-block": "0.1.397",
     "@eeacms/volto-chatbot": "0.5.4",
-    "@eeacms/volto-clms-theme": "1.1.257",
+    "@eeacms/volto-clms-theme": "1.1.258",
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "@eeacms/volto-searchlib": "2.1.10",
