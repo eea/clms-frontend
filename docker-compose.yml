@@ -15,18 +15,42 @@ services:
     image: eeacms/clms-backend:latest
     ports:
       - '${BACKEND:-8080}:8080'
-    #    environment:
-    #      CORS_ALLOW_ORIGIN: 'http://localhost:3000,http://127.0.0.1:3000,http://localhost:${FRONTEND:-8000},http://127.0.0.1:${FRONTEND:-8000}'
     depends_on:
       - memcached
+      - redis
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
     volumes:
       - data:/data
 
   memcached:
     image: memcached
-    command:
-      - '-m'
-      - '512'
+    command: ['-m', '512']
+
+  redis:
+    image: redis:7
+    ports:
+      - '6379:6379'
+
+  asyncjobs:
+    image: eeacms/clms-async-jobs:latest
+    depends_on:
+      - redis
+      - backend
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+
+      PLONE_URL: http://backend:8080/Plone
+      PLONE_AUTH_TOKEN: hello1234
+
+      ENABLED_JOBS: create_cdse_batches
+      BULL_QUEUE_NAMES_CSV: cdse_jobs
+
+      PORT: 3100
+    ports:
+      - '3100:3100'
 
 volumes:
   data:
