@@ -2901,13 +2901,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:0.6.1":
-  version: 0.6.1
-  resolution: "@eeacms/volto-chatbot@npm:0.6.1"
+"@eeacms/volto-chatbot@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-chatbot@npm:1.0.0"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
-    "@plone-collective/volto-sentry": "*"
+    "@plone-collective/volto-sentry": 0.3.1
     fast-json-patch: 3.1.1
     highlight.js: 11.10.0
     luxon: 3.5.0
@@ -2918,7 +2918,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 78b9e0a41d02b731367bbf9f1673572419bef6432f8e2db2bb6c95a04d1f4dc70d896e85c75dbb0fccfa4bd6891c94bb03d7a933ac83efe5410f3538a7e0d168
+  checksum: f1bbb2a7e571fb0f2fd009c853805c9be137939bdeab75691ecb03b54c11d5e6a5f2684a4ea3b15be87e6957d80eb1e1744e058d75f087e8e180371afda4882d
   languageName: node
   linkType: hard
 
@@ -5106,18 +5106,6 @@ __metadata:
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
   checksum: 6ad6a00fc4f2f2cfc6bff76fb1d88b8ee20bc0601e18ebb01b6d4be583733a860239a521a7fbca73b612e66705078809483549d2b18f370eb346c5155c8e4a0f
-  languageName: node
-  linkType: hard
-
-"@plone-collective/volto-sentry@npm:*":
-  version: 0.4.0
-  resolution: "@plone-collective/volto-sentry@npm:0.4.0"
-  dependencies:
-    "@sentry/browser": 7.15.0
-    "@sentry/integrations": 7.15.0
-    "@sentry/node": 7.15.0
-    "@sentry/webpack-plugin": 1.19.1
-  checksum: db8660ac3a82320d917222e940842479f2aa2945f3e6b8614d40fc12f96b5b4eb997fb4ab92ab7087492ec0cbb653b65fd2ee0f6f37d39ad5125e9c37c233c49
   languageName: node
   linkType: hard
 
@@ -9079,7 +9067,7 @@ __metadata:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.409
-    "@eeacms/volto-chatbot": 0.6.1
+    "@eeacms/volto-chatbot": 1.0.0
     "@eeacms/volto-clms-theme": 1.1.262
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
