@@ -2810,9 +2810,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.413":
-  version: 0.1.413
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.413"
+"@eeacms/volto-arcgis-block@npm:0.1.414":
+  version: 0.1.414
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.414"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@eeacms/volto-taxonomy": 5.1.0
@@ -2823,7 +2823,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: 933b826e8a0325cf0fc1b9a60463d95db5938c5f87befc4cd0d1cf73e640db50d0a02c6aadfe9e280bd205c652c7f96b4b5cb295a9956c557557287ba47cb5f1
+  checksum: a87c540653868e0c30b1bd0a78182ff2a9c0083908d09abdbbdd9c15198561891a63cbe4a77b627a6c945970fa6d8ebb5c8a573fa061ef08145d0857748ac865
   languageName: node
   linkType: hard
 
@@ -2901,9 +2901,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-chatbot@npm:1.0.0"
+"@eeacms/volto-chatbot@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@eeacms/volto-chatbot@npm:1.0.1"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2918,7 +2918,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: f1bbb2a7e571fb0f2fd009c853805c9be137939bdeab75691ecb03b54c11d5e6a5f2684a4ea3b15be87e6957d80eb1e1744e058d75f087e8e180371afda4882d
+  checksum: cde4eefca46d3abdc9d028414f29047e3d714d5f18a28686fa8791b4cd35850ca343f24d654f77693b23fd83aeaa4af1681c0b97b41e455818c8ffa4a27154a5
   languageName: node
   linkType: hard
 
@@ -9066,8 +9066,8 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.413
-    "@eeacms/volto-chatbot": 1.0.0
+    "@eeacms/volto-arcgis-block": 0.1.414
+    "@eeacms/volto-chatbot": 1.0.1
     "@eeacms/volto-clms-theme": 1.1.262
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
