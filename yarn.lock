@@ -2810,9 +2810,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.417":
-  version: 0.1.417
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.417"
+"@eeacms/volto-arcgis-block@npm:0.1.418":
+  version: 0.1.418
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.418"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@eeacms/volto-taxonomy": 5.1.0
@@ -2823,7 +2823,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: c32ea3b5d8097cd596faa78066d5bf67b9789b6d77142534a397e4341db527a63f04cf57e6288bb36cb6ae8289218f41e258118041cc38374a2a4f8442764f58
+  checksum: 4257010dfaca35099b42e111445ed76b8f18e234252f1a9abf56a4d3a9dd1691132b9920035ac2750429a2e56bf507e0e1bd15781867a89c76d05a9065065874
   languageName: node
   linkType: hard
 
@@ -2922,9 +2922,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.262":
-  version: 1.1.262
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.262"
+"@eeacms/volto-clms-theme@npm:1.1.264":
+  version: 1.1.264
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.264"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2963,7 +2963,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 49813c1c05fefdcfa889eef8558aeee8054c901529af14216795c3d535ca855869d0318883f2e9cd25fa6c823e240ee7e744a582588c3107d34df28348543504
+  checksum: 7c8b3ffe215402c029716f40594c617b9dc058628d32ddc44ea9f08c33b1cc8c89b803b94d4430739b950b5f059bc0daf862551bb3e726cb605a553e89600b4c
   languageName: node
   linkType: hard
 
@@ -9078,9 +9078,9 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.417
+    "@eeacms/volto-arcgis-block": 0.1.418
     "@eeacms/volto-chatbot": 0.6.1
-    "@eeacms/volto-clms-theme": 1.1.262
+    "@eeacms/volto-clms-theme": 1.1.264
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": 2.1.10
