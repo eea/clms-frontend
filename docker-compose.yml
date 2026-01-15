@@ -10,6 +10,7 @@ services:
     environment:
       RAZZLE_INTERNAL_API_PATH: 'http://localhost:${BACKEND:-8080}/Plone'
       RAZZLE_DEV_PROXY_API_PATH: 'http://backend:${BACKEND:-8080}/Plone'
+      DOWNLOADTOOL_DB_DSN: 'dbname=downloadtool user=zope password=zope host=postgres'
 
   backend:
     image: eeacms/clms-backend:latest
@@ -18,6 +19,7 @@ services:
     depends_on:
       - memcached
       - redis
+      - postgres
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
@@ -52,6 +54,18 @@ services:
     ports:
       - '3100:3100'
 
+  postgres:
+    image: eeacms/postgres:16s
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DBNAME: 'downloadtool'
+      POSTGRES_DBUSER: zope
+      POSTGRES_DBPASS: zope
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
 volumes:
   data:
     driver: local
+  postgres-data:
