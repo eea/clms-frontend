@@ -211,4 +211,5 @@ We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [J
 
 * Confirm the upgrade
 
+
 * Or roll-back if something went wrong and abort the upgrade procedure.
