@@ -10,7 +10,6 @@ services:
     environment:
       RAZZLE_INTERNAL_API_PATH: 'http://localhost:${BACKEND:-8080}/Plone'
       RAZZLE_DEV_PROXY_API_PATH: 'http://backend:${BACKEND:-8080}/Plone'
-      DOWNLOADTOOL_DB_DSN: 'dbname=downloadtool user=zope password=zope host=postgres'
 
   backend:
     image: eeacms/clms-backend:latest
@@ -23,6 +22,7 @@ services:
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
+      DOWNLOADTOOL_DB_DSN: 'dbname=downloadtool user=zope password=zope host=postgres'
     volumes:
       - data:/data
 
