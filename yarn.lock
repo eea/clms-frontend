@@ -2901,6 +2901,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-chatbot@npm:*":
+  version: 1.0.8
+  resolution: "@eeacms/volto-chatbot@npm:1.0.8"
+  dependencies:
+    "@eeacms/volto-matomo": "*"
+    "@microsoft/fetch-event-source": 2.0.1
+    "@plone-collective/volto-sentry": "*"
+    fast-json-patch: 3.1.1
+    highlight.js: 11.10.0
+    luxon: 3.5.0
+    marked: 13.0.3
+    node-fetch: 2.7.0
+    react-markdown: 8.0.7
+    react-textarea-autosize: ^8.5.3
+    rehype-prism-plus: 1.6.0
+    remark-gfm: 3.0.1
+    uuid: 10.0.0
+  checksum: f3cfbfefb4dfd3bad243bdebe455e6077009139ea2f88fbbdbe95862e157d99a5a14d6327067063216881b322514e6b8f8f0bc1c2e802f343abbda8328512676
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-chatbot@npm:1.0.7":
   version: 1.0.7
   resolution: "@eeacms/volto-chatbot@npm:1.0.7"
@@ -3338,10 +3359,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.1.10":
-  version: 2.1.10
-  resolution: "@eeacms/volto-searchlib@npm:2.1.10"
+"@eeacms/volto-searchlib@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-searchlib@npm:3.0.1"
   dependencies:
+    "@eeacms/volto-chatbot": "*"
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
     "@elastic/react-search-ui": 1.20.2
@@ -3379,7 +3401,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: abeb43f15e02c3f7174a2024e6d93a3763b7b31ebfb1b6115fd27a40dba099f301c3bbe661fbd0c29a03174fd4476a65b133f2f752168765006e0061c7e43730
+  checksum: ce3cff929c7be87a10a22b47e4a44d878c439461efd9b8a1c013bdba09e09fe7cd56c5df92fbcaa5fa8bc00cd8d9ab404175e21134adc8219e28bbe7c3f6fbd2
   languageName: node
   linkType: hard
 
@@ -9083,7 +9105,7 @@ __metadata:
     "@eeacms/volto-clms-theme": 1.1.269
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
-    "@eeacms/volto-searchlib": 2.1.10
+    "@eeacms/volto-searchlib": 3.0.1
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
