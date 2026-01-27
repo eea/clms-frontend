@@ -48,4 +48,16 @@ if (typeof window !== 'undefined') {
   );
 }
 
+// Embed mode: hide header, footer, nav
+if (typeof window !== 'undefined') {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('embed') === 'true') {
+    const style = document.createElement('style');
+    style.type = 'text/css';
+    style.textContent =
+      'footer, header, nav {\n  display: none;\n}\n\n.map-container {\n  top: -4em;\n}';
+    document.head.appendChild(style);
+  }
+}
+
 serviceWorker.register();
