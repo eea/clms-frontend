@@ -2922,9 +2922,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.269":
-  version: 1.1.269
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.269"
+"@eeacms/volto-clms-theme@npm:1.1.270":
+  version: 1.1.270
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.270"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2963,7 +2963,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: f10cdc6eb5e044948f8802af167e6f6258979b319dd7ec2ecc8bfcddd5ea4abe169fc5b02adabb48e335fdb11638c028e9d7316ace177e87d81cc890a39e3e5f
+  checksum: 025c15ce87a0f34b350ae8d8bbc578c5ac992ac89cfb79d10d17f9ff7bec264e4ca800f5f761161d54e9bf72a6df7cf77231d636a906ccf41915ef98552fd2e9
   languageName: node
   linkType: hard
 
@@ -9080,7 +9080,7 @@ __metadata:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.421
     "@eeacms/volto-chatbot": ^0.6.1
-    "@eeacms/volto-clms-theme": 1.1.269
+    "@eeacms/volto-clms-theme": 1.1.270
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": ^2.1.10
