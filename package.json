@@ -15,7 +15,8 @@
     "@eeacms/volto-widget-geolocation",
     "@eeacms/volto-sentry-rancher-config",
     "@eeacms/volto-clms-theme",
-    "@eeacms/volto-chatbot"
+    "@eeacms/volto-chatbot",
+    "@eeacms/volto-eea-chatbot"
   ],
   "scripts": {
     "start": "razzle start",
@@ -170,9 +171,10 @@
   },
   "dependencies": {
     "@eeacms/volto-arcgis-block": "0.1.353",
-    "@eeacms/volto-chatbot": "0.6.1",
+    "@eeacms/volto-chatbot": "^0.6.4",
     "@eeacms/volto-clms-theme": "github:eea/volto-clms-theme#e6d32c465c53ebf548771e034a058cb440477dd1",
     "@eeacms/volto-clms-utils": "0.1.15",
+    "@eeacms/volto-eea-chatbot": "^1.0.11",
     "@eeacms/volto-eea-kitkat": "28.1.1",
     "@eeacms/volto-sentry-rancher-config": "5.0.0",
     "@plone/volto": "17.22.0",
