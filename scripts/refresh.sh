@@ -18,6 +18,32 @@ updateDevelopFlag() {
 
 cd "$PROJECT_ROOT"
 
+if [ -z "${NVM_DIR:-}" ]; then
+export NVM_DIR="$HOME/.nvm"
+fi
+
+if ! command -v nvm >/dev/null 2>&1; then
+for nvmPath in \
+"$NVM_DIR/nvm.sh" \
+"$HOME/.nvm/nvm.sh" \
+"$HOME/.config/nvm/nvm.sh" \
+"/opt/homebrew/opt/nvm/nvm.sh" \
+"/usr/local/opt/nvm/nvm.sh" \
+"/usr/share/nvm/init-nvm.sh" \
+"/usr/share/nvm/nvm.sh"
+do
+if [ -s "$nvmPath" ]; then
+. "$nvmPath"
+break
+fi
+done
+fi
+
+if ! command -v nvm >/dev/null 2>&1; then
+echo "nvm is required but was not found in this shell."
+exit 1
+fi
+
 git checkout develop
 nvm install Gallium
 git reset --hard
