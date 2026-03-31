@@ -18,6 +18,7 @@ updateDevelopFlag() {
 
 cd "$PROJECT_ROOT"
 
+git checkout develop
 nvm install Gallium
 git reset --hard
 git pull origin develop
