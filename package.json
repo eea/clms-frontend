@@ -47,6 +47,7 @@
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https",
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
+    "refresh": "bash ./scripts/refresh.sh",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "update": "make update",
