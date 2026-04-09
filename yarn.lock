@@ -2823,7 +2823,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: 7fa21166cd02a8e7dcf9fcdec890aebb8eaffe5a19031c3cd9b32c2f768b6c19d3092c125aa15a45062999217d9cba4bd85abe0d4774f80d5e4ad5ac576e4781
+  checksum: 08cf6d185fe135ae6d2e8e568081b9409b9a391afadfd7b2af58ae6d46929e56f1d09c926ee5d62c582cb54ab49c3f6250e34f1536c867c3a24d1bea766f246c
   languageName: node
   linkType: hard
 
@@ -3003,7 +3003,7 @@ __metadata:
   resolution: "@eeacms/volto-columns-block@npm:8.1.1"
   dependencies:
     react-color: ~2.19.3
-  checksum: 88f185ec7366b5e0e71c1c37fba166990717c4969f6a7c7f200bba56be771117a1ed15dab79f22d1676599bcae740755bc5fa29ec1f2562b656defabb477f9d3
+  checksum: 36d6b9f76849fdbbb4131138adcca4b357c4a6565f660a186f9b1fd76a00d9b32af7beb1d119b43ff72a88d921e4b5265574260fd5df3fac08a099b4c2994d44
   languageName: node
   linkType: hard
 
@@ -3414,7 +3414,7 @@ __metadata:
 "@eeacms/volto-sentry-rancher-config@npm:5.0.0":
   version: 5.0.0
   resolution: "@eeacms/volto-sentry-rancher-config@npm:5.0.0"
-  checksum: 851731c1c4231816b9fea0d4253b7aa28589f8a67e4e71bf39425ab053173545837e138bb2ce5041ce64f41b2c9696dacc4d97c6f90dcda9771431f4dac400d3
+  checksum: 48a9b2bae6a18b8c072c04b06f805ce87d7f6c4602e3b583c2b18b0013bd1868462a443db534d00fe28767ea6dcfd5e72f4439442b46ff7a321bbbf0aff7850d
   languageName: node
   linkType: hard
 
