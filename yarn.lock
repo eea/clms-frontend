@@ -2998,9 +2998,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-columns-block@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@eeacms/volto-columns-block@npm:9.0.1"
+"@eeacms/volto-columns-block@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-columns-block@npm:8.1.1"
   dependencies:
     react-color: ~2.19.3
   checksum: 88f185ec7366b5e0e71c1c37fba166990717c4969f6a7c7f200bba56be771117a1ed15dab79f22d1676599bcae740755bc5fa29ec1f2562b656defabb477f9d3
@@ -3411,9 +3411,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-sentry-rancher-config@npm:6.0.1":
-  version: 6.0.1
-  resolution: "@eeacms/volto-sentry-rancher-config@npm:6.0.1"
+"@eeacms/volto-sentry-rancher-config@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@eeacms/volto-sentry-rancher-config@npm:5.0.0"
   checksum: 851731c1c4231816b9fea0d4253b7aa28589f8a67e4e71bf39425ab053173545837e138bb2ce5041ce64f41b2c9696dacc4d97c6f90dcda9771431f4dac400d3
   languageName: node
   linkType: hard
