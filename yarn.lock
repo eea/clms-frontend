@@ -2998,12 +2998,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-columns-block@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@eeacms/volto-columns-block@npm:9.0.2"
+"@eeacms/volto-columns-block@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-columns-block@npm:8.1.1"
   dependencies:
     react-color: ~2.19.3
-  checksum: 3ae11e2fb0a96becaa0f5fe12a080e5f41688e2d4fb7ecaa7e107ee2ceae2afdbe5af2a34ca6886a10208f18cc7c6706fc92fc3077f223e360afcf5a940edc45
+  checksum: 36d6b9f76849fdbbb4131138adcca4b357c4a6565f660a186f9b1fd76a00d9b32af7beb1d119b43ff72a88d921e4b5265574260fd5df3fac08a099b4c2994d44
   languageName: node
   linkType: hard
 
