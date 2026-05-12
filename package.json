@@ -16,7 +16,8 @@
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
-    "@eeacms/volto-sentry-rancher-config"
+    "@eeacms/volto-sentry-rancher-config",
+    "@plone-collective/volto-authomatic"
   ],
   "scripts": {
     "start": "razzle start",
@@ -166,6 +167,7 @@
     "countup.js": "2.6.0",
     "@eeacms/volto-columns-block": "8.1.1",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "d3-array": "^2.12.1"
   },
   "dependencies": {
@@ -175,6 +177,7 @@
     "@eeacms/volto-clms-theme": "1.1.283",
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-chatbot": "^1.0.11",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "@eeacms/volto-searchlib": "^2.1.10",
     "@eeacms/volto-sentry-rancher-config": "5.0.0",
