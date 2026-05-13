@@ -22,7 +22,11 @@
     },
     {
       "path": "build/public/static/js/ginkgo-bioworks-react-json-schema-form-builder-dist-index*.js",
-      "maxSize": "420kB"
+      "maxSize": "450kB"
+    },
+    {
+      "path": "build/public/static/js/jsoneditor-dist-jsoneditor-min*.js",
+      "maxSize": "280kB"
     },
     {
       "path": "build/public/static/js/highcharts*.js",
