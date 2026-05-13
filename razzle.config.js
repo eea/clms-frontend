@@ -36,6 +36,31 @@ const customModifyWebpackConfig = ({
     webpackObject,
     options,
   });
+  if (target === 'web') {
+    config.resolve = config.resolve || {};
+    config.resolve.fallback = {
+      ...(config.resolve.fallback || {}),
+      assert: require.resolve('assert/'),
+      buffer: require.resolve('buffer/'),
+      process: require.resolve('process/browser'),
+      util: require.resolve('util/'),
+      url: require.resolve('url/'),
+      stream: require.resolve('stream-browserify'),
+      path: require.resolve('path-browserify'),
+      http: require.resolve('stream-http'),
+      https: require.resolve('https-browserify'),
+      querystring: require.resolve('querystring-es3'),
+      zlib: require.resolve('browserify-zlib'),
+    };
+
+    config.plugins.push(
+      new webpackObject.ProvidePlugin({
+        Buffer: ['buffer', 'Buffer'],
+        process: 'process/browser',
+      }),
+    );
+  }
+
 
   // Only add Workbox to client builds
   if (target === 'web' && process.env.NODE_ENV === 'production') {

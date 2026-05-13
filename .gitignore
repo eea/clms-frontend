@@ -96,3 +96,5 @@ src/addons/*
 
 docker-compose.override.yml
 sources
+
+codex-docs/
