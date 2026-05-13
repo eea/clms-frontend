@@ -385,6 +385,7 @@ describe('Cart Tests', () => {
     cy.wait('@projections');
     cy.get('li a.header-login-link strong').should('contain', '1');
 
+    cy.wait(10000);
     cy.get('td.table-td-timeseries')
       .should('have.length.at.least', 1)
       .each(($el) => {
