@@ -11,13 +11,13 @@
     "@eeacms/volto-searchlib",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-clms-theme",
+    "@plone-collective/volto-authomatic",
     "@eeacms/volto-chatbot",
     "@eeacms/volto-eea-chatbot",
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
-    "@eeacms/volto-sentry-rancher-config",
-    "@plone-collective/volto-authomatic"
+    "@eeacms/volto-sentry-rancher-config"
   ],
   "scripts": {
     "start": "razzle start",

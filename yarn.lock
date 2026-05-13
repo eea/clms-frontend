@@ -4506,6 +4506,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plone-collective/volto-authomatic@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
+  peerDependencies:
+    "@plone/volto": ">=13.8.0"
+  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
+  languageName: node
+  linkType: hard
+
 "@plone-collective/volto-sentry@npm:*":
   version: 0.4.0
   resolution: "@plone-collective/volto-sentry@npm:0.4.0"
@@ -8516,6 +8525,7 @@ __metadata:
     "@eeacms/volto-searchlib": ^2.1.10
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
+    "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 17.16.1
     assert: ^2.1.0
