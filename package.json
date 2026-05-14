@@ -11,6 +11,7 @@
     "@eeacms/volto-searchlib",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-clms-theme",
+    "@plone-collective/volto-authomatic",
     "@eeacms/volto-chatbot",
     "@eeacms/volto-eea-chatbot",
     "@eeacms/volto-arcgis-block",
@@ -178,6 +179,7 @@
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "@eeacms/volto-searchlib": "^2.1.10",
     "@eeacms/volto-sentry-rancher-config": "5.0.0",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.16.1",
     "assert": "^2.1.0",
     "babel-preset-razzle": "4.2.18",
@@ -210,6 +212,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-methods": "7.18.6",
     "@eeacms/volto-widget-geolocation": "^3.0.0",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/scripts": "^2.1.2",
     "bundlewatch": "0.3.3",
     "eslint-plugin-prettier": "5.0.0",
