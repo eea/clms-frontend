@@ -20,13 +20,13 @@ $ cd WORK
 ## Backend
 ```
 (clms-frontend)$ cp docker-compose.example.yml docker-compose.override.yml
-(clms-frontend)$ docker-compose up
+(clms-frontend)$ docker compose up
     container.image_config['ContainerConfig'].get('Volumes') or {}
 KeyError: 'ContainerConfig'
-(clms-frontend)$ docker-compose down
-(clms-frontend)$ docker-compose up
+(clms-frontend)$ docker compose down
+(clms-frontend)$ docker compose up
 
-(clms-frontend, in a new tab)$ docker-compose exec backend bash
+(clms-frontend, in a new tab)$ docker compose exec backend bash
 app# ./docker-entrypoint.sh start
 zope.configuration.xmlconfig.ZopeXMLConfigurationError: File "/app/lib/python3.11/site-packages/Products/CMFPlone/meta.zcml", line 66.2-70.8
     File "/app/etc/site.zcml", line 10.2-10.39
@@ -54,7 +54,8 @@ Result: http://localhost:8080/Plone/en - empty default Plone
 ## Frontend
 ```
 with backend running
-(clms-frontend, in a new tab)$ nvm use v18.18.2
+(clms-frontend, in a new tab)$ nvm use
+Now using Node v20.20.2
 (clms-frontend)$ yarn
 (clms-frontend)$ make develop
 (clms-frontend)$ yarn
