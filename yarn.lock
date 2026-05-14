@@ -2055,9 +2055,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.284":
-  version: 1.1.284
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.284"
+"@eeacms/volto-clms-theme@npm:1.1.285":
+  version: 1.1.285
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.285"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2079,6 +2079,7 @@ __metadata:
     "@fortawesome/react-fontawesome": 0.1.14
     "@ginkgo-bioworks/react-json-schema-form-builder": 2.10.1
     "@kitconcept/volto-blocks-grid": 7.0.2
+    "@plone-collective/volto-authomatic": 2.0.1
     connected-react-router: 6.8.0
     d3-array: ^2.12.1
     husky: 7.0.4
@@ -2096,7 +2097,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: ff20a339c0c02c7a34eaf4dbd15dfc1b4a27a676dab3fe7b967e11d0ca3d4294d75376aa7fcfa461f22e5ebbf9b79e90685082843a4f8a84269eaa431765f435
+  checksum: c0799eb0f695adb29bd3419c14f9e7919ac3f7eccb6b7cc51c8410e05f6a403b9260035f14c81dd421199f201568bf7ea302b41e0ef828a078a8910e16934359
   languageName: node
   linkType: hard
 
@@ -8518,7 +8519,7 @@ __metadata:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.450
     "@eeacms/volto-chatbot": ^0.6.4
-    "@eeacms/volto-clms-theme": 1.1.284
+    "@eeacms/volto-clms-theme": 1.1.285
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-chatbot": ^1.0.11
     "@eeacms/volto-eea-kitkat": ^24.0.1
