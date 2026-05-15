@@ -2055,9 +2055,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.285":
-  version: 1.1.285
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.285"
+"@eeacms/volto-clms-theme@npm:1.1.286":
+  version: 1.1.286
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.286"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2097,7 +2097,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: c0799eb0f695adb29bd3419c14f9e7919ac3f7eccb6b7cc51c8410e05f6a403b9260035f14c81dd421199f201568bf7ea302b41e0ef828a078a8910e16934359
+  checksum: ea1cd24f41c88793ff2bb88a10cd1fd7e81ba790e7bd95087c971ac89424180d66f254d6e9a82295ec8b1e7f37bc7b2210fdcdc7b6b6077d1f38c85c0694af23
   languageName: node
   linkType: hard
 
@@ -2117,12 +2117,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-columns-block@npm:8.1.1":
-  version: 8.1.1
-  resolution: "@eeacms/volto-columns-block@npm:8.1.1"
+"@eeacms/volto-columns-block@npm:9.0.4":
+  version: 9.0.4
+  resolution: "@eeacms/volto-columns-block@npm:9.0.4"
   dependencies:
     react-color: ~2.19.3
-  checksum: 36d6b9f76849fdbbb4131138adcca4b357c4a6565f660a186f9b1fd76a00d9b32af7beb1d119b43ff72a88d921e4b5265574260fd5df3fac08a099b4c2994d44
+  checksum: 1cbd9a9e217d19d3b93a55efc14f31524330a6fc99fd23b6b3e21b9f9440306029a6aa5e56156c757834023642c3fcca047b626e2277b31a514b4acec17fd1cf
   languageName: node
   linkType: hard
 
@@ -8519,7 +8519,7 @@ __metadata:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.450
     "@eeacms/volto-chatbot": ^0.6.4
-    "@eeacms/volto-clms-theme": 1.1.285
+    "@eeacms/volto-clms-theme": 1.1.286
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-chatbot": ^1.0.11
     "@eeacms/volto-eea-kitkat": ^24.0.1
