@@ -19,7 +19,7 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
 
 USER node
 RUN yarn \
-  && yarn build \
+  && NODE_OPTIONS=--max-old-space-size=8192 yarn build \
   && rm -rf /home/node/.cache \
   && rm -rf /home/node/.yarn \
   && rm -rf /home/node/.npm \
