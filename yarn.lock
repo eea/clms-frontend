@@ -4561,9 +4561,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:17.16.1":
-  version: 17.16.1
-  resolution: "@plone/volto@npm:17.16.1"
+"@plone/volto@npm:17.22.2":
+  version: 17.22.2
+  resolution: "@plone/volto@npm:17.22.2"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/eslint-parser": 7.22.15
@@ -4742,7 +4742,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: bcf5519e6b698db6780a3ee0c0d5d9dbf255ee39a3c3ebe016b7ac6e615f18fa1618c218ee9beb38e5c1feddfdacca054e2c60e1f8881fe7391f563b8661a6cc
+  checksum: 85640a9b0e66681c9f97b750d5bfce49b48dadc7ace04849d2294c21302e25e91d19ff359048420cb7d1862a555f2aeaf6e88b53a1d685e336ad84f7599d4fc2
   languageName: node
   linkType: hard
 
@@ -8528,7 +8528,7 @@ __metadata:
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^2.1.2
-    "@plone/volto": 17.16.1
+    "@plone/volto": 17.22.2
     assert: ^2.1.0
     babel-preset-razzle: 4.2.18
     browserify-zlib: ^0.2.0
