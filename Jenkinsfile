@@ -1,7 +1,5 @@
 pipeline {
   environment {
-    RANCHER_STACKID = "1st2670"
-    RANCHER_ENVID = "1a486860"
     GIT_NAME = "clms-frontend"
     registry = "eeacms/clms-frontend"
     template = "templates/volto-clms"
@@ -217,21 +215,6 @@ pipeline {
         node(label: 'docker') {
           withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN'),  usernamePassword(credentialsId: 'jekinsdockerhub', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) {
             sh '''docker pull eeacms/gitflow; docker run -i --rm --name="$BUILD_TAG-release"  -e GIT_BRANCH="$BRANCH_NAME" -e GIT_NAME="$GIT_NAME" -e DOCKERHUB_REPO="$registry" -e GIT_TOKEN="$GITHUB_TOKEN" -e DOCKERHUB_USER="$DOCKERHUB_USER" -e DOCKERHUB_PASS="$DOCKERHUB_PASS"  -e DEPENDENT_DOCKERFILE_URL="$DEPENDENT_DOCKERFILE_URL" -e RANCHER_CATALOG_PATHS="$template" -e GITFLOW_BEHAVIOR="RUN_ON_TAG" eeacms/gitflow'''
-         }
-        }
-      }
-    }
-
-    stage('Upgrade demo ( on tag )') {
-      when {
-        buildingTag()
-      }
-      steps {
-        node(label: 'docker') {
-          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Rancher_dev_token', usernameVariable: 'RANCHER_ACCESS', passwordVariable: 'RANCHER_SECRET'],string(credentialsId: 'Rancher_dev_url', variable: 'RANCHER_URL')]) {
-            sh '''wget -O rancher_upgrade.sh https://raw.githubusercontent.com/eea/eea.docker.gitflow/master/src/rancher_upgrade.sh'''
-            sh '''chmod 755 rancher_upgrade.sh'''
-            sh '''./rancher_upgrade.sh'''
          }
         }
       }
