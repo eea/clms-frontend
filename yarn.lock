@@ -2055,9 +2055,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.286":
-  version: 1.1.286
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.286"
+"@eeacms/volto-clms-theme@npm:1.1.287":
+  version: 1.1.287
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.287"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2079,7 +2079,6 @@ __metadata:
     "@fortawesome/react-fontawesome": 0.1.14
     "@ginkgo-bioworks/react-json-schema-form-builder": 2.10.1
     "@kitconcept/volto-blocks-grid": 7.0.2
-    "@plone-collective/volto-authomatic": 2.0.1
     connected-react-router: 6.8.0
     d3-array: ^2.12.1
     husky: 7.0.4
@@ -2097,7 +2096,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: ea1cd24f41c88793ff2bb88a10cd1fd7e81ba790e7bd95087c971ac89424180d66f254d6e9a82295ec8b1e7f37bc7b2210fdcdc7b6b6077d1f38c85c0694af23
+  checksum: 3be233107805c4529202ab23346077042c421646b3689fd05cee1163f3519800c83cb03cd45f148d81dd1ae8db4c191e45d2400f127be167c9e7e3993d5227d9
   languageName: node
   linkType: hard
 
@@ -4504,15 +4503,6 @@ __metadata:
   version: 0.1.2
   resolution: "@pkgr/core@npm:0.1.2"
   checksum: 5160ec9f2e3232da681824a42583ef80e637ae6143339bd1db176848efd244dd71d177ccb7fd729261d8dcaf88486ce701d39500d873ed5caf16e8c281e9e28a
-  languageName: node
-  linkType: hard
-
-"@plone-collective/volto-authomatic@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
-  peerDependencies:
-    "@plone/volto": ">=13.8.0"
-  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
   languageName: node
   linkType: hard
 
@@ -8519,14 +8509,13 @@ __metadata:
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.450
     "@eeacms/volto-chatbot": ^0.6.4
-    "@eeacms/volto-clms-theme": 1.1.286
+    "@eeacms/volto-clms-theme": 1.1.287
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-chatbot": ^1.0.11
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": ^2.1.10
     "@eeacms/volto-sentry-rancher-config": 5.0.0
     "@eeacms/volto-widget-geolocation": ^3.0.0
-    "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 17.16.1
     assert: ^2.1.0
