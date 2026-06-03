@@ -175,7 +175,7 @@
     "@eeacms/volto-eea-chatbot": "2.0.4",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
     "@eeacms/volto-searchlib": "^2.1.10",
-    "@eeacms/volto-sentry-rancher-config": "5.0.0",
+    "@eeacms/volto-sentry-rancher-config": "6.0.2",
     "@plone/volto": "17.16.1",
     "assert": "^2.1.0",
     "babel-preset-razzle": "4.2.18",

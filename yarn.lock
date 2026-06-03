@@ -2541,10 +2541,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-sentry-rancher-config@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-sentry-rancher-config@npm:5.0.0"
-  checksum: 48a9b2bae6a18b8c072c04b06f805ce87d7f6c4602e3b583c2b18b0013bd1868462a443db534d00fe28767ea6dcfd5e72f4439442b46ff7a321bbbf0aff7850d
+"@eeacms/volto-sentry-rancher-config@npm:6.0.2":
+  version: 6.0.2
+  resolution: "@eeacms/volto-sentry-rancher-config@npm:6.0.2"
+  checksum: 896b665c82b4cd0c06a065748985de2920edf03bde3f2eaa0cb0f71751398c6bd3bd5f25d3bf0669ba8ef739840ee9b9a87eaee8c71e5da841e640e32d05064d
   languageName: node
   linkType: hard
 
@@ -8492,7 +8492,7 @@ __metadata:
     "@eeacms/volto-eea-chatbot": 2.0.4
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": ^2.1.10
-    "@eeacms/volto-sentry-rancher-config": 5.0.0
+    "@eeacms/volto-sentry-rancher-config": 6.0.2
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone/scripts": ^2.1.2
     "@plone/volto": 17.16.1
