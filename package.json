@@ -15,7 +15,8 @@
     "@eeacms/volto-arcgis-block",
     "@eeacms/volto-block-style",
     "@eeacms/volto-widget-geolocation",
-    "@eeacms/volto-sentry-rancher-config"
+    "@eeacms/volto-sentry-rancher-config",
+    "@plone-collective/volto-authomatic"
   ],
   "scripts": {
     "start": "razzle start",
@@ -174,6 +175,7 @@
     "@eeacms/volto-clms-utils": "0.1.15",
     "@eeacms/volto-eea-chatbot": "2.0.4",
     "@eeacms/volto-eea-kitkat": "^24.0.1",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-searchlib": "^2.1.10",
     "@eeacms/volto-sentry-rancher-config": "6.0.2",
     "@plone/volto": "17.16.1",
