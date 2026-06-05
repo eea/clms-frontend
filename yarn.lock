@@ -2034,9 +2034,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.292":
-  version: 1.1.292
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.292"
+"@eeacms/volto-clms-theme@npm:1.1.293":
+  version: 1.1.293
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.293"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2058,6 +2058,7 @@ __metadata:
     "@fortawesome/react-fontawesome": 0.1.14
     "@ginkgo-bioworks/react-json-schema-form-builder": 2.10.1
     "@kitconcept/volto-blocks-grid": 7.0.2
+    "@plone-collective/volto-authomatic": 2.0.1
     connected-react-router: 6.8.0
     d3-array: ^2.12.1
     husky: 7.0.4
@@ -2075,7 +2076,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 6010dbfb5743446408109f83a69fd91512ee0c3adf5de0120e6b784822c979def04a80e9e3a4f8e155a8a85648955354557b57582803d82c3e208c2fb4dcf75e
+  checksum: fb3cb69178a9f499141f58cb8108910baf5477b05ebce2150f0d87102dcc1329aa1389e9f18023551ceda12dc956e7008fbb194d5157d51664af25d4c6fcee58
   languageName: node
   linkType: hard
 
@@ -2541,10 +2542,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-sentry-rancher-config@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-sentry-rancher-config@npm:5.0.0"
-  checksum: 48a9b2bae6a18b8c072c04b06f805ce87d7f6c4602e3b583c2b18b0013bd1868462a443db534d00fe28767ea6dcfd5e72f4439442b46ff7a321bbbf0aff7850d
+"@eeacms/volto-sentry-rancher-config@npm:6.0.2":
+  version: 6.0.2
+  resolution: "@eeacms/volto-sentry-rancher-config@npm:6.0.2"
+  checksum: 896b665c82b4cd0c06a065748985de2920edf03bde3f2eaa0cb0f71751398c6bd3bd5f25d3bf0669ba8ef739840ee9b9a87eaee8c71e5da841e640e32d05064d
   languageName: node
   linkType: hard
 
@@ -4482,6 +4483,15 @@ __metadata:
   version: 0.1.2
   resolution: "@pkgr/core@npm:0.1.2"
   checksum: 5160ec9f2e3232da681824a42583ef80e637ae6143339bd1db176848efd244dd71d177ccb7fd729261d8dcaf88486ce701d39500d873ed5caf16e8c281e9e28a
+  languageName: node
+  linkType: hard
+
+"@plone-collective/volto-authomatic@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
+  peerDependencies:
+    "@plone/volto": ">=13.8.0"
+  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
   languageName: node
   linkType: hard
 
@@ -8487,13 +8497,14 @@ __metadata:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
     "@eeacms/volto-arcgis-block": 0.1.453
-    "@eeacms/volto-clms-theme": 1.1.292
+    "@eeacms/volto-clms-theme": 1.1.293
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-chatbot": 2.0.4
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": ^2.1.10
-    "@eeacms/volto-sentry-rancher-config": 5.0.0
+    "@eeacms/volto-sentry-rancher-config": 6.0.2
     "@eeacms/volto-widget-geolocation": ^3.0.0
+    "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 17.16.1
     assert: ^2.1.0
