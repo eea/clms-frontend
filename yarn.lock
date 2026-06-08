@@ -1943,9 +1943,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.453":
-  version: 0.1.453
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.453"
+"@eeacms/volto-arcgis-block@npm:0.1.454":
+  version: 0.1.454
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.454"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@eeacms/volto-taxonomy": 5.1.0
@@ -1956,7 +1956,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: 6dcf6450dbeec50cd87dbdb6f5fd1b51d98fe3ca6ff99f47063135cc4dfd8642eb059696096a7556efca1e005a461dea288fda1bf463788f545cf551997df6cf
+  checksum: 2127333a73fce43e2ab888413784e49be4fd9b7b5d3ed166ce6a07fd7a8068d87524b35e86bdbc793cd326bc27f08f21406123a02aef96c6b73a8514a0a4c639
   languageName: node
   linkType: hard
 
@@ -2034,9 +2034,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-clms-theme@npm:1.1.294":
-  version: 1.1.294
-  resolution: "@eeacms/volto-clms-theme@npm:1.1.294"
+"@eeacms/volto-clms-theme@npm:1.1.295":
+  version: 1.1.295
+  resolution: "@eeacms/volto-clms-theme@npm:1.1.295"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-arcgis-block": 0.1.336
@@ -2076,7 +2076,7 @@ __metadata:
     volto-cookie-banner: 2.1.0
     volto-dropdownmenu: 4.0.0
     volto-form-block: 3.1.0
-  checksum: 958c99e481fd97a99c487021af9c731a0b19df7c9bb68c57ca331ae18b5e3a5eec01d350ae434cf9e55c926aab1f42329b012fd54741595be29e269b7eadce94
+  checksum: ebbd576d150adf309feb3d139f64dbd8ec6a2f553784a290fa015c6f04e2775bd6a700fa9797408426c7563b2005d2425a2051c3a85ba5c00b2ab32e581a1f06
   languageName: node
   linkType: hard
 
@@ -8496,8 +8496,8 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.453
-    "@eeacms/volto-clms-theme": 1.1.294
+    "@eeacms/volto-arcgis-block": 0.1.454
+    "@eeacms/volto-clms-theme": 1.1.295
     "@eeacms/volto-clms-utils": 0.1.15
     "@eeacms/volto-eea-chatbot": 2.0.4
     "@eeacms/volto-eea-kitkat": ^24.0.1
