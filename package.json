@@ -217,7 +217,7 @@
     "jest-css-modules": "2.1.0",
     "jest-junit": "8.0.0",
     "mrs-developer": "1.6.0",
-    "postcss": "8.3.11",
+    "postcss": "8.5.18",
     "prettier": "3.0.3",
     "razzle": "4.2.18",
     "react-svg": "14.0.4",
