@@ -1943,9 +1943,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-arcgis-block@npm:0.1.465":
-  version: 0.1.465
-  resolution: "@eeacms/volto-arcgis-block@npm:0.1.465"
+"@eeacms/volto-arcgis-block@npm:0.1.466":
+  version: 0.1.466
+  resolution: "@eeacms/volto-arcgis-block@npm:0.1.466"
   dependencies:
     "@eeacms/volto-clms-utils": ^0.1.13
     "@eeacms/volto-taxonomy": 5.1.0
@@ -1956,7 +1956,7 @@ __metadata:
     highcharts: ^9.3.2
     highcharts-react-official: ^3.1.0
     react-datepicker: 4.15.0
-  checksum: e4732dcc6c7105a1e25f2100834d0e2ef6c686302a91bd2ee0e1026d5d3da0f8c63749d1688520ef4a56b909b8188a3712e5fc78224379ea7573ccdfe76cb815
+  checksum: 93f497922f5a6aadb4e64bece5f8fce3b3e8367c01de15bb7659f77a2744097893543d870f073355add32c0b03cd470972b6f89c96f93d1e9c9a33426cb1c519
   languageName: node
   linkType: hard
 
@@ -2180,9 +2180,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-eea-chatbot@npm:3.0.0"
+"@eeacms/volto-eea-chatbot@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-eea-chatbot@npm:3.0.1"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2199,7 +2199,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: c14ce606a1ce76d655037181dcd922608d1832b87071a6eef94c8379b862fd7369c22725bf82578563cda86d108be3c481e763407851967cf1fd791692889ded
+  checksum: 66f7a0dd4e6d42132c56e56d3e33dcf252915b6f59bda19251a2fed3149053602bf31b555b5a013e02b70ee7967c8e04930bac4c01eeadc19ec90222b9e39c5a
   languageName: node
   linkType: hard
 
@@ -8497,10 +8497,10 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-private-methods": 7.18.6
     "@babel/runtime": 7.20.6
-    "@eeacms/volto-arcgis-block": 0.1.465
+    "@eeacms/volto-arcgis-block": 0.1.466
     "@eeacms/volto-clms-theme": 1.1.297
     "@eeacms/volto-clms-utils": 0.1.15
-    "@eeacms/volto-eea-chatbot": 3.0.0
+    "@eeacms/volto-eea-chatbot": 3.0.1
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": ^2.1.10
     "@eeacms/volto-sentry-rancher-config": 6.0.3
