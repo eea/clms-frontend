@@ -1,4 +1,4 @@
-FROM node:22-slim
+FROM node:20-bookworm-slim
 
 COPY . /app/
 WORKDIR /app/
