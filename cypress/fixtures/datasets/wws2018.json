@@ -71,6 +71,10 @@
     "title": null,
     "token": "Satellite products"
   },
+  "characteristics_data_type": {
+    "title": null,
+    "token": "discrete"
+  },
   "characteristics_update_frequency": {
     "title": null,
     "token": "3-yearly"

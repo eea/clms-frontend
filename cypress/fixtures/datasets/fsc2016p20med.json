@@ -71,6 +71,10 @@
     "title": null,
     "token": "Satellite observations"
   },
+  "characteristics_data_type": {
+    "title": null,
+    "token": "continuous"
+  },
   "characteristics_update_frequency": {
     "title": null,
     "token": "AsNeeded"
