@@ -2180,9 +2180,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:4.1.1":
-  version: 4.1.1
-  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.1"
+"@eeacms/volto-eea-chatbot@npm:4.1.2":
+  version: 4.1.2
+  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.2"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2199,7 +2199,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 83caf7789c416070e234bf0bccf2d2d47294dcf88315c9cde64b58e4ecbfa0312e48809e676cb62cf3391c3668e52d1e3d638446d0700794f5f7e9f3cd708854
+  checksum: f5642cbd6f1b4d58b2102450b424f758f5a3e40c443191a2073d7a304ef250e652b1823be560cd630f216132678efb3a06fd3c6904ebe1e8fa2653bfbeece1b7
   languageName: node
   linkType: hard
 
@@ -8500,7 +8500,7 @@ __metadata:
     "@eeacms/volto-arcgis-block": 0.1.484
     "@eeacms/volto-clms-theme": 1.1.302
     "@eeacms/volto-clms-utils": 0.1.15
-    "@eeacms/volto-eea-chatbot": 4.1.1
+    "@eeacms/volto-eea-chatbot": 4.1.2
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": ^2.1.10
     "@eeacms/volto-sentry-rancher-config": 6.0.3
