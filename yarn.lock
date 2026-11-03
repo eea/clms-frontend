@@ -2096,12 +2096,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-columns-block@npm:9.0.4":
-  version: 9.0.4
-  resolution: "@eeacms/volto-columns-block@npm:9.0.4"
+"@eeacms/volto-columns-block@npm:9.0.5":
+  version: 9.0.5
+  resolution: "@eeacms/volto-columns-block@npm:9.0.5"
   dependencies:
     react-color: ~2.19.3
-  checksum: 1cbd9a9e217d19d3b93a55efc14f31524330a6fc99fd23b6b3e21b9f9440306029a6aa5e56156c757834023642c3fcca047b626e2277b31a514b4acec17fd1cf
+  checksum: 138729d99ff4617394e5752961d45353a4066f62c1d44171bdadaa74e390f4c57590d398e6f86697495f7e6305a249a0fd5f2e1922924b9e207f3a9481e4d02c
   languageName: node
   linkType: hard
 
@@ -2543,10 +2543,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-sentry-rancher-config@npm:6.0.3":
-  version: 6.0.3
-  resolution: "@eeacms/volto-sentry-rancher-config@npm:6.0.3"
-  checksum: 0b5597484b816a057bf4bfc8701eb55a5839198e97363907a37fdd6586b5f27c6348c6f191605144c6ef80206fcaf7d4be9dc2849975e6db806411cb650198a5
+"@eeacms/volto-sentry-rancher-config@npm:6.0.4":
+  version: 6.0.4
+  resolution: "@eeacms/volto-sentry-rancher-config@npm:6.0.4"
+  checksum: 7d473d586f980f2e89164b651cf8d279fce8fcdaa9b98a8c1d3db7f1af22a2569c077d23f57ca6174a9826f7e626cce2ec2994a2644ca19582b2bd280df9c291
   languageName: node
   linkType: hard
 
@@ -8503,7 +8503,7 @@ __metadata:
     "@eeacms/volto-eea-chatbot": 4.1.6
     "@eeacms/volto-eea-kitkat": ^24.0.1
     "@eeacms/volto-searchlib": ^2.1.10
-    "@eeacms/volto-sentry-rancher-config": 6.0.3
+    "@eeacms/volto-sentry-rancher-config": 6.0.4
     "@eeacms/volto-widget-geolocation": ^3.0.0
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^2.1.2
